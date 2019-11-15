@@ -1,0 +1,53 @@
+<template>
+  <div id="activity-index">
+    <div class="top-ban pr">
+      <img src="/static/images/bg-top3.jpg" class="pa-img"/>
+      <div class="tbt-tit pa">
+        <!-- <img src="/static/images/top-tit.png" class="pa-img"/> -->
+        <h1><img src="/static/images/btn-finalist08.png" class="ic"/>活动信息</h1>
+      </div>
+    </div>
+    
+    
+    <div class="pr">
+      <transition :name="'vux-pop-' + (direction === 'forward' ? 'in' : 'out')">
+        <router-view></router-view>
+      </transition>
+    </div>
+    
+    <img src="/static/images/bg-bottom.jpg" alt="" class="img-bot">
+    <!-- <div class="ei-bot" v-bottom_img>
+      <img src="/static/images/bot-img.png"/>
+    </div> -->
+    
+    <a @click="back" class="back-btn" v-bottom_back><img src="/static/images/ic-back.jpg"/></a>
+    <a @click="index" class="index-btn"><img src="/static/images/ic-index.jpg"/></a>
+  </div>
+</template>
+
+<script>
+  import {mapState} from 'vuex'
+  
+  export default {
+    data() {
+      return {}
+    },
+    methods: {
+      index() {
+        this.$router.push({'name': 'dashboard'});
+      },
+      back() {
+        this.$router.go(-1);
+      }
+    },
+    computed:{
+      ...mapState({
+        direction: state => state.mutations.direction,
+      })
+    }
+  }
+</script>
+
+
+// WEBPACK FOOTER //
+// src/views/player/activity/index.vue
