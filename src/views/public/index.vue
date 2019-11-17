@@ -1,23 +1,24 @@
 <template>
-  <div id="index-view" style="padding-bottom: 12vmin; height: 100vh;">
+  <!-- <div id="index-view" style="padding-bottom: 12vmin; height: 100vh;"> -->
+  <div id="index-view">
     <div class="body-index pr">
       <section class="bi-tit fen-b">
-        <img class="img-logo" src="/static/images/logo.png" alt="Porsche">
-        <img class="img-word" src="/static/images/landing-title.png" alt="2018 保时捷高尔夫巡回赛总决赛 Porsche Golf Cup China Final 2018">
+        <img class="img-logo" src="/static/images/2019/logo.png" alt="Porsche">
+        <img class="img-word" src="/static/images/2019/landing-title.png" alt="2019 保时捷高尔夫巡回赛总决赛 Porsche Golf Cup China Final 2019">
       </section>
       <section class="bi-btns">
         <ul>
           <li>
-            <h1>决赛选手专用入口</h1>
-            <router-link :to="{'name': 'player'}" class="btn-index">赛事详情</router-link>
+            <router-link :to="{'name': 'player'}" class="btn-index">活动详情</router-link>
           </li>
           <li>
-            <h1>决赛嘉宾专用入口</h1>
             <router-link :to="{'name': 'guest'}" class="btn-index">活动预约</router-link>
           </li>
           <li>
-            <h1>全体住客通用入口</h1>
             <router-link :to="{'name': 'form.drive'}" class="btn-index">试驾预约</router-link>
+          </li>
+          <li>
+            <a href="#" class="btn-index">影像集锦</a>
           </li>
         </ul>
       </section>
