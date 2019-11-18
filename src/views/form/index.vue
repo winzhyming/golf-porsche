@@ -1,7 +1,7 @@
 <template>
   <div id="form-index">
     <div class="top-ban pr" style="min-height: 38.75vmin;">
-      <img src="/static/images/bg-top14.jpg" class="pa-img"/>
+      <img src="/static/images/2019/top-jiabinyuyue.jpg" class="pa-img"/>
       <div class="tbt-tit pa">
         <h1>预约试驾</h1>
       </div>

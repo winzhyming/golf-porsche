@@ -3,12 +3,12 @@
     <div class="top-ban pr">
       <img :src="img_path" class="pa-img"/>
       <div class="tbt-tit pa">
-        <h1><img src="/static/images/ic-final-guest02.png" class="ic"/>班车时刻表</h1>
+        <h1>班车时刻表</h1>
       </div>
     </div>
     <router-view></router-view>
     
-    <img src="/static/images/bg-bottom.jpg" alt="" class="img-bot">
+    <img src="/static/images/2019/bot.png" alt="" class="img-bot">
     <!-- <div class="ei-bot" v-bottom_img>
       <img src="/static/images/bot-img.png"/>
     </div> -->

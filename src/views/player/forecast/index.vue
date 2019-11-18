@@ -1,16 +1,16 @@
 <template>
   <div id="forecast-index">
     <div class="top-ban pr">
-      <img src="/static/images/bg-top5.jpg" class="pa-img"/>
+      <img src="/static/images/2019/top-tianqiyubao.jpg" class="pa-img"/>
       <div class="tbt-tit pa">
-        <h1><img src="/static/images/btn-finalist05.png" class="ic"/>天气预报</h1>
+        <h1>天气预报</h1>
       </div>
     </div>
     <div class="pr">
     	<router-view></router-view>
     </div>
     
-    <img src="/static/images/bg-bottom.jpg" alt="" class="img-bot">
+    <img src="/static/images/2019/bot.png" alt="" class="img-bot">
     <!-- <div class="ei-bot" v-bottom_img>
       <img src="/static/images/bot-img.png"/>
     </div> -->

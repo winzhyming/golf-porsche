@@ -7,6 +7,11 @@ import SubMovie from '@/views/guest/subscribe/sub-movie'
 import SubVolcano from '@/views/guest/subscribe/sub-volcano'
 import SubForm from '@/views/guest/subscribe/sub-form'
 import SubResult from '@/views/guest/subscribe/sub-result'
+import Sub01 from '@/views/guest/subscribe/yuyue/sub-ytldssssj'
+import Sub02 from '@/views/guest/subscribe/yuyue/sub-yanuoda'
+import Sub03 from '@/views/guest/subscribe/yuyue/sub-pinjiu'
+import Sub04 from '@/views/guest/subscribe/yuyue/sub-yoga'
+import Sub05 from '@/views/guest/subscribe/yuyue/sub-golf'
 import ScheduleMain from '@/views/guest/schedule/index'
 import ScheduleBus from '@/views/guest/schedule/bus'
 import ContactMain from '@/views/guest/contact/index'
@@ -45,13 +50,38 @@ export default {
       ]
     },
     {
-      path: '/subscribe',
+      path: '/guest/subscribe',
       component: SubMain,
       children: [
         {
-          path: 'menu',
+          path: '/',
           name: 'subscribe.menu',
           component: SubMenu
+        },
+        {
+          path: 'water',
+          name: 'subscribe.water',
+          component: Sub01
+        },
+        {
+          path: 'yanuoda',
+          name: 'subscribe.yanuoda',
+          component: Sub02
+        },
+        {
+          path: 'pinjiu',
+          name: 'subscribe.pinjiu',
+          component: Sub03
+        },
+        {
+          path: 'yoga',
+          name: 'subscribe.yoga',
+          component: Sub04
+        },
+        {
+          path: 'golf',
+          name: 'subscribe.golf',
+          component: Sub05
         },
         {
           path: 'sub/porsche',

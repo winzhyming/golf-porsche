@@ -3,7 +3,7 @@
     <div class="top-ban pr">
       <img :src="img_path" class="pa-img"/>
       <div class="tbt-tit pa">
-        <h1><img src="/static/images/ic-final-guest01.png" class="ic"/>嘉宾预约</h1>
+        <h1>{{ title }}</h1>
       </div>
     </div>
     <div class="pr">
@@ -12,7 +12,7 @@
       </transition>
     </div>
     
-    <img src="/static/images/bg-bottom.jpg" alt="" class="img-bot">
+    <img src="/static/images/2019/bot.png" alt="" class="img-bot">
     <!-- <div class="ei-bot" v-bottom_img>
       <img src="/static/images/bot-img.png"/>
     </div> -->
@@ -28,8 +28,11 @@
   export default {
     data() {
       return {
-        img_path: ''
+        img_path: '/static/images/2019/top-jiabinyuyue.jpg',
+        title: '嘉宾预约',
       }
+    },
+    mounted() {
     },
     methods: {
       index() {
@@ -43,6 +46,13 @@
       ...mapState({
         direction: state => state.mutations.direction,
       })
+    },
+     watch: {
+      '$route' ($route) {
+        if($route.name === 'subscribe.menu') {
+          this.title = '嘉宾预约'
+        }
+      }
     }
   }
 </script>

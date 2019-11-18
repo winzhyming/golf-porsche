@@ -18,7 +18,7 @@
             <li>
               <router-link :to="{'name': 'schedule.bus'}" class="btn-a">
                 <img src="/static/images/ic-final-guest02.png" alt="" />
-                <h2>班车时刻</h2>
+                <h2>班车信息</h2>
               </router-link>
             </li>
             <li>

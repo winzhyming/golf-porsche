@@ -3,9 +3,7 @@
     <div class="ar-box">
       <div class="ar-form">
         <div class="af-group">
-          <p style="font-size: 2.1875vmin;">* 12 月 1 日的试驾活动仅面向保时捷高尔夫活动的邀请嘉宾开放，
-请返回活动预约 – 嘉宾预约 – 分界洲岛试驾体验，进行预约。
-</p>
+          <p style="font-size: 2.1875vmin;">* 12 月 2日的试驾活动仅面向2019 电驰神往年度晚宴活动的嘉宾开放</p>
         </div>
         <div class="af-group">
           <input type="text" class="form-control" placeholder="姓名" v-model="form_data.name"/>
@@ -25,16 +23,47 @@
           <div class="fl label-left">试驾车辆:</div>
           <div class="fr check-right">
             <span class="check-span">
-              <input type="radio" name="car_type" value="1" v-model="form_data.car_type"/><label for="">&nbsp;911</label>
+              <input type="radio" name="car_type" value="1" v-model="form_data.car_type"/><label for="">&nbsp;718 Cayman</label>
             </span>
             <span class="check-span">
-              <input type="radio" name="car_type" value="2" v-model="form_data.car_type"/><label for="">&nbsp;New Macan</label>
+              <input type="radio" name="car_type" value="2" v-model="form_data.car_type"/><label for="">&nbsp;Cayenne Coupé</label>
             </span>
             <span class="check-span">
-              <input type="radio" name="car_type" value="3" v-model="form_data.car_type"/><label for="">&nbsp;718 Cayman</label>
+              <input type="radio" name="car_type" value="3" v-model="form_data.car_type"/><label for="">&nbsp;718 Boxster</label>
             </span>
             <span class="check-span">
-              <input type="radio" name="car_type" value="4" v-model="form_data.car_type"/><label for="">&nbsp;Cayenne E3</label>
+              <input type="radio" name="car_type" value="4" v-model="form_data.car_type"/><label for="">&nbsp;718 Boxster</label>
+            </span>
+          </div>
+        </div>
+        <div class="af-group clearfix">
+          <div class="fl label-left">试驾日期:</div>
+          <div class="fr check-right">
+            <span class="check-span">
+              <input type="radio" name="activity_date" value="1" v-model="form_data.activity_date"/><label for="">&nbsp;2019年12月2日</label>
+            </span>
+            <!-- <span class="check-span">
+              <input type="radio"  name="activity_date" value="2" v-model="form_data.activity_date"/><label for="">&nbsp;11 月 30 日</label>
+            </span>
+            <span class="check-span">
+              <input type="radio"  name="activity_date" value="2" v-model="form_data.activity_date"/><label for="">&nbsp;12 月 02 日</label>
+            </span> -->
+          </div>
+        </div>
+        <div class="af-group clearfix">
+          <div class="fl label-left">试驾时间:</div>
+          <div class="fr check-right">
+            <span class="check-span">
+              <input type="radio" name="activity_time" value="1" v-model="form_data.activity_time"/><label for="">&nbsp;10:00</label>
+            </span>
+            <span class="check-span">
+              <input type="radio" name="activity_time" value="2" v-model="form_data.activity_time"/><label for="">&nbsp;11:30</label>
+            </span>
+            <span class="check-span">
+              <input type="radio" name="activity_time" value="3" v-model="form_data.activity_time"/><label for="">&nbsp;14:00</label>
+            </span>
+            <span class="check-span">
+              <input type="radio" name="activity_time" value="4" v-model="form_data.activity_time"/><label for="">&nbsp;15:15</label>
             </span>
           </div>
         </div>
@@ -49,46 +78,8 @@
             </span>
           </div>
         </div>
-        <div class="af-group clearfix">
-          <div class="fl label-left">试驾日期:</div>
-          <div class="fr check-right">
-            <span class="check-span">
-              <input type="radio" name="activity_date" value="1" v-model="form_data.activity_date"/><label for="">&nbsp;11 月 29 日</label>
-            </span>
-            <span class="check-span">
-              <input type="radio"  name="activity_date" value="2" v-model="form_data.activity_date"/><label for="">&nbsp;11 月 30 日</label>
-            </span>
-            <span class="check-span">
-              <input type="radio"  name="activity_date" value="2" v-model="form_data.activity_date"/><label for="">&nbsp;12 月 02 日</label>
-            </span>
-          </div>
-        </div>
-        <div class="af-group clearfix">
-          <div class="fl label-left">试驾时间:</div>
-          <div class="fr check-right">
-            <span class="check-span">
-              <input type="radio" name="activity_time" value="1" v-model="form_data.activity_time"/><label for="">&nbsp;09:30</label>
-            </span>
-            <span class="check-span">
-              <input type="radio" name="activity_time" value="2" v-model="form_data.activity_time"/><label for="">&nbsp;10:30</label>
-            </span>
-            <span class="check-span">
-              <input type="radio" name="activity_time" value="3" v-model="form_data.activity_time"/><label for="">&nbsp;11:30</label>
-            </span>
-            <span class="check-span">
-              <input type="radio" name="activity_time" value="4" v-model="form_data.activity_time"/><label for="">&nbsp;13:30</label>
-            </span>
-            <span class="check-span">
-              <input type="radio" name="activity_time" value="5" v-model="form_data.activity_time"/><label for="">&nbsp;14:30</label>
-            </span>
-            <span class="check-span">
-              <input type="radio" name="activity_time" value="6" v-model="form_data.activity_time"/><label for="">&nbsp;15:30</label>
-            </span>
-          </div>
-        </div>
         <div class="af-btns">
           <p class="tips-bot fen" style="font-size: 2.1875vmin;">* 请现场携带驾驶证,并签署免责条款，参加试驾活动。</p>
-          <p class="tips-bot fen" style="font-size: 2.1875vmin; margin-top:0;">* 11 月 29、30 日及 12 月 2 日的试驾活动面向全体入住酒店的嘉宾。。</p>
           <div class="condition-check clearfix">
             <div class="label-left fl">
             	&nbsp;
@@ -99,7 +90,7 @@
           </div>
           <a @click="save" class="btn-red">确定预约</a>
           <br>
-          <p  style="font-size: 2.1875vmin;">* 预约参加活动，即视为授权同意保时捷将您与同行伙伴的姓名与肖像权使用于公共宣传目的。</p>
+          <!-- <p  style="font-size: 2.1875vmin;">* 预约参加活动，即视为授权同意保时捷将您与同行伙伴的姓名与肖像权使用于公共宣传目的。</p> -->
         </div>
       </div>
     </div>

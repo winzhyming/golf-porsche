@@ -1,10 +1,9 @@
 <template>
   <div id="activity-index">
     <div class="top-ban pr">
-      <img src="/static/images/bg-top3.jpg" class="pa-img"/>
+      <img src="/static/images/2019/top-huodongxinxi.jpg" class="pa-img"/>
       <div class="tbt-tit pa">
-        <!-- <img src="/static/images/top-tit.png" class="pa-img"/> -->
-        <h1><img src="/static/images/btn-finalist08.png" class="ic"/>活动信息</h1>
+        <h1>活动信息</h1>
       </div>
     </div>
     
@@ -15,7 +14,7 @@
       </transition>
     </div>
     
-    <img src="/static/images/bg-bottom.jpg" alt="" class="img-bot">
+    <img src="/static/images/2019/bot.png" alt="" class="img-bot">
     <!-- <div class="ei-bot" v-bottom_img>
       <img src="/static/images/bot-img.png"/>
     </div> -->

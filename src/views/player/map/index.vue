@@ -1,9 +1,9 @@
 <template>
   <div id="map-index">
     <div class="top-ban pr">
-      <img src="/static/images/bg-top4.jpg" class="pa-img"/>
+      <img src="/static/images/2019/top-jiudianditu.jpg" class="pa-img"/>
       <div class="tbt-tit pa">
-        <h1><img src="/static/images/btn-finalist04.png" class="ic"/>酒店地图</h1>
+        <h1>酒店地图</h1>
       </div>
     </div>
     

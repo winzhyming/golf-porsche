@@ -18,7 +18,7 @@
             <router-link :to="{'name': 'form.drive'}" class="btn-index">试驾预约</router-link>
           </li>
           <li>
-            <a href="#" class="btn-index">影像集锦</a>
+            <router-link :to="{'name': 'col.videospics'}" class="btn-index">影像集锦</router-link>
           </li>
         </ul>
       </section>

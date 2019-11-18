@@ -5,51 +5,79 @@
         班车时刻 <img src="/static/images/ic-next-red.png" class="ic"/>
       </h1>
       <section class="event-schedule">
-        <h2 class="es-tit">12 月 1 日 星期六 - 保时捷友谊赛班车信息</h2>
+        <h2 class="es-tit">12 月 1 日 星期日</h2>
         <ul class="fen">
           <li class="clearfix li-tit">
-            <span class="fl lable-left ellipsis">酒店 – 球会</span>
-            <span class="fr text-right">上车地点：酒店正门口</span>
+            <span class="fl lable-left ellipsis">机场 – 酒店</span>
+            <span class="fr text-right">上车地点：机场</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis">07:45 - 10:00</span>
-            <span class="fr text-right">每 05 分钟一班</span>
-          </li>
-          <li class="clearfix li-tit">
-            <span class="fl lable-left ellipsis">球会 – 酒店</span>
-            <span class="fr text-right">
-              <label class="fl">上车地点：</label>
-              <span class="fl">球会正门口</span>
-            </span>
-          </li>
-          <li class="clearfix">
-            <span class="fl lable-left ellipsis">14:00 - 17:00</span>
-            <span class="fr text-right">每 05 分钟一班</span>
+            <span class="fl lable-left ellipsis">13:00 - 18:00</span>
+            <span class="fr text-right">每 xx 分钟一班</span>
           </li>
         </ul>
       </section>
       <br>
       <section class="event-schedule">
-        <h2 class="es-tit">12 月 1 日 星期六 - 分界洲岛自由行班车信息</h2>
+        <h2 class="es-tit">12 月 2 日 星期一</h2>
         <ul class="fen">
           <li class="clearfix li-tit">
-            <span class="fl lable-left ellipsis">酒店 – 分界洲岛</span>
+            <span class="fl lable-left ellipsis">酒店 – 亚特兰蒂斯水上世界</span>
             <span class="fr text-right">上车地点：酒店正门口</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis">13:00</span>
-            <span class="fr text-right"></span>
+            <span class="fl lable-left ellipsis">09:45 - 10:00</span>
+            <span class="fr text-right">班车出发</span>
           </li>
           <li class="clearfix li-tit">
-            <span class="fl lable-left ellipsis">分界洲岛 – 酒店</span>
-            <span class="fr text-right">
-              <label class="fl">上车地点：</label>
-              <span class="fl">码头售票处边停车场</span>
-            </span>
+            <span class="fl lable-left ellipsis">酒店 – 呀诺达雨林文化旅游区</span>
+            <span class="fr text-right">上车地点：酒店正门口</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis">16:00</span>
-            <span class="fr text-right"></span>
+            <span class="fl lable-left ellipsis">11:45 - 12:00</span>
+            <span class="fr text-right">班车出发</span>
+          </li>
+          <li class="clearfix li-tit">
+            <span class="fl lable-left ellipsis">酒店 – 鉴湖蓝湾高尔夫球场</span>
+            <span class="fr text-right">上车地点：酒店正门口</span>
+          </li>
+          <li class="clearfix">
+            <span class="fl lable-left ellipsis">09:15 - 09:30</span>
+            <span class="fr text-right">班车出发</span>
+          </li>
+          <li class="clearfix li-tit">
+            <span class="fl lable-left ellipsis">亚特兰蒂斯水上世界 – 酒店</span>
+            <span class="fr text-right">上车地点：亚特兰蒂斯水上世界正门口</span>
+          </li>
+          <li class="clearfix">
+            <span class="fl lable-left ellipsis">15:45 - 16:00</span>
+            <span class="fr text-right">班车出发</span>
+          </li>
+          <li class="clearfix li-tit">
+            <span class="fl lable-left ellipsis">呀诺达雨林文化旅游区 – 酒店</span>
+            <span class="fr text-right">上车地点：呀诺达雨林文化旅游区正门口</span>
+          </li>
+          <li class="clearfix">
+            <span class="fl lable-left ellipsis">15:45 - 16:00</span>
+            <span class="fr text-right">班车出发</span>
+          </li>
+          <li class="clearfix li-tit">
+            <span class="fl lable-left ellipsis">呀诺达雨林文化旅游区 – 酒店</span>
+            <span class="fr text-right">上车地点：呀诺达雨林文化旅游区正门口</span>
+          </li>
+          <li class="clearfix">
+            <span class="fl lable-left ellipsis">16:15 - 16:30</span>
+            <span class="fr text-right">班车出发</span>
+          </li>
+        </ul>
+      </section>
+      <br>
+      <section class="event-schedule">
+        <h2 class="es-tit">12 月 3 日 星期二</h2>
+        <ul class="fen">
+          <li class="clearfix">
+            <span class="fl lable-left ellipsis">08:00 - 18:00</span>
+            <span class="fr text-right">预约发车（请至少于飞机起飞前 2.5 小时出发）</span>
           </li>
         </ul>
       </section>
@@ -63,7 +91,7 @@
       return {}
     },
     mounted() {
-      this.$parent.img_path = '/static/images/bg-top12.jpg';
+      this.$parent.img_path = '/static/images/2019/top-banchexinxi.jpg';
     }
   }
 </script>

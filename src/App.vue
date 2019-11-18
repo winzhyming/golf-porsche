@@ -2,7 +2,11 @@
   <div id="app">
     <router-view/>
     <pop_comp></pop_comp>
+
+    <!-- 弹框 -->
+    <confirm></confirm>
     
+    <!-- 地图大图预览 -->
     <div id="gallery" class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="pswp__bg"></div>
       <div class="pswp__scroll-wrap">
@@ -45,11 +49,13 @@
 
 <script>
 import pop_comp from './views/public/pop'
+import confirm from './views/public/confirm'
 
 export default {
   name: 'app',
   components: {
-    pop_comp
+    pop_comp,
+    confirm
   }
 }
 </script>

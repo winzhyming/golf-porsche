@@ -1,16 +1,16 @@
 <template>
   <div id="collection-index">
     <div class="top-ban pr">
-      <img src="/static/images/bg-top6.jpg" class="pa-img"/>
+      <img src="/static/images/2019/top-yingxiangjijin.jpg" class="pa-img"/>
       <div class="tbt-tit pa">
-        <h1><img src="/static/images/btn-finalist06.png" class="ic"/>影像集锦</h1>
+        <h1>影像集锦</h1>
       </div>
     </div>
     <div class="pr">
     	<router-view></router-view>
     </div>
 
-    <img src="/static/images/bg-bottom.jpg" alt="" class="img-bot">
+    <img src="/static/images/2019/bot.png" alt="" class="img-bot">
     <!-- <div class="ei-bot" v-bottom_img>
       <img src="/static/images/bot-img.png"/>
     </div> -->

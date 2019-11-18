@@ -197,7 +197,7 @@ body {
 /* event-info.html */
 
 .top-ban {
-  min-height: 47.65625vmin;
+  /* min-height: 47.65625vmin; */
 }
 
 .top-ban img.pa-img {
@@ -205,9 +205,8 @@ body {
 }
 
 .top-ban .tbt-tit {
-  top: 34.78125vmin;
-  left: 50%;
-  width: 50%;
+  bottom: 10vmin;
+  right: 5vmin;
   z-index: 1;
 }
 
@@ -231,7 +230,7 @@ body {
 }
 
 .ei-main .ei-btns {
-  padding-top: 12.375vmin;
+  /* padding-top: 12.375vmin; */
 }
 
 .ei-main .ei-btns {
@@ -409,7 +408,8 @@ h1.git-tit img.ic {
 /* event-schedule.html */
 
 .es-data {
-  padding: 10.9375vmin 9.0625vmin;
+  /* padding: 10.9375vmin 9.0625vmin; */
+  padding: 0 9.0625vmin;
 }
 
 .event-schedule h2 {
@@ -433,14 +433,14 @@ h1.git-tit img.ic {
 }
 
 .event-schedule ul li .lable-left {
-  width: 33.4375vmin;
+  width: 30.4375vmin;
   text-indent: 1.25vmin;
   font-family: pn-regular;
 }
 
 .event-schedule ul li .text-right {
   margin-right: 1.25vmin;
-  width: 45.625vmin;
+  width: 50vmin;
 }
 
 
@@ -702,7 +702,7 @@ h1.git-tit img.ic {
 /* active-reservation.html */
 
 .ar-box {
-  padding-top: 22.1875vmin;
+  /* padding-top: 22.1875vmin; */
 }
 
 .ar-box .ar-form {
@@ -1056,10 +1056,77 @@ select.form-control option {
 
 #schedule-index,
 #player-parent {
-  padding-bottom: 36vmin;
+  padding-bottom: 16vmin;
 }
 
 #collection-index,
 #form-index {
   padding-bottom: 50vmin
+}
+
+.event-schedule{
+  margin-bottom: 2vmin;
+}
+
+
+.yuyue2019 {
+  padding: 5vmin 5vmin 0 5vmin;
+}
+.yuyue2019 .desc p{
+  font-size: 3.125vmin;
+  line-height: 1.5;
+  text-indent: 2em;
+}
+.yuyue2019 .yuyue-btns{
+  margin-top: 3.75vmin;
+  padding: 0 6vmin;
+  display: flex;
+  justify-content: space-around;
+}
+.yuyue2019 .yuyue-btns a{
+  display: inline-block;
+  border: 1px solid #46bff5;
+  padding: 1.75vmin 3.125vmin;
+  font-size: 3.125vmin;
+  color: #46bff5;
+}
+
+.confirm-dimmer{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.confirm-dimmer .cd-box{
+  max-width: 90%;
+  border-radius: 0.625vmin;
+  padding: 1.25vmin 3.125vmin 4.25vmin 3.125vmin;
+  background-color: #fff;
+}
+.confirm-dimmer .cd-box .cd-title{
+  text-align: center;
+  line-height: 8.75vmin;
+}
+.confirm-dimmer .cd-box .cd-desc{
+  font-size: 3.125vmin;
+  line-height: 6.25vmin;
+}
+.confirm-dimmer .cd-box .cd-btns{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3.125vmin;
+  font-size: 3.75vmin;
+}
+.confirm-dimmer .cd-box .cd-btns a{
+  border-radius: 0.625vmin;
+  border: 1px solid #46bff5;
+  padding: 1.25vmin 2.25vmin;
+  color: #46bff5;
 }

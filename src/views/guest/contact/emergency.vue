@@ -8,7 +8,7 @@
         <ul>
           <li>
             <p>紧急联络（24 小时）</p>
-            <p class="fen"><a href="tel:13122577911">1312-2577-911</a></p>
+            <p class="fen"><a href="tel:15121038911">1512-1038-911</a></p>
           </li>
         </ul>
       </section>
@@ -22,7 +22,7 @@
       return {}
     },
     mounted() {
-      this.$parent.img_path = '/static/images/bg-top13.jpg';
+      this.$parent.img_path = '/static/images/2019/top-jinjiyuyue.jpg';
     }
   }
 </script>

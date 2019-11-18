@@ -3,14 +3,14 @@
     <div class="top-ban pr">
       <img :src="img_path" class="pa-img"/>
       <div class="tbt-tit pa">
-        <h1><img src="/static/images/ic-final-guest03.png" class="ic"/> 紧急联络</h1>
+        <h1>紧急联络</h1>
       </div>
     </div>
     <div class="pr">
     	<router-view></router-view>
     </div>
     
-    <img src="/static/images/bg-bottom.jpg" alt="" class="img-bot">
+    <img src="/static/images/2019/bot.png" alt="" class="img-bot">
     <!-- <div class="ei-bot" v-bottom_img>
       <img src="/static/images/bot-img.png"/>
     </div> -->

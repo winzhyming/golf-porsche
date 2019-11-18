@@ -11,9 +11,9 @@
         <li>
           <router-link :to="{'name': 'activity.emergcontact'}">紧急联络<img src="/static/images/ic-next-red.png" class="ic fr" /></router-link>
         </li>
-        <li>
+        <!-- <li>
           <router-link :to="{'name': 'activity.sponsor'}">活动赞助商<img src="/static/images/ic-next-red.png" class="ic fr" /></router-link>
-        </li>
+        </li> -->
       </ul>
     </section>
   </div>
