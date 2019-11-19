@@ -12,11 +12,11 @@
               <img src="/static/images/ic-sponsor01_2018.png" />
             </a>
           </li>
-          <li>
+          <!-- <li>
             <a href="#">
               <img src="/static/images/ic-sponsor02_2018.png" />
             </a>
-          </li>
+          </li> -->
           <li>
             <a href="#">
               <img src="/static/images/ic-sponsor03_2018.png" />

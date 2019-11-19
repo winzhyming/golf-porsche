@@ -22,12 +22,17 @@
         </div>
         <div class="af-group clearfix">
           <div class="fl label-left">预约时间:</div>
-          <div class="fr check-right">
-            <span class="check-span" v-if="activity_select.val === '2'">
-              <input type="radio" name="activity_time" value="1" v-model="form_data.activity_time"/><label for="">&nbsp;10:00</label>
+          <div class="fr check-right" v-if="activity_select.val === '2'">
+            <span class="check-span">
+              <input type="radio" name="activity_time" value="1" v-model="form_data.activity_time"/><label for="">&nbsp;09:30</label>
             </span>
             <span class="check-span">
               <input type="radio" name="activity_time" value="2" v-model="form_data.activity_time"/><label for="">&nbsp;13:00</label>
+            </span>
+          </div>
+          <div class="fr check-right" v-if="activity_select.val === '1'">
+            <span class="check-span">
+              <input type="radio" name="activity_time" value="1" v-model="form_data.activity_time"/><label for="">&nbsp;09:30</label>
             </span>
           </div>
         </div>

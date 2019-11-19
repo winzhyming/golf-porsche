@@ -3,7 +3,7 @@
     <div class="ar-box">
       <div class="ar-form">
         <div class="af-group">
-          <p style="font-size: 2.1875vmin;">* 12 月 1 日的试驾活动仅面向保时捷高尔夫活动的邀请嘉宾开放，
+          <p style="font-size: 2.1875vmin;">* 11 月 30 日的试驾活动仅面向保时捷高尔夫活动的邀请嘉宾开放，
 请返回活动预约 – 嘉宾预约 – 分界洲岛试驾体验，进行预约。
 </p>
         </div>
@@ -25,16 +25,16 @@
           <div class="fl label-left">试驾车辆:</div>
           <div class="fr check-right">
             <span class="check-span">
-              <input type="radio" name="car_type" value="1" v-model="form_data.car_type"/><label for="">&nbsp;911</label>
+              <input type="radio" name="car_type" value="1" v-model="form_data.car_type"/><label for="">&nbsp;718 Boxster</label>
             </span>
             <span class="check-span">
-              <input type="radio" name="car_type" value="2" v-model="form_data.car_type"/><label for="">&nbsp;New Macan</label>
+              <input type="radio" name="car_type" value="2" v-model="form_data.car_type"/><label for="">&nbsp;718 Cayman</label>
             </span>
             <span class="check-span">
-              <input type="radio" name="car_type" value="3" v-model="form_data.car_type"/><label for="">&nbsp;718 Cayman</label>
+              <input type="radio" name="car_type" value="3" v-model="form_data.car_type"/><label for="">&nbsp;Macan</label>
             </span>
             <span class="check-span">
-              <input type="radio" name="car_type" value="4" v-model="form_data.car_type"/><label for="">&nbsp;Cayenne E3</label>
+              <input type="radio" name="car_type" value="4" v-model="form_data.car_type"/><label for="">&nbsp;Cayenne Coupe</label>
             </span>
           </div>
         </div>
@@ -53,13 +53,13 @@
           <div class="fl label-left">试驾日期:</div>
           <div class="fr check-right">
             <span class="check-span">
-              <input type="radio" name="activity_date" value="1" v-model="form_data.activity_date"/><label for="">&nbsp;11 月 29 日</label>
+              <input type="radio" name="activity_date" value="1" v-model="form_data.activity_date"/><label for="">&nbsp;11 月 28 日</label>
             </span>
             <span class="check-span">
-              <input type="radio"  name="activity_date" value="2" v-model="form_data.activity_date"/><label for="">&nbsp;11 月 30 日</label>
+              <input type="radio"  name="activity_date" value="2" v-model="form_data.activity_date"/><label for="">&nbsp;11 月 29 日</label>
             </span>
             <span class="check-span">
-              <input type="radio"  name="activity_date" value="2" v-model="form_data.activity_date"/><label for="">&nbsp;12 月 02 日</label>
+              <input type="radio"  name="activity_date" value="2" v-model="form_data.activity_date"/><label for="">&nbsp;12 月 01 日</label>
             </span>
           </div>
         </div>
@@ -88,7 +88,7 @@
         </div>
         <div class="af-btns">
           <p class="tips-bot fen" style="font-size: 2.1875vmin;">* 请现场携带驾驶证,并签署免责条款，参加试驾活动。</p>
-          <p class="tips-bot fen" style="font-size: 2.1875vmin; margin-top:0;">* 11 月 29、30 日及 12 月 2 日的试驾活动面向全体入住酒店的嘉宾。。</p>
+          <p class="tips-bot fen" style="font-size: 2.1875vmin; margin-top:0;">* 11 月 28、29 日及 12 月 1 日的试驾活动面向全体入住酒店的嘉宾。。</p>
           <div class="condition-check clearfix">
             <div class="label-left fl">
             	&nbsp;

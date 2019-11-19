@@ -5,14 +5,14 @@
         班车时刻 <img src="/static/images/ic-next-red.png" class="ic"/>
       </h1>
       <section class="event-schedule">
-        <h2 class="es-tit">12 月 1 日 星期六 - 保时捷友谊赛班车信息</h2>
+        <h2 class="es-tit">2019 年 11 月 30 日 - 保时捷友谊赛班车信息</h2>
         <ul class="fen">
           <li class="clearfix li-tit">
             <span class="fl lable-left ellipsis">酒店 – 球会</span>
             <span class="fr text-right">上车地点：酒店正门口</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis">07:45 - 10:00</span>
+            <span class="fl lable-left ellipsis">07:45 - 11:00</span>
             <span class="fr text-right">每 05 分钟一班</span>
           </li>
           <li class="clearfix li-tit">
@@ -30,14 +30,14 @@
       </section>
       <br>
       <section class="event-schedule">
-        <h2 class="es-tit">12 月 1 日 星期六 - 分界洲岛自由行班车信息</h2>
+        <h2 class="es-tit">2019 年 11 月 30 日 - 分界洲岛自由行班车信息</h2>
         <ul class="fen">
           <li class="clearfix li-tit">
             <span class="fl lable-left ellipsis">酒店 – 分界洲岛</span>
             <span class="fr text-right">上车地点：酒店正门口</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis">13:00</span>
+            <span class="fl lable-left ellipsis">09:30</span>
             <span class="fr text-right"></span>
           </li>
           <li class="clearfix li-tit">

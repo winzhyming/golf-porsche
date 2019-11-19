@@ -13,7 +13,7 @@
         </section>
         <section class="clearfix">
           <span class="fl lable-left">1.2</span>
-          <span class="fr text-right">比赛将于 2018 年 12 月 1 日 星期六举行，比赛为 1 轮标准 18 洞比杆赛，采用 18 洞同时开球的方式</span>
+          <span class="fr text-right">比赛将于 2019 年 11月 30 日 星期六举行，比赛为 1 轮标准 18 洞比杆赛，采用  18 洞同时开球的方式。</span>
         </section>
         <h2>2. 男女混合比赛</h2>
         <section class="clearfix">
@@ -46,7 +46,7 @@
           <span class="fr text-right">
             差点计算：
             <br />
-            <br />比赛使用新新贝利亚计算当天差点，新新贝利亚规则说明：
+            <br />比赛使用 新新贝利亚 计算当天差点，新新贝利亚规则说明：
             <br />
             <br />新新贝利亚差点 =
             <br />[（12 洞的总杆数（随机抽出六洞后余下的洞）x 1.5）– 72（18 洞标准杆）] x 80%;
@@ -60,8 +60,22 @@
             <br />差点用于计算净杆 Stableford 时，使用四舍五入法;
             <br />差点用于计算净杆 Stableford 时，当差点小于 “0”，以 “0” 作为其差点计算成绩;
             <br />差点用于计算净杆 Stableford 时，当差点大于 “36”，以 “36” 作为其差点计算成绩;
-            <br />
-            <br />
+          </span>
+        </section>
+        <section class="clearfix">
+          <span class="fl lable-left">3.3</span>
+          <span class="fr text-right">
+            总杆 Stableford得分计算方式：
+            <br>
+            <br>逐洞杆数比标准杆多二杆（包括二杆）以上，得分为 0;
+            <br>逐洞杆数比标准杆多一杆，得分为 1;
+            <br>逐洞杆数等于标准杆，得分为 2;
+            <br>逐洞杆数比标准杆低一杆，得分为 3;
+            <br>逐洞杆数比标准杆低二杆，得分为 4;
+            <br>逐洞杆数比标准杆低三杆，得分为 5;
+            <br>逐洞杆数比标准杆低四杆，得分为 6;
+            <br>
+            <br>
           </span>
         </section>
         <h2>4. 奖项设置</h2>
@@ -120,14 +134,14 @@
           <span class="fl lable-left">4.6</span>
           <span class="fr text-right">
             <strong>距洞最近奖</strong>
-            <br />球员在相应的发球台以首杆发球后，球的停点离该洞的旗杆最近者获胜。
+            <br />球员在相应的发球台以首杆发球后，球的停点离该洞的旗杆最近者获胜，如果多个球员的第一杆击打使球入洞，则以第一个一杆击球入洞的球员获胜。
           </span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left">4.7</span>
           <span class="fr text-right">
             <strong>两杆最近洞奖</strong>
-            <br />球员在相应发球台，以二杆将球击打到果岭，球的停点离该洞的旗杆最近者获胜。
+            <br />球员在相应发球台，以二杆将球击打到果岭，球的停点离该洞的旗杆最近者获胜，如果多个球员的第二杆击打使球入洞，则以第一个两杆击球入洞的球员获胜。
           </span>
         </section>
         <section class="clearfix">

@@ -6,7 +6,7 @@
         <img src="/static/images/ic-next-red.png" class="ic" />
       </h1>
       <section class="event-schedule fen">
-        <h2 class="es-tit">2018 年 11 月 30 日 星期五</h2>
+        <h2 class="es-tit">2019 年 11 月 29 日 星期五</h2>
         <ul>
           <li class="clearfix li-tit">
             <span class="fl lable-left ellipsis">酒店 – 球会</span>
@@ -35,14 +35,14 @@
         </ul>
       </section>
       <section class="event-schedule fen">
-        <h2 class="es-tit">2018 年 12 月 1 日 星期六</h2>
+        <h2 class="es-tit">2019 年 11 月 30 日 星期六</h2>
         <ul>
           <li class="clearfix li-tit">
             <span class="fl lable-left ellipsis">酒店 – 球会</span>
             <span class="fr text-right">上车地点：酒店正门口</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis">07:45 - 10:00</span>
+            <span class="fl lable-left ellipsis">07:45 - 11:00</span>
             <span class="fr text-right">每 05 分钟一班</span>
           </li>
           <li class="clearfix li-tit">
@@ -56,7 +56,7 @@
         </ul>
       </section>
       <section class="event-schedule fen">
-        <h2 class="es-tit">2018 年 12 月 2 日 星期日</h2>
+        <h2 class="es-tit">2019 年 12 月 1 日 星期日</h2>
         <ul>
           <li class="clearfix li-tit">
             <span class="fl lable-left ellipsis">酒店 – 机场</span>

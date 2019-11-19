@@ -6,7 +6,7 @@
         <h2>&nbsp;</h2>
         <section class="clearfix">
           <span class="fl lable-left ellipsis">活动时间:</span>
-          <span class="fr text-right fen">12 月 1 日 10:30 - 16:00</span>
+          <span class="fr text-right fen">11 月 30 日 11:00 - 16:30</span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left ellipsis">集合地点:</span>
@@ -35,7 +35,7 @@
 • 净杆亚军 *<br>
 • 净杆季军 *<br>
 • 总杆冠军 *<br>
-<!-- • 保时捷俱乐部最佳表现奖 *<br> -->
+• 保时捷俱乐部最佳表现奖 *<br>
 • 距洞最近奖 *<br>
 • 男子最远距离奖<br>
 • 女子最远距离奖<br>
@@ -43,7 +43,7 @@
             </span>
         </section>
         <div class="tips-bot fen">
-          *请通过活动热线 1312 2577 911 预约报名，截止时间 11 月 30 日 17:00。如您已预约参赛，请于开赛前10分钟到达集合地点。
+          *请通过活动热线 1312 2577 911 预约报名，截止时间 11 月 29 日 17:00。如您已预约参赛，请于开赛前10分钟到达集合地点。
         </div>
       </article>
     </div>

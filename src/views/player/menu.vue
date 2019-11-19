@@ -1,8 +1,8 @@
 <template>
   <div id="player-menu" class="bg-attach-ment">
     <section class="bf-tit fen-b">
-      <h1 class="chi">2018 保时捷高尔夫巡回赛中国总决赛</h1>
-      <h1 class="en">Porsche Golf Cup China Final 2018</h1>
+      <h1 class="chi">2019 保时捷高尔夫巡回赛中国总决赛</h1>
+      <h1 class="en">Porsche Golf Cup China Final 2019</h1>
     </section>
     <div class="bf-main pr">
       <!-- <img src="/static/images/bg-finalist-main.png" class="pa-bg"/> -->
@@ -52,13 +52,27 @@
               </router-link>
             </li>
           </ul>
+          <p class="desc">注意：接受 2019 保时捷高尔夫中国总决赛的邀请，即视为授权同意保时捷将您与同行伙伴的姓名与肖像权使用与公共宣传目的。</p>
         </section>
+        
       </div>
     </div>
     
     <a @click="back" class="back-btn" v-bottom_back><img src="/static/images/ic-back.jpg"/></a>
   </div>
 </template>
+
+<style scoped>
+  p.desc{
+    padding: 0 13vmin;
+    font-size: 2.5vmin;
+    color: #fff;
+    line-height: 3.75vmin;
+    text-align: justify
+  }
+</style>>
+
+</style>
 
 <script>
   export default {

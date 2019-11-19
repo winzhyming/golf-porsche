@@ -93,11 +93,11 @@ body {
   margin: 0 auto;
   width: 38.75vmin;
   height: 10.625vmin;
-  border: 0.625vmin solid #46bff5;
+  border: 0.625vmin solid #ed1e26;
   border-radius: 0.9375vmin;
   text-align: center;
   font-size: 4.375vmin;
-  color: #000;
+  color: #ed1e26;
   line-height: 10.625vmin;
   display: block;
 }
@@ -1056,7 +1056,7 @@ select.form-control option {
 
 #schedule-index,
 #player-parent {
-  padding-bottom: 36vmin;
+  /* padding-bottom: 36vmin; */
 }
 
 #collection-index,

@@ -6,7 +6,7 @@
         <h2>&nbsp;</h2>
         <section class="clearfix">
           <span class="fl lable-left ellipsis">活动时间:</span>
-          <span class="fr text-right fen">12 月 1 日 13:00 - 16:00</span>
+          <span class="fr text-right fen">11 月 30 日 09:30 - 16:00</span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left ellipsis">集合地点:</span>
@@ -22,11 +22,11 @@
         </section>
         <section class="clearfix">
           <span class="fl lable-left ellipsis">注意事项:</span>
-          <span class="fr text-right">保时捷中国将为活动伙伴支付入岛门票，但岛内所有活动均为自费项目。分界洲岛为离陆海岛。如需游玩水上项目，请自行携带泳衣浴巾。</span>
+          <span class="fr text-right">保时捷中国将为活动伙伴支付入岛门票及午餐，但岛内所有活动均为自费项目。分界洲岛为离陆海岛。如需游玩水上项目，请自行携带泳衣浴巾。</span>
         </section>
         <div class="btn-form">
           <a @click="subscribe" class="btn-order ib">立即预约</a>
-          <p class="form-tips fen">（截止时间 11 月 30 日 17:00）</p>
+          <p class="form-tips fen">（截止时间 11 月 29 日 17:00）</p>
         </div>
       </article>
     </div>

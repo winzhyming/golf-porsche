@@ -15,7 +15,7 @@
       <img src="/static/images/bot-img.png"/>
     </div> -->
 
-    <img src="/static/images/bg-bottom.jpg" alt="" class="img-bot">
+    <img src="/static/images/2019/bottom2019.jpg" alt="" class="img-bot">
     
     <a @click="back" class="back-btn" v-bottom_back><img src="/static/images/ic-back.jpg"/></a>
     <a @click="index" class="index-btn"><img src="/static/images/ic-index.jpg"/></a>

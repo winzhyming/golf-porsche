@@ -10,7 +10,7 @@
     	<router-view></router-view>
     </div>
     
-    <img src="/static/images/bg-bottom.jpg" alt="" class="img-bot">
+    <img src="/static/images/2019/bottom2019.jpg" alt="" class="img-bot">
     <!-- <div class="ei-bot" v-bottom_img>
       <img src="/static/images/bot-img.png"/>
     </div> -->

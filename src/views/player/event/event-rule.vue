@@ -6,32 +6,30 @@
           赛事规则
           <img src="/static/images/ic-next-red.png" class="ic" />
         </h1>
-        <h2>1. 参赛形式</h2>
+        <h2>1. 参赛准则</h2>
         <section class="clearfix">
           <span class="fl lable-left">1.1</span>
           <span class="fr text-right">参赛选手为保时捷中国的车主（需经保时捷经销商确认相应的 BPID 及车架号），且须年满 21 岁。</span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left">1.2</span>
-          <span class="fr text-right">只有保时捷车主本人能够参与比赛及获奖。如发现替打将取消该车主当年所有保时捷相关活动的参加资格。</span>
+          <span class="fr text-right">只有保时捷车主本人能够参与比赛及获奖。车主必须为在中国大陆或香港及澳门地区购车的，注册登记过的车主。如发现替打将取消该车主当年所有保时捷相关活动的参加资格。</span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left">1.3</span>
-          <span
-            class="fr text-right"
-          >凡持有职业球员卡或具有职业球员身份的球员以及由中国高尔夫球协会和世界各级高尔夫组织认证的教练员可以参与此次活动，但不得参与评选比赛中设立的任何奖项。</span>
+          <span class="fr text-right">凡持有职业球员卡或具有职业球员身份的球员以及由中国高尔夫球协会和世界各级高尔夫组织认证的教练员可以参与此次活动，但不得参与评选比赛中设立的任何奖项。</span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left">1.4</span>
           <span
             class="fr text-right"
-          >2018 保时捷高尔夫巡回赛采用圣安德鲁斯皇家古老高尔夫俱乐部和美国高尔夫协会共同颁发的 2016 年版《高尔夫球规则》以及竞赛组委会制定的“比赛条件和当地规则”。</span>
+          >2019 保时捷高尔夫巡回赛采用圣安德鲁斯皇家古老高尔夫俱乐部和美国高尔夫协会共同颁发的 2019 年版《高尔夫球规则》以及竞赛组委会制定的“比赛条件和当地规则”。</span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left">1.5</span>
           <span
             class="fr text-right"
-          >比赛中球在果岭上必须推球进洞（即没有 OK 球），否则一旦被投诉，经确认后将被直接取消比赛成绩（即： DQ ），达到封顶杆数除外</span>
+          >比赛中球员必须击球进洞 （即没有 OK 球），没有完成击球进洞将以最高杆数计算该洞杆数。</span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left">1.6</span>
@@ -45,31 +43,31 @@
         </section>
         <section class="clearfix">
           <span class="fl lable-left">1.8</span>
-          <span class="fr text-right">只有获得 2018 保时捷高尔夫巡回赛中国入围资格赛的各组别冠军才能参加比赛，邀请名额不得转让。</span>
+          <span class="fr text-right">只有获得 2019 保时捷高尔夫巡回赛中国入围资格赛的各组别冠军才能参加比赛，邀请名额不得转让。</span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left">1.9</span>
           <span
             class="fr text-right"
-          >2018 年入围资格赛的各组别冠军如果因事不能参与中国总决赛比赛，该场比赛名额根据该优胜者所属组别依次进行邀请，如：冠军不能参加，由亚军代替参加，依次类推。</span>
+          >2019 年入围资格赛的各组别冠军如果因事不能参与中国总决赛比赛，该场比赛名额根据该优胜者所属组别依次进行邀请，如：冠军不能参加，由亚军代替参加，依次类推。</span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left">1.10</span>
           <span
             class="fr text-right"
-          >凡参加 2018 保时捷高尔夫巡回赛中国总决赛的选手，可以嘉宾形式参与随后三年（2019 – 2021) 的保时捷高尔夫巡回赛，但不得参与评选比赛中设立的常规奖项。</span>
+          >凡参加 2019 保时捷高尔夫巡回赛中国总决赛的选手，可以嘉宾形式参与随后三年(2020 – 2022) 的保时捷高尔夫巡回赛，但不得参与评选比赛中设立的常规奖项。</span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left">1.11</span>
           <span
             class="fr text-right"
-          >获得 2018 保时捷高尔夫巡回赛全球总决赛名额的选手，可以参与随后三年 (2019 – 2021) 的保时捷高尔夫巡回赛，但不得参与评选比赛中设立的常规奖项。</span>
+          >获得 2019 保时捷高尔夫巡回赛全球总决赛名额的选手，可以参与随后三年 (2020 – 2022) 的保时捷高尔夫巡回赛，但不得参与评选比赛中设立的常规奖项。</span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left">1.12</span>
           <span
             class="fr text-right"
-          >2018 年中国总决赛的各组别冠军如果因事不能参赛，该场比赛名额根据该冠军所属组别依次进行邀请，如：冠军不能参加，由亚军代替参加，依次类推。</span>
+          >2019 年中国总决赛的各组别冠军如果因事不能参加全球总决赛，该场比赛名额根据该冠军所属组别依次进行邀请，如：冠军不能参加，由亚军代替参加，依次类推。</span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left">1.13</span>
@@ -77,7 +75,7 @@
         </section>
         <section class="clearfix">
           <span class="fl lable-left">1.14</span>
-          <span class="fr text-right">一经获邀成为 2018 保时捷高尔夫巡回赛的选手，保时捷中国将有权出于公关宣传等目的使用其名字和赛事照片等。</span>
+          <span class="fr text-right">一经获邀成为 2019 保时捷高尔夫巡回赛的选手，保时捷中国将有权出于公关宣传等目的使用其名字和赛事照片等。</span>
         </section>
         <h2>2. 记分方式</h2>
         <section class="clearfix">
@@ -96,7 +94,7 @@
           <span class="fl lable-left">2.3</span>
           <span class="fr text-right">比赛成绩一经在信息板上公布，即被视为最终成绩。</span>
         </section>
-        <section class="clearfix">
+        <!-- <section class="clearfix">
           <span class="fl lable-left">2.4</span>
           <span class="fr text-right">
             比赛使用 Stableford 定分制计算方式:
@@ -113,7 +111,7 @@
             <br />逐洞净杆数比标准杆低四杆，得分为 6；
             <br />
           </span>
-        </section>
+        </section> -->
         <h2>3. 守时规定</h2>
         <section class="clearfix">
           <span class="fl lable-left"></span>
@@ -248,9 +246,9 @@
           <span class="fl lable-left">6.9</span>
           <span
             class="fr text-right"
-          >当出现在比赛当日遭遇天气变化致使比赛无法进行，所有选手完成洞数少于 9 洞时，比赛将由赛事组委会决定推迟或以抽签形式在每组中抽出优胜者。</span>
+          >当出现在比赛当日遭遇天气变化致使比赛无法进行，所有选手完成洞数少于 9 洞时，比赛将由赛事组委会决定推迟或以抽签形式在每组中抽出优胜者。由赛事组委会持有最终解释权。赛事组委会由当天活动到场的国际级裁判长、赛事总监及当地球场负责人、保时捷中国负责人组成。最终解释权包含但不限于：比赛场地（客观条件，球场损坏、沙坑积水），球员完成洞数的情况（天气打雷，下大雨比赛无法进行）导致比赛无法进行，赛事组委会根据当天情况决定抽签的形式，优胜者的判定等。</span>
         </section>
-        <section class="clearfix">
+        <!-- <section class="clearfix">
           <span class="fl lable-left">6.10</span>
           <span class="fr text-right">
             Stableford 总杆得分计算方式：
@@ -263,7 +261,7 @@
             <br />逐洞杆数比标准杆低三杆，得分为 5；
             <br />逐洞杆数比标准杆低四杆，得分为 6；
           </span>
-        </section>
+        </section> -->
         <h2>7. 争议解决</h2>
         <section class="clearfix">
           <span class="fl lable-left">7.1</span>
