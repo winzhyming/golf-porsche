@@ -4,7 +4,9 @@
       <div class="dimmer-top"></div>
       <h1 class="mt-tit fen">陵水</h1>
       <div class="weather-box">
-        <div id="tp-weather-widget"></div>
+        <div id="tp-weather-widget">
+          <iframe allowtransparency="true" frameborder="0" width="255" height="64" scrolling="no" src="//tianqi.2345.com/plugin/widget/index.htm?s=2&z=3&t=1&v=2&d=1&bd=0&k=&f=&ltf=009944&htf=cc0000&q=0&e=0&a=0&c=59954&w=255&h=64&align=center"></iframe>
+        </div>
       </div>
     </div>
   </div>
