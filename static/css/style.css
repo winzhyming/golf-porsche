@@ -224,7 +224,7 @@ body {
 }
 
 .ei-main {
-  padding-bottom: 10.9375vmin;
+  padding-bottom: 3vmin;
   position: relative;
   width: 100%;
 }
@@ -1029,12 +1029,12 @@ select.form-control option {
 
 #player-menu {
   min-height: 100vh;
-  background-image: url(../images/body-finalist_2018.jpg);
+  background-image: url(../images/2019/body-finalist_2019.jpg);
 }
 
 #guest-index {
   min-height: 100vh;
-  background-image: url(../images/bg-body-final-guest_2018.jpg)
+  background-image: url(../images/2019/body-finalist_2019.jpg)
 }
 
 #index-view {
@@ -1051,7 +1051,7 @@ select.form-control option {
 }
 
 .em2018_bot {
-  padding-bottom: 40vmin;
+  /* padding-bottom: 40vmin; */
 }
 
 #schedule-index,
@@ -1061,7 +1061,7 @@ select.form-control option {
 
 #collection-index,
 #form-index {
-  padding-bottom: 50vmin
+  padding-bottom: 5vmin
 }
 
 .event-schedule{

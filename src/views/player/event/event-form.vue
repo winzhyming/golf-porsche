@@ -13,7 +13,7 @@
         </section>
         <section class="clearfix">
           <span class="fl lable-left">1.2</span>
-          <span class="fr text-right">比赛将于 2018 年 12 月 1 日 星期六举行，比赛为 1 轮标准 18 洞比杆赛，采用 18 洞同时开球的方式</span>
+          <span class="fr text-right">比赛将于 2019 年 12 月 1 日 星期六举行，比赛为 1 轮标准 18 洞比杆赛，采用 18 洞同时开球的方式</span>
         </section>
         <h2>2. 男女混合比赛</h2>
         <section class="clearfix">

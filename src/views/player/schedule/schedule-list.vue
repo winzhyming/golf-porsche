@@ -51,7 +51,7 @@
         </ul>
       </section>
       <section class="event-schedule">
-        <h2>2018 年 12 月 3 日</h2>
+        <h2>2019 年 12 月 3 日</h2>
         <ul>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">06:30 - 10:30</span>

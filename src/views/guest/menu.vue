@@ -1,8 +1,8 @@
 <template>
   <div id="guest-index" class="bg-attach-ment">
     <section class="bf-tit fen-b">
-      <h1 class="chi">2018 保时捷高尔夫巡回赛中国总决赛</h1>
-      <h1 class="en">Porsche Golf Cup China Final 2018</h1>
+      <h1 class="chi">2019 电驰神往俱乐部年度晚宴</h1>
+      <!-- <h1 class="en">Porsche Golf Cup China Final 2018</h1> -->
     </section>
     <div class="bf-main pr">
       <!-- <img src="/static/images/bg-finalist-main.png" class="pa-bg"/> -->

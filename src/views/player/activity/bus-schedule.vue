@@ -19,7 +19,7 @@
         </ul>
       </section>
       <section class="event-schedule fen">
-        <h2 class="es-tit">2018 年 12 月 1 日 星期一</h2>
+        <h2 class="es-tit">2019 年 12 月 1 日 星期一</h2>
         <ul>
           <li class="clearfix li-tit">
             <span class="fl lable-left ellipsis">酒店 – 亚特兰蒂斯水上世界</span>
@@ -72,7 +72,7 @@
         </ul>
       </section>
       <section class="event-schedule fen">
-        <h2 class="es-tit">2018 年 12 月 3 日 星期二</h2>
+        <h2 class="es-tit">2019 年 12 月 3 日 星期二</h2>
         <ul>
           <li class="clearfix li-tit">
             <span class="fl lable-left ellipsis">酒店 – 机场</span>

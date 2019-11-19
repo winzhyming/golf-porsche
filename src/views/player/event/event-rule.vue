@@ -63,13 +63,13 @@
           <span class="fl lable-left">1.11</span>
           <span
             class="fr text-right"
-          >获得 2018 保时捷高尔夫巡回赛全球总决赛名额的选手，可以参与随后三年 (2019 – 2021) 的保时捷高尔夫巡回赛，但不得参与评选比赛中设立的常规奖项。</span>
+          >获得 2019 保时捷高尔夫巡回赛全球总决赛名额的选手，可以参与随后三年 (2019 – 2021) 的保时捷高尔夫巡回赛，但不得参与评选比赛中设立的常规奖项。</span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left">1.12</span>
           <span
             class="fr text-right"
-          >2018 年中国总决赛的各组别冠军如果因事不能参赛，该场比赛名额根据该冠军所属组别依次进行邀请，如：冠军不能参加，由亚军代替参加，依次类推。</span>
+          >2019 年中国总决赛的各组别冠军如果因事不能参赛，该场比赛名额根据该冠军所属组别依次进行邀请，如：冠军不能参加，由亚军代替参加，依次类推。</span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left">1.13</span>
@@ -77,7 +77,7 @@
         </section>
         <section class="clearfix">
           <span class="fl lable-left">1.14</span>
-          <span class="fr text-right">一经获邀成为 2018 保时捷高尔夫巡回赛的选手，保时捷中国将有权出于公关宣传等目的使用其名字和赛事照片等。</span>
+          <span class="fr text-right">一经获邀成为 2019 保时捷高尔夫巡回赛的选手，保时捷中国将有权出于公关宣传等目的使用其名字和赛事照片等。</span>
         </section>
         <h2>2. 记分方式</h2>
         <section class="clearfix">
