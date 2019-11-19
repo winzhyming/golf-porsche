@@ -13,10 +13,16 @@
         <br>
         <p>*特别提醒：需自带泳衣等装备，并携带好身份证件。</p>
       </div>
-    <div class="yuyue-btns">
-      <a @click="confirm" href="javascript:;">确认预约</a>
-      <a @click="back" href="javascript:;">返回上一页</a>
-    </div>
+      <div class="ar-box" style="margin-top: 3.125vmin;">
+        <div class="ar-form">
+          <div class="af-group"><input type="text" placeholder="电话" class="form-control"></div>
+          <div class="af-group code-group"><input type="text" placeholder="验证码" class="form-control"><a href="javascript:;" class="btn-get-code">获取验证码</a></div>
+        </div>
+      </div>
+      <div class="yuyue-btns">
+        <a @click="confirm" href="javascript:;">确认预约</a>
+        <a @click="back" href="javascript:;">返回上一页</a>
+      </div>
     </div>
   </div>
 </template>

@@ -29,7 +29,7 @@
               <input type="radio" name="car_type" value="2" v-model="form_data.car_type"/><label for="">&nbsp;Cayenne Coupé</label>
             </span>
             <span class="check-span">
-              <input type="radio" name="car_type" value="3" v-model="form_data.car_type"/><label for="">&nbsp;718 Boxster</label>
+              <input type="radio" name="car_type" value="3" v-model="form_data.car_type"/><label for="">&nbsp;Macan</label>
             </span>
             <span class="check-span">
               <input type="radio" name="car_type" value="4" v-model="form_data.car_type"/><label for="">&nbsp;718 Boxster</label>
