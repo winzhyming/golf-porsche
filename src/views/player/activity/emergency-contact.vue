@@ -8,7 +8,7 @@
       <section class="ds-list">
         <ul>
           <li>
-            <p>活动热线（24 小时）</p>
+            <p>活动热线</p>
             <p class="fen">
               <a href="tel:15121038911">1512-1038 -911</a>
             </p>

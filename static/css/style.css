@@ -434,8 +434,9 @@ h1.git-tit img.ic {
 
 .event-schedule ul li .lable-left {
   width: 30.4375vmin;
-  text-indent: 1.25vmin;
+  padding-left: 1.25vmin;
   font-family: pn-regular;
+  box-sizing: border-box;
 }
 
 .event-schedule ul li .text-right {

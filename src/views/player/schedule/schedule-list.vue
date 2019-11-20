@@ -8,7 +8,7 @@
             <span class="fl lable-left ellipsis">12:00 起</span>
             <span class="fr text-right">
               抵达三亚
-              <br />入住陵水 蓝湾绿城威斯汀度假酒店
+              <br />入住海南蓝湾绿城威斯汀度假酒店
             </span>
           </li>
           <li class="clearfix">
@@ -16,11 +16,11 @@
             <span class="fr text-right">酒店休息</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis">18:30 - 19:30</span>
+            <span class="fl lable-left ellipsis">18:00 - 19:00</span>
             <span class="fr text-right">鸡尾酒社交环节</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis">19:30 - 21:30</span>
+            <span class="fl lable-left ellipsis">19:00 - 21:30</span>
             <span class="fr text-right">欢迎晚宴</span>
           </li>
         </ul>
@@ -59,7 +59,7 @@
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">全天</span>
-            <span class="fr text-right">班车送机（每xxx分钟一班）</span>
+            <span class="fr text-right">班车送机<br>根据实际航班情况安排车辆送机</span>
           </li>
         </ul>
       </section>

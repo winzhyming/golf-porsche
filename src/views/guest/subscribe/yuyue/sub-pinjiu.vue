@@ -6,10 +6,10 @@
         <p>保时捷中国车主俱乐部特邀前巴黎水中国品牌形象大使，世界排名第十三位 London Detroit Bar 吧台经理 - Eddy Yang 为大家带来精彩的威士忌品鉴之旅。Eddy 旅英 10 年，回国后先后担任兰会所酒水总监，新加坡莱福士酒店酒吧顾问。敬请期待 Eddy 带您领略威士忌的不同风味。</p>
         <br>
         <p><strong>场次: </strong></p>
-        <p><input type="radio" name="changci" value="3" v-model="form_data.type"/><label for="">15:00 - 16:00</label></p>
+        <p><input type="radio" name="changci" value="3" v-model="form_data.type"/><label for="">14:30 - 15:30</label></p>
         <p><input type="radio" name="changci" value="4" v-model="form_data.type"/><label for="">16:00 - 17:00</label></p>
         <br>
-        <p>地址: 酒店海滨草坪</p>
+        <p>地址: 2楼酒店大堂集合</p>
       </div>
       <div class="ar-box" style="margin-top: 3.125vmin;">
         <div class="ar-form">
@@ -46,7 +46,7 @@
     },
     mounted() {
       this.$parent.img_path = '/static/images/2019/top-pinjiu.jpg';
-      this.$parent.title = '品酒'
+      this.$parent.title = '威士忌品鉴'
     },
     methods: {
       getVcode() {

@@ -14,12 +14,12 @@
         </li>
         <li>
           <router-link :to="{'name': 'subscribe.pinjiu'}" class="clearfix">
-            酒店品酒<img src="/static/images/ic-next-red.png" class="ic fr"/>
+            威士忌品鉴<img src="/static/images/ic-next-red.png" class="ic fr"/>
           </router-link>
         </li>
         <li>
           <router-link :to="{'name': 'subscribe.yoga'}" class="clearfix">
-            酒店瑜伽<img src="/static/images/ic-next-red.png" class="ic fr"/>
+            海滨瑜伽<img src="/static/images/ic-next-red.png" class="ic fr"/>
           </router-link>
         </li>
         <li>

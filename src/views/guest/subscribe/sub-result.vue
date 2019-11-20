@@ -9,10 +9,10 @@
             <span class="table-cell">活动项目：</span>
             <span class="table-cell" v-if="type === '1'">亚特兰蒂斯水世界</span>
             <span class="table-cell" v-if="type === '2'">呀诺达雨林文化旅游区</span>
-            <span class="table-cell" v-if="type === '3'">品酒</span>
-            <span class="table-cell" v-if="type === '4'">品酒</span>
-            <span class="table-cell" v-if="type === '5'">瑜伽</span>
-            <span class="table-cell" v-if="type === '6'">瑜伽</span>
+            <span class="table-cell" v-if="type === '3'">威士忌品鉴</span>
+            <span class="table-cell" v-if="type === '4'">威士忌品鉴</span>
+            <span class="table-cell" v-if="type === '5'">海滨瑜伽</span>
+            <span class="table-cell" v-if="type === '6'">海滨瑜伽</span>
             <span class="table-cell" v-if="type === '7'">高尔夫</span>
           </p>
           <p class="table">
@@ -25,7 +25,7 @@
             <span class="table-cell">活动时间：</span><span class="table-cell">12:00 - 16:00</span>
           </p>
           <p class="table" v-if="type === '3'">
-            <span class="table-cell">活动时间：</span><span class="table-cell">15:00 - 16:00</span>
+            <span class="table-cell">活动时间：</span><span class="table-cell">14:30 - 15:30</span>
           </p>
           <p class="table" v-if="type === '4'">
             <span class="table-cell">活动时间：</span><span class="table-cell">16:00 - 17:00</span>

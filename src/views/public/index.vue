@@ -24,6 +24,10 @@
       </section>
     </div>
     <img src="/static/images/2019/bot.png" alt="" class="img-bot">
+
+    <div class="xieyi-dimmer">
+      
+    </div>
   </div>
 </template>
 

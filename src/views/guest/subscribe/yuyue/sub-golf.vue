@@ -3,8 +3,6 @@
   <div class="ei-main">
     <div class="yuyue2019">
       <div class="desc">
-        <p><strong>高尔夫（09:30 - 16:30）</strong></p>
-        <br>
         <p>全球最成功的一位高尔夫球手 Phil Mickelson 曾经说过:“高尔夫的目标不仅仅是赢得比赛，而是要像绅士一样，有风度地取得胜利。”保时捷中国车主俱乐部邀请您前来挥杆，18 洞比赛，新新贝利亚规则，以总杆成绩评定冠亚季军。</p>
         <br>
         <p>出发集合地点：2F 酒店大堂</p>
@@ -23,6 +21,9 @@
             <a href="javascript:;" class="btn-get-code" v-if="countSecond">{{ countSecond }}s后重发</a>
             <a href="javascript:;" class="btn-get-code" v-else @click="getVcode">获取验证码</a>
           </div>
+          <div class="af-group">
+            <input type="text" class="form-control" placeholder="您的差点数" v-model="form_data.number"/>
+          </div>
         </div>
       </div>
       <div class="yuyue-btns">
@@ -40,7 +41,8 @@
         form_data: {
           mobile: '',
           type: '7',
-          vcode: ''
+          vcode: '',
+          number: ''
         },
         countSecond: 0,
         isChecked: '',
@@ -99,6 +101,8 @@
           _error = '请填写电话号码';
         } else if(!this.form_data.vcode) {
           _error = '请填请输入验证码';
+        } else if(!this.form_data.number === '') {
+          _error = '请输入您的差点数';
         }
         return _error;
       },
@@ -117,7 +121,8 @@
             data: {
               mobile: this.form_data.mobile,
               check_code: this.form_data.vcode,
-              type: this.form_data.type
+              type: this.form_data.type,
+              number: this.form_data.number
             },
             datatype: 'jsonp',
             jsonp: 'jsonp_callback',

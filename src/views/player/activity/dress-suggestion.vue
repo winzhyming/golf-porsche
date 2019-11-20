@@ -14,10 +14,20 @@
           <li>
             <h2>2019 年 12 月 2 日 星期一</h2>
             <p>09:00 活动 - 运动休闲</p>
-            <p>19:00 晚宴 - 最具 ”Taycan” 风格的着装</p>
+            <p class="flex"><span>19:00 晚宴 - </span><span>保时捷全新纯电动车 Taycan 将抵达晚宴现场，秀出您最契合 Taycan Gentian blue 的个性着装吧！<br/>（晚宴现场将评选最佳着装奖）</span></p>
           </li>
         </ul>
       </section>
     </div>
   </div>
 </template>
+
+<style scoped>
+  p.flex{
+    display: flex;
+  }
+  p.flex span:nth-child(2){
+    margin-left: 00.625vmin;
+    flex: 1;
+  }
+</style>>
