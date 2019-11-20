@@ -101,7 +101,7 @@
           tour_type: _params.activity || '',
           is_dt: '',
           interest_car: '',
-          activity_time: '2'
+          activity_time: '1'
         }
       }
     },

@@ -10,7 +10,15 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-    proxyTable: {},
+    proxyTable: {
+      '/sk': {
+        target: 'https://travelclub.devnow.cn',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/sk': '/sk'
+        }
+      }
+    },
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST

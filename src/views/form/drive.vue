@@ -25,16 +25,16 @@
           <div class="fl label-left">试驾车辆:</div>
           <div class="fr check-right">
             <span class="check-span">
-              <input type="radio" name="car_type" value="1" v-model="form_data.car_type"/><label for="">&nbsp;718 Boxster</label>
+              <input type="radio" name="car_type" value="4" v-model="form_data.car_type"/><label for="">&nbsp;718 Boxster</label>
             </span>
             <span class="check-span">
-              <input type="radio" name="car_type" value="2" v-model="form_data.car_type"/><label for="">&nbsp;718 Cayman</label>
+              <input type="radio" name="car_type" value="1" v-model="form_data.car_type"/><label for="">&nbsp;718 Cayman</label>
             </span>
             <span class="check-span">
               <input type="radio" name="car_type" value="3" v-model="form_data.car_type"/><label for="">&nbsp;Macan</label>
             </span>
             <span class="check-span">
-              <input type="radio" name="car_type" value="4" v-model="form_data.car_type"/><label for="">&nbsp;Cayenne Coupe</label>
+              <input type="radio" name="car_type" value="2" v-model="form_data.car_type"/><label for="">&nbsp;Cayenne Coupe</label>
             </span>
           </div>
         </div>
@@ -148,7 +148,7 @@
         $.ajax({
           type: "POST",
           // url: "https://www.stxcve.cn/sk/myOrder.php",
-          url: "/sk/myOrder.php",
+          url: "/sk/myDrivingOrder.php",
           data: _data,
           datatype: 'jsonp',
           jsonp: 'jsonp_callback',
