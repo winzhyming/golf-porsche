@@ -2,7 +2,7 @@
   <div class="ei-main">
     <div class="ef-main em2018">
       <article class="ef-art pc-art mct-art">
-        <h1 class="no-bb">分界洲岛自由行 <img src="/static/images/ic-next-red.png" class="ic"/></h1>
+        <h1 class="no-bb">分界洲岛自由行 <img src="https://d.devnow.cn/golf2019/images/ic-next-red.png" class="ic"/></h1>
         <h2>&nbsp;</h2>
         <section class="clearfix">
           <span class="fl lable-left ellipsis">活动时间:</span>
@@ -44,9 +44,9 @@
       }
     },
     mounted() {
-      this.$parent.img_path = '/static/images/2019/top/top000.jpg';
+      this.$parent.img_path = 'https://d.devnow.cn/golf2019/images/2019/top/top000.jpg';
       
-      // this.$parent.img_path = '/static/images/bg-top11.jpg'
+      // this.$parent.img_path = 'https://d.devnow.cn/golf2019/images/bg-top11.jpg'
     }
   }
 </script>

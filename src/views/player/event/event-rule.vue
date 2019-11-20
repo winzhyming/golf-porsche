@@ -4,7 +4,7 @@
       <article class="ef-art fen">
         <h1>
           赛事规则
-          <img src="/static/images/ic-next-red.png" class="ic" />
+          <img src="https://d.devnow.cn/golf2019/images/ic-next-red.png" class="ic" />
         </h1>
         <h2>1. 参赛准则</h2>
         <section class="clearfix">

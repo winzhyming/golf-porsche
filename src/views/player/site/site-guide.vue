@@ -2,7 +2,7 @@
   <div class="ei-main">
     <div class="group-info-table">
       <h1 class="git-tit no-bb">
-        球场介绍 <img src="/static/images/ic-next-red.png" class="ic"/>
+        球场介绍 <img src="https://d.devnow.cn/golf2019/images/ic-next-red.png" class="ic"/>
       </h1>
       <section class="ds-list">
         <ul>
@@ -41,7 +41,7 @@
     },
     created() {
       for(let i = 1; i < 24; i++) {
-        this.imgs.push('/static/images/2019/sites/site' + i + '.jpg')
+        this.imgs.push('https://d.devnow.cn/golf2019/images/2019/sites/site' + i + '.jpg')
       }
     }
   }

@@ -1,6 +1,6 @@
 <template>
   <div class="select-box" v-if="!loading">
-    <img src="/static/images/ic-arrow-down.png" class="ic-down" v-if="!sel_data.disabled"/>
+    <img src="https://d.devnow.cn/golf2019/images/ic-arrow-down.png" class="ic-down" v-if="!sel_data.disabled"/>
     <div class="val-show" @click="seltrigger">
     	{{ val.name || tips }}
     </div>

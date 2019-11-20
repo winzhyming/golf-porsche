@@ -1,10 +1,10 @@
 <template>
   <div id="activity-index">
     <div class="top-ban pr">
-      <img src="/static/images/2019/top/top-huodongxinxi.jpg" class="pa-img"/>
+      <img src="https://d.devnow.cn/golf2019/images/2019/top/top-huodongxinxi.jpg" class="pa-img"/>
       <div class="tbt-tit pa">
-        <!-- <img src="/static/images/top-tit.png" class="pa-img"/> -->
-        <h1><img src="/static/images/btn-finalist08.png" class="ic"/>活动信息</h1>
+        <!-- <img src="https://d.devnow.cn/golf2019/images/top-tit.png" class="pa-img"/> -->
+        <h1><img src="https://d.devnow.cn/golf2019/images/btn-finalist08.png" class="ic"/>活动信息</h1>
       </div>
     </div>
     
@@ -15,13 +15,13 @@
       </transition>
     </div>
     
-    <img src="/static/images/2019/bottom2019.jpg" alt="" class="img-bot">
+    <img src="https://d.devnow.cn/golf2019/images/2019/bottom2019.jpg" alt="" class="img-bot">
     <!-- <div class="ei-bot" v-bottom_img>
-      <img src="/static/images/bot-img.png"/>
+      <img src="https://d.devnow.cn/golf2019/images/bot-img.png"/>
     </div> -->
     
-    <a @click="back" class="back-btn" v-bottom_back><img src="/static/images/ic-back.jpg"/></a>
-    <a @click="index" class="index-btn"><img src="/static/images/ic-index.jpg"/></a>
+    <a @click="back" class="back-btn" v-bottom_back><img src="https://d.devnow.cn/golf2019/images/ic-back.jpg"/></a>
+    <a @click="index" class="index-btn"><img src="https://d.devnow.cn/golf2019/images/ic-index.jpg"/></a>
   </div>
 </template>
 

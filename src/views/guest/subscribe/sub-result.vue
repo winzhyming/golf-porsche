@@ -22,7 +22,7 @@
       }
     },
     mounted() {
-      this.$parent.img_path = '/static/images/bg-top11.jpg';
+      this.$parent.img_path = 'https://d.devnow.cn/golf2019/images/bg-top11.jpg';
     },
     methods: {
       index() {

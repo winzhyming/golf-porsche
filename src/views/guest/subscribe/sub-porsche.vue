@@ -2,7 +2,7 @@
   <div class="ei-main">
     <div class="ef-main em2018 em2018_bot">
       <article class="ef-art pc-art">
-        <h1 class="no-bb">保时捷友谊赛 <img src="/static/images/ic-next-red.png" class="ic"/></h1>
+        <h1 class="no-bb">保时捷友谊赛 <img src="https://d.devnow.cn/golf2019/images/ic-next-red.png" class="ic"/></h1>
         <h2>&nbsp;</h2>
         <section class="clearfix">
           <span class="fl lable-left ellipsis">活动时间:</span>
@@ -56,7 +56,7 @@
       return {}
     },
     mounted() {
-      this.$parent.img_path = '/static/images/2019/top/top-jiabinyuyue01.jpg';
+      this.$parent.img_path = 'https://d.devnow.cn/golf2019/images/2019/top/top-jiabinyuyue01.jpg';
     }
   }
 </script>

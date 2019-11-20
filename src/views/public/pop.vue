@@ -5,7 +5,7 @@
         <div class="dp-box pr">
           <p v-html="tips"></p>
           
-          <a @click="close" class="pa dp-close"><img src="/static/images/ic-pop-close.png"/></a>
+          <a @click="close" class="pa dp-close"><img src="https://d.devnow.cn/golf2019/images/ic-pop-close.png"/></a>
         </div>
       </div>
     </div>

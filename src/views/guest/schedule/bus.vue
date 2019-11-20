@@ -2,7 +2,7 @@
   <div class="ei-main em2018_bot">
     <div class="es-data">
       <h1 class="git-tit no-bb">
-        班车时刻 <img src="/static/images/ic-next-red.png" class="ic"/>
+        班车时刻 <img src="https://d.devnow.cn/golf2019/images/ic-next-red.png" class="ic"/>
       </h1>
       <section class="event-schedule">
         <h2 class="es-tit">2019 年 11 月 30 日 - 保时捷友谊赛班车信息</h2>
@@ -63,7 +63,7 @@
       return {}
     },
     mounted() {
-      this.$parent.img_path = '/static/images/bg-top12.jpg';
+      this.$parent.img_path = 'https://d.devnow.cn/golf2019/images/bg-top12.jpg';
     }
   }
 </script>

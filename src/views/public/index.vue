@@ -3,8 +3,8 @@
   <div id="index-view">
     <div class="body-index pr">
       <section class="bi-tit fen-b">
-        <img class="img-logo" src="/static/images/logo.png" alt="Porsche">
-        <img class="img-word" src="/static/images/2019/landing-title.png" alt="2019 保时捷高尔夫巡回赛总决赛 Porsche Golf Cup China Final 2019">
+        <img class="img-logo" src="https://d.devnow.cn/golf2019/images/logo.png" alt="Porsche">
+        <img class="img-word" src="https://d.devnow.cn/golf2019/images/2019/landing-title.png" alt="2019 保时捷高尔夫巡回赛总决赛 Porsche Golf Cup China Final 2019">
       </section>
       <section class="bi-btns">
         <ul>
@@ -23,7 +23,7 @@
         </ul>
       </section>
     </div>
-    <img src="/static/images/2019/bottom2019.jpg" alt="" class="img-bot">
+    <img src="https://d.devnow.cn/golf2019/images/2019/bottom2019.jpg" alt="" class="img-bot">
   </div>
 </template>
 

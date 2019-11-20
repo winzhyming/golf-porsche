@@ -4,17 +4,17 @@
       <ul>
         <li>
           <router-link :to="{'name': 'subscribe.porsche'}" class="clearfix">
-            保时捷友谊赛<img src="/static/images/ic-next-red.png" class="ic fr"/>
+            保时捷友谊赛<img src="https://d.devnow.cn/golf2019/images/ic-next-red.png" class="ic fr"/>
           </router-link>
         </li>
         <li>
           <router-link :to="{'name': 'subscribe.movie'}" class="clearfix">
-            分界洲岛自由行<img src="/static/images/ic-next-red.png" class="ic fr"/>
+            分界洲岛自由行<img src="https://d.devnow.cn/golf2019/images/ic-next-red.png" class="ic fr"/>
           </router-link>
         </li>
         <li>
           <router-link :to="{'name': 'subscribe.volcano'}" class="clearfix">
-            分界洲岛试驾体验<img src="/static/images/ic-next-red.png" class="ic fr"/>
+            分界洲岛试驾体验<img src="https://d.devnow.cn/golf2019/images/ic-next-red.png" class="ic fr"/>
           </router-link>
         </li>
       </ul>
@@ -32,7 +32,7 @@
       return {}
     },
     mounted() {
-      this.$parent.img_path = '/static/images/2019/top/top-jiabinyuyue.jpg';
+      this.$parent.img_path = 'https://d.devnow.cn/golf2019/images/2019/top/top-jiabinyuyue.jpg';
     }
   }
 </script>
