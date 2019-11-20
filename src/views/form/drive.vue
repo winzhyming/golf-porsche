@@ -88,7 +88,7 @@
         </div>
         <div class="af-btns">
           <p class="tips-bot fen" style="font-size: 2.1875vmin;">* 请现场携带驾驶证,并签署免责条款，参加试驾活动。</p>
-          <p class="tips-bot fen" style="font-size: 2.1875vmin; margin-top:0;">* 11 月 28、29 日及 12 月 1 日的试驾活动面向全体入住酒店的嘉宾。。</p>
+          <p class="tips-bot fen" style="font-size: 2.1875vmin; margin-top:0;">* 11 月 28、29 日及 12 月 1 日的试驾活动面向全体入住酒店的嘉宾。</p>
           <div class="condition-check clearfix">
             <div class="label-left fl">
             	&nbsp;

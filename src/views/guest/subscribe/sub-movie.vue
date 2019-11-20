@@ -44,7 +44,9 @@
       }
     },
     mounted() {
-      this.$parent.img_path = '/static/images/2019/top/top-jiabinyuyue02.jpg';
+      this.$parent.img_path = '/static/images/2019/top/top000.jpg';
+      
+      // this.$parent.img_path = '/static/images/bg-top11.jpg'
     }
   }
 </script>
