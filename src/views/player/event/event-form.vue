@@ -24,7 +24,7 @@
           <span class="fl lable-left"></span>
           <span class="fr text-right">女士从红色发球区标志开球</span>
         </section>
-        <h2>3.比赛使用 Stableford 定分制计算方式:</h2>
+        <h2>3. 比赛使用 Stableford 定分制计算方式:</h2>
         <section class="clearfix">
           <span class="fl lable-left">3.1</span>
           <span class="fr text-right">

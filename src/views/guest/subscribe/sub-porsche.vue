@@ -56,7 +56,7 @@
       return {}
     },
     mounted() {
-      this.$parent.img_path = '/static/images/bg-top8.jpg';
+      this.$parent.img_path = '/static/images/2019/top/top-jiabinyuyue01.jpg';
     }
   }
 </script>

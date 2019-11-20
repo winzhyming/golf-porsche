@@ -91,13 +91,13 @@ body {
 
 .body-index .bi-btns .btn-index {
   margin: 0 auto;
-  width: 38.75vmin;
+  width: 47.1875vmin;
   height: 10.625vmin;
-  border: 0.625vmin solid #ed1e26;
+  background-color: #ed1e26;
   border-radius: 0.9375vmin;
   text-align: center;
   font-size: 4.375vmin;
-  color: #ed1e26;
+  color: #fff;
   line-height: 10.625vmin;
   display: block;
 }
@@ -1035,7 +1035,7 @@ select.form-control option {
 
 #guest-index {
   min-height: 100vh;
-  background-image: url(../images/bg-body-final-guest_2018.jpg)
+  background-image: url(../images/2019/top/bg-body-final-guest_2019.jpg)
 }
 
 #index-view {

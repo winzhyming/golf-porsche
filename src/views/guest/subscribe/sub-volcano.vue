@@ -32,7 +32,7 @@
 <script>
   export default {
     mounted() {
-      this.$parent.img_path = '/static/images/bg-top10.jpg';
+      this.$parent.img_path = '/static/images/2019/top/top-jiabinyuyue03.jpg';
     },
     methods: {
       subscribe() {

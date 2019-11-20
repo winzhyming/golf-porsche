@@ -24,7 +24,7 @@
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">18:30 - 19:30</span>
-            <span class="fr text-right">鸡尾酒社交环节（酒店沙滩前草坪）</span>
+            <span class="fr text-right">鸡尾酒社交环节<br>（酒店沙滩前草坪）</span>
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">19:30 - 21:30</span>
@@ -79,7 +79,7 @@
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">18:00 - 18:40</span>
-            <span class="fr text-right">鸡尾酒社交环节（酒店 2 层宴会厅）</span>
+            <span class="fr text-right">鸡尾酒社交环节<br>（酒店 2 层宴会厅）</span>
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">18:40 - 21:00</span>

@@ -1,7 +1,7 @@
 <template>
   <div id="player-parent">
     <div class="top-ban pr">
-      <img src="/static/images/bg-top01.jpg" class="pa-img"/>
+      <img src="/static/images/2019/top/top-saishixinxi.jpg" class="pa-img"/>
       <div class="tbt-tit pa">
         <!-- <img src="/static/images/top-tit.png" class="pa-img"/> -->
         <h1><img src="/static/images/btn-finalist01.png" class="ic"/>赛事信息</h1>

@@ -20,20 +20,20 @@
       return {}
     },
     mounted() {
-      tpwidget("init", {
-        "flavor": "slim",
-        "location": "WX4FBXXFKE4F",
-        "geolocation": "disabled",
-        "language": "zh-chs",
-        "unit": "c",
-        "theme": "chameleon",
-        "container": "tp-weather-widget",
-        "bubble": "enabled",
-        "alarmType": "circle",
-        "uid": "U4CABD1B23",
-        "hash": "da4ad2fca74fcf9c53d61d0f6b3dbaaa"
-      });
-      tpwidget("show");
+      // tpwidget("init", {
+      //   "flavor": "slim",
+      //   "location": "WX4FBXXFKE4F",
+      //   "geolocation": "disabled",
+      //   "language": "zh-chs",
+      //   "unit": "c",
+      //   "theme": "chameleon",
+      //   "container": "tp-weather-widget",
+      //   "bubble": "enabled",
+      //   "alarmType": "circle",
+      //   "uid": "U4CABD1B23",
+      //   "hash": "da4ad2fca74fcf9c53d61d0f6b3dbaaa"
+      // });
+      // tpwidget("show");
     }
   }
 </script>

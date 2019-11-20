@@ -41,7 +41,6 @@
     },
     created() {
       for(let i = 1; i < 24; i++) {
-        if(i < 10) i = '0' + i
         this.imgs.push('/static/images/2019/sites/site' + i + '.jpg')
       }
     }

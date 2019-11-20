@@ -1,7 +1,7 @@
 <template>
   <div id="collection-index">
     <div class="top-ban pr">
-      <img src="/static/images/bg-top6.jpg" class="pa-img"/>
+      <img src="/static/images/2019/top/top-yingxiangjijin.jpg" class="pa-img"/>
       <div class="tbt-tit pa">
         <h1><img src="/static/images/btn-finalist06.png" class="ic"/>影像集锦</h1>
       </div>

@@ -1,11 +1,11 @@
 <template>
   <div id="schedule-index">
     <div class="top-ban pr">
-      <img src="/static/images/bg-top2.jpg" class="pa-img"/>
-      <!-- <div class="tbt-tit pa">
-        <img src="/static/images/top-tit.png" class="pa-img"/>
+      <img src="/static/images/2019/top/top-saichenganpai.jpg" class="pa-img"/>
+      <div class="tbt-tit pa">
+        <!-- <img src="/static/images/top-tit.png" class="pa-img"/> -->
         <h1><img src="/static/images/btn-finalist02.png" class="ic"/>赛程安排</h1>
-      </div> -->
+      </div>
     </div>
     <div class="pr">
     	<router-view></router-view>

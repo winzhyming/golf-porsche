@@ -32,7 +32,7 @@
       return {}
     },
     mounted() {
-      this.$parent.img_path = '/static/images/bg-top7.jpg';
+      this.$parent.img_path = '/static/images/2019/top/top-jiabinyuyue.jpg';
     }
   }
 </script>
