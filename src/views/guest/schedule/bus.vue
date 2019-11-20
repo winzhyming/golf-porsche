@@ -2,7 +2,7 @@
   <div class="ei-main em2018_bot">
     <div class="es-data">
       <h1 class="git-tit no-bb">
-        班车时刻 <img src="/static/images/ic-next-red.png" class="ic"/>
+        班车时刻 <img src="https://d.devnow.cn/travelclub2019/images/ic-next-red.png" class="ic"/>
       </h1>
       <section class="event-schedule">
         <h2 class="es-tit">12 月 1 日 星期日</h2>
@@ -91,7 +91,7 @@
       return {}
     },
     mounted() {
-      this.$parent.img_path = '/static/images/2019/top-banchexinxi.jpg';
+      this.$parent.img_path = 'https://d.devnow.cn/travelclub2019/images/2019/top-banchexinxi.jpg';
     }
   }
 </script>

@@ -12,13 +12,13 @@
       </transition>
     </div>
     
-    <!-- <img src="/static/images/2019/bot.png" alt="" class="img-bot"> -->
+    <!-- <img src="https://d.devnow.cn/travelclub2019/images/2019/bot.png" alt="" class="img-bot"> -->
     <!-- <div class="ei-bot" v-bottom_img>
-      <img src="/static/images/bot-img.png"/>
+      <img src="https://d.devnow.cn/travelclub2019/images/bot-img.png"/>
     </div> -->
     
-    <a @click="back" class="back-btn"  v-bottom_back><img src="/static/images/ic-back.jpg"/></a>
-    <a @click="index" class="index-btn"><img src="/static/images/ic-index.jpg"/></a>
+    <a @click="back" class="back-btn"  v-bottom_back><img src="https://d.devnow.cn/travelclub2019/images/ic-back.jpg"/></a>
+    <a @click="index" class="index-btn"><img src="https://d.devnow.cn/travelclub2019/images/ic-index.jpg"/></a>
   </div>
 </template>
 
@@ -28,7 +28,7 @@
   export default {
     data() {
       return {
-        img_path: '/static/images/2019/top-jiabinyuyue.jpg',
+        img_path: 'https://d.devnow.cn/travelclub2019/images/2019/top-jiabinyuyue.jpg',
         title: '嘉宾预约',
       }
     },

@@ -99,33 +99,33 @@ section {
 
 @font-face {
     font-family: pn-bold;
-    src: url('./../fonts/PorscheNextTT-Bold.ttf');
-    url: ('./../fonts/PorscheNextTT-Bold.ttf');
+    src: url('https://d.devnow.cn/travelclub2019/fonts/PorscheNextTT-Bold.ttf');
+    url: ('https://d.devnow.cn/travelclub2019/fonts/PorscheNextTT-Bold.ttf');
 }
 
 @font-face {
     font-family: pn-bold-italic;
-    src: url('./../fonts/PorscheNextTT-BoldItalic.ttf') format('truetype');
+    src: url('https://d.devnow.cn/travelclub2019/fonts/PorscheNextTT-BoldItalic.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'pn-italic';
-    src: url('./../fonts/PorscheNextTT-Italic.ttf') format('truetype');
+    src: url('https://d.devnow.cn/travelclub2019/fonts/PorscheNextTT-Italic.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'pn-regular';
-    src: url(./../fonts/PorscheNextTT-Regular.ttf) format('truetype');
+    src: url(https://d.devnow.cn/travelclub2019/fonts/PorscheNextTT-Regular.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'pn-thin';
-    src: url('./../fonts/PorscheNextTT-Thin.ttf') format('truetype');
+    src: url('https://d.devnow.cn/travelclub2019/fonts/PorscheNextTT-Thin.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'pn-thin-italic';
-    src: url('./../fonts/PorscheNextTT-ThinItalic.ttf') format('truetype');
+    src: url('https://d.devnow.cn/travelclub2019/fonts/PorscheNextTT-ThinItalic.ttf') format('truetype');
 }
 
 body {

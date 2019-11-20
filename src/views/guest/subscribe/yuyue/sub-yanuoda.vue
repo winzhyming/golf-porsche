@@ -47,7 +47,7 @@
       }
     },
     mounted() {
-      this.$parent.img_path = '/static/images/2019/top-yanuoda.jpg';
+      this.$parent.img_path = 'https://d.devnow.cn/travelclub2019/images/2019/top-yanuoda.jpg';
       this.$parent.title = '呀诺达雨林文化旅游区'
     },
     methods: {

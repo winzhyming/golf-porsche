@@ -3,7 +3,7 @@
     <div class="group-info-table">
       <h1 class="git-tit no-bb">
         紧急联络
-        <img src="/static/images/ic-next-red.png" class="ic" />
+        <img src="https://d.devnow.cn/travelclub2019/images/ic-next-red.png" class="ic" />
       </h1>
       <section class="ds-list">
         <ul>

@@ -49,7 +49,7 @@
       }
     },
     mounted() {
-      this.$parent.img_path = '/static/images/2019/top-golf.jpg';
+      this.$parent.img_path = 'https://d.devnow.cn/travelclub2019/images/2019/top-golf.jpg';
       this.$parent.title = '高尔夫'
     },
     methods: {

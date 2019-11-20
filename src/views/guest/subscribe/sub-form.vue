@@ -164,7 +164,7 @@
       }
     },
     mounted() {
-      this.$parent.img_path = '/static/images/bg-top11.jpg';
+      this.$parent.img_path = 'https://d.devnow.cn/travelclub2019/images/bg-top11.jpg';
     },
     components: {
       select_comp

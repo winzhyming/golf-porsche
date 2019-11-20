@@ -45,7 +45,7 @@
       }
     },
     mounted() {
-      this.$parent.img_path = '/static/images/2019/top-pinjiu.jpg';
+      this.$parent.img_path = 'https://d.devnow.cn/travelclub2019/images/2019/top-pinjiu.jpg';
       this.$parent.title = '威士忌品鉴'
     },
     methods: {

@@ -3,7 +3,7 @@
     <div class="es-data">
       <h1 class="git-tit no-bb">
         班车时刻表
-        <img src="/static/images/ic-next-red.png" class="ic" />
+        <img src="https://d.devnow.cn/travelclub2019/images/ic-next-red.png" class="ic" />
       </h1>
       <section class="event-schedule fen">
         <h2 class="es-tit">2019 年 12 月 1 日 星期日 上车地点：机场</h2>

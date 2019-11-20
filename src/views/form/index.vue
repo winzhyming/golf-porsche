@@ -1,7 +1,7 @@
 <template>
   <div id="form-index">
     <div class="top-ban pr" style="min-height: 38.75vmin;">
-      <img src="/static/images/2019/top-jiabinyuyue.jpg" class="pa-img"/>
+      <img src="https://d.devnow.cn/travelclub2019/images/2019/top-jiabinyuyue.jpg" class="pa-img"/>
       <div class="tbt-tit pa">
         <h1>预约试驾</h1>
       </div>
@@ -12,13 +12,13 @@
       </transition>
     </div>
     
-    <!-- <img src="/static/images/2019/bot.png" alt="" class="img-bot"> -->
+    <!-- <img src="https://d.devnow.cn/travelclub2019/images/2019/bot.png" alt="" class="img-bot"> -->
     <!-- <div class="ei-bot" v-bottom_img>
-      <img src="/static/images/bot-img.png"/>
+      <img src="https://d.devnow.cn/travelclub2019/images/bot-img.png"/>
     </div> -->
     
-    <a @click="back" class="back-btn" v-bottom_back><img src="/static/images/ic-back.jpg"/></a>
-    <a @click="index" class="index-btn"><img src="/static/images/ic-index.jpg"/></a>
+    <a @click="back" class="back-btn" v-bottom_back><img src="https://d.devnow.cn/travelclub2019/images/ic-back.jpg"/></a>
+    <a @click="index" class="index-btn"><img src="https://d.devnow.cn/travelclub2019/images/ic-index.jpg"/></a>
   </div>
 </template>
 

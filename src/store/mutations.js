@@ -5,12 +5,16 @@ import * as types from './types'
 import getters from './getters'
 const state = {
   direction: 'forward',
+  isAgree: false
 };
 
 const mutations = {
   [types.UPDATE_DIRECTION](state,payload) {
     state.direction = payload.direction
   },
+  [types.UPDATE_AGREE](state, agree) {
+    state.isAgree = agree
+  }
 };
 
 export default {

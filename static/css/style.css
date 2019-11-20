@@ -35,7 +35,7 @@ body {
   height: 100vh;
   overflow: auto;
   margin: 0 auto;
-  /* background-image: url(../images/bg-normal.jpg); */
+  /* background-image: url(https://d.devnow.cn/travelclub2019/images/bg-normal.jpg); */
 }
 
 .body {
@@ -120,7 +120,7 @@ body {
 /* finalist.html */
 
 .body-finalist {
-  background-image: url(../images/body-finalist_2018.jpg);
+  background-image: url(https://d.devnow.cn/travelclub2019/images/body-finalist_2018.jpg);
 }
 
 .bf-tit {
@@ -616,7 +616,7 @@ h1.git-tit img.ic {
 /* final-guest.html */
 
 .body-final-guest {
-  background-image: url(../images/bg-body-final-guest_2018.jpg);
+  background-image: url(https://d.devnow.cn/travelclub2019/images/bg-body-final-guest_2018.jpg);
 }
 
 .bf-main .bfm-body .fb-btns.fg-btns ul li a img {
@@ -1030,12 +1030,12 @@ select.form-control option {
 
 #player-menu {
   min-height: 100vh;
-  background-image: url(../images/2019/body-finalist_2019.jpg);
+  background-image: url(https://d.devnow.cn/travelclub2019/images/2019/body-finalist_2019.jpg);
 }
 
 #guest-index {
   min-height: 100vh;
-  background-image: url(../images/2019/body-finalist_2019.jpg)
+  background-image: url(https://d.devnow.cn/travelclub2019/images/2019/body-finalist_2019.jpg)
 }
 
 #index-view {
@@ -1130,4 +1130,66 @@ select.form-control option {
   border: 1px solid #46bff5;
   padding: 1.25vmin 2.25vmin;
   color: #46bff5;
+}
+
+
+.xieyi-dimmer{
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 20;
+  padding: 5vmin 5.9375vmin;
+  border: 0.3125vmin solid #a7a7a7;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.xieyi-dimmer .content {
+  position: absolute;
+  top: 5vmin;
+  left: 5.9375vmin;
+  right: 0;
+  padding-right: 5.9375vmin;
+  bottom: 30vmin;
+  overflow: auto;
+}
+.xieyi-dimmer .content h5{
+  font-size: 4.375vmin;
+  line-height: 7.5vmin;
+  font-weight: 600;
+}
+.xieyi-dimmer .content pre{
+  white-space:pre-wrap; /* css3.0 */ 
+  white-space:-moz-pre-wrap; /* Firefox */ 
+  white-space:-pre-wrap; /* Opera 4-6 */ 
+  white-space:-o-pre-wrap; /* Opera 7 */ 
+  word-wrap:break-word; /* Internet Explorer 5.5+ */ 
+  font-size: 3.4375vmin;
+  line-height: 6.5625vmin;
+  text-align: justify;
+}
+
+.xieyi-dimmer .content pre strong{
+  font-weight: 600;
+}
+.xieyi-dimmer .content pre h6{
+  display: inline;
+  font-size: 3.75vmin;
+}
+
+.xieyi-dimmer .btn-gree{
+  position: absolute;
+  bottom: 10vmin;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40.3125vmin;
+  height: 14.0625vmin;
+  border: 1px solid #013c73;
+  border-top-width: 2px;
+  border-left-width: 2px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 5vmin;
+  background-color: #fff;
 }

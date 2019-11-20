@@ -47,7 +47,7 @@
       }
     },
     mounted() {
-      this.$parent.img_path = '/static/images/2019/top-jiabinyuyue01.jpg';
+      this.$parent.img_path = 'https://d.devnow.cn/travelclub2019/images/2019/top-jiabinyuyue01.jpg';
       this.$parent.title = '亚特兰蒂斯'
     },
     methods: {

@@ -4,7 +4,7 @@
       <article class="ef-art fen">
         <h1>
           比赛形式
-          <img src="/static/images/ic-next-red.png" class="ic" />
+          <img src="https://d.devnow.cn/travelclub2019/images/ic-next-red.png" class="ic" />
         </h1>
         <h2>1. 比赛形式</h2>
         <section class="clearfix">

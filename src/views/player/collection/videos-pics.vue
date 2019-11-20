@@ -44,8 +44,8 @@
       initPics: function() {
         for(var i = 0; i < 2; i++) {
           this.pics.push({
-            'normal': '/static/images/collection/' + (i + 1) + '.jpg',
-            'big': '/static/images/collection/' + (i + 1) + '.jpg'
+            'normal': 'https://d.devnow.cn/travelclub2019/images/collection/' + (i + 1) + '.jpg',
+            'big': 'https://d.devnow.cn/travelclub2019/images/collection/' + (i + 1) + '.jpg'
           });
         }
       }

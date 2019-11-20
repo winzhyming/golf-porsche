@@ -2,7 +2,7 @@
   <div class="ei-main">
     <div class="group-info-table">
       <h1 class="git-tit">
-        比赛结果信息 <img src="/static/images/ic-next-red.png" class="ic"/>
+        比赛结果信息 <img src="https://d.devnow.cn/travelclub2019/images/ic-next-red.png" class="ic"/>
       </h1>
       <table class="gi-table grade">
         <thead>
