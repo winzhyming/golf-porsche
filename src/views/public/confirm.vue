@@ -2,23 +2,31 @@
   <div class="confirm-dimmer" style="display: none;">
     <div class="cd-box">
       <div class="cd-title">尊敬的保时捷车主俱乐部会员！</div>
-      <div class="cd-desc" v-if="type === 'water'">
+      <div class="cd-desc" v-if="type === '1'">
         <p>您确定预约 12 月 2 日 10:00 - 16:00 亚特兰蒂斯水上世界活动吗？</p>
         <p>预约一经确认不可更改，请谨慎预约。</p>
       </div>
-      <div class="cd-desc" v-if="type === 'yanuoda'">
+      <div class="cd-desc" v-if="type === '2'">
         <p>您确定预约 12 月 2 日 12:00 - 16:00 呀诺达雨林文化旅游区活动吗？</p>
         <p>预约一经确认不可更改，请谨慎预约。</p>
       </div>
-      <div class="cd-desc" v-if="type === 'pinjiu'">
-        <p>您确定预约 12 月 2 日（场次）威士忌品鉴活动吗？</p>
+      <div class="cd-desc" v-if="type === '3'">
+        <p>您确定预约 12 月 2 日（15:00 - 16:00）威士忌品鉴活动吗？</p>
         <p>预约一经确认不可更改，请谨慎预约。</p>
       </div>
-      <div class="cd-desc" v-if="type === 'yoga'">
-        <p>您确定预约 12 月 2 日（场次）户外瑜伽活动吗？</p>
+      <div class="cd-desc" v-if="type === '4'">
+        <p>您确定预约 12 月 2 日（16:00 - 17:00）威士忌品鉴活动吗？</p>
         <p>预约一经确认不可更改，请谨慎预约。</p>
       </div>
-      <div class="cd-desc" v-if="type === 'golf'">
+      <div class="cd-desc" v-if="type === '5'">
+        <p>您确定预约 12 月 2 日（08:00 - 09:00）户外瑜伽活动吗？</p>
+        <p>预约一经确认不可更改，请谨慎预约。</p>
+      </div>
+      <div class="cd-desc" v-if="type === '6'">
+        <p>您确定预约 12 月 2 日（09:30 - 10:30）户外瑜伽活动吗？</p>
+        <p>预约一经确认不可更改，请谨慎预约。</p>
+      </div>
+      <div class="cd-desc" v-if="type === '7'">
         <p>您确定预约 12 月 2 日 09:30 - 16:30 高尔夫活动吗？</p>
         <p>预约一经确认不可更改，请谨慎预约。</p>
       </div>
@@ -36,7 +44,7 @@
       return {
         modal: null,
         next: null,
-        type: 'water'
+        type: '1',
       }
     },
     mounted() {
@@ -46,7 +54,7 @@
     methods: {
       modal_trigger(next, type) {
         this.next = next || null
-        this.type = type || 'water'
+        this.type = type || '1'
         this.modal.show()
       },
       sure() {

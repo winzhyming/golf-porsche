@@ -6,23 +6,47 @@
           <strong>恭喜您已完成试驾体验的预约，稍后将有工作人员与您联系确认是否预约成功。</strong>
           <br /><br />
           <p class="table">
-            <span class="table-cell">活动项目：</span><span class="table-cell">xxxxx</span>
+            <span class="table-cell">活动项目：</span>
+            <span class="table-cell" v-if="type === '1'">亚特兰蒂斯水世界</span>
+            <span class="table-cell" v-if="type === '2'">呀诺达雨林文化旅游区</span>
+            <span class="table-cell" v-if="type === '3'">品酒</span>
+            <span class="table-cell" v-if="type === '4'">品酒</span>
+            <span class="table-cell" v-if="type === '5'">瑜伽</span>
+            <span class="table-cell" v-if="type === '6'">瑜伽</span>
+            <span class="table-cell" v-if="type === '7'">高尔夫</span>
           </p>
           <p class="table">
             <span class="table-cell">活动日期：</span><span class="table-cell">2019 年 12 月 2 日</span>
           </p>
-          <p class="table">
-            <span class="table-cell">集合地点：</span><span class="table-cell">19:00 - 20:00</span>
+          <p class="table" v-if="type === '1'">
+            <span class="table-cell">活动时间：</span><span class="table-cell">10:00 - 16:00</span>
+          </p>
+          <p class="table" v-if="type === '2'">
+            <span class="table-cell">活动时间：</span><span class="table-cell">12:00 - 16:00</span>
+          </p>
+          <p class="table" v-if="type === '3'">
+            <span class="table-cell">活动时间：</span><span class="table-cell">15:00 - 16:00</span>
+          </p>
+          <p class="table" v-if="type === '4'">
+            <span class="table-cell">活动时间：</span><span class="table-cell">16:00 - 17:00</span>
+          </p>
+          <p class="table" v-if="type === '5'">
+            <span class="table-cell">活动时间：</span><span class="table-cell">08:00 - 09:00</span>
+          </p>
+          <p class="table" v-if="type === '6'">
+            <span class="table-cell">活动时间：</span><span class="table-cell">09:30 - 10:30</span>
+          </p>
+          <p class="table" v-if="type === '7'">
+            <span class="table-cell">活动时间：</span><span class="table-cell">09:30 - 16:30</span>
           </p>
           <p class="table">
-            <span class="table-cell">集合地点：</span><span class="table-cell">蓝湾绿城威斯汀度假酒店 2 层大堂保时捷试驾体验接待处</span>
+            <span class="table-cell">活动地点：</span><span class="table-cell">蓝湾绿城威斯汀度假酒店 2 层大堂保时捷试驾体验接待处</span>
           </p>
           <p class="tips-bot">
             <b style="font-weight: 600;">*请注意！活动一经确认将无法更改，敬请准时出席。</b><br>
 参与亚特兰蒂斯水上世界和呀诺达雨林文化旅游区的嘉宾请随身携带好个人的身份证件以便入院登记！<br>
 如现场有任何问题请联系活动热线（24 小时）：<br>
 1512-1038 -911
-
           </p><br />
         </div>
         <div class="btn-form">

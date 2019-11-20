@@ -54,16 +54,16 @@
           <div class="fl label-left">试驾时间:</div>
           <div class="fr check-right">
             <span class="check-span">
-              <input type="radio" name="activity_time" value="1" v-model="form_data.activity_time"/><label for="">&nbsp;10:00</label>
+              <input type="radio" name="activity_time" :disabled="disabled01" value="1" v-model="form_data.activity_time"/><label for="">&nbsp;10:00</label>
             </span>
             <span class="check-span">
-              <input type="radio" name="activity_time" value="2" v-model="form_data.activity_time"/><label for="">&nbsp;11:30</label>
+              <input type="radio" name="activity_time" :disabled="disabled02" value="2" v-model="form_data.activity_time"/><label for="">&nbsp;11:30</label>
             </span>
             <span class="check-span">
-              <input type="radio" name="activity_time" value="3" v-model="form_data.activity_time"/><label for="">&nbsp;14:00</label>
+              <input type="radio" name="activity_time" :disabled="disabled03" value="3" v-model="form_data.activity_time"/><label for="">&nbsp;14:00</label>
             </span>
             <span class="check-span">
-              <input type="radio" name="activity_time" value="4" v-model="form_data.activity_time"/><label for="">&nbsp;15:15</label>
+              <input type="radio" name="activity_time" :disabled="disabled04" value="4" v-model="form_data.activity_time"/><label for="">&nbsp;15:15</label>
             </span>
           </div>
         </div>
@@ -125,7 +125,8 @@
         },
         countSecond: 0,
         isChecked: '',
-        loading: true
+        loading: true,
+        timeDisabled: []
       }
     },
     methods: {
@@ -139,7 +140,7 @@
         $.ajax({
           type: "POST",
           // url: "https://www.stxcve.cn/sk/myOrder.php",
-          url: "/sk/myOrder.php",
+          url: "/sk/myDrivingOrder.php",
           data: _data,
           datatype: 'jsonp',
           jsonp: 'jsonp_callback',
@@ -196,13 +197,30 @@
              this.$root.pop(_error);
           }         
         });
-//      dao.form.send_sms.save({}, {
-//        'mobile': this.form_data.mobile
-//      }).then(() => {
-//        
-//      }).catch(() => {
-//        
-//      });
+      },
+      checkTimeDisable(car_type) {
+        $.ajax({
+          type: 'POST',
+          url: '/sk/checkDrivingOrder.php',
+          data: {
+            car_type: car_type
+          },
+          datatype: 'jsonp',
+          jsonp: 'jsonp_callback',
+          success: (data) => {
+            console.log('[winzhyming] checkDrivingOrder response is:', data.split(''));
+            if(data && data.length) this.timeDisabled = data.split('')
+            setTimeout(() => {
+              this.checkActivityTime()
+            }, 200)
+          },
+          error: (_error) => {
+             this.$root.pop(_error);
+          }  
+        })
+      },
+      checkActivityTime() {
+        if(this.form_data.activity_time) this.form_data.activity_time = ''
       },
       countVcodeLimit() {
         if(!this.countSecond) return;
@@ -252,6 +270,41 @@
       },
       'form_data'(_val) {
         this.$parent.form_data = _val;
+      },
+      'form_data.car_type'(cal_type) {
+        if(cal_type) {
+          this.checkTimeDisable()
+        }
+      }
+    },
+    computed: {
+      'disabled01'() {
+        if(this.timeDisabled.length) {
+          return this.timeDisabled[0] === '0'
+        } else {
+          return false
+        }
+      },
+      'disabled02'() {
+        if(this.timeDisabled.length > 1) {
+          return this.timeDisabled[1] === '0'
+        } else {
+          return false
+        }
+      },
+      'disabled03'() {
+        if(this.timeDisabled.length > 2) {
+          return this.timeDisabled[2] === '0'
+        } else {
+          return false
+        }
+      },
+      'disabled04'() {
+        if(this.timeDisabled.length > 3) {
+          return this.timeDisabled[3] === '0'
+        } else {
+          return false
+        }
       }
     },
     beforeDestroy() {
