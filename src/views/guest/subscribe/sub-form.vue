@@ -122,7 +122,11 @@
           datatype: 'jsonp',
           jsonp: 'jsonp_callback',
           success: (data) => {
-            this.$router.push({'name': 'subscribe.result', 'params': {'type': this.activity_select.val}});   
+            if($.trim(data) === '预约成功') {
+              this.$router.push({'name': 'subscribe.result', 'params': {'type': this.activity_select.val}});  
+            } else {
+              this.$root.pop(data)
+            }
           },
           error: (_error) => {
             this.$root.pop(_error);
