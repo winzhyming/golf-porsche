@@ -24,7 +24,7 @@
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">18:30 - 19:30</span>
-            <span class="fr text-right">鸡尾酒社交环节<br>（酒店沙滩前草坪）</span>
+            <span class="fr text-right">餐前鸡尾酒会<br>（酒店沙滩前草坪）</span>
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">19:30 - 21:30</span>
@@ -40,7 +40,7 @@
             <span class="fr text-right">早餐（酒店 1 层知味西餐厅）</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis">08:00 - 09:40</span>
+            <span class="fl lable-left ellipsis">08:00 - 10:00</span>
             <span class="fr text-right">
               步行或班车往返酒店与球场
               <br />（班车每 5 - 10 分钟一班）
@@ -51,18 +51,18 @@
             <span class="fr text-right">练习场热身</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis">11:00 - 11:20</span>
+            <span class="fl lable-left ellipsis">11:00 - 11:19</span>
             <span class="fr text-right">练习场开球仪式</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis">11:20 - 11:25</span>
+            <span class="fl lable-left ellipsis">11:19 - 11:22</span>
             <span class="fr text-right">合影留念</span>
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">11:30 - 16:30</span>
             <span class="fr text-right">
               中国总决赛正赛
-              <br />保时捷挑战赛
+              <br />保时捷友谊赛
             </span>
           </li>
           <li class="clearfix">
@@ -74,12 +74,12 @@
             <span class="fr text-right">其它非球手活动</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis">15:00 - 17:00</span>
+            <span class="fl lable-left ellipsis">16:30 - 18:00</span>
             <span class="fr text-right">返回酒店</span>
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">18:00 - 18:40</span>
-            <span class="fr text-right">鸡尾酒社交环节<br>（酒店 2 层宴会厅）</span>
+            <span class="fr text-right">餐前鸡尾酒会<br>（酒店 2 层宴会厅）</span>
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">18:40 - 21:00</span>

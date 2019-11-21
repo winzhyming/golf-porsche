@@ -12,7 +12,7 @@
             <span class="fr text-right">上车地点：酒店正门口</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis">07:45 - 11:00</span>
+            <span class="fl lable-left ellipsis">07:45 - 10:30</span>
             <span class="fr text-right">每 05 分钟一班</span>
           </li>
           <li class="clearfix li-tit">
@@ -23,7 +23,7 @@
             </span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis">14:00 - 17:00</span>
+            <span class="fl lable-left ellipsis">14:00 - 17:30</span>
             <span class="fr text-right">每 05 分钟一班</span>
           </li>
         </ul>
