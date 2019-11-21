@@ -19,7 +19,7 @@
         </ul>
       </section>
       <section class="event-schedule fen">
-        <h2 class="es-tit">2019 年 12 月 1 日 星期一 <br>上车地点：2 楼酒店大堂/活动地点正门口</h2>
+        <h2 class="es-tit">2019 年 12 月 2 日 星期一 <br>上车地点：2 楼酒店大堂/活动地点正门口</h2>
         <ul>
           <li class="clearfix li-tit">
             <span class="fl lable-left" style="width: 100%;">酒店 – 亚特兰蒂斯水上世界</span>

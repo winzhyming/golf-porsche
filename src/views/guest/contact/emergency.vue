@@ -7,7 +7,7 @@
       <section class="ds-list">
         <ul>
           <li>
-            <p>紧急联络（24 小时）</p>
+            <p>紧急联络</p>
             <p class="fen"><a href="tel:15121038911">1512-1038-911</a></p>
           </li>
         </ul>

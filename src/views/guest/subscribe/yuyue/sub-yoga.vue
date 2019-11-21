@@ -9,7 +9,7 @@
         <p><input type="radio" name="changci" value="5" v-model="form_data.type"/><label for="">08:00 - 09:00</label></p>
         <p><input type="radio" name="changci" value="6" v-model="form_data.type"/><label for="">09:30 - 10:30</label></p>
         <br>
-        <p>地址: 2 楼酒店大堂集合</p>
+        <p>地址: 2F 酒店大堂集合</p>
       </div>
       <div class="ar-box" style="margin-top: 3.125vmin;">
         <div class="ar-form">
