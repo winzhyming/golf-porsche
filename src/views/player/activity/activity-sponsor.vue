@@ -10,6 +10,7 @@
           <li>
             <a href="#">
               <img src="https://d.devnow.cn/golf2019/images/ic-sponsor01_2018.png" />
+              <p class="test">高尔夫装备合作伙伴</p>
             </a>
           </li>
           <!-- <li>
@@ -20,6 +21,7 @@
           <li>
             <a href="#">
               <img src="https://d.devnow.cn/golf2019/images/ic-sponsor03_2018.png" />
+              <p class="test">音响装备合作伙伴</p>
             </a>
           </li>
         </ul>
@@ -27,3 +29,10 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+  p.test{
+    font-size: 3.75vmin;
+    color: #000;
+  }
+</style>>

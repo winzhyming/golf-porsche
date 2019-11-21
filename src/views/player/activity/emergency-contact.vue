@@ -8,7 +8,7 @@
       <section class="ds-list">
         <ul>
           <li>
-            <p>紧急联络(24 小时)</p>
+            <p>活动热线电话 (24 小时)</p>
             <p class="fen">
               <a href="tel:13122577911">1312-2577-911</a>
             </p>
