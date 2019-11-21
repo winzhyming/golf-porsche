@@ -24,7 +24,7 @@
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">18:30 - 19:30</span>
-            <span class="fr text-right">餐前鸡尾酒会<br>（酒店沙滩前草坪）</span>
+            <span class="fr text-right">餐前鸡尾酒会<br>（酒店滨海草坪）</span>
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">19:30 - 21:30</span>
