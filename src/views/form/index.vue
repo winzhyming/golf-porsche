@@ -3,7 +3,7 @@
     <div class="top-ban pr" style="min-height: 38.75vmin;">
       <img src="https://d.devnow.cn/travelclub2019/images/2019/top-jiabinyuyue.jpg" class="pa-img"/>
       <div class="tbt-tit pa">
-        <h1>预约试驾</h1>
+        <h1>试驾预约</h1>
       </div>
     </div>
     <div class="pr">

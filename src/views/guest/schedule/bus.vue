@@ -12,7 +12,7 @@
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">13:00 - 18:00</span>
-            <span class="fr text-right">每 xx 分钟一班</span>
+            <span class="fr text-right">根据实际班车情况安排车辆接机</span>
           </li>
         </ul>
       </section>
@@ -61,11 +61,11 @@
             <span class="fr text-right">班车出发</span>
           </li>
           <li class="clearfix li-tit">
-            <span class="fl lable-left" style="width: 100%;">呀诺达雨林文化旅游区 – 酒店</span>
+            <span class="fl lable-left" style="width: 100%;">鉴湖蓝湾高尔夫球场 – 酒店</span>
             <!-- <span class="fr text-right">上车地点：呀诺达雨林文化旅游区正门口</span> -->
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis">16:15 - 16:30</span>
+            <span class="fl lable-left ellipsis">14:30</span>
             <span class="fr text-right">班车出发</span>
           </li>
         </ul>

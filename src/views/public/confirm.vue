@@ -1,7 +1,7 @@
 <template>
   <div class="confirm-dimmer" style="display: none;">
     <div class="cd-box">
-      <div class="cd-title">尊敬的保时捷车主俱乐部会员！</div>
+      <div class="cd-title">尊敬的保时捷车主俱乐部会员</div>
       <div class="cd-desc" v-if="type === '1'">
         <p>您确定预约 12 月 2 日 10:00 - 16:00 亚特兰蒂斯水上世界活动吗？</p>
         <p>预约一经确认不可更改，请谨慎预约。</p>
