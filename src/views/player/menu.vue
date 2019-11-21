@@ -2,7 +2,7 @@
   <div id="player-menu" class="bg-attach-ment">
     <section class="bf-tit fen-b">
       <h1 class="chi">2019 保时捷中国车主俱乐部年度晚宴</h1>
-      <h1 class="en">Porsche Glub China Aunual Gala 2019</h1>
+      <h1 class="en">Porsche Glub China Annual Gala 2019</h1>
     </section>
     <div class="bf-main pr">
       <!-- <img src="https://d.devnow.cn/travelclub2019/images/bg-finalist-main.png" class="pa-bg"/> -->

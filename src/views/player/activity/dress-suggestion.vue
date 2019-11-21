@@ -14,7 +14,7 @@
           <li>
             <h2>2019 年 12 月 2 日 星期一</h2>
             <p>09:00 活动 - 运动休闲</p>
-            <p class="flex"><span>19:00 晚宴 - </span><span>保时捷全新纯电动车 Taycan 将抵达晚宴现场，秀出您最契合 Taycan Gentian blue 的个性着装吧！<br/>（晚宴现场将评选最佳着装奖）</span></p>
+            <p class="flex"><span>19:00 晚宴 - </span><span>保时捷全新纯电动车 Taycan 将抵达晚宴现场，秀出您最契合 Taycan Gentian blue 的个性着装<br/>（晚宴现场将评选最佳着装奖）</span></p>
           </li>
         </ul>
       </section>

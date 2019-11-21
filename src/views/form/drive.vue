@@ -21,17 +21,17 @@
         </div>
         <div class="af-group clearfix">
           <div class="fl label-left">试驾车辆:</div>
-          <div class="fr check-right">
-            <span class="check-span">
+          <div class="fr check-right" style="width: 47.9375vmin; margin-right: -2vmin;">
+            <span class="check-span" style="width: 54%; min-width: auto;">
               <input type="radio" name="car_type" value="1" v-model="form_data.car_type"/><label for="">&nbsp;718 Cayman</label>
             </span>
-            <span class="check-span">
-              <input type="radio" name="car_type" value="2" v-model="form_data.car_type"/><label for="">&nbsp;Cayenne Coupé</label>
-            </span>
-            <span class="check-span">
+            <span class="check-span" style="width: 46%; min-width: auto;">
               <input type="radio" name="car_type" value="3" v-model="form_data.car_type"/><label for="">&nbsp;Macan</label>
             </span>
-            <span class="check-span">
+            <span class="check-span" style="width: 54%; min-width: auto;">
+              <input type="radio" name="car_type" value="2" v-model="form_data.car_type"/><label for="">&nbsp;Cayenne Coupé</label>
+            </span>
+            <span class="check-span" style="width: 46%; min-width: auto;">
               <input type="radio" name="car_type" value="4" v-model="form_data.car_type"/><label for="">&nbsp;718 Boxster</label>
             </span>
           </div>

@@ -216,6 +216,7 @@ body {
   font-size: 5.625vmin;
   font-weight: 500;
   line-height: 8.75vmin;
+  text-shadow: 3px 3px 3px #000;
 }
 
 .top-ban .tbt-tit h1 img.ic {
@@ -1184,12 +1185,13 @@ select.form-control option {
   transform: translateX(-50%);
   width: 40.3125vmin;
   height: 14.0625vmin;
-  border: 1px solid #013c73;
+  border: 1px solid #D91F38;
   border-top-width: 2px;
   border-left-width: 2px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   font-size: 5vmin;
+  color: #D91F38;
   background-color: #fff;
 }
