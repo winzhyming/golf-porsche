@@ -131,7 +131,13 @@
     },
     methods: {
       save() {
-        // this.$router.push({'name': 'form.finish'});   
+        // this.$router.push({
+        //   'name': 'form.finish', 
+        //   'query': {
+        //     'car_type': this.form_data.car_type, 
+        //     'activity_time': this.form_data.activity_time}
+        //   }
+        // );   
         // return;
 
         let _error = this.checkValidate();
@@ -147,7 +153,13 @@
           success: (data) => {
             console.log(data);
             if($.trim(data) === '预约成功') {
-              this.$router.push({'name': 'form.finish'});   
+              this.$router.replace({
+                'name': 'form.finish', 
+                'query': {
+                  'car_type': this.form_data.car_type, 
+                  'activity_time': this.form_data.activity_time}
+                }
+              );   
             } else {
               this.$root.pop(data);
             }

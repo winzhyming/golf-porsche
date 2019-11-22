@@ -3,7 +3,7 @@
     <div class="ef-main">
       <article class="ef-art pc-art mct-art">
         <div class="result-tips form-result">
-          <strong>恭喜您已完成试驾体验的预约，稍后将有工作人员与您联系确认是否预约成功。</strong>
+          <strong>恭喜您已完成试驾体验的预约。</strong>
           <br /><br />
           <p class="table">
             <span class="table-cell">活动项目：</span>
@@ -45,7 +45,7 @@
           <p class="tips-bot">
             <b style="font-weight: 600;">*请注意！活动一经确认将无法更改，敬请准时出席。</b><br>
 参与亚特兰蒂斯水上世界和呀诺达雨林文化旅游区的嘉宾请随身携带好个人的身份证件以便入院登记！<br>
-如现场有任何问题请联系活动热线（24 小时）：<br>
+如现场有任何问题请联系活动热线：<br>
 1512-1038 -911
           </p><br />
         </div>
@@ -66,7 +66,20 @@
       }
     },
     mounted() {
-      this.$parent.img_path = 'https://d.devnow.cn/travelclub2019/images/bg-top11.jpg';
+      if(this.type === '1') {
+        this.$parent.img_path = 'https://d.devnow.cn/travelclub2019/images/2019/top-jiabinyuyue01.jpg';
+      } else if(this.type === '2') {
+        this.$parent.img_path = 'https://d.devnow.cn/travelclub2019/images/2019/top-yanuoda.jpg';
+      } else if(this.type === '3' || this.type === '4') {
+        this.$parent.img_path = 'https://d.devnow.cn/travelclub2019/images/2019/top-pinjiu.jpg';
+      } else if(this.type === '5' || this.type === '6') {
+        this.$parent.img_path = 'https://d.devnow.cn/travelclub2019/images/2019/top-yoga.jpg';
+      } else if(this.type === '7') {
+        this.$parent.img_path = 'https://d.devnow.cn/travelclub2019/images/2019/top-golf.jpg';
+      } else {
+        this.$parent.img_path = 'https://d.devnow.cn/travelclub2019/images/bg-top11.jpg';
+      }
+      
     },
     methods: {
       index() {

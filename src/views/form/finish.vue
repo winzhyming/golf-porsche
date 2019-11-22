@@ -10,23 +10,30 @@
           <p>生于赛道，驰于公路，保时捷邀请专业教练带您体验最纯正的保时捷血统，感受保时捷基因带来的震撼。</p>
           <p></p>
           <p class="table">
-            <span class="table-cell">试驾时间：</span><span class="table-cell">12 月 2 日</span>
+            <span class="table-cell" style="width: 5.2em; vertical-align: top;">试驾时间：</span>
+            <span class="table-cell" v-if="activity_time === '1'">12 月 2 日 10:00</span>
+            <span class="table-cell" v-if="activity_time === '2'">12 月 2 日 11:30</span>
+            <span class="table-cell" v-if="activity_time === '3'">12 月 2 日 14:00</span>
+            <span class="table-cell" v-if="activity_time === '4'">12 月 2 日 15:15</span>
           </p>
           <p class="table">
-            <span class="table-cell">集合地点：</span><span class="table-cell">蓝湾绿城威斯汀度假酒店 2 层大堂保时捷试驾体验接待处</span>
+            <span class="table-cell" style="width: 5.2em; vertical-align: top;">集合地点：</span>
+            <span class="table-cell">蓝湾绿城威斯汀度假酒店 2 层大堂保时捷试驾体验接待处</span>
           </p>
           <p class="table">
-            <span class="table-cell">试驾车辆：</span><span class="table-cell">718 Cayman / Cayenne Coupé / Macan /  718 Boxster</span>
+            <span class="table-cell" style="width: 5.2em; vertical-align: top;">试驾车辆：</span>
+            <span class="table-cell" v-if="car_type === '1'">718 Cayman</span>
+            <span class="table-cell" v-if="car_type === '2'">Cayenne Coupé</span>
+            <span class="table-cell" v-if="car_type === '3'">Macan</span>
+            <span class="table-cell" v-if="car_type === '4'">718 Boxster</span>
           </p><br /><br />
           <p class="table">
             <span class="table-cell">试驾流程：</span>
           </p>
-          <p>10:00 – 11:00 	试驾<br />
-11:30 – 12:30	试驾<br />
-13:00 – 14:00	午餐<br />
-14:00 – 15:00	试驾<br />
-15:15 – 16:15 试驾<br />
-</p>
+          <p>10:00 – 11:00 	试驾</p>
+          <p>11:30 – 12:30 	试驾</p>
+          <p>14:00 – 15:00 	试驾</p>
+          <p>15:15 – 16:15 	试驾</p>
           <p class="tips-bot">
             <b style="font-weight: 600;">*请现场携带驾驶证,并签署免责条款，参加试驾活动。</b><br>
           </p><br />
@@ -42,7 +49,12 @@
 <script>
   export default {
     data() {
-      return {}
+      var query = this.$route.query || {}
+      console.log(query)
+      return {
+        car_type: query.car_type,
+        activity_time: query.activity_time
+      }
     },
     methods: {
       index() {
