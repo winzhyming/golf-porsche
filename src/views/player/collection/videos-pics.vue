@@ -1,7 +1,7 @@
 <template>
   <div class="ei-main">
     <div class="vp-box">
-      <section class="vp-videos">
+      <!-- <section class="vp-videos">
         <h1 class="vpb-tit">视频集锦</h1>
         <ul>
           <li>
@@ -17,14 +17,17 @@
             </video>
           </li>
         </ul>
-      </section>
-      <section class="vp-pics">
+      </section> -->
+      <section class="vp-pics" style="padding-top: 0;">
         <h1 class="vpb-tit">图片集锦</h1>
         <div class="vpp-box">
-          <div class="clearfix my-gallery" data-pswp-uid="1" v-photoswipe="'.my-gallery'">
+          <!-- <div class="clearfix my-gallery" data-pswp-uid="1" v-photoswipe="'.my-gallery'">
             <a :href="pic.big" data-size="598x396" :data-med="pic.big" data-med-size="598x396" v-for="(pic, index) in pics" :key="index">
               <img :src="pic.normal"/>
             </a>
+          </div> -->
+          <div class="fn-none" style="margin-top: 20vmin;">
+            <p style="font-size: 6vmin;">敬请期待</p>
           </div>
         </div>
       </section>

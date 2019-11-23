@@ -3,7 +3,8 @@
     <div class="ar-box">
       <div class="ar-form">
         <div class="af-group">
-          <p style="font-size: 2.1875vmin;">* 12 月 2 日的试驾活动仅面向 2019 保时捷中国车主俱乐部年度晚宴活动的嘉宾开放</p>
+          <!-- <p style="font-size: 2.1875vmin;">* 12 月 2 日的试驾活动仅面向 2019 保时捷中国车主俱乐部年度晚宴活动的嘉宾开放</p> -->
+          <p style="font-size: 3.125vmin;">12 月 2 日 试驾活动</p>
         </div>
         <div class="af-group">
           <input type="text" class="form-control" placeholder="姓名" v-model="form_data.name"/>

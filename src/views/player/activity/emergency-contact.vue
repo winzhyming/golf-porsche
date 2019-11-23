@@ -18,3 +18,11 @@
     </div>
   </div>
 </template>
+
+<script>
+  export default {
+    mounted() {
+      this.$parent.title = '紧急联络'
+    } 
+  }
+</script>

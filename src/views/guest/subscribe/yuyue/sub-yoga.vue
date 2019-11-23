@@ -3,7 +3,7 @@
   <div class="ei-main">
     <div class="yuyue2019">
       <div class="desc">
-        <p>保时捷中国车主俱乐部协同威斯汀酒店一起安排的户外瑜伽，让大家都有机会在美丽独特的海边美景中释放压力,舒缓身心,希望海边的日光和海风可以为您提供一种健康放松的方式打开新的一天。</p>
+        <p>户外瑜伽让大家都有机会在美丽独特的海边美景中释放压力,舒缓身心,希望海边的日光和海风可以为您提供一种健康放松的方式打开新的一天。</p>
         <br>
         <p><strong>场次: </strong></p>
         <p><input type="radio" name="changci" value="5" v-model="form_data.type"/><label for="">08:00 - 09:00</label></p>

@@ -28,9 +28,9 @@
               </router-link>
             </li> -->
             <li>
-              <router-link :to="{'name': 'activity.menu'}" class="btn-a">
+              <router-link :to="{'name': 'activity.dressugestion'}" class="btn-a">
                 <img src="https://d.devnow.cn/travelclub2019/images/btn-finalist08.png" alt="" />
-                <h2>活动信息</h2>
+                <h2>着装建议</h2>
               </router-link>
             </li>
             <li>
@@ -40,9 +40,9 @@
               </router-link>
             </li>
             <li>
-              <router-link :to="{'name': 'forecast.weather'}" class="btn-a">
+              <router-link :to="{'name': 'activity.emergcontact'}" class="btn-a">
                 <img src="https://d.devnow.cn/travelclub2019/images/btn-finalist05.png" alt="" />
-                <h2>天气预报</h2>
+                <h2>紧急联络</h2>
               </router-link>
             </li>
             <!-- <li>

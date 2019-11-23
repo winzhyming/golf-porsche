@@ -3,7 +3,6 @@
     <div class="ef-main">
       <article class="ef-art pc-art mct-art">
         <div class="result-tips form-result">
-          <strong>尊敬的保时捷车主俱乐部会员</strong><br />
           <strong>恭喜您已完成试驾体验的预约</strong>
           <br /><br />
           <p><strong>试驾简介</strong></p>
@@ -18,7 +17,7 @@
           </p>
           <p class="table">
             <span class="table-cell" style="width: 5.2em; vertical-align: top;">集合地点：</span>
-            <span class="table-cell">蓝湾绿城威斯汀度假酒店 2 层大堂保时捷试驾体验接待处</span>
+            <span class="table-cell">酒店 2 层大堂保时捷试驾体验接待柜台</span>
           </p>
           <p class="table">
             <span class="table-cell" style="width: 5.2em; vertical-align: top;">试驾车辆：</span>
@@ -26,14 +25,7 @@
             <span class="table-cell" v-if="car_type === '2'">Cayenne Coupé</span>
             <span class="table-cell" v-if="car_type === '3'">Macan</span>
             <span class="table-cell" v-if="car_type === '4'">718 Boxster</span>
-          </p><br /><br />
-          <p class="table">
-            <span class="table-cell">试驾流程：</span>
           </p>
-          <p>10:00 – 11:00 	试驾</p>
-          <p>11:30 – 12:30 	试驾</p>
-          <p>14:00 – 15:00 	试驾</p>
-          <p>15:15 – 16:15 	试驾</p>
           <p class="tips-bot">
             <b style="font-weight: 600;">*请现场携带驾驶证,并签署免责条款，参加试驾活动。</b><br>
           </p><br />

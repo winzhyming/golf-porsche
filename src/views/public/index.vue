@@ -1,7 +1,7 @@
 <template>
   <!-- <div id="index-view" style="padding-bottom: 12vmin; height: 100vh;"> -->
   <div id="index-view">
-    <div class="body-index pr">
+    <div class="body-index pr" style="padding-bottom: 70vmin;">
       <section class="bi-tit fen-b">
         <img class="img-logo" src="https://d.devnow.cn/travelclub2019/images/2019/logo.png" alt="Porsche">
         <img class="img-word" src="https://d.devnow.cn/travelclub2019/images/2019/landing-title.png" alt="2019 保时捷高尔夫巡回赛总决赛 Porsche Golf Cup China Final 2019">

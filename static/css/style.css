@@ -637,7 +637,7 @@ h1.git-tit img.ic {
 }
 
 .tips-bot {
-  font-size: 2.5vmin;
+  font-size: 3.1vmin;
   /* color: #747379; */
   /* line-height: 3.125vmin; */
 }
@@ -1183,16 +1183,13 @@ select.form-control option {
   bottom: 10vmin;
   left: 50%;
   transform: translateX(-50%);
-  width: 40.3125vmin;
-  height: 14.0625vmin;
-  /* border: 1px solid #D91F38;
-  border-top-width: 2px;
-  border-left-width: 2px; */
+  width: 38.75vmin;
+  height: 10.625vmin;
   border: 0.625vmin solid #46bff5;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-size: 5vmin;
+  border-radius: 0.9375vmin;
+  text-align: center;
+  font-size: 4.375vmin;
   color: #000;
-  background-color: #fff;
+  line-height: 10.625vmin;
+  display: block;
 }

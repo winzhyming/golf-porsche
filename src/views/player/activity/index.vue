@@ -3,7 +3,7 @@
     <div class="top-ban pr">
       <img src="https://d.devnow.cn/travelclub2019/images/2019/top-huodongxinxi.jpg" class="pa-img"/>
       <div class="tbt-tit pa">
-        <h1>活动信息</h1>
+        <h1>{{ title }}</h1>
       </div>
     </div>
     
@@ -29,7 +29,9 @@
   
   export default {
     data() {
-      return {}
+      return {
+        title: '活动信息'
+      }
     },
     methods: {
       index() {
