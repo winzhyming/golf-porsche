@@ -7,9 +7,12 @@
         <br>
         <p>出发集合地点：2F 酒店大堂</p>
         <p>出发时间：09:15 集合班车发车前往鉴湖蓝湾高尔夫球场</p>
-        <p>返返回时间：14:30 集合班车发车返回酒店</p>
+        <p>返回时间：14:30 集合班车发车返回酒店</p>
         <br>
-        <p>* 特别提醒：需自带球包球具等装备，穿着高尔夫 Polo 衫、休闲裤。球童小费用自理。</p>
+        <p style="display: flex; text-indent: 0; padding-left: 2em;">
+          <span>* 温馨提示：</span>
+          <span style="flex: 1;">请自带球包球具等装备，高尔夫 Polo 衫、休闲裤。球童小费用自理。</span>
+        </p>
       </div>
       <div class="ar-box" style="margin-top: 3.125vmin;">
         <div class="ar-form">
@@ -101,7 +104,7 @@
           _error = '请填写电话号码';
         } else if(!this.form_data.vcode) {
           _error = '请填请输入验证码';
-        } else if(!this.form_data.number === '') {
+        } else if(this.form_data.number === '') {
           _error = '请输入您的差点数';
         }
         return _error;

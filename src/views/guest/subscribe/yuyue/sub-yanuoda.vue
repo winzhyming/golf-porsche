@@ -11,7 +11,7 @@
         <p>返回集合地点：呀诺达雨林文化旅游区正门</p>
         <p>返回时间：16:30 集合班车发车返回酒店</p>
         <br>
-        <p>*特别提醒：需携带好身份证件。</p>
+        <p>* 温馨提示：需携带好身份证件。</p>
       </div>
       <div class="ar-box" style="margin-top: 3.125vmin;">
         <div class="ar-form">

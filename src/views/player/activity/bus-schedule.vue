@@ -26,7 +26,7 @@
             <!-- <span class="fr text-right">上车地点：酒店正门口</span> -->
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis">09:00</span>
+            <span class="fl lable-left ellipsis">09:30</span>
             <span class="fr text-right">班车出发</span>
           </li>
           <li class="clearfix li-tit">

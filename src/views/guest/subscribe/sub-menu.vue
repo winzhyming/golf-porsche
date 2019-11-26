@@ -1,6 +1,6 @@
 <template>
   <div class="ei-main">
-    <p class="title" style="position: absolute; top: -3.75vmin; left: 3.75vmin; font-size: 3.75vmin; color: #000;">12 月 2 日 活动</p>
+    <p class="title" style="position: absolute; top: -3.75vmin; left: 3.75vmin; font-size: 3.75vmin; color: #000;">12 月 2 日 星期一 活动</p>
     <section class="ei-btns gais-btns">
       <ul>
         <li>
@@ -45,8 +45,8 @@
         </li> -->
       </ul>
       
-      <div class="tips-bot">
-        * 受限于每项活动的进行时间，您仅能在亚特兰蒂斯水上世界、呀诺达雨林文化旅游区、试驾、高尔夫 4 项活动中选其一，酒店内进行的威士忌品鉴、海滨瑜伽可同时报名。活动名额有限，先到先得，一旦确认提交无法更改，请谨慎勾选。<br>（“试驾预约”可通过主页面报名）
+      <div class="tips-bot" style="text-align: justify;">
+        *由于时长有限，您仅能在亚特兰蒂斯水上世界、呀诺达雨林文化旅游区、试驾、高尔夫 4 项活动中选其一，酒店内进行的威士忌品鉴、海滨瑜伽可同时报名。活动名额有限，先到先得，确认提交无法更改，敬请谅解。“试驾预约”可通过主页面报名
       </div>
     </section>
   </div>

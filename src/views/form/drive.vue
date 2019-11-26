@@ -4,7 +4,7 @@
       <div class="ar-form">
         <div class="af-group">
           <!-- <p style="font-size: 2.1875vmin;">* 12 月 2 日的试驾活动仅面向 2019 保时捷中国车主俱乐部年度晚宴活动的嘉宾开放</p> -->
-          <p style="font-size: 3.125vmin;">12 月 2 日 试驾活动</p>
+          <p style="font-size: 3.125vmin;">12 月 2 日 星期一  试驾活动</p>
         </div>
         <div class="af-group">
           <input type="text" class="form-control" placeholder="姓名" v-model="form_data.name"/>
@@ -80,7 +80,7 @@
           </div>
         </div>
         <div class="af-btns">
-          <p class="tips-bot fen" style="font-size: 2.1875vmin;">* 请现场携带驾驶证,并签署免责条款，参加试驾活动。</p>
+          <p class="tips-bot fen" style="font-size: 2.1875vmin;">* 请现场携带驾驶证, 并签署免责条款, 参加试驾活动。</p>
           <div class="condition-check clearfix">
             <div class="label-left fl">
             	&nbsp;
@@ -115,13 +115,13 @@
           tips: '性别',
           name: 'sex'
         },
-        form_data: _form_data || {
+        form_data: {
           name: '',
           gender: '',
           mobile: '',
           car_type: '',
           join_num: '',
-          activity_date: '',
+          activity_date: '1',
           activity_time: ''
         },
         countSecond: 0,
@@ -178,8 +178,10 @@
           mobile: this.form_data.mobile,
           car_type: parseInt(this.form_data.car_type),
           join_num: parseInt(this.form_data.join_num),
-          activity_date: parseInt(this.form_data.activity_date),
-          activity_time: parseInt(this.form_data.activity_time),
+          // activity_date: parseInt(this.form_data.activity_date),
+          // activity_time: parseInt(this.form_data.activity_time),
+          driving_date: parseInt(this.form_data.activity_date),
+          driving_time: parseInt(this.form_data.activity_time),
           check_code: this.form_data.vcode
         };
         return _form_data;

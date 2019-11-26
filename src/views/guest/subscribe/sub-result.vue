@@ -27,7 +27,7 @@
           </p>
           <p class="table" v-if="type === '1'">
             <span class="table-cell" style="width: 5.2em; vertical-align: top;">活动时间：</span>
-            <span class="table-cell">09:00 - 16:00</span>
+            <span class="table-cell">09:30 - 16:00</span>
           </p>
           <p class="table" v-if="type === '2'">
             <span class="table-cell" style="width: 5.2em; vertical-align: top;">活动时间：</span>
@@ -51,15 +51,14 @@
           </p>
           <p class="table" v-if="type === '7'">
             <span class="table-cell" style="width: 5.2em; vertical-align: top;">活动时间：</span>
-            <span class="table-cell">09:30 - 16:30</span>
+            <span class="table-cell">09:30 - 14:30</span>
           </p>
-          <p class="table">
+          <!-- <p class="table">
             <span class="table-cell" style="width: 5.2em; vertical-align: top;">活动地点：</span>
             <span class="table-cell">酒店 2 楼大堂集合</span>
-          </p>
+          </p> -->
           <p class="tips-bot">
-            <b style="font-weight: 600;">*请注意！活动一经确认将无法更改，敬请准时出席。</b><br>
-参与亚特兰蒂斯水上世界和呀诺达雨林文化旅游区的嘉宾请随身携带好个人的身份证件以便入院登记！<br>
+            <!-- <b style="font-weight: 600;">*请注意！活动一经确认将无法更改，敬请准时出席。</b><br> -->
 如现场有任何问题请联系活动热线：<br>
 1512-1038 -911
           </p><br />
