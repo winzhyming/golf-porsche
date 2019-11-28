@@ -610,7 +610,7 @@ h1.git-tit img.ic {
 
 .vp-pics .vpp-box .clearfix a img {
   width: 30vmin;
-  height: 30vmin;
+  /* height: 30vmin; */
 }
 
 
