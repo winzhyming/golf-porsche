@@ -84,10 +84,10 @@
         },
         interest_car: {
           selections: [
-            {name: '911', val: '1'},
-            {name: 'New Macan', val: '2'},
-            {name: '718 Cayman', val: '3'},
-            {name: 'Cayenne E3', val: '4'}
+            {name: '718 Boxster', val: '1'},
+            {name: '718 Cayman', val: '2'},
+            {name: 'Macan', val: '3'},
+            {name: 'Cayenne Coupé', val: '4'}
           ],
           val: '',
           tips: '感兴趣车型',
@@ -141,7 +141,8 @@
           mobile: this.form_data.mobile,
           tour_type: parseInt(this.form_data.tour_type),
           is_dt: parseInt(this.form_data.is_dt),
-          interest_car: parseInt(this.form_data.interest_car)
+          interest_car: parseInt(this.form_data.interest_car),
+          activity_time: parseInt(this.form_data.activity_time)
         };
         return _form_data;
       },

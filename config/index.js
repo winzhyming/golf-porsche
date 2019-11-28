@@ -12,7 +12,7 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       '/sk': {
-        target: 'https://travelclub.devnow.cn',
+        target: 'https://golf.devnow.cn',
         changeOrigin: true,
         pathRewrite: {
           '^/sk': '/sk'
