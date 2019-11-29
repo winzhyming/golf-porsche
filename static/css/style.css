@@ -606,10 +606,14 @@ h1.git-tit img.ic {
 .vp-pics .vpp-box .clearfix a {
   float: left;
   margin: 0 1.40625vmin 2.1875vmin 1.40625vmin;
+  width: 30vmin;
+  height: 19.53125vmin;
+  overflow: hidden;
 }
 
 .vp-pics .vpp-box .clearfix a img {
-  width: 30vmin;
+  width: 100%;
+  /* width: 30vmin; */
   /* height: 30vmin; */
 }
 
