@@ -1,6 +1,6 @@
 import '@/../static/plugins/photoswipe/photoswipe.css'
 import '@/../static/plugins/photoswipe/default-skin/default-skin.css'
-import PhotoSwipe from '@/../static/plugins/photoswipe/photoswipe.min.js'
+import PhotoSwipe from '@/../static/plugins/photoswipe/photoswipe.js'
 import PhotoSwipeUI_Default from '@/../static/plugins/photoswipe/photoswipe-ui-default.min.js'
 
 export default {
