@@ -6,17 +6,10 @@
         <ul>
           <li>
             <video controls="controls">
-            	<source src="http://d.devnow.cn/2017.mp4" type="video/mp4"></source>
+            	<source src="https://d.devnow.cn/g/golf2019.mp4" type="video/mp4"></source>
             	当前浏览器不支持 video直接播放
             </video>
-            <p>2018 保时捷高尔夫巡回赛中国总决赛</p>
-          </li>
-          <li>
-            <video controls="controls">
-              <source src="http://d.devnow.cn/2018.mp4" type="video/mp4"></source>
-              当前浏览器不支持 video直接播放
-            </video>
-            <p>2019 保时捷高尔夫巡回赛全球总决赛</p>
+            <p>2019 保时捷高尔夫巡回赛中国总决赛</p>
           </li>
         </ul>
       </section>
