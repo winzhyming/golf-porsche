@@ -2,31 +2,31 @@
   <div class="ei-main">
     <div class="ef-main em2018">
       <article class="ef-art pc-art mct-art">
-        <h1 class="no-bb">分界洲岛自由行 <img src="https://d.devnow.cn/golf2019/images/ic-next-red.png" class="ic"/></h1>
+        <h1 class="no-bb">水上活动体验：石梅湾威斯汀酒店  <img src="https://d.devnow.cn/golf2019/images/ic-next-red.png" class="ic"/></h1>
         <h2>&nbsp;</h2>
         <section class="clearfix">
           <span class="fl lable-left ellipsis">活动时间:</span>
-          <span class="fr text-right fen">11 月 30 日 09:30 - 16:00</span>
+          <span class="fr text-right fen">12 月 4 日 13:30 - 15:30 </span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left ellipsis">集合地点:</span>
-          <span class="fr text-right">酒店 2 层大堂保时捷签到中心</span>
+          <span class="fr text-right">酒店 2 层大堂 保时捷签到中⼼</span>
         </section>
         <section class="clearfix">
-          <span class="fl lable-left ellipsis">活动形式:</span>
-          <span class="fr text-right">班车接送，详见班车信息。</span>
+          <span class="fl lable-left ellipsis">活动内容:</span>
+          <span class="fr text-right">酒店附近沙滩海域的⽔上活动体验</span>
         </section>
         <section class="clearfix">
-          <span class="fl lable-left ellipsis">景点介绍:</span>
-          <span class="fr text-right">分界洲岛所处地理位置特殊、气候变化明显、岛屿地形独特，以及地域文化特色鲜明等，故分界洲岛自古就有“分界岛”、“美人岛”、“马鞍岭”、“睡佛岛”等美誉。置身其中，令人心旷神怡。</span>
+          <span class="fl lable-left ellipsis">活动场地:</span>
+          <span class="fr text-right">⽯梅湾威斯汀酒店附近沙滩及海域</span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left ellipsis">注意事项:</span>
-          <span class="fr text-right">保时捷中国将为活动伙伴支付入岛门票及午餐，但岛内所有活动均为自费项目。分界洲岛为离陆海岛。如需游玩水上项目，请自行携带泳衣浴巾。</span>
+          <span class="fr text-right">保时捷中国将为活动伙伴⽀付相关费⽤，请⾝着可下⽔的服装，并携带浴⼱。</span>
         </section>
         <div class="btn-form">
           <a @click="subscribe" class="btn-order ib">立即预约</a>
-          <p class="form-tips fen">（截止时间 11 月 29 日 17:00）</p>
+          <p class="form-tips fen">* 报名截止时间 12 ⽉ 4 日 12:00。</p>
         </div>
       </article>
     </div>
@@ -40,11 +40,11 @@
     },
     methods: {
       subscribe() {
-        this.$router.push({'name': 'subscribe.form', 'params': {'activity': '1'}});
+        this.$router.push({'name': 'subscribe.form', 'params': {'activity': '2'}});
       }
     },
     mounted() {
-      this.$parent.img_path = 'https://d.devnow.cn/golf2019/images/2019/top/top000.jpg';
+      this.$parent.img_path = '/static/images/2020/top-banners/tqyb.jpg';
       
       // this.$parent.img_path = 'https://d.devnow.cn/golf2019/images/bg-top11.jpg'
     }

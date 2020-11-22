@@ -1,5 +1,5 @@
 <template>
-  <div class="ei-main" style="padding-bottom: 60vmin;">
+  <div class="ei-main" style="padding-bottom: 39vmin;">
     <div class="ar-box" style="padding-top: 10vmin;">
       <div class="ar-form">
         <div class="af-group">
@@ -14,31 +14,42 @@
         <div class="af-group">
           <select_comp :sel_data="activity_select"></select_comp>
         </div>
-        <div class="af-group" v-if="activity_select.val === '2'">
+        <!-- <div class="af-group" v-if="activity_select.val === '2'">
           <select_comp :sel_data="drive_select"></select_comp>
         </div>
         <div class="af-group fen" v-if="drive_select.val === '1'">
           <select_comp :sel_data="interest_car"></select_comp>
-        </div>
+        </div> -->
         <div class="af-group clearfix">
           <div class="fl label-left">预约时间:</div>
+          <div class="fr check-right" v-if="activity_select.val === '5'">
+            <span class="check-span">12 月 5 日 13:00 - 16:30</span>
+          </div>
+          <div class="fr check-right" v-if="activity_select.val === '4'">
+            <span class="check-span">12 月 5 日 14:00 - 16:30</span>
+          </div>
+          <div class="fr check-right" v-if="activity_select.val === '3'">
+            <span class="check-span">12 月 5 日 13:30 - 16:30</span>
+          </div>
           <div class="fr check-right" v-if="activity_select.val === '2'">
-            <span class="check-span">
+            <span class="check-span">12 月 4 日 13:30 - 15:30</span>
+            <!-- <span class="check-span">
               <input type="radio" name="activity_time" value="1" v-model="form_data.activity_time"/><label for="">&nbsp;09:30</label>
             </span>
             <span class="check-span">
               <input type="radio" name="activity_time" value="2" v-model="form_data.activity_time"/><label for="">&nbsp;13:00</label>
-            </span>
+            </span> -->
           </div>
           <div class="fr check-right" v-if="activity_select.val === '1'">
-            <span class="check-span">
+            <span class="check-span">12 月 4 日 13:00 - 16:00</span>
+            <!-- <span class="check-span">
               <input type="radio" name="activity_time" value="1" v-model="form_data.activity_time"/><label for="">&nbsp;09:30</label>
-            </span>
+            </span> -->
           </div>
         </div>
         <div class="af-btns">
           <a @click="sure" class="btn-red">确定预约</a>
-          <p class="tips-bot">*请注意，出于时间安排，您只能在保时捷友谊赛、分界洲岛自由行与试驾体验三个活动中选择一项参与。</p>
+          <p class="tips-bot" style="display: none;">*请注意，出于时间安排，您只能在保时捷友谊赛、分界洲岛自由行与试驾体验三个活动中选择一项参与。</p>
           <p class="tips-bot">* 预约参加活动，即视为授权同意保时捷将您与同行伙伴的姓名与肖像权使用于公共宣传目的。</p>
         </div>
       </div>
@@ -65,8 +76,11 @@
         },
         activity_select: {
           selections: [
-            {name: '分界洲岛自由行', val: '1'},
-            {name: '分界洲岛试驾体验', val: '2'}
+            {name: '高尔夫体验：神州半岛高尔夫球会', val: '1'},
+            {name: '水上活动体验：石梅湾威斯汀酒店', val: '2'},
+            {name: '最美海岸试驾体验', val: '3'},
+            {name: '咖啡庄园体验', val: '4'},
+            {name: '⽔上桨板体验', val: '5'},
           ],
           val: _params.activity || '',
           tips: '活动',
@@ -116,8 +130,8 @@
         
         $.ajax({
           type: "POST",
-          url: "/sk/myOrder2.php",
-          // url: "https://www.stxcve.cn/sk/myOrder2.php",
+          url: "/2020/data/myOrder2.php",
+          // url: "https://golf.devnow.cn/2020/data/myOrder2.php",
           data: _data,
           datatype: 'jsonp',
           jsonp: 'jsonp_callback',
@@ -140,9 +154,9 @@
           gender: parseInt(this.form_data.gender),
           mobile: this.form_data.mobile,
           tour_type: parseInt(this.form_data.tour_type),
-          is_dt: parseInt(this.form_data.is_dt),
-          interest_car: parseInt(this.form_data.interest_car),
-          activity_time: parseInt(this.form_data.activity_time)
+          // is_dt: parseInt(this.form_data.is_dt),
+          // interest_car: parseInt(this.form_data.interest_car),
+          // activity_time: parseInt(this.form_data.activity_time)
         };
         return _form_data;
       },
@@ -158,11 +172,12 @@
           _error = '手机号码有误，请重填';
         } else if(!this.form_data.tour_type) {
           _error = '请选择活动类型';
-        } else if((this.form_data.tour_type === '2') && !this.form_data.is_dt) {
-          _error = '请选择是否试驾';
-        } else if((this.form_data.tour_type === '2') && (this.form_data.is_dt === '1') && !this.form_data.interest_car) {
-          _error = '请填写感兴趣车型';
         }
+        //  else if((this.form_data.tour_type === '2') && !this.form_data.is_dt) {
+        //   _error = '请选择是否试驾';
+        // } else if((this.form_data.tour_type === '2') && (this.form_data.is_dt === '1') && !this.form_data.interest_car) {
+        //   _error = '请填写感兴趣车型';
+        // }
         return _error;
       },
       checkPhone(_val) {
@@ -174,7 +189,7 @@
       }
     },
     mounted() {
-      this.$parent.img_path = 'https://d.devnow.cn/golf2019/images/2019/top/top-jiabinyuyue02.jpg';
+      this.$parent.img_path = '/static/images/2020/top-banners/jbyy2.jpg';
     },
     components: {
       select_comp

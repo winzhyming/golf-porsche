@@ -1,7 +1,7 @@
 <template>
   <div class="ei-main">
     <div class="ef-main">
-      <article class="ef-art fen">
+      <article class="ef-art fen" style="padding-bottom: 39vmin;">
         <h1>
           赛事规则
           <img src="https://d.devnow.cn/golf2019/images/ic-next-red.png" class="ic" />
@@ -23,7 +23,7 @@
           <span class="fl lable-left">1.4</span>
           <span
             class="fr text-right"
-          >2019 保时捷高尔夫巡回赛采用圣安德鲁斯皇家古老高尔夫俱乐部和美国高尔夫协会共同颁发的 2019 年版《高尔夫球规则》以及竞赛组委会制定的“比赛条件和当地规则”。</span>
+          >2020 保时捷高尔夫巡回赛采用圣安德鲁斯皇家古老高尔夫俱乐部和美国高尔夫协会共同颁发的 2020 年版《高尔夫球规则》以及竞赛组委会制定的“比赛条件和当地规则”。</span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left">1.5</span>
@@ -43,39 +43,35 @@
         </section>
         <section class="clearfix">
           <span class="fl lable-left">1.8</span>
-          <span class="fr text-right">只有获得 2019 保时捷高尔夫巡回赛中国入围资格赛的各组别冠军才能参加比赛，邀请名额不得转让。</span>
+          <span class="fr text-right">只有获得 2020 保时捷高尔夫巡回赛中国入围资格赛的各组别冠军才能参加比赛，邀请名额不得转让。</span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left">1.9</span>
           <span
             class="fr text-right"
-          >2019 年入围资格赛的各组别冠军如果因事不能参与中国总决赛比赛，该场比赛名额根据该优胜者所属组别依次进行邀请，如：冠军不能参加，由亚军代替参加，依次类推。</span>
+          >2020 年入围资格赛的各组别冠军如果因事不能参与中国总决赛比赛，该场比赛名额根据该优胜者所属组别依次进行邀请，如：冠军不能参加，由亚军代替参加，依次类推。</span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left">1.10</span>
           <span
             class="fr text-right"
-          >凡参加 2019 保时捷高尔夫巡回赛中国总决赛的选手，可以嘉宾形式参与随后三年(2020 – 2022) 的保时捷高尔夫巡回赛，但不得参与评选比赛中设立的常规奖项。</span>
+          >凡参加 2020 保时捷高尔夫巡回赛中国总决赛的选手，可以嘉宾形式参与随后三年(2021 – 2023) 的保时捷高尔夫巡回赛，但不得参与评选比赛中设立的常规奖项。</span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left">1.11</span>
           <span
             class="fr text-right"
-          >获得 2019 保时捷高尔夫巡回赛全球总决赛名额的选手，可以参与随后三年 (2020 – 2022) 的保时捷高尔夫巡回赛，但不得参与评选比赛中设立的常规奖项。</span>
+          >在保时捷高尔夫巡回赛入围资格赛、中国总决赛中由第三方造成的任何伤害，与保时捷中国、保时捷中心、赛事赞助商无关。</span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left">1.12</span>
           <span
             class="fr text-right"
-          >2019 年中国总决赛的各组别冠军如果因事不能参加全球总决赛，该场比赛名额根据该冠军所属组别依次进行邀请，如：冠军不能参加，由亚军代替参加，依次类推。</span>
-        </section>
-        <section class="clearfix">
-          <span class="fl lable-left">1.13</span>
-          <span class="fr text-right">在保时捷高尔夫巡回赛入围资格赛、中国总决赛、全球总决赛中由第三方造成的任何伤害，与保时捷中国、保时捷中心、赛事赞助商无关。</span>
+          >2020 年中国总决赛的各组别冠军如果因事不能参加全球总决赛，该场比赛名额根据该冠军所属组别依次进行邀请，如：冠军不能参加，由亚军代替参加，依次类推。</span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left">1.14</span>
-          <span class="fr text-right">一经获邀成为 2019 保时捷高尔夫巡回赛的选手，保时捷中国将有权出于公关宣传等目的使用其名字和赛事照片等。</span>
+          <span class="fr text-right">一经获邀成为 2020 保时捷高尔夫巡回赛的选手，保时捷中国将有权出于公关宣传等目的使用其名字和赛事照片等。</span>
         </section>
         <h2>2. 记分方式</h2>
         <section class="clearfix">
@@ -193,75 +189,26 @@
         <section class="clearfix">
           <span class="fl lable-left">6.4</span>
           <span class="fr text-right">
-            当比赛当日遭遇恶劣天气变化致使所有选手无法完成 18 个洞，但完成了 9 个洞（弃权除外），则使用组委会认可的选手巡回赛晋级的差点指数和选手提供的中高协差点系统的差点指数中较低者为总决赛差点指数，将选手分为：
-            <br />
-            <br />· A 组（差点 0 - 12.0）
-            <br />· B 组（差点 12.1 - 24.0）
-            <br />· C 组（差点 24.1 - 36.0）
-            <br />
-            <br />以 9 洞的 Stableford 净杆得分决出：
-            <br />
-            <br />· A 组冠军（不限男女）
-            <br />· B 组冠军（不限男女）
-            <br />· C 组冠军（不限男女）
-          </span>
-        </section>
-        <section class="clearfix">
-          <span class="fl lable-left">6.5</span>
-          <span class="fr text-right">
-            当比赛当日遭遇恶劣天气变化致使所有选手无法完成 18 个洞，但完成了 9 个洞，则晋级 2017 保时捷高尔夫巡回赛全球总决赛名额：
-            <br />
-            <br />总杆冠军
-            <br />净杆得分 A 组冠军
-            <br />净杆得分 B 组冠军
-            <br />净杆得分 C 组冠军
-          </span>
-        </section>
-        <section class="clearfix">
-          <span class="fl lable-left">6.6</span>
-          <span
-            class="fr text-right"
-          >比赛总杆奖项和各组奖项不重复获奖。若选手同时获得的总杆名次和各组的名次相同，取总杆奖项名次颁发奖项；若选手同时获得总杆名次和各组的名次不同，取名次在前的颁发奖项。</span>
-        </section>
-        <section class="clearfix">
-          <span class="fl lable-left">6.7</span>
-          <span class="fr text-right">
-            团队平局解决
-            <br />
+            <strong>团队平局解决：</strong>
             <br />· 中心前 2 名的球员 9 洞 Stableford 总杆得分之和累计，得分高者名次列前；
             <br />· 如得分相同，则比较各中心总杆得分高的选手，得分高者名次列前，如成绩相同，采用该球员 9 洞逐洞倒数的方式决定名次，逐洞杆数减去逐洞标准杆数得到的杆数，杆数少者名次列前；
             <br />· 若仍相同，则采取抽签方式决定。
           </span>
         </section>
         <section class="clearfix">
-          <span class="fl lable-left">6.8</span>
+          <span class="fl lable-left">6.5</span>
           <span class="fr text-right">
-            个人平局解决
-            <br />
+            <strong>个人平局解决：</strong>
             <br />· 完成 9 洞 Stableford 总杆得分高者名次列前，如成绩相同，采取逐洞倒数的方式决定名次，选手 9 个洞逐洞杆数减去逐洞标准杆数得到的杆数，杆数少者名次列前；
             <br />· 若仍相同，则采取抽签方式决定。
           </span>
         </section>
         <section class="clearfix">
-          <span class="fl lable-left">6.9</span>
+          <span class="fl lable-left">6.6</span>
           <span
             class="fr text-right"
           >当出现在比赛当日遭遇天气变化致使比赛无法进行，所有选手完成洞数少于 9 洞时，比赛将由赛事组委会决定推迟或以抽签形式在每组中抽出优胜者。由赛事组委会持有最终解释权。赛事组委会由当天活动到场的国际级裁判长、赛事总监及当地球场负责人、保时捷中国负责人组成。最终解释权包含但不限于：比赛场地（客观条件，球场损坏、沙坑积水），球员完成洞数的情况（天气打雷，下大雨比赛无法进行）导致比赛无法进行，赛事组委会根据当天情况决定抽签的形式，优胜者的判定等。</span>
         </section>
-        <!-- <section class="clearfix">
-          <span class="fl lable-left">6.10</span>
-          <span class="fr text-right">
-            Stableford 总杆得分计算方式：
-            <br />
-            <br />逐洞杆数比标准杆多二杆（包括二杆）以上，得分为 0；
-            <br />逐洞杆数比标准杆多一杆，得分为 1；
-            <br />逐洞杆数等于标准杆，得分为 2；
-            <br />逐洞杆数比标准杆低一杆，得分为 3；
-            <br />逐洞杆数比标准杆低二杆，得分为 4；
-            <br />逐洞杆数比标准杆低三杆，得分为 5；
-            <br />逐洞杆数比标准杆低四杆，得分为 6；
-          </span>
-        </section> -->
         <h2>7. 争议解决</h2>
         <section class="clearfix">
           <span class="fl lable-left">7.1</span>

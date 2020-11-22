@@ -2,27 +2,31 @@
   <div class="ei-main">
     <div class="ef-main em2018">
       <article class="ef-art pc-art mct-art">
-        <h1 class="no-bb">分界洲岛试驾体验 <img src="https://d.devnow.cn/golf2019/images/ic-next-red.png" class="ic"/></h1>
+        <h1 class="no-bb">高尔夫体验：神州半岛高尔夫球会 <img src="https://d.devnow.cn/golf2019/images/ic-next-red.png" class="ic"/></h1>
         <h2>&nbsp;</h2>
         <section class="clearfix">
           <span class="fl lable-left ellipsis">活动时间:</span>
-          <span class="fr text-right fen">11 月 30 日 09:30 - 13:00, 13:00 - 16:00</span>
+          <span class="fr text-right fen">12 月 4 日 13:00 - 16:00 <br>(班⻋接送，请准时前往⼤堂集合)</span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left ellipsis">集合地点:</span>
-          <span class="fr text-right">酒店 2 层大堂保时捷签到中心</span>
+          <span class="fr text-right">酒店2层大堂 保时捷签到中⼼</span>
         </section>
         <section class="clearfix">
-          <span class="fl lable-left ellipsis">活动形式:</span>
-          <span class="fr text-right">由专业教练带您驾驶保时捷，体验乐趣非凡的海南滨海高速路，享受沿途美景及保时捷所带来的极致驾驶体验。试驾去程，班车回程。</span>
+          <span class="fl lable-left ellipsis">活动内容:</span>
+          <span class="fr text-right">⾼尔夫球体验</span>
+        </section>
+        <section class="clearfix">
+          <span class="fl lable-left ellipsis">活动场地:</span>
+          <span class="fr text-right">神州半岛⾼尔夫球会</span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left ellipsis">注意事项:</span>
-          <span class="fr text-right">保时捷中国将为活动伙伴支付入岛门票，但岛内所有活动均为自费项目。分界洲岛为离陆海岛。如需游玩水上项目，请自行携带泳衣浴巾。</span>
+          <span class="fr text-right">保时捷中国将为活动伙伴⽀付相关费⽤，请⾝着运动装及运动鞋前往，并听从教练及⼯作⼈员指引。</span>
         </section>
         <div class="btn-form">
           <a @click="subscribe" class="btn-order ib">立即预约</a>
-          <p class="form-tips fen">（截止时间 11 月 29 日 17:00）</p>
+          <p class="form-tips fen">* 报名截止时间 12 ⽉ 4 日 12:00。</p>
         </div>
       </article>
     </div>
@@ -32,11 +36,11 @@
 <script>
   export default {
     mounted() {
-      this.$parent.img_path = 'https://d.devnow.cn/golf2019/images/2019/top/top-jiabinyuyue03.jpg';
+      this.$parent.img_path = '/static/images/2020/top-banners/jbyy-golf.jpg';
     },
     methods: {
       subscribe() {
-        this.$router.push({'name': 'subscribe.form', 'params': {'activity': '2'}});
+        this.$router.push({'name': 'subscribe.form', 'params': {'activity': '1'}});
       }
     }
   }

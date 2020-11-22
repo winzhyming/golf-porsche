@@ -8,10 +8,7 @@
     </div>
     <router-view></router-view>
     
-    <img src="https://d.devnow.cn/golf2019/images/2019/bottom2019.jpg" alt="" class="img-bot">
-    <!-- <div class="ei-bot" v-bottom_img>
-      <img src="https://d.devnow.cn/golf2019/images/bot-img.png"/>
-    </div> -->
+    <img src="/static/images/2020/bottom2020.jpg" alt="" class="img-bot">
     
     <a @click="back" class="back-btn" v-bottom_back><img src="https://d.devnow.cn/golf2019/images/ic-back.jpg"/></a>
     <a @click="index" class="index-btn"><img src="https://d.devnow.cn/golf2019/images/ic-index.jpg"/></a>
@@ -22,7 +19,7 @@
   export default {
     data() {
       return {
-        img_path: ''
+        img_path: '/static/images/2020/top-banners/ssxx.jpg'
       }
     },
     methods: {

@@ -6,15 +6,15 @@
         <h2>&nbsp;</h2>
         <section class="clearfix">
           <span class="fl lable-left ellipsis">活动时间:</span>
-          <span class="fr text-right fen">11 月 30 日 10:30 - 16:30</span>
+          <span class="fr text-right fen">12 月 5 日 10:30 - 16:00</span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left ellipsis">集合地点:</span>
-          <span class="fr text-right fen">鉴湖蓝湾高尔夫球会练习场</span>
+          <span class="fr text-right fen">神州半岛高尔夫球会练习场 <br>酒店门口班车前往，车程约30分钟，请合理安排出行时间。</span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left ellipsis">活动内容:</span>
-          <span class="fr text-right fen">18洞比杆赛，与保时捷的伙伴们一起为荣誉挥杆</span>
+          <span class="fr text-right fen">18 洞比杆赛，与保时捷的伙伴们一起为荣誉挥杆</span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left ellipsis">选手要求:</span>
@@ -23,27 +23,26 @@
         <section class="clearfix">
           <span class="fl lable-left ellipsis">比赛规则:</span>
           <span class="fr text-right fen">
-            • 18 洞同时开球<br>
-• Stableford 计分规则<br>
-• 新新贝利亚差点计算<br>
+            18 洞同时开球<br>
+Stableford 计分规则<br>
+新新贝利亚差点计算<br>
           </span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left">奖项设置:</span>
           <span class="fr text-right">
-            • 净杆冠军 *<br>
-• 净杆亚军 *<br>
-• 净杆季军 *<br>
-• 总杆冠军 *<br>
-• 保时捷俱乐部最佳表现奖 *<br>
-• 距洞最近奖 *<br>
-• 男子最远距离奖<br>
-• 女子最远距离奖<br>
+            净杆冠军 *<br>
+净杆亚军 *<br>
+净杆季军 *<br>
+总杆冠军 *<br>
+距洞最近奖 *<br>
+男子最远距离奖<br>
+女子最远距离奖<br>
 * 男女混评
             </span>
         </section>
         <div class="tips-bot fen">
-          *请通过活动热线 1312 2577 911 预约报名，截止时间 11 月 29 日 17:00。如您已预约参赛，请于开赛前10分钟到达集合地点。
+          * 请通过活动热线 1312 2577 911 预约报名，截止时间 12 ⽉ 3 日 17:00。如您已预约参赛，请于开赛前10分钟到达集合地点。
         </div>
       </article>
     </div>
@@ -56,7 +55,7 @@
       return {}
     },
     mounted() {
-      this.$parent.img_path = 'https://d.devnow.cn/golf2019/images/2019/top/top-jiabinyuyue01.jpg';
+      this.$parent.img_path = '/static/images/2020/top-banners/jbyy-golf.jpg';
     }
   }
 </script>

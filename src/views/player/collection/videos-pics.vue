@@ -1,6 +1,6 @@
 <template>
   <div class="ei-main">
-    <div class="vp-box">
+    <div class="vp-box" style="padding-bottom: 8vmin">
       <section class="vp-videos">
         <h1 class="vpb-tit">视频集锦</h1>
         <ul>
@@ -9,7 +9,7 @@
             	<source src="https://d.devnow.cn/g/golf2019.mp4" type="video/mp4"></source>
             	当前浏览器不支持 video直接播放
             </video>
-            <p>2019 保时捷高尔夫巡回赛中国总决赛</p>
+            <p>2020 保时捷高尔夫巡回赛中国总决赛</p>
           </li>
         </ul>
       </section>
