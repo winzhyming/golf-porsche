@@ -42,15 +42,15 @@
             name: '',
           },
           {
-            cate: '男子净杆 A 组冠军（差点 0 - 14.4）',
+            cate: '男子净杆 <span class="fen">A</span> 组冠军<span class="fen">（</span>差点 <span class="fen">0 - 14.4）</span>',
             name: '',
           },
           {
-            cate: '男子净杆 B 组冠军（差点 14.5 - 28.4）',
+            cate: '男子净杆 <span class="fen">B</span> 组冠军<span class="fen">（差点 <span class="fen">14.5 - 28.4）</span>',
             name: '',
           },
           {
-            cate: '女子净杆冠军（差点 0 - 28.4）',
+            cate: '女子净杆冠军<span class="fen">（</span>差点 <span class="fen">0 - 28.4）</span>',
             name: '',
           },
           {
