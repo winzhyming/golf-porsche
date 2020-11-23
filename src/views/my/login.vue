@@ -1,9 +1,9 @@
 <template>
   <div class="ei-main">
-    <div class="desc">
+    <!-- <div class="desc">
       <h1>敬请期待</h1>
-    </div>
-    <!-- <div class="yuyue2019">
+    </div> -->
+    <div class="yuyue2019">
       <div class="ar-box" style="margin-top: 3.125vmin;">
         <div class="ar-form">
           <div class="af-group">
@@ -16,11 +16,42 @@
           </div>
         </div>
       </div>
+      <div class="ar-result">
+        <table>
+          <tr>
+            <td>姓</td>
+            <td>{{ query_result.last_name }}</td>
+          </tr>
+          <tr>
+            <td>名</td>
+            <td>{{ query_result.first_name }}</td>
+          </tr>
+          <tr>
+            <td>性别</td>
+            <td>{{ query_result.gender }}</td>
+          </tr>
+          <tr>
+            <td>手机号</td>
+            <td>{{ query_result.mobile }}</td>
+          </tr>
+          <tr>
+            <td>到达日期</td>
+            <td>{{ query_result.arrival_date }}</td>
+          </tr>
+          <tr>
+            <td>返程日期</td>
+            <td>{{ query_result.return_date }}</td>
+          </tr>
+          <tr>
+            <td>12月5日活动</td>
+            <td>{{ query_result.activity_name }}</td>
+          </tr>
+        </table>
+      </div>
       <div class="yuyue-btns">
         <a @click="confirm" href="javascript:;">查询</a>
-        <a @click="back" href="javascript:;">返回</a>
       </div>
-    </div> -->
+    </div>
   </div>
 </template>
 
@@ -31,7 +62,16 @@ export default {
     return {
       form_data: {
         mobile: '18014929630',
-        vcode: '737589'
+        vcode: '543924'
+      },
+      query_result: {
+        activity_name: '',
+        arrival_date: '',
+        first_name: '',
+        gender: '',
+        last_name: '',
+        mobile: '',
+        return_date: ''
       },
       countSecond: 0,
       isChecked: '',
@@ -57,6 +97,16 @@ export default {
         jsonp: 'jsonp_callback',
         success: (data) => {
           console.log('[winzhyming] query response is:', data);
+          if (data) {
+            data = JSON.parse(data)
+          }
+          this.query_result.last_name = data.last_name
+          this.query_result.arrival_date = data.arrival_date
+          this.query_result.first_name = data.first_name
+          this.query_result.gender = data.gender
+          this.query_result.mobile = data.mobile
+          this.query_result.return_date = data.return_date
+          this.query_result.activity_name = data.activity_name
         },
         error: (_error) => {
           this.$root.pop(_error);
