@@ -10,11 +10,6 @@
     	<router-view></router-view>
     </div>
     
-    <!-- <div class="ei-bot" v-bottom_img>
-      <img src="https://d.devnow.cn/travelclub2019/images/bot-img.png"/>
-    </div> -->
-
-    <!-- <img src="https://d.devnow.cn/travelclub2019/images/2019/bot.png" alt="" class="img-bot"> -->
 
     
     <a @click="back" class="back-btn" v-bottom_back><img src="https://d.devnow.cn/travelclub2019/images/ic-back.jpg"/></a>

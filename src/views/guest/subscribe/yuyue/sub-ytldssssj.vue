@@ -1,17 +1,17 @@
 <template>
-  <!-- 亚特兰蒂斯水世界 -->
+  <!-- 三亚角游艇海钓 -->
   <div class="ei-main">
     <div class="yuyue2019">
       <div class="desc">
-        <p>一波波清凉无比的欢乐浪潮，让您感受精彩绝伦的欢乐氛围！老少咸宜的亚特兰蒂斯水世界全年开放。您可从接近 8 层楼高的顶端以自由落体的方式纵身一跃，从近乎垂直的滑道上获得极高的速度和刺激，通过曲线滑道穿过鲨鱼池隧道。保时捷中国车主俱乐部邀请您前来亚特兰蒂斯水世界，享受阳光、水花和无尽欢愉！</p>
+        <p>有什么比在碧海蓝天的三亚出海游玩更吸引人的？饱览三亚角美好风光的同时，还能体验趣味十足的海钓活动。阳光、海风、美景，保时捷中国车主俱乐部邀请您一同享受海南独有的惬意和美好！</p>
         <br>
         <br>
-        <p>出发集合地点：2F 酒店大堂</p>
-        <p>出发时间：9:30 集合班车发车前往亚特兰蒂斯水上世界</p>
-        <p>返回集合地点：亚特兰蒂斯正门</p>
-        <p>返回时间：16:00 集合班车发车返回酒店</p>
+        <p>出发集合地点：酒店大堂</p>
+        <p>出发时间：12:00 集合班车发车前往三亚角鹿回头码头</p>
+        <p>返回集合地点：鹿回头码头大巴上客点</p>
+        <p>返回时间：15:00 集合班车发车返回酒店</p>
         <br>
-        <p>* 温馨提示：请自带泳衣等装备，并携带好身份证件。</p>
+        <p>* 温馨提示：请携带好身份证件。</p>
       </div>
       <div class="ar-box" style="margin-top: 3.125vmin;">
         <div class="ar-form">
@@ -48,7 +48,7 @@
     },
     mounted() {
       this.$parent.img_path = 'https://d.devnow.cn/travelclub2019/images/2019/top-jiabinyuyue01.jpg';
-      this.$parent.title = '亚特兰蒂斯'
+      this.$parent.title = '三亚角游艇海钓'
     },
     methods: {
       getVcode() {
@@ -59,8 +59,9 @@
         if(!this.checkPhone(this.form_data.mobile)) return;
         $.ajax({
           type: "POST",
-//        url: "https://www.stxcve.cn/sk/sendSms.php",
-          url: "/sk/sendSms.php",
+          url: "/2020/data/sendSms.php",
+          // url: "https://golf.devnow.cn/2020/data/sendSms.php",
+          // url: "/sk/sendSms.php",
           data:{ mobile: this.form_data.mobile},
           datatype: 'jsonp',
           jsonp: 'jsonp_callback',
@@ -112,8 +113,8 @@
         this.$root.$emit('confirm', () => {
           $.ajax({
             type: "POST",
-            // url: "https://www.stxcve.cn/sk/myOrder.php",
-            url: "/sk/myActivityOrder.php",
+            // url: 'http://travelclub.devnow.cn/2020/data/myOrder.php',
+            url: '/2020/data/myOrder.php',
             data: {
               mobile: this.form_data.mobile,
               check_code: this.form_data.vcode,

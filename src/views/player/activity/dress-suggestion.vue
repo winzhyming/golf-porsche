@@ -8,34 +8,18 @@
       <section class="ds-list">
         <ul>
           <li>
-            <h2>2019 年 12 月 1 日 星期日</h2>
+            <h2>2020 年 12 月 4 日, 星期五</h2>
             <p>
-              <span>欢迎晚宴 - 雅致休闲</span>
+              <span>欢迎晚宴 – 時尚休闲, 白色</span>
             </p>
           </li>
           <li>
-            <h2>2019 年 12 月 2 日 星期一</h2>
+            <h2>2020 年 12 月 5日, 星期六</h2>
             <p class="flex">
-              <span>亚特兰蒂斯 - 请自带泳衣</span>
+              <span>活动 - 运动休闲</span>
             </p>
             <p class="flex">
-              <span>呀诺达雨林文化旅游区 - 运动休闲</span>
-            </p>
-            <p class="flex">
-              <span>威士忌品鉴 - 雅致休闲</span>
-            </p>
-            <p class="flex">
-              <span>海滨瑜伽 - 运动休闲</span>
-            </p>
-            <p class="flex">
-              <span>高尔夫 - 高尔夫 Polo 衫、休闲裤</span>
-            </p>
-            <p class="flex">
-              <span>试驾- 运动休闲</span>
-            </p>
-            <p class="flex">
-              <span>晚宴 - </span>
-              <span>保时捷首款纯电动车 Taycan 会抵达晚宴现场，请秀出最契合这款车的个性晚礼服，现场将评选出最佳着装。Tips：龙胆蓝，冰晶蓝，闪亮银等</span>
+              <span>晚宴 - 晚禮服, 黑色加金色小配件</span>
             </p>
           </li>
         </ul>

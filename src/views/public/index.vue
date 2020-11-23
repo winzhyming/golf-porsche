@@ -4,7 +4,7 @@
     <div class="body-index pr" style="padding-bottom: 70vmin;">
       <section class="bi-tit fen-b">
         <img class="img-logo" src="https://d.devnow.cn/travelclub2019/images/2019/logo.png" alt="Porsche">
-        <img class="img-word" src="https://d.devnow.cn/travelclub2019/images/2019/landing-title.png" alt="2019 保时捷高尔夫巡回赛总决赛 Porsche Golf Cup China Final 2019">
+        <img class="img-word" src="/static/images/2020/loading-title.png" alt="2020 保时捷中国车主俱乐部年度晚宴 Porsche Club China Annual Gala 2020">
       </section>
       <section class="bi-btns">
         <ul>
@@ -15,8 +15,11 @@
             <router-link :to="{'name': 'guest'}" class="btn-index">活动预约</router-link>
           </li>
           <li>
-            <router-link :to="{'name': 'form.drive'}" class="btn-index">试驾预约</router-link>
+            <router-link :to="{'name': 'my.login'}" class="btn-index">我的行程</router-link>
           </li>
+          <!-- <li>
+            <router-link :to="{'name': 'form.drive'}" class="btn-index">试驾预约</router-link>
+          </li> -->
           <li>
             <router-link :to="{'name': 'col.videospics'}" class="btn-index">影像集锦</router-link>
           </li>

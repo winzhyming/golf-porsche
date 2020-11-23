@@ -5,6 +5,7 @@ import public_r from './routes/public'
 import player_r from './routes/player'
 import guest_r from './routes/guest'
 import form_r from './routes/form'
+import my_r from './routes/my'
 
 Vue.use(Router)
 
@@ -13,7 +14,8 @@ let _routes = [
   public_r,
   player_r,
   guest_r,
-  form_r
+  form_r,
+  my_r
 ];
 
 let router = new Router({

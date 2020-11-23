@@ -1,15 +1,16 @@
 <template>
-  <!-- 呀诺达雨林文化旅游区 -->
+  <!-- 亚特兰蒂斯水族馆&CDF免税店 -->
   <div class="ei-main">
     <div class="yuyue2019">
       <div class="desc">
-        <p>呀诺达雨林文化旅游区位于三亚市北偏东方向的保亭黎族自治县三道农场，距离三亚市中心 35 公里。是中国唯一地处北纬 18 度的热带雨林，是海南岛五大热带雨林精品的浓缩，是最具观赏价值的热带雨林资源博览馆，堪称中国钻石级雨林景区。保时捷中国车主俱乐部邀请您一同享受热带雨林带来的荫凉和绿意盎然。</p>
+        <p>在这里，30个大小各异的互动展示池汇聚着数万尾海洋精灵，带你发掘壮丽的海中奇景。除了与它们近距离接触，你还可以在大使环礁湖乘坐底部透明的“水晶船”喂食它们；同时也非常欢迎各位来到白鲸池与白鲸安迪与蒂娜嬉戏，一同度过这段难忘时光。<br>
+结束与海洋动物的亲密互动后，您还可以畅游免税店，开启精品购物之旅。</p>
         <br>
         <br>
-        <p>出发集合地点：2F 酒店大堂</p>
-        <p>出发时间：12:30 集合班车发车前往呀诺达雨林文化旅游区</p>
-        <p>返回集合地点：呀诺达雨林文化旅游区正门</p>
-        <p>返回时间：16:30 集合班车发车返回酒店</p>
+        <p>出发集合地点：酒店大堂</p>
+        <p>出发时间：10:00 集合班车发车前往亚特兰蒂斯水族馆</p>
+        <p>返回集合地点：CDF免税店大巴上客点</p>
+        <p>返回时间：16:15 集合班车发车返回酒店</p>
         <br>
         <p>* 温馨提示：需携带好身份证件。</p>
       </div>
@@ -48,7 +49,7 @@
     },
     mounted() {
       this.$parent.img_path = 'https://d.devnow.cn/travelclub2019/images/2019/top-yanuoda.jpg';
-      this.$parent.title = '呀诺达雨林文化旅游区'
+      this.$parent.title = '亚特兰蒂斯水族馆&CDF免税店'
     },
     methods: {
       getVcode() {
@@ -59,8 +60,8 @@
         if(!this.checkPhone(this.form_data.mobile)) return;
         $.ajax({
           type: "POST",
-//        url: "https://www.stxcve.cn/sk/sendSms.php",
-          url: "/sk/sendSms.php",
+          url: "/2020/data/sendSms.php",
+          // url: "https://golf.devnow.cn/2020/data/sendSms.php",
           data:{ mobile: this.form_data.mobile},
           datatype: 'jsonp',
           jsonp: 'jsonp_callback',
@@ -112,8 +113,8 @@
         this.$root.$emit('confirm', () => {
           $.ajax({
             type: "POST",
-            // url: "https://www.stxcve.cn/sk/myOrder.php",
-            url: "/sk/myActivityOrder.php",
+            url: '/2020/data/myOrder.php',
+            // url: 'http://travelclub.devnow.cn/2020/data/myOrder.php',
             data: {
               mobile: this.form_data.mobile,
               check_code: this.form_data.vcode,

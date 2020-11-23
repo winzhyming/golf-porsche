@@ -2,7 +2,7 @@
   <div class="ei-main">
     <div class="map-tep" style="margin-top: 17.1875vmin;">
       <div class="dimmer-top"></div>
-      <h1 class="mt-tit fen">陵水</h1>
+      <h1 class="mt-tit fen">三亚</h1>
       <div class="weather-box">
         <div id="tp-weather-widget" style="text-align: center;">
           <iframe allowtransparency="true" frameborder="0" width="255" height="64" scrolling="no" src="//tianqi.2345.com/plugin/widget/index.htm?s=2&z=3&t=1&v=2&d=1&bd=0&k=&f=&ltf=009944&htf=cc0000&q=0&e=0&a=0&c=59954&w=255&h=64&align=center"></iframe>
@@ -22,7 +22,7 @@
     mounted() {
       window.SeniverseWeatherWidget('show', {
         flavor: "slim",
-        location: "W7Q1PZC6KCFW",
+        location: "W7JZGDR3YYTF",
         geolocation: false,
         language: "zh-Hans",
         unit: "c",

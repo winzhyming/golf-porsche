@@ -1,15 +1,17 @@
 <template>
-  <!-- 瑜伽 -->
+  <!-- 亚特兰蒂斯水世界 -->
   <div class="ei-main">
     <div class="yuyue2019">
       <div class="desc">
-        <p>户外瑜伽让大家都有机会在美丽独特的海边美景中释放压力,舒缓身心,希望海边的日光和海风可以为您提供一种健康放松的方式打开新的一天。</p>
+        <p>一波波清凉无比的欢乐浪潮，让您感受精彩绝伦的欢乐氛围！老少咸宜的亚特兰蒂斯水世界全年开放。您可从接近 8 层楼高的顶端以自由落体的方式纵身一跃，从近乎垂直的滑道上获得极高的速度和刺激，通过曲线滑道穿过鲨鱼池隧道。保时捷中国车主俱乐部邀请您前来亚特兰蒂斯水世界，享受阳光、水花和无尽欢愉！</p>
         <br>
-        <p><strong>场次: </strong></p>
-        <p><input type="radio" name="changci" value="5" v-model="form_data.type"/><label for="">08:00 - 09:00</label></p>
-        <p><input type="radio" name="changci" value="6" v-model="form_data.type"/><label for="">09:30 - 10:30</label></p>
         <br>
-        <p>地址: 2F 酒店大堂集合</p>
+        <p>出发集合地点：酒店大堂</p>
+        <p>出发时间：10:00 集合班车发车前往亚特兰蒂斯水世界</p>
+        <p>返回集合地点：亚特兰蒂斯正门</p>
+        <p>返回时间：15:00 集合班车发车返回酒店</p>
+        <br>
+        <p>* 温馨提示：建议自带泳衣等装备，并携带好身份证件。</p>
       </div>
       <div class="ar-box" style="margin-top: 3.125vmin;">
         <div class="ar-form">
@@ -46,7 +48,7 @@
     },
     mounted() {
       this.$parent.img_path = 'https://d.devnow.cn/travelclub2019/images/2019/top-yoga.jpg';
-      this.$parent.title = '海滨瑜伽'
+      this.$parent.title = '亚特兰蒂斯水世界'
     },
     methods: {
       getVcode() {
@@ -57,8 +59,8 @@
         if(!this.checkPhone(this.form_data.mobile)) return;
         $.ajax({
           type: "POST",
-//        url: "https://www.stxcve.cn/sk/sendSms.php",
-          url: "/sk/sendSms.php",
+          url: "/2020/data/sendSms.php",
+          // url: "https://golf.devnow.cn/2020/data/sendSms.php",
           data:{ mobile: this.form_data.mobile},
           datatype: 'jsonp',
           jsonp: 'jsonp_callback',
@@ -112,8 +114,8 @@
         this.$root.$emit('confirm', () => {
           $.ajax({
             type: "POST",
-            // url: "https://www.stxcve.cn/sk/myOrder.php",
-            url: "/sk/myActivityOrder.php",
+            // url: 'http://travelclub.devnow.cn/2020/data/myOrder.php',
+            url: '/2020/data/myOrder.php',
             data: {
               mobile: this.form_data.mobile,
               check_code: this.form_data.vcode,
