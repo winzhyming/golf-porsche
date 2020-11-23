@@ -1,10 +1,10 @@
 <template>
   <div class="ei-main">
-    <div class="yuyue2019">
-      <div class="desc">
-        <h1>敬请期待</h1>
-      </div>
-      <!-- <div class="ar-box" style="margin-top: 3.125vmin;">
+    <div class="desc">
+      <h1>敬请期待</h1>
+    </div>
+    <!-- <div class="yuyue2019">
+      <div class="ar-box" style="margin-top: 3.125vmin;">
         <div class="ar-form">
           <div class="af-group">
             <input type="text" class="form-control" placeholder="电话" v-model="form_data.mobile"/>
@@ -19,8 +19,8 @@
       <div class="yuyue-btns">
         <a @click="confirm" href="javascript:;">查询</a>
         <a @click="back" href="javascript:;">返回</a>
-      </div> -->
-    </div>
+      </div>
+    </div> -->
   </div>
 </template>
 
@@ -30,9 +30,8 @@ export default {
   data() {
     return {
       form_data: {
-        mobile: '',
-        type: '3',
-        vcode: ''
+        mobile: '18014929630',
+        vcode: '737589'
       },
       countSecond: 0,
       isChecked: '',
@@ -42,7 +41,33 @@ export default {
 
   },
   methods: {
+    confirm() {
+      let _error = this.checkValidate();
+      if(_error) return this.$root.pop(_error);
+
+      $.ajax({
+        type: "POST",
+        // url: "http://travelclub.devnow.cn/2020/data/myTravel.php?mobile=" + this.form_data.mobile + '&check_code=' + this.form_data.vcode,
+        url: "http://travelclub.devnow.cn/2020/data/myTravel.php",
+        data: {
+          mobile:  this.form_data.mobile,
+          check_code: this.form_data.vcode
+        },
+        datatype: 'jsonp',
+        jsonp: 'jsonp_callback',
+        success: (data) => {
+          console.log('[winzhyming] query response is:', data);
+        },
+        error: (_error) => {
+          this.$root.pop(_error);
+        }  
+      }) 
+    },
+    back() {
+      this.$router.go(-1);
+    },
     getVcode() {
+      
       if(!this.form_data.mobile) {
         this.$root.pop('请填写手机号码');
         return;
@@ -50,9 +75,9 @@ export default {
       if(!this.checkPhone(this.form_data.mobile)) return;
       $.ajax({
         type: "POST",
-        url: "/2020/data/sendSms.php",
+        // url: "/2020/data/sendSms.php",
+        url: "http://travelclub.devnow.cn/2020/data/sendSms.php",
         // url: "https://golf.devnow.cn/2020/data/sendSms.php",
-        // url: "/sk/sendSms.php",
         data:{ mobile: this.form_data.mobile},
         datatype: 'jsonp',
         jsonp: 'jsonp_callback',
@@ -91,8 +116,6 @@ export default {
         _error = '请填写电话号码';
       } else if(!this.form_data.vcode) {
         _error = '请填请输入验证码';
-      } else if(!this.form_data.type) {
-        _error = '请选择预约场次';
       }
       return _error;
     },

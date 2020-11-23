@@ -3,25 +3,13 @@
     <p class="title" style="position: absolute; top: -3.75vmin; left: 3.75vmin; font-size: 3.75vmin; color: #000;">预约活动</p>
     <section class="ei-btns gais-btns">
       <ul>
-        <li>
-          <router-link :to="{'name': 'subscribe.water'}" class="clearfix">
-            三亚角游艇海钓<img src="https://d.devnow.cn/travelclub2019/images/ic-next-red.png" class="ic fr"/>
+        <li v-for="(link, index) in links" :key="index">
+          <router-link :to="{'name': link.router }" class="clearfix" v-if="link.status == '0'">
+            {{ link.name }}<img src="https://d.devnow.cn/travelclub2019/images/ic-next-red.png" class="ic fr"/>
           </router-link>
-        </li>
-        <li>
-          <router-link :to="{'name': 'subscribe.yanuoda'}" class="clearfix">
-            亚特兰蒂斯水族馆&CDF免税店<img src="https://d.devnow.cn/travelclub2019/images/ic-next-red.png" class="ic fr"/>
-          </router-link>
-        </li>
-        <li>
-          <router-link :to="{'name': 'subscribe.pinjiu'}" class="clearfix">
-            呀诺达雨林文化旅游区<img src="https://d.devnow.cn/travelclub2019/images/ic-next-red.png" class="ic fr"/>
-          </router-link>
-        </li>
-        <li>
-          <router-link :to="{'name': 'subscribe.yoga'}" class="clearfix">
-            亚特兰蒂斯水世界<img src="https://d.devnow.cn/travelclub2019/images/ic-next-red.png" class="ic fr"/>
-          </router-link>
+          <a href="javascript:;" class="clearfix disabled" v-else style="color: #aaa;">
+            {{ link.name }}<img src="https://d.devnow.cn/travelclub2019/images/ic-next-red.png" class="ic fr"/>
+          </a>
         </li>
       </ul>
       
@@ -36,7 +24,14 @@
 <script>
   export default {
     data() {
-      return {}
+      return {
+        links: [
+          { type: '1', name: '三亚角游艇海钓', router: 'subscribe.water', num: 0, status: '0' },
+          { type: '2', name: '亚特兰蒂斯水族馆&CDF免税店', router: 'subscribe.yanuoda', num: 0, status: '0' },
+          { type: '3', name: '呀诺达雨林文化旅游区', router: 'subscribe.pinjiu', num: 0, status: '0' },
+          { type: '4', name: '亚特兰蒂斯水世界', router: 'subscribe.yoga', num: 0, status: '0' }
+        ]
+      }
     },
     mounted() {
       this.$parent.img_path = 'https://d.devnow.cn/travelclub2019/images/2019/top-jiabinyuyue.jpg';
@@ -51,7 +46,13 @@
           datatype: 'jsonp',
           jsonp: 'jsonp_callback',
           success: (data) => {
-            console.log(data)
+            console.log(JSON.parse(data))
+            let datas = JSON.parse(data || '[]'), index = 0
+            datas.length && datas.forEach((cou) => {
+              this.links[index].num = cou.num
+              this.links[index].status = cou.status
+              index++
+            })
           },
           error: (_error) => {
             this.$root.pop(_error);

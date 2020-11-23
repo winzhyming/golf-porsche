@@ -47,7 +47,7 @@
       }
     },
     mounted() {
-      this.$parent.img_path = 'https://d.devnow.cn/travelclub2019/images/2019/top-jiabinyuyue01.jpg';
+      this.$parent.img_path = '/static/images/2020/top-banners/haidiao.jpg';
       this.$parent.title = '三亚角游艇海钓'
     },
     methods: {
@@ -59,9 +59,8 @@
         if(!this.checkPhone(this.form_data.mobile)) return;
         $.ajax({
           type: "POST",
-          url: "/2020/data/sendSms.php",
-          // url: "https://golf.devnow.cn/2020/data/sendSms.php",
-          // url: "/sk/sendSms.php",
+          url: "http://travelclub.devnow.cn/2020/data/sendSms.php",
+          // url: "/2020/data/sendSms.php",
           data:{ mobile: this.form_data.mobile},
           datatype: 'jsonp',
           jsonp: 'jsonp_callback',
@@ -113,8 +112,8 @@
         this.$root.$emit('confirm', () => {
           $.ajax({
             type: "POST",
-            // url: 'http://travelclub.devnow.cn/2020/data/myOrder.php',
-            url: '/2020/data/myOrder.php',
+            url: 'http://travelclub.devnow.cn/2020/data/myOrder.php',
+            // url: '/2020/data/myOrder.php',
             data: {
               mobile: this.form_data.mobile,
               check_code: this.form_data.vcode,
