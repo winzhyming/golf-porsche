@@ -10,7 +10,7 @@
         </section>
         <section class="clearfix">
           <span class="fl lable-left ellipsis">集合地点:</span>
-          <span class="fr text-right">酒店2层大堂 保时捷签到中⼼</span>
+          <span class="fr text-right">酒店 2 层大堂 保时捷签到中⼼</span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left ellipsis">活动内容:</span>

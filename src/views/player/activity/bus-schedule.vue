@@ -9,7 +9,7 @@
         <h2 class="es-tit">12 ⽉ 4 ⽇ 星期五</h2>
         <ul>
           <li class="clearfix li-tit">
-            <span class="fl lable-left ellipsis">酒店 – 球会</span>
+            <span class="fl lable-left ellipsis">酒店 - 球会</span>
             <span class="fr text-right">上车地点：酒店正门口</span>
           </li>
           <li class="clearfix">
@@ -30,7 +30,7 @@
         <h2 class="es-tit">12 ⽉ 5 ⽇ 星期六</h2>
         <ul>
           <li class="clearfix li-tit">
-            <span class="fl lable-left ellipsis">酒店 – 球会</span>
+            <span class="fl lable-left ellipsis">酒店 - 球会</span>
             <span class="fr text-right">上车地点：酒店正门口</span>
           </li>
           <li class="clearfix">
@@ -51,7 +51,7 @@
         <h2 class="es-tit">12 ⽉ 6 ⽇ 星期日</h2>
         <ul>
           <li class="clearfix li-tit">
-            <span class="fl lable-left ellipsis">酒店 – 机场</span>
+            <span class="fl lable-left ellipsis">酒店 - 机场</span>
             <span class="fr text-right">上车地点：酒店正门口</span>
           </li>
           <li class="clearfix">

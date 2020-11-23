@@ -17,7 +17,7 @@
             <span class="fl">⽔上活动体验：⽯梅湾威斯汀酒店</span>
           </li>
           <li class="clearfix">
-            <span class="fl">13:30 - 酒店 2 层⼤堂出发</span>
+            <span class="fl">13:30 - 酒店 2 层⼤堂出发（步⾏前往）</span>
           </li>
         </ul>
       </section>

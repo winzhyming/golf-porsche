@@ -7,9 +7,9 @@
           <li class="clearfix">
             <span class="fl lable-left ellipsis">12:00 起</span>
             <span class="fr text-right">
-              抵达三亚机场 (接机)
+              抵达三亚机场 （接机）
               <br />⽯梅湾威斯汀酒店签到
-              <br />⾃助晚餐(知味餐厅, 酒店⼀层) 
+              <br />⾃助晚餐（知味餐厅, 酒店⼀层） 
             </span>
           </li>
         </ul>
@@ -20,7 +20,7 @@
           <li class="clearfix">
             <span class="fl lable-left ellipsis">12:00 前</span>
             <span class="fr text-right">
-              抵达三亚机场 (接机) 
+              抵达三亚机场 （接机） 
               <br />⽯梅湾威斯汀酒店签到
             </span>
           </li>
@@ -34,7 +34,7 @@
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">18:30 - 21:30</span>
-            <span class="fr text-right">欢迎晚宴 (酒店海滨草坪) </span>
+            <span class="fr text-right">欢迎晚宴 （酒店海滨草坪） </span>
           </li>
         </ul>
       </section>
@@ -47,7 +47,7 @@
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">07:30 - 09:30</span>
-            <span class="fr text-right">搭乘班⻋前往球场<br> (每10分钟⼀班)</span>
+            <span class="fr text-right">搭乘班⻋前往球场<br> （每10分钟⼀班）</span>
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">08:05 - 09:55</span>
@@ -75,11 +75,11 @@
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">18:00 - 21:00</span>
-            <span class="fr text-right">颁奖晚宴(宴会厅, 酒店⼀层)</span>
+            <span class="fr text-right">颁奖晚宴（宴会厅, 酒店⼀层）</span>
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">21:00 起</span>
-            <span class="fr text-right">庆祝派对<br>(Coast海岸线, 酒店⼀层)</span>
+            <span class="fr text-right">庆祝派对<br>（Coast海岸线, 酒店⼀层）</span>
           </li>
         </ul>
       </section>
@@ -93,7 +93,7 @@
           <li class="clearfix">
             <span class="fl lable-left ellipsis">09:00 - 14:00</span>
             <span class="fr text-right">
-              班⻋送机 (每半⼩时⼀班)
+              班⻋送机 （每半⼩时⼀班）
               <br />有需要的嘉宾可享⽤午餐
             </span>
           </li>
