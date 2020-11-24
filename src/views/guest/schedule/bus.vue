@@ -78,6 +78,8 @@
           <td>CDF免税店大巴上客点</td>
         </tr>
       </table>
+
+      <p class="tips-bot" style="margin-top: 3.15vmin;">* 前往亚特兰蒂斯水世界游玩的客人，也可以继续去免税店购物，请注意亚特兰蒂斯水世界回程的2个不同上车地点及时间。</p>
       <!-- <section class="event-schedule">
         <h2 class="es-tit">12 月 5 日 星期六 </h2>
         <ul>

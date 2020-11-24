@@ -28,7 +28,7 @@
         <div class="desc">
           <p style="text-indent: 0em;">活动项目：瑜伽</p>
           <p style="text-indent: 0em;">活动日期：2020 年 12 月 5 日</p>
-          <p style="text-indent: 0em;">活动时间：xxxxx</p>
+          <p style="text-indent: 0em;">活动时间：07:00 - 08:00 / 10:00 - 11:00 / 16:00 - 17:00</p>
           <p style="text-indent: 0em;">活动地点：酒店泳池边</p>
           <br>
           <p style="text-indent: 0em;">* 请自行着瑜伽相关服装参与。</p>
