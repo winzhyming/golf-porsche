@@ -35,7 +35,7 @@
               <input type="radio" name="car_type" value="3" v-model="form_data.car_type"/><label for="">&nbsp;Macan</label>
             </span>
             <span class="check-span" style="width: 100%">
-              <input type="radio" name="car_type" value="4" v-model="form_data.car_type"/><label for="">&nbsp;Taycan Tubo S</label>
+              <input type="radio" name="car_type" value="4" v-model="form_data.car_type"/><label for="">&nbsp;Taycan Turbo S</label>
             </span>
           </div>
         </div>
