@@ -1,7 +1,7 @@
 <template>
   <div id="schedule-index">
     <div class="top-ban pr">
-      <img src="/static/images/2020/top-banners/scap.jpg" class="pa-img"/>
+      <img src="https://d.devnow.cn/golf2020/images/top-banners/scap.jpg" class="pa-img"/>
       <div class="tbt-tit pa">
         <!-- <img src="https://d.devnow.cn/golf2019/images/top-tit.png" class="pa-img"/> -->
         <h1><img src="https://d.devnow.cn/golf2019/images/btn-finalist02.png" class="ic"/>赛程安排</h1>
@@ -12,7 +12,7 @@
     </div>
     
     
-    <img src="/static/images/2020/bottom2020.jpg" alt="" class="img-bot">
+    <img src="https://d.devnow.cn/golf2020/images/bottom2020.jpg" alt="" class="img-bot">
     
     <a @click="back" class="back-btn" v-bottom_back><img src="https://d.devnow.cn/golf2019/images/ic-back.jpg"/></a>
     <a @click="index" class="index-btn"><img src="https://d.devnow.cn/golf2019/images/ic-index.jpg"/></a>

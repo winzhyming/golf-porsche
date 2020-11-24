@@ -40,7 +40,7 @@
       }
     },
     mounted() {
-      this.$parent.img_path = '/static/images/2020/top-banners/yysj.jpg';
+      this.$parent.img_path = 'https://d.devnow.cn/golf2020/images/top-banners/yysj.jpg';
       
       // this.$parent.img_path = 'https://d.devnow.cn/golf2019/images/bg-top11.jpg'
     }

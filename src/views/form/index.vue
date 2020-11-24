@@ -1,7 +1,7 @@
 <template>
   <div id="form-index">
     <div class="top-ban pr" style="min-height: 38.75vmin;">
-      <img src="/static/images/2020/top-banners/yysj.jpg" class="pa-img"/>
+      <img src="https://d.devnow.cn/golf2020/images/top-banners/yysj.jpg" class="pa-img"/>
       <div class="tbt-tit pa">
         <h1>预约试驾</h1>
       </div>
@@ -12,7 +12,7 @@
       </transition>
     </div>
     
-    <img src="/static/images/2020/bottom2020.jpg" alt="" class="img-bot">
+    <img src="https://d.devnow.cn/golf2020/images/bottom2020.jpg" alt="" class="img-bot">
     
     <a @click="back" class="back-btn" v-bottom_back><img src="https://d.devnow.cn/golf2019/images/ic-back.jpg"/></a>
     <a @click="index" class="index-btn"><img src="https://d.devnow.cn/golf2019/images/ic-index.jpg"/></a>

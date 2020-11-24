@@ -36,7 +36,7 @@
 <script>
   export default {
     mounted() {
-      this.$parent.img_path = '/static/images/2020/top-banners/jbyy-golf.jpg';
+      this.$parent.img_path = 'https://d.devnow.cn/golf2020/images/top-banners/jbyy-golf.jpg';
     },
     methods: {
       subscribe() {
