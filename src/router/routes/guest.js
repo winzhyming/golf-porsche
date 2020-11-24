@@ -12,6 +12,7 @@ import Sub02 from '@/views/guest/subscribe/yuyue/sub-yanuoda'
 import Sub03 from '@/views/guest/subscribe/yuyue/sub-pinjiu'
 import Sub04 from '@/views/guest/subscribe/yuyue/sub-yoga'
 import Sub05 from '@/views/guest/subscribe/yuyue/sub-golf'
+import Sub06 from '@/views/guest/subscribe/yuyue/sub-tebie' 
 import ScheduleMain from '@/views/guest/schedule/index'
 import ScheduleBus from '@/views/guest/schedule/bus'
 import ContactMain from '@/views/guest/contact/index'
@@ -82,6 +83,11 @@ export default {
           path: 'golf',
           name: 'subscribe.golf',
           component: Sub05
+        },
+        {
+          path: 'sub/tebie',
+          name: 'subscribe.tebie',
+          component: Sub06
         },
         {
           path: 'sub/porsche',

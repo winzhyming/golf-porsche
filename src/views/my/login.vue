@@ -3,8 +3,8 @@
     <!-- <div class="desc">
       <h1>敬请期待</h1>
     </div> -->
-    <div class="yuyue2019">
-      <div class="ar-box" style="margin-top: 3.125vmin;">
+    <div class="yuyue2019 es-data em2018">
+      <div class="ar-box" style="margin-top: 3.125vmin;" v-if="!is_show_result">
         <div class="ar-form">
           <div class="af-group">
             <input type="text" class="form-control" placeholder="电话" v-model="form_data.mobile"/>
@@ -16,39 +16,39 @@
           </div>
         </div>
       </div>
-      <div class="ar-result">
-        <table>
-          <tr>
-            <td>姓</td>
-            <td>{{ query_result.last_name }}</td>
-          </tr>
-          <tr>
-            <td>名</td>
-            <td>{{ query_result.first_name }}</td>
-          </tr>
-          <tr>
-            <td>性别</td>
-            <td>{{ query_result.gender }}</td>
-          </tr>
-          <tr>
-            <td>手机号</td>
-            <td>{{ query_result.mobile }}</td>
-          </tr>
-          <tr>
-            <td>到达日期</td>
-            <td>{{ query_result.arrival_date }}</td>
-          </tr>
-          <tr>
-            <td>返程日期</td>
-            <td>{{ query_result.return_date }}</td>
-          </tr>
-          <tr>
-            <td>12月5日活动</td>
-            <td>{{ query_result.activity_name }}</td>
-          </tr>
-        </table>
+      <div class="event-schedule" v-else>
+        <ul>
+          <li class="clearfix">
+            <span class="fl lable-left ellipsis" style="text-align: right;">姓</span>
+            <span class="fr text-right">{{ query_result.last_name }}</span>
+          </li>
+          <li class="clearfix">
+            <span class="fl lable-left ellipsis" style="text-align: right;">名</span>
+            <span class="fr text-right">{{ query_result.first_name }}</span>
+          </li>
+          <li class="clearfix">
+            <span class="fl lable-left ellipsis" style="text-align: right;">性别</span>
+            <span class="fr text-right">{{ query_result.gender }}</span>
+          </li>
+          <li class="clearfix">
+            <span class="fl lable-left ellipsis" style="text-align: right;">手机号</span>
+            <span class="fr text-right">{{ query_result.mobile }}</span>
+          </li>
+          <li class="clearfix">
+            <span class="fl lable-left ellipsis" style="text-align: right;">到达日期</span>
+            <span class="fr text-right">{{ query_result.arrival_date }}</span>
+          </li>
+          <li class="clearfix">
+            <span class="fl lable-left ellipsis" style="text-align: right;">返程日期</span>
+            <span class="fr text-right">{{ query_result.return_date }}</span>
+          </li>
+          <li class="clearfix">
+            <span class="fl lable-left ellipsis" style="text-align: right;">12 月 5 日活动</span>
+            <span class="fr text-right">{{ query_result.activity_name }}</span>
+          </li>
+        </ul>
       </div>
-      <div class="yuyue-btns">
+      <div class="yuyue-btns"  v-if="!is_show_result">
         <a @click="confirm" href="javascript:;">查询</a>
       </div>
     </div>
@@ -61,9 +61,10 @@ export default {
   data() {
     return {
       form_data: {
-        mobile: '18014929630',
-        vcode: '543924'
+        mobile: '',
+        vcode: ''
       },
+      is_show_result: false,
       query_result: {
         activity_name: '',
         arrival_date: '',
@@ -78,7 +79,7 @@ export default {
     }
   },
   mounted() {
-
+    this.is_show_result = false
   },
   methods: {
     confirm() {
@@ -87,8 +88,8 @@ export default {
 
       $.ajax({
         type: "POST",
-        // url: "http://travelclub.devnow.cn/2020/data/myTravel.php?mobile=" + this.form_data.mobile + '&check_code=' + this.form_data.vcode,
-        url: "http://travelclub.devnow.cn/2020/data/myTravel.php",
+        // url: "http://travelclub.devnow.cn/2020/data/myTravel.php",
+        url: "/2020/data/myTravel.php",
         data: {
           mobile:  this.form_data.mobile,
           check_code: this.form_data.vcode
@@ -97,16 +98,21 @@ export default {
         jsonp: 'jsonp_callback',
         success: (data) => {
           console.log('[winzhyming] query response is:', data);
-          if (data) {
-            data = JSON.parse(data)
+          try {
+            if (data) {
+              data = JSON.parse(data)
+            }
+            this.query_result.last_name = data.last_name
+            this.query_result.arrival_date = data.arrival_date
+            this.query_result.first_name = data.first_name
+            this.query_result.gender = data.gender
+            this.query_result.mobile = data.mobile
+            this.query_result.return_date = data.return_date
+            this.query_result.activity_name = data.activity_name
+            this.is_show_result = true
+          } catch (err) {
+            this.$root.pop(data);
           }
-          this.query_result.last_name = data.last_name
-          this.query_result.arrival_date = data.arrival_date
-          this.query_result.first_name = data.first_name
-          this.query_result.gender = data.gender
-          this.query_result.mobile = data.mobile
-          this.query_result.return_date = data.return_date
-          this.query_result.activity_name = data.activity_name
         },
         error: (_error) => {
           this.$root.pop(_error);
@@ -125,9 +131,8 @@ export default {
       if(!this.checkPhone(this.form_data.mobile)) return;
       $.ajax({
         type: "POST",
-        // url: "/2020/data/sendSms.php",
-        url: "http://travelclub.devnow.cn/2020/data/sendSms.php",
-        // url: "https://golf.devnow.cn/2020/data/sendSms.php",
+        url: "/2020/data/sendSms.php",
+        // url: "http://travelclub.devnow.cn/2020/data/sendSms.php",
         data:{ mobile: this.form_data.mobile},
         datatype: 'jsonp',
         jsonp: 'jsonp_callback',

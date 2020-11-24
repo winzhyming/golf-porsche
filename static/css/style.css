@@ -1198,3 +1198,12 @@ select.form-control option {
   line-height: 10.625vmin;
   display: block;
 }
+
+.weather-box .brRCBH{
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%);
+}
+.weather-box .brRCBH .fkZKjv {
+  position: absolute !important;
+}

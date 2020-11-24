@@ -11,6 +11,11 @@
             {{ link.name }}<img src="https://d.devnow.cn/travelclub2019/images/ic-next-red.png" class="ic fr"/>
           </a>
         </li>
+        <li>
+          <router-link :to="{'name': 'subscribe.tebie'}" class="clearfix">
+            特别预约活动<img src="https://d.devnow.cn/travelclub2019/images/ic-next-red.png" class="ic fr"/>
+          </router-link>
+        </li>
       </ul>
       
       <div class="tips-bot" style="text-align: justify;">
@@ -41,8 +46,8 @@
       checkStatus: function() {
         $.ajax({
           type: "GET",
-          url: "http://travelclub.devnow.cn/2020/data/checkStatus.php",
-          // url: "/data/checkStatus.php",
+          // url: "http://travelclub.devnow.cn/2020/data/checkStatus.php",
+          url: "/2020/data/checkStatus.php",
           datatype: 'jsonp',
           jsonp: 'jsonp_callback',
           success: (data) => {

@@ -5,7 +5,6 @@
       <h1 class="mt-tit fen">三亚</h1>
       <div class="weather-box">
         <div id="tp-weather-widget" style="text-align: center;">
-          <iframe allowtransparency="true" frameborder="0" width="255" height="64" scrolling="no" src="//tianqi.2345.com/plugin/widget/index.htm?s=2&z=3&t=1&v=2&d=1&bd=0&k=&f=&ltf=009944&htf=cc0000&q=0&e=0&a=0&c=59954&w=255&h=64&align=center"></iframe>
         </div>
       </div>
     </div>
@@ -21,14 +20,14 @@
     },
     mounted() {
       window.SeniverseWeatherWidget('show', {
-        flavor: "slim",
+        flavor: "bubble",
         location: "W7JZGDR3YYTF",
         geolocation: false,
         language: "zh-Hans",
         unit: "c",
         theme: "auto",
         token: "173c79cc-a51c-4062-ad31-fd0be12e4ed9",
-        hover: "enabled",
+        hover: "disabled",
         container: "tp-weather-widget"
       })
       // tpwidget("init", {

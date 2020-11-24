@@ -1,7 +1,7 @@
 <template>
   <!-- 呀诺达雨林文化旅游区 -->
   <div class="ei-main">
-    <div class="yuyue2019">
+    <div class="yuyue2019" style="padding-bottom: 20vmin;">
       <div class="desc">
         <p>呀诺达雨林文化旅游区位于三亚市北偏东方向的保亭黎族自治县三道农场，距离三亚市中心 35 公里。是中国唯一地处北纬 18 度的热带雨林，是海南岛五大热带雨林精品的浓缩，是最具观赏价值的热带雨林资源博览馆，堪称中国钻石级雨林景区。保时捷中国车主俱乐部邀请您一同享受热带雨林带来的荫凉和绿意盎然。</p>
         <br>
@@ -23,6 +23,10 @@
             <a href="javascript:;" class="btn-get-code" v-if="countSecond">{{ countSecond }}s后重发</a>
             <a href="javascript:;" class="btn-get-code" v-else @click="getVcode">获取验证码</a>
           </div>
+          <div class="af-group">
+            <select_comp :sel_data="activity_select"></select_comp>
+          </div>
+          <p class="tips-bot fen" style="font-size: 2.1875vmin;">* 由于时间冲突，您只能从四个活动中选择参加其中一个。</p>
         </div>
       </div>
       <div class="yuyue-btns">
@@ -34,6 +38,8 @@
 </template>
 
 <script>
+  import select_comp from '@/views/public/select'
+
   export default {
     data() {
       return {
@@ -41,6 +47,16 @@
           mobile: '',
           type: '3',
           vcode: ''
+        },
+        activity_select: {
+          selections: [
+            {name: '三亚角游艇海钓', val: '1'},
+            {name: '亚特兰蒂斯水族馆&CDF免税店', val: '2'},
+            {name: '呀诺达雨林文化旅游区', val: '3'},
+            {name: '亚特兰蒂斯水世界', val: '4'},
+          ],
+          val: '3',
+          name: 'activity'
         },
         countSecond: 0,
         isChecked: '',
@@ -59,8 +75,8 @@
         if(!this.checkPhone(this.form_data.mobile)) return;
         $.ajax({
           type: "POST",
-          url: "http://travelclub.devnow.cn/2020/data/sendSms.php",
-          // url: "/2020/data/sendSms.php",
+          // url: "http://travelclub.devnow.cn/2020/data/sendSms.php",
+          url: "/2020/data/sendSms.php",
           data:{ mobile: this.form_data.mobile},
           datatype: 'jsonp',
           jsonp: 'jsonp_callback',
@@ -114,12 +130,12 @@
         this.$root.$emit('confirm', () => {
           $.ajax({
             type: "POST",
-            // url: '/2020/data/myOrder.php',
-            url: 'http://travelclub.devnow.cn/2020/data/myOrder.php',
+            url: '/2020/data/myOrder.php',
+            // url: 'http://travelclub.devnow.cn/2020/data/myOrder.php',
             data: {
               mobile: this.form_data.mobile,
               check_code: this.form_data.vcode,
-              type: this.form_data.type
+              type: this.activity_select.val
             },
             datatype: 'jsonp',
             jsonp: 'jsonp_callback',
@@ -127,7 +143,7 @@
               console.log(data);
               if($.trim(data) === '恭喜您预约成功，工作人员会与您取得联系。') {
                 // this.$router.push({'name': 'form.finish'});  
-                this.$router.replace({'name': 'subscribe.result', 'params': {'type': this.form_data.type}}) 
+                this.$router.replace({'name': 'subscribe.result', 'params': {'type': this.activity_select.val}}) 
               } else {
                 this.$root.pop(data);
                 // this.$router.replace({'name': 'subscribe.result'}) 
@@ -138,7 +154,7 @@
             }         
           });
 
-        }, this.form_data.type)
+        }, this.activity_select.val)
       },
       back() {
         this.$router.go(-1);
@@ -146,6 +162,9 @@
     },
     beforeDestroy() {
       this.countSecond = 0;
+    },
+    components: {
+      select_comp
     }
 
 

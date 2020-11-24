@@ -35,6 +35,13 @@
   }
 </script>
 
+<style scoped>
+  .dp-box{
+    padding: 3vmin 8vmin;
+    width: 62.5vmin;
+  }
+</style>
+
 
 
 // WEBPACK FOOTER //

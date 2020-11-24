@@ -5,7 +5,7 @@
     	{{ val.name || tips }}
     </div>
     <div class="val-options" :id="'albox' + name">
-    	<a @click="setrigger(sel)" v-bind:class="{'on': (sel.val === val.val)}" v-for="sel in selections">{{ sel.name }}</a>
+    	<a @click="setrigger(sel)" v-bind:class="{'on': (sel.val === val.val)}" v-for="(sel, index) in selections" :key="index">{{ sel.name }}</a>
     </div>
   </div>
 </template>
@@ -36,13 +36,15 @@
         this.val.val = _sel.val;
         this.sel_data.val = _sel.val;
         this.sel_el.toggle();
+        console.log(this.sel_data)
       }
     },
     mounted() {
       this.selections = this.sel_data.selections;
       this.sel_data.selections && this.sel_data.selections.forEach((_sel) => {
         if(_sel.val === this.sel_data.val) {
-          this.val = _sel;
+          this.val.name = _sel.name;
+          this.val.val = _sel.val;
         }
       });
       this.tips = this.sel_data.tips;
