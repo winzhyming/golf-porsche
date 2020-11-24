@@ -55,7 +55,7 @@
           <span class="fl lable-left">10.</span>
           <span
             class="fr text-right"
-          >凡参加 2020 保时捷高尔夫巡回赛中国总决赛的选手，可以嘉宾形式参与随后三年(2020 – 2023) 的保时捷高尔夫巡回赛，但不得参与评选比赛中设立的常规奖项。</span>
+          >凡参加 2020 保时捷高尔夫巡回赛中国总决赛的选手，可以嘉宾形式参与随后三年（2020 - 2023）的保时捷高尔夫巡回赛，但不得参与评选比赛中设立的常规奖项。</span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left">11.</span>
