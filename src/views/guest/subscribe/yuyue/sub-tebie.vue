@@ -5,11 +5,7 @@
         <div class="desc">
           <p style="text-indent: 0em;">活动项目：高尔夫</p>
           <p style="text-indent: 0em;">活动日期：2020 年 12 月 5 日</p>
-          <p style="text-indent: 0em;">活动时间：</p>
           <p style="text-indent: 0em;">活动地点：三亚海中海高尔夫球会</p>
-          <p style="text-indent: 0em;">出发时间：</p>
-          <p style="text-indent: 0em;">集合地点：</p>
-          <p style="text-indent: 0em;">返程时间：</p>
           <br>
           <p style="text-indent: 0em;">* 如我们为您提供的预约活动您都不想选择，保时捷中国车主俱乐部可为您安排高尔夫活动，请于 11 月 30 日 18:00 前告知会务组。</p>
           <p style="text-indent: 0em;">* 需自备球包。</p>
@@ -28,8 +24,8 @@
           <p style="text-indent: 0em;">活动项目：瑜伽</p>
           <p style="text-indent: 0em;">活动日期：2020 年 12 月 5 日</p>
           <p style="text-indent: 0em;">活动时间：07:00 - 08:00</p>
-          <p style="text-indent: 5em;">10:00 - 11:00</p>
-          <p style="text-indent: 5em;">16:00 - 17:00</p>
+          <!-- <p style="text-indent: 5em;">10:00 - 11:00</p> -->
+          <!-- <p style="text-indent: 5em;">16:00 - 17:00</p> -->
           <p style="text-indent: 0em;">活动地点：酒店一楼泳池边</p>
           <br>
           <p style="text-indent: 0em;">* 每个时段至多容纳 6 位客人，如有需求请尽快告知会务组预约。</p>

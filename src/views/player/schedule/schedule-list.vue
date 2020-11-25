@@ -44,7 +44,7 @@
             <span class="fr text-right">酒店内休息</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis">18:00 - 19:00</span>
+            <span class="fl lable-left ellipsis">18:30 - 19:00</span>
             <span class="fr text-right">鸡尾酒会</span>
           </li>
           <li class="clearfix">
@@ -65,7 +65,7 @@
             <span class="fr text-right">早餐</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis">早餐</span>
+            <span class="fl lable-left ellipsis">全天</span>
             <span class="fr text-right">班车送机</span>
           </li>
         </ul>

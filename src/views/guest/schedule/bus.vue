@@ -19,7 +19,7 @@
         </tr>
         <tr>
           <td>12:00 - 12:10</td>
-          <td>酒店正门口</td>
+          <td>酒店正门</td>
         </tr>
         <tr>
           <td colspan="2">三亚角游艇海钓 - 酒店</td>
@@ -34,7 +34,7 @@
         </tr>
         <tr>
           <td>10:00 - 10:10</td>
-          <td>酒店正门口</td>
+          <td>酒店正门</td>
         </tr>
         <tr>
           <td colspan="2">亚特兰蒂斯水族馆&CDF免税店 - 酒店</td>
@@ -49,14 +49,14 @@
         </tr>
         <tr>
           <td>10:30 - 10:40</td>
-          <td>酒店正门口</td>
+          <td>酒店正门</td>
         </tr>
         <tr>
           <td colspan="2">呀诺达雨林文化旅游区 - 酒店</td>
         </tr>
         <tr>
           <td>15:30 - 15:40</td>
-          <td>呀诺达雨林文化旅游区大巴上客点</td>
+          <td>呀诺达雨林文化旅游区<br>大巴上客点</td>
         </tr>
         <tr>
           <td rowspan="5">亚特兰蒂斯水世界</td>
@@ -64,13 +64,13 @@
         </tr>
         <tr>
           <td>10:00 - 10:10</td>
-          <td>酒店正门口</td>
+          <td>酒店正门</td>
         </tr>
         <tr>
           <td colspan="2">亚特兰蒂斯水世界 - 酒店</td>
         </tr>
         <tr>
-          <td>15:00 - 15:10</td>
+          <td>14:30 - 14:40</td>
           <td>亚特兰蒂斯大巴上客点</td>
         </tr>
         <tr>
@@ -87,7 +87,7 @@
             <span class="fl lable-left" style="width: 100%;">酒店 – 三亚角游艇海钓</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left" style="width: 100%;">上车地点：酒店正门口</span>
+            <span class="fl lable-left" style="width: 100%;">上车地点：酒店正门</span>
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">12:00 - 12:10</span>
@@ -97,7 +97,7 @@
             <span class="fl lable-left" style="width: 100%;">酒店 – 亚特兰蒂斯水族馆&CDF免税店</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left" style="width: 100%;">上车地点：酒店正门口</span>
+            <span class="fl lable-left" style="width: 100%;">上车地点：酒店正门</span>
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">10:00 - 10:10</span>
@@ -107,7 +107,7 @@
             <span class="fl lable-left" style="width: 100%;">酒店 – 呀诺达雨林文化旅游区</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left" style="width: 100%;">上车地点：酒店正门口</span>
+            <span class="fl lable-left" style="width: 100%;">上车地点：酒店正门</span>
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">10:30 - 10:40</span>
@@ -117,7 +117,7 @@
             <span class="fl lable-left" style="width: 100%;">酒店 – 亚特兰蒂斯水世界</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left" style="width: 100%;">上车地点：酒店正门口</span>
+            <span class="fl lable-left" style="width: 100%;">上车地点：酒店正门</span>
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">10:00 - 10:10</span>
@@ -193,7 +193,7 @@
     
   }
   .es-table tr td, .es-table tr th{
-    padding: 1.25vmin;
+    padding: 1.25vmin 0.25vmin;
     border: 1px solid #aaa;
     font-family: pn-regular;
     font-size: 2.5vmin;

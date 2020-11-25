@@ -102,7 +102,7 @@
         }, 1000);
       },
       checkPhone(_val) {
-        if(!(/^1[34578]\d{9}$/.test(_val))){ 
+        if(!(/^1[345789]\d{9}$/.test(_val))){ 
           this.$root.pop('手机号码有误，请重填');
           return false; 
         } else {
