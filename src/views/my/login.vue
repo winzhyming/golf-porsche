@@ -170,7 +170,7 @@ export default {
       if(!this.form_data.mobile) {
         _error = '请填写电话号码';
       } else if(!this.form_data.vcode) {
-        _error = '请填请输入验证码';
+        _error = '请填写验证码';
       }
       return _error;
     },
