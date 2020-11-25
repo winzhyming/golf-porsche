@@ -1,7 +1,7 @@
 <template>
   <div id="activity-index">
     <div class="top-ban pr">
-      <img src="https://d.devnow.cn/travelclub2019/images/2019/top-huodongxinxi.jpg" class="pa-img"/>
+      <img src="/static/images/2020/top-banners/haian.jpg" class="pa-img"/>
       <div class="tbt-tit pa">
         <h1>{{ title }}</h1>
       </div>

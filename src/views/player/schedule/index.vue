@@ -1,7 +1,7 @@
 <template>
   <div id="schedule-index">
     <div class="top-ban pr">
-      <img src="https://d.devnow.cn/travelclub2019/images/2019/top-saichenganpai.jpg" class="pa-img"/>
+      <img src="/static/images/2020/top-banners/haidiao.jpg" class="pa-img"/>
       <div class="tbt-tit pa">
         <h1>日程安排</h1>
       </div>
