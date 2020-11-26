@@ -181,7 +181,7 @@
         return _error;
       },
       checkPhone(_val) {
-        if(!(/^1[34578]\d{9}$/.test(_val))) { 
+        if(!(/^1[345789]\d{9}$/.test(_val))) { 
           return false; 
         } else {
           return true;
