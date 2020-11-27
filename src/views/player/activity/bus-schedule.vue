@@ -13,7 +13,7 @@
             <span class="fr text-right">上车地点：酒店正门口</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis">08:00 - 15:30</span>
+            <span class="fl lable-left ellipsis">07:15 - 13:00</span>
             <span class="fr text-right">每 10 分钟一班</span>
           </li>
           <li class="clearfix li-tit">

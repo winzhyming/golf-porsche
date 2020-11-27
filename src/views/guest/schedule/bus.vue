@@ -52,7 +52,7 @@
             <span class="fl">⽔上桨板体验</span>
           </li>
           <li class="clearfix">
-            <span class="fl">13:30 - 酒店 2 层⼤堂出发 <br>16:30 - 返程</span>
+            <span class="fl">12:55 - 酒店 2 层⼤堂出发 <br>16:30 - 返程</span>
           </li>
           <!-- <li class="clearfix li-tit">
             <span class="fl lable-left ellipsis">酒店 – 分界洲岛</span>
