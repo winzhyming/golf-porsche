@@ -241,7 +241,8 @@ body {
 
 .ei-main .ei-btns ul li {
   padding: 5.9375vmin 8.125vmin 5vmin 8.125vmin;
-  border-bottom: 2px solid #e30613;
+  /* border-bottom: 2px solid #e30613; */
+  border-bottom: 2px solid #080b1a;
 }
 
 .ei-main .ei-btns ul li:last-child {
@@ -415,12 +416,14 @@ h1.git-tit img.ic {
 
 .event-schedule h2 {
   font-size: 3.125vmin;
-  color: #000;
+  /* color: #000; */
+  color: #fff;
   line-height: 4.375vmin;
   text-indent: 1.25vmin;
   font-family: pn-regular;
   font-weight: 600;
-  background-color: #dad9de;
+  /* background-color: #dad9de; */
+  background-color: #080b1a;
 }
 
 .event-schedule ul {

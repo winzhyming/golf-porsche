@@ -2,7 +2,7 @@
   <div class="ei-main">
     <div class="group-info-table">
       <h1 class="git-tit no-bb">
-        球场介绍 <img src="https://d.devnow.cn/travelclub2019/images/ic-next-red.png" class="ic"/>
+        球场介绍 <img src="/static/images/2020/ic-next-darkblue.png" class="ic"/>
       </h1>
       <section class="ds-list">
         <ul>

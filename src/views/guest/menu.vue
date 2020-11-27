@@ -12,7 +12,7 @@
             <li>
               <router-link :to="{'name': 'subscribe.menu'}" class="btn-a">
                 <img src="https://d.devnow.cn/travelclub2019/images/ic-final-guest01.png" alt="" />
-                <h2>嘉宾预约</h2>
+                <h2>活动预约</h2>
               </router-link>
             </li>
             <li>

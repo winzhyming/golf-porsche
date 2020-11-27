@@ -19,31 +19,31 @@
       <div class="event-schedule" v-else>
         <ul>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis" style="text-align: right;">姓</span>
+            <span class="fl lable-left ellipsis" style="text-align: left;">姓</span>
             <span class="fr text-right">{{ query_result.last_name }}</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis" style="text-align: right;">名</span>
+            <span class="fl lable-left ellipsis" style="text-align: left;">名</span>
             <span class="fr text-right">{{ query_result.first_name }}</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis" style="text-align: right;">性别</span>
+            <span class="fl lable-left ellipsis" style="text-align: left;">性别</span>
             <span class="fr text-right">{{ query_result.gender }}</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis" style="text-align: right;">手机号</span>
+            <span class="fl lable-left ellipsis" style="text-align: left;">手机号</span>
             <span class="fr text-right">{{ query_result.mobile }}</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis" style="text-align: right;">到达日期</span>
+            <span class="fl lable-left ellipsis" style="text-align: left;">到达日期</span>
             <span class="fr text-right">{{ query_result.arrival_date }}</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis" style="text-align: right;">返程日期</span>
+            <span class="fl lable-left ellipsis" style="text-align: left;">返程日期</span>
             <span class="fr text-right">{{ query_result.return_date }}</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis" style="text-align: right;">12 月 5 日活动</span>
+            <span class="fl lable-left ellipsis" style="text-align: left;">12 月 5 日活动</span>
             <span class="fr text-right">{{ query_result.activity_name }}</span>
           </li>
         </ul>

@@ -15,12 +15,12 @@
             <span class="fr text-right">自由时间</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis">18:30 - 19:30</span>
+            <span class="fl lable-left ellipsis">18:15 - 19:30</span>
             <span class="fr text-right">鸡尾酒会</span>
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">19:30 - 21:30</span>
-            <span class="fr text-right">欢迎晚会</span>
+            <span class="fr text-right">欢迎晚宴</span>
           </li>
           <!-- <li class="clearfix">
             <span class="fl lable-left ellipsis">21:30 -late</span>
@@ -58,7 +58,7 @@
         </ul>
       </section>
       <section class="event-schedule">
-        <h2>2020 年 12 月 6 日 星期一</h2>
+        <h2>2020 年 12 月 6 日 星期天</h2>
         <ul>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">07:30 - 11:00</span>

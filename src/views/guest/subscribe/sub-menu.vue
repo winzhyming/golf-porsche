@@ -5,15 +5,15 @@
       <ul>
         <li v-for="(link, index) in links" :key="index">
           <router-link :to="{'name': link.router }" class="clearfix" v-if="link.status == '0'">
-            {{ link.name }}<img src="https://d.devnow.cn/travelclub2019/images/ic-next-red.png" class="ic fr"/>
+            {{ link.name }}<img src="/static/images/2020/ic-next-darkblue.png" class="ic fr"/>
           </router-link>
           <a href="javascript:;" class="clearfix disabled" v-else style="color: #aaa;">
-            {{ link.name }}<img src="https://d.devnow.cn/travelclub2019/images/ic-next-red.png" class="ic fr"/>
+            {{ link.name }}<img src="/static/images/2020/ic-next-darkblue.png" class="ic fr"/>
           </a>
         </li>
         <li>
           <router-link :to="{'name': 'subscribe.tebie'}" class="clearfix">
-            特别预约活动<img src="https://d.devnow.cn/travelclub2019/images/ic-next-red.png" class="ic fr"/>
+            特别预约活动<img src="/static/images/2020/ic-next-darkblue.png" class="ic fr"/>
           </router-link>
         </li>
       </ul>

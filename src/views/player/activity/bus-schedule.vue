@@ -3,7 +3,7 @@
     <div class="es-data">
       <h1 class="git-tit no-bb">
         班车时刻表
-        <img src="https://d.devnow.cn/travelclub2019/images/ic-next-red.png" class="ic" />
+        <img src="/static/images/2020/ic-next-darkblue.png" class="ic" />
       </h1>
       <section class="event-schedule fen">
         <h2 class="es-tit">12 月 5 日 星期六 </h2>

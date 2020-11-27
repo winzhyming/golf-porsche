@@ -2,7 +2,7 @@
   <div class="ei-main em2018_bot">
     <div class="es-data" style="padding-bottom: 20vmin;">
       <h1 class="git-tit no-bb">
-        班车时刻 <img src="https://d.devnow.cn/travelclub2019/images/ic-next-red.png" class="ic"/>
+        班车时刻 <img src="/static/images/2020/ic-next-darkblue.png" class="ic"/>
       </h1>
       <table class="es-table">
         <tr>

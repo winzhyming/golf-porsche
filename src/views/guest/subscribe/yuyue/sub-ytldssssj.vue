@@ -3,7 +3,7 @@
   <div class="ei-main">
     <div class="yuyue2019" style="padding-bottom: 20vmin;">
       <div class="desc">
-        <p>有什么比在碧海蓝天的三亚出海游玩更吸引人的？饱览三亚角美好风光的同时，还能体验趣味十足的海钓活动。阳光、海风、美景，保时捷中国车主俱乐部邀请您一同享受海南独有的惬意和美好！</p>
+        <p style="text-indent: 0;">有什么比在碧海蓝天的三亚出海游玩更吸引人的？饱览三亚角美好风光的同时，还能体验趣味十足的海钓活动。阳光、海风、美景，保时捷中国车主俱乐部邀请您一同享受海南独有的惬意和美好！</p>
         <br>
         <br>
         <p>出发集合地点：酒店大堂</p>
@@ -27,6 +27,7 @@
             <select_comp :sel_data="activity_select"></select_comp>
           </div>
           <p class="tips-bot fen" style="font-size: 2.1875vmin;">* 由于时间冲突，您只能从四个活动中选择参加其中一个。</p>
+          <p class="tips-bot fen" style="font-size: 2.1875vmin;" v-if="activity_select.val == '1'">* 此活动不适合孕妇，容易晕船或心脏病患者参加</p>
         </div>
       </div>
       <div class="yuyue-btns">

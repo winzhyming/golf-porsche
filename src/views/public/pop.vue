@@ -2,10 +2,10 @@
   <div class="dimmer-pop" id="dimmer-pop" style="display: none;">
     <div class="dp-table">
       <div class="table-cell">
-        <div class="dp-box pr">
-          <p v-html="tips"></p>
+        <div class="dp-box pr" style="border-color: #080b1a;">
+          <p v-html="tips" style="color: #080b1a;"></p>
           
-          <a @click="close" class="pa dp-close"><img src="https://d.devnow.cn/travelclub2019/images/ic-pop-close.png"/></a>
+          <a @click="close" class="pa dp-close"><img src="/static/images/2020/ic-pop-close.png"/></a>
         </div>
       </div>
     </div>

@@ -30,6 +30,9 @@
           <br>
           <p style="text-indent: 0em;">* 每个时段至多容纳 6 位客人，如有需求请尽快告知会务组预约。</p>
           <p style="text-indent: 0em;">* 需自备瑜伽服。</p>
+          <br>
+          <br>
+          <p style="text-indent: 0em;">如您对此活动感兴趣，请与我们工作人员联络<br>（活动专线：131 6110 5513 ）</p>
         </div>
       </div>
     </div>

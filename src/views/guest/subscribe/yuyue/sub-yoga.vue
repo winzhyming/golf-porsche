@@ -3,7 +3,7 @@
   <div class="ei-main">
     <div class="yuyue2019" style="padding-bottom: 20vmin;">
       <div class="desc">
-        <p>一波波清凉无比的欢乐浪潮，让您感受精彩绝伦的欢乐氛围！老少咸宜的亚特兰蒂斯水世界全年开放。您可从接近 8 层楼高的顶端以自由落体的方式纵身一跃，从近乎垂直的滑道上获得极高的速度和刺激，通过曲线滑道穿过鲨鱼池隧道。保时捷中国车主俱乐部邀请您前来亚特兰蒂斯水世界，享受阳光、水花和无尽欢愉！</p>
+        <p style="text-indent: 0;">一波波清凉无比的欢乐浪潮，让您感受精彩绝伦的欢乐氛围！老少咸宜的亚特兰蒂斯水世界全年开放。您可从接近 8 层楼高的顶端以自由落体的方式纵身一跃，从近乎垂直的滑道上获得极高的速度和刺激，通过曲线滑道穿过鲨鱼池隧道。保时捷中国车主俱乐部邀请您前来亚特兰蒂斯水世界，享受阳光、水花和无尽欢愉！</p>
         <br>
         <br>
         <p>出发集合地点：酒店大堂</p>
@@ -27,6 +27,7 @@
             <select_comp :sel_data="activity_select"></select_comp>
           </div>
           <p class="tips-bot fen" style="font-size: 2.1875vmin;">* 由于时间冲突，您只能从四个活动中选择参加其中一个。</p>
+          <p class="tips-bot fen" style="font-size: 2.1875vmin;" v-if="activity_select.val == '1'">* 此活动不适合孕妇，容易晕船或心脏病患者参加</p>
         </div>
       </div>
       <div class="yuyue-btns">

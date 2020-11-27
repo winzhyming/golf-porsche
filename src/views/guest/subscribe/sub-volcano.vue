@@ -2,7 +2,7 @@
   <div class="ei-main">
     <div class="ef-main em2018">
       <article class="ef-art pc-art mct-art">
-        <h1 class="no-bb">分界洲岛试驾体验 <img src="https://d.devnow.cn/travelclub2019/images/ic-next-red.png" class="ic"/></h1>
+        <h1 class="no-bb">分界洲岛试驾体验 <img src="/static/images/2020/ic-next-darkblue.png" class="ic"/></h1>
         <h2>&nbsp;</h2>
         <section class="clearfix">
           <span class="fl lable-left ellipsis">活动时间:</span>

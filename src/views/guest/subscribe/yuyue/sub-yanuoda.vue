@@ -3,7 +3,7 @@
   <div class="ei-main">
     <div class="yuyue2019" style="padding-bottom: 20vmin;">
       <div class="desc">
-        <p>在这里，30个大小各异的互动展示池汇聚着数万尾海洋精灵，带你发掘壮丽的海中奇景。除了与它们近距离接触，你还可以在大使环礁湖乘坐底部透明的“水晶船”喂食它们；同时也非常欢迎各位来到白鲸池与白鲸安迪与蒂娜嬉戏，一同度过这段难忘时光。<br>
+        <p style="text-indent: 0;">在这里，30个大小各异的互动展示池汇聚着数万尾海洋精灵，带你发掘壮丽的海中奇景。除了与它们近距离接触，你还可以在大使环礁湖乘坐底部透明的“水晶船”喂食它们；同时也非常欢迎各位来到白鲸池与白鲸安迪与蒂娜嬉戏，一同度过这段难忘时光。<br>
 结束与海洋动物的亲密互动后，您还可以畅游免税店，开启精品购物之旅。</p>
         <br>
         <br>
@@ -28,6 +28,7 @@
             <select_comp :sel_data="activity_select"></select_comp>
           </div>
           <p class="tips-bot fen" style="font-size: 2.1875vmin;">* 由于时间冲突，您只能从四个活动中选择参加其中一个。</p>
+          <p class="tips-bot fen" style="font-size: 2.1875vmin;" v-if="activity_select.val == '1'">* 此活动不适合孕妇，容易晕船或心脏病患者参加</p>
         </div>
       </div>
       <div class="yuyue-btns">

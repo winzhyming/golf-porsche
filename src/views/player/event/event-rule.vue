@@ -4,7 +4,7 @@
       <article class="ef-art fen">
         <h1>
           赛事规则
-          <img src="https://d.devnow.cn/travelclub2019/images/ic-next-red.png" class="ic" />
+          <img src="/static/images/2020/ic-next-darkblue.png" class="ic" />
         </h1>
         <h2>1. 参赛形式</h2>
         <section class="clearfix">

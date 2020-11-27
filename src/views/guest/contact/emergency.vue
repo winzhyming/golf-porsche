@@ -2,13 +2,13 @@
   <div class="ei-main">
     <div class="group-info-table">
       <h1 class="git-tit no-bb">
-        紧急联络 <img src="https://d.devnow.cn/travelclub2019/images/ic-next-red.png" class="ic"/>
+        紧急联络 <img src="/static/images/2020/ic-next-darkblue.png" class="ic"/>
       </h1>
       <section class="ds-list">
         <ul>
           <li>
             <p>紧急联络</p>
-            <p class="fen"><a href="tel:15121038911">1512-1038-911</a></p>
+            <p class="fen"><a href="tel:13161105513">131-6110-5513</a></p>
           </li>
         </ul>
       </section>
@@ -22,7 +22,7 @@
       return {}
     },
     mounted() {
-      this.$parent.img_path = 'https://d.devnow.cn/travelclub2019/images/2019/top-jinjiyuyue.jpg';
+      this.$parent.img_path = '/static/images/2020/top-banners/jiudian.jpg';
     }
   }
 </script>

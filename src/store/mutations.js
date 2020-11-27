@@ -5,7 +5,8 @@ import * as types from './types'
 import getters from './getters'
 const state = {
   direction: 'forward',
-  isAgree: false
+  isAgree: false,
+  hsAgree: false
 };
 
 const mutations = {
@@ -14,6 +15,9 @@ const mutations = {
   },
   [types.UPDATE_AGREE](state, agree) {
     state.isAgree = agree
+  },
+  [types.UPDATE_HS_AGREE](state, agree) {
+    state.hsAgree = agree
   }
 };
 

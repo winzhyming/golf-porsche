@@ -3,7 +3,7 @@
   <div class="ei-main">
     <div class="yuyue2019" style="padding-bottom: 20vmin;">
       <div class="desc">
-        <p>呀诺达雨林文化旅游区位于三亚市北偏东方向的保亭黎族自治县三道农场，距离三亚市中心 35 公里。是中国唯一地处北纬 18 度的热带雨林，是海南岛五大热带雨林精品的浓缩，是最具观赏价值的热带雨林资源博览馆，堪称中国钻石级雨林景区。保时捷中国车主俱乐部邀请您一同享受热带雨林带来的荫凉和绿意盎然。</p>
+        <p style="text-indent: 0;">呀诺达雨林文化旅游区位于三亚市北偏东方向的保亭黎族自治县三道农场，距离三亚市中心 35 公里。是中国唯一地处北纬 18 度的热带雨林，是海南岛五大热带雨林精品的浓缩，是最具观赏价值的热带雨林资源博览馆，堪称中国钻石级雨林景区。保时捷中国车主俱乐部邀请您一同享受热带雨林带来的荫凉和绿意盎然。</p>
         <br>
         <br>
         <p>出发集合地点：酒店大堂</p>
@@ -27,6 +27,7 @@
             <select_comp :sel_data="activity_select"></select_comp>
           </div>
           <p class="tips-bot fen" style="font-size: 2.1875vmin;">* 由于时间冲突，您只能从四个活动中选择参加其中一个。</p>
+          <p class="tips-bot fen" style="font-size: 2.1875vmin;" v-if="activity_select.val == '1'">* 此活动不适合孕妇，容易晕船或心脏病患者参加</p>
         </div>
       </div>
       <div class="yuyue-btns">

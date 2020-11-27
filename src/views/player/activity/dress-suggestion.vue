@@ -3,14 +3,14 @@
     <div class="group-info-table">
       <h1 class="git-tit no-bb">
         着装建议
-        <img src="https://d.devnow.cn/travelclub2019/images/ic-next-red.png" class="ic" />
+        <img src="/static/images/2020/ic-next-darkblue.png" class="ic" />
       </h1>
       <section class="ds-list">
         <ul>
           <li>
             <h2>2020 年 12 月 4 日, 星期五</h2>
             <p>
-              <span>欢迎晚宴 – 時尚休闲, 白色</span>
+              <span>欢迎晚宴 – 时尚休闲（白色）</span>
             </p>
           </li>
           <li>
