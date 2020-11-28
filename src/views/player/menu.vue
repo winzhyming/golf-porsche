@@ -47,7 +47,7 @@
             </li>
             <li>
               <router-link :to="{'name': 'forecast.weather'}" class="btn-a">
-                <img src="/static/images/2020/btn-finalist05.png" alt="" />
+                <img src="/static/images/2020/btn-finalist051.png" alt="" />
                 <h2 style="color: #000">天气预报</h2>
               </router-link>
             </li>
@@ -68,6 +68,7 @@
       </div>
     </div>
     
+    <a @click="index" class="index-btn"><img src="/static/images/2020/ic-index.png"/></a>
     <a @click="back" class="back-btn" v-bottom_back><img src="https://d.devnow.cn/travelclub2019/images/ic-back.jpg"/></a>
   </div>
 </template>
@@ -84,6 +85,9 @@
       // $('.body').removeClass('body-finalist');
     },
     methods: {
+      index() {
+        this.$router.push({'name': 'dashboard'});
+      },
       back() {
         this.$router.go(-1);
       }

@@ -1,6 +1,6 @@
 <template>
   <div class="ei-main">
-    <p class="title" style="position: absolute; top: -3.75vmin; left: 3.75vmin; font-size: 3.75vmin; color: #000;">预约活动</p>
+    <!-- <p class="title" style="position: absolute; top: -3.75vmin; left: 3.75vmin; font-size: 3.75vmin; color: #000;">预约活动</p> -->
     <section class="ei-btns gais-btns">
       <ul>
         <li v-for="(link, index) in links" :key="index">

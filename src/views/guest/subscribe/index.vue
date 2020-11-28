@@ -29,7 +29,7 @@
     data() {
       return {
         img_path: 'https://d.devnow.cn/travelclub2019/images/2019/top-jiabinyuyue.jpg',
-        title: '嘉宾预约',
+        title: '活动预约',
       }
     },
     mounted() {

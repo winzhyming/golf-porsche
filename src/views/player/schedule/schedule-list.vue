@@ -6,9 +6,7 @@
         <ul>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">15:00 起</span>
-            <span class="fr text-right">
-              抵达及酒店入住
-            </span>
+            <span class="fr text-right">抵达及酒店入住（签到处，1 楼）</span>
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">15:00 - 18:00</span>
@@ -16,11 +14,15 @@
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">18:15 - 19:30</span>
-            <span class="fr text-right">鸡尾酒会</span>
+            <span class="fr text-right">鸡尾酒会（沙滩草坪，1 楼）</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis">19:30 - 21:30</span>
-            <span class="fr text-right">欢迎晚宴</span>
+            <span class="fl lable-left ellipsis">19:00 - 20:45</span>
+            <span class="fr text-right">欢迎晚会（沙滩草坪，1 楼）</span>
+          </li>
+          <li class="clearfix">
+            <span class="fl lable-left ellipsis">20:45 起</span>
+            <span class="fr text-right">余兴小酌，可选<br>（海 - 天际泳池及酒吧，13 楼）</span>
           </li>
           <!-- <li class="clearfix">
             <span class="fl lable-left ellipsis">21:30 -late</span>
@@ -33,7 +35,7 @@
         <ul>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">07:30 - 11:00</span>
-            <span class="fr text-right">早餐</span>
+            <span class="fr text-right">早餐（东厨，13 楼）</span>
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">09:00 - 16:00</span>
@@ -44,16 +46,16 @@
             <span class="fr text-right">酒店内休息</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis">18:30 - 19:00</span>
-            <span class="fr text-right">鸡尾酒会</span>
+            <span class="fl lable-left ellipsis">18:00 - 19:00</span>
+            <span class="fr text-right">鸡尾酒会（贵宾厅，1 楼）</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis">19:00 - 21:30</span>
-            <span class="fr text-right">晚宴</span>
+            <span class="fl lable-left ellipsis">19:00 - 21:45</span>
+            <span class="fr text-right">年度晚宴（宴会大厅，1 楼）</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis">21:30 - 24:00</span>
-            <span class="fr text-right">派对</span>
+            <span class="fl lable-left ellipsis">21:45 - 24:00</span>
+            <span class="fr text-right">余兴派对（贵宾厅，1 楼）</span>
           </li>
         </ul>
       </section>
@@ -62,7 +64,7 @@
         <ul>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">07:30 - 11:00</span>
-            <span class="fr text-right">早餐</span>
+            <span class="fr text-right">早餐（东厨，13 楼）</span>
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">全天</span>

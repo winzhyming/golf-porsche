@@ -12,6 +12,10 @@
             <p>
               <span>欢迎晚宴 – 时尚休闲（白色）</span>
             </p>
+            <div class="imgs">
+              <img src="https://d.devnow.cn/travelclub2020/images/dress1.jpg" alt="">
+              <img src="https://d.devnow.cn/travelclub2020/images/dress2.jpg" alt="">
+            </div>
           </li>
           <li>
             <h2>2020 年 12 月 5 日, 星期六</h2>
@@ -19,8 +23,13 @@
               <span>活动 - 运动休闲</span>
             </p>
             <p class="flex">
-              <span>晚宴 - 晚礼服, 黑色加金色小配件</span>
+              <!-- <span>晚宴 - 晚礼服, 黑色加金色小配件</span> -->
+              <span>晚宴 - 黑色礼服及金色配饰</span>
             </p>
+            <div class="imgs">
+              <img src="https://d.devnow.cn/travelclub2020/images/dress4.jpg" alt="">
+              <img src="https://d.devnow.cn/travelclub2020/images/dress3.jpg" alt="">
+            </div>
           </li>
         </ul>
       </section>
@@ -37,6 +46,14 @@
 </script>
 
 <style scoped>
+  .imgs{
+    margin-top: 2vmin;
+    display: flex;
+    justify-content: space-between;
+  }
+  .imgs img{
+    width: 47%;
+  }
   p.flex{
     display: flex;
   }

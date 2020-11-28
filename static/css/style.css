@@ -93,7 +93,7 @@ body {
   margin: 0 auto;
   width: 38.75vmin;
   height: 10.625vmin;
-  border: 0.625vmin solid #46bff5;
+  border: 0.625vmin solid #080b1a;
   border-radius: 0.9375vmin;
   text-align: center;
   font-size: 4.375vmin;
@@ -1095,10 +1095,10 @@ select.form-control option {
 }
 .yuyue2019 .yuyue-btns a{
   display: inline-block;
-  border: 1px solid #46bff5;
+  border: 1px solid #080b1a;
   padding: 1.75vmin 3.125vmin;
   font-size: 3.125vmin;
-  color: #46bff5;
+  color: #080b1a;
 }
 
 .confirm-dimmer{
@@ -1136,9 +1136,9 @@ select.form-control option {
 }
 .confirm-dimmer .cd-box .cd-btns a{
   border-radius: 0.625vmin;
-  border: 1px solid #46bff5;
+  border: 1px solid #080b1a;
   padding: 1.25vmin 2.25vmin;
-  color: #46bff5;
+  color: #080b1a;
 }
 
 
@@ -1193,7 +1193,7 @@ select.form-control option {
   transform: translateX(-50%);
   width: 38.75vmin;
   height: 10.625vmin;
-  border: 0.625vmin solid #46bff5;
+  border: 0.625vmin solid #080b1a;
   border-radius: 0.9375vmin;
   text-align: center;
   font-size: 4.375vmin;

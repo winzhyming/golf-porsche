@@ -32,6 +32,8 @@
       </div>
     </div>
     
+    <a @click="index" class="index-btn"><img src="/static/images/2020/ic-index.png"/></a>
+
     <a @click="back" class="back-btn" v-bottom_back><img src="https://d.devnow.cn/travelclub2019/images/ic-back.jpg"/></a>
   </div>
 </template>
@@ -46,6 +48,9 @@
     beforeDestroy() {
     },
     methods: {
+      index() {
+        this.$router.push({'name': 'dashboard'});
+      },
       back() {
         this.$router.go(-1);
       }
