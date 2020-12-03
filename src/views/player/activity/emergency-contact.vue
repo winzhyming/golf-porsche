@@ -12,7 +12,7 @@
             <p class="fen">
               <a href="tel:13161005513">131-6100-5513</a>
             </p>
-            <p class="fen">周一至周六 09:00-18:00</p>
+            <p class="fen">周一至周日 09:00-18:00</p>
           </li>
         </ul>
       </section>

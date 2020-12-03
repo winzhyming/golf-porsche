@@ -23,6 +23,9 @@
           </li> -->
           <li>
             <router-link :to="{'name': 'col.videospics'}" class="btn-index" style="color: #fff; border-color: #fff;">影像集锦</router-link>
+            <!-- <a href="javascript:;" @click="goOtherMini()" class="btn-index" style="color: #fff; border-color: #fff;">
+              影像集锦
+            </a> -->
           </li>
         </ul>
       </section>
@@ -274,6 +277,11 @@ You may voluntarily provide any of the above information. In many cases, if you 
     mounted() {
     },
     methods: {
+      goOtherMini() {
+        wx.miniProgram.navigateTo({
+          url: '/pages/test/test',
+  　　  })
+      },
       setAgree() {
         this.$store.commit('UPDATE_AGREE', true)
       },

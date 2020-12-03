@@ -50,6 +50,7 @@
     margin-top: 2vmin;
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   .imgs img{
     width: 47%;

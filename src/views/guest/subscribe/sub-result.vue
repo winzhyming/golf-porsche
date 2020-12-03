@@ -22,19 +22,19 @@
           </p>
           <p class="table" v-if="type === '1'">
             <span class="table-cell" style="width: 5.2em; vertical-align: top;">活动时间：</span>
-            <span class="table-cell">09:30 - 16:00</span>
+            <span class="table-cell">12:00 - 16:00</span>
           </p>
           <p class="table" v-if="type === '2'">
             <span class="table-cell" style="width: 5.2em; vertical-align: top;">活动时间：</span>
-            <span class="table-cell">12:30 - 16:30</span>
+            <span class="table-cell">10:00 - 16:30</span>
           </p>
           <p class="table" v-if="type === '3'">
             <span class="table-cell" style="width: 5.2em; vertical-align: top;">活动时间：</span>
-            <span class="table-cell">14:30 - 15:30</span>
+            <span class="table-cell">10:00 - 16:30</span>
           </p>
           <p class="table" v-if="type === '4'">
             <span class="table-cell" style="width: 5.2em; vertical-align: top;">活动时间：</span>
-            <span class="table-cell">16:00 - 17:00</span>
+            <span class="table-cell">10:00 - 14:30</span>
           </p>
           <!-- <p class="table">
             <span class="table-cell" style="width: 5.2em; vertical-align: top;">活动地点：</span>
@@ -67,13 +67,13 @@
     },
     mounted() {
       if(this.type === '1') {
-        this.$parent.img_path = 'https://d.devnow.cn/travelclub2019/images/2019/top-jiabinyuyue01.jpg';
+        this.$parent.img_path = '/static/images/2020/top-banners/haidiao.jpg';
       } else if(this.type === '2') {
-        this.$parent.img_path = 'https://d.devnow.cn/travelclub2019/images/2019/top-yanuoda.jpg';
-      } else if(this.type === '3' || this.type === '4') {
-        this.$parent.img_path = 'https://d.devnow.cn/travelclub2019/images/2019/top-pinjiu.jpg';
-      } else if(this.type === '5' || this.type === '6') {
-        this.$parent.img_path = 'https://d.devnow.cn/travelclub2019/images/2019/top-yoga.jpg';
+        this.$parent.img_path = '/static/images/2020/top-banners/haiyangguan.jpg';
+      } else if(this.type === '3') {
+        this.$parent.img_path = '/static/images/2020/top-banners/yulin.jpg';
+      } else if(this.type === '4') {
+        this.$parent.img_path = '/static/images/2020/top-banners/shuishijie.jpg';
       } else if(this.type === '7') {
         this.$parent.img_path = 'https://d.devnow.cn/travelclub2019/images/2019/top-golf.jpg';
       } else {

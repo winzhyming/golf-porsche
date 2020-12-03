@@ -1,5 +1,6 @@
  import Index from '@/views/index'
  import Dashboard from '@/views/public/index'
+ import Test from '@/views/test'
  
  export default {
   path: '/',
@@ -10,6 +11,11 @@
       path: '/',
       name: 'dashboard',
       component: Dashboard
+    },
+    {
+      path: '/test',
+      name: 'test',
+      component: Test
     }
   ]
 }

@@ -27,7 +27,7 @@
             </a>
           </div>
           <div v-if="!pics.length" class="fn-none" style="margin-top: 20vmin;">
-            <p style="font-size: 6vmin;">敬请期待</p>
+            <p style="font-size: 6vmin;" @click="goOther">敬请期待</p>
           </div>
         </div>
       </section>
@@ -44,6 +44,12 @@
       }
     },
     methods: {
+      goOther() {
+        console.log('test')
+        wx.miniProgram.navigateTo({
+          url: '/pages/test/test',
+  　　  })
+      },
       initPics: function() {
         for(var i = 0; i < 2; i++) {
           this.pics.push({

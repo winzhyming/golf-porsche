@@ -13,12 +13,12 @@
             <span class="fr text-right">自由时间</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis">18:15 - 19:30</span>
-            <span class="fr text-right">鸡尾酒会（沙滩草坪，1 楼）</span>
+            <span class="fl lable-left ellipsis">18:15 - 19:00</span>
+            <span class="fr text-right">鸡尾酒会（主草坪，1 楼）</span>
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">19:00 - 20:45</span>
-            <span class="fr text-right">欢迎晚会（沙滩草坪，1 楼）</span>
+            <span class="fr text-right">欢迎晚宴（主草坪，1 楼）</span>
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">20:45 起</span>
@@ -51,7 +51,7 @@
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">19:00 - 21:45</span>
-            <span class="fr text-right">年度晚宴（宴会大厅，1 楼）</span>
+            <span class="fr text-right">年度晚宴（大宴会厅，1 楼）</span>
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">21:45 - 24:00</span>
