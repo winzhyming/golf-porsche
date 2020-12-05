@@ -22,10 +22,10 @@
             <router-link :to="{'name': 'form.drive'}" class="btn-index">试驾预约</router-link>
           </li> -->
           <li>
-            <router-link :to="{'name': 'col.videospics'}" class="btn-index" style="color: #fff; border-color: #fff;">影像集锦</router-link>
-            <!-- <a href="javascript:;" @click="goOtherMini()" class="btn-index" style="color: #fff; border-color: #fff;">
+            <!-- <router-link :to="{'name': 'col.videospics'}" class="btn-index" style="color: #fff; border-color: #fff;">影像集锦</router-link> -->
+            <a href="javascript:;" @click="goOtherMini()" class="btn-index" style="color: #fff; border-color: #fff;">
               影像集锦
-            </a> -->
+            </a>
           </li>
         </ul>
       </section>
