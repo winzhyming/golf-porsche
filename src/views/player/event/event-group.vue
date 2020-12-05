@@ -6,17 +6,18 @@
       </h1>
       <table class="gi-table">
         <thead>
-          <th width="30%">姓名</th>
-          <th width="20%">性别</th>
-          <th width="30%">出发洞</th>
-          <th width="15%">类型</th>
+          <th style="text-align: center;">出发洞</th>
+          <td style="text-align: center;">编号</td>
+          <th style="text-align: center;">姓名</th>
+          <th style="text-align: center;">性别</th>
+          <th style="text-align: center;">类型</th>
         </thead>
-        <tbody>
+        <tbody style="text-align: center;">
           <tr v-for="(user, index) in users" :key="index">
-            <td><span style="opacity: 0;">{{ index }}</span></td>
-            <!-- <td style="opcaity: 0;">{{ user.name_ch || user.name_en || index }}</td> -->
-            <td>{{ user.sex || ' '}}</td>
-            <td>{{ user.hole|| ' ' }}</td>
+            <td><span>{{ user.hole }}</span></td>
+            <td style="text-align: center;">{{ user.num }}</td>
+            <td>{{ user.name || '' }}</td>
+            <td style="text-align: center;">{{ user.sex || ' ' }}</td>
             <td>{{ user.type || ' '}}</td>
           </tr>
         </tbody>
@@ -35,7 +36,93 @@
     data() {
       return {
         users: [
-          {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}
+          { hole: '1号洞', num: 3, name: '萧达', sex: 'M', type: '友谊赛'},
+          { hole: '1号洞', num: 2, name: '杨建德', sex: 'M', type: '友谊赛'},
+          { hole: '1号洞', num: 4, name: '徐志刚', sex: 'M', type: '友谊赛'},
+          { hole: '1号洞', num: 1, name: '张维维', sex: 'F', type: '友谊赛'},
+
+          { hole: '2号洞', num: 5, name: '叶涛', sex: 'M', type: '友谊赛'},
+          { hole: '2号洞', num: 6, name: '张穗明', sex: 'M', type: '友谊赛'},
+          { hole: '2号洞', num: 7, name: '张恽', sex: 'M', type: '友谊赛'},
+          
+          { hole: '3号洞', num: 8, name: '李缘', sex: 'M', type: '友谊赛'},
+          { hole: '3号洞', num: 9, name: '沈蓓', sex: 'F', type: '友谊赛'},
+          { hole: '3号洞', num: 10, name: '周才宜', sex: 'M', type: '友谊赛'},
+
+          { hole: '4号洞', num: 11, name: '张嘉盈', sex: 'F', type: '友谊赛'},
+          { hole: '4号洞', num: 12, name: '邵莹莹', sex: 'F', type: '友谊赛'},
+          { hole: '4号洞', num: 13, name: '杨小芳', sex: 'F', type: '友谊赛'},
+
+          { hole: '5号洞', num: 18, name: '崔滢', sex: 'M', type: '总决赛'},
+          { hole: '5号洞', num: 19, name: '沈宇光', sex: 'M', type: '总决赛'},
+          { hole: '5号洞', num: 20, name: '刘泽民', sex: 'M', type: '总决赛'},
+          { hole: '5号洞', num: 21, name: '周治河', sex: 'M', type: '总决赛'},
+
+          { hole: '6号洞', num: 22, name: '曹炜阳', sex: 'M', type: '总决赛'},
+          { hole: '6号洞', num: 23, name: '卢伟明', sex: 'M', type: '总决赛'},
+          { hole: '6号洞', num: 24, name: '胡利康', sex: 'M', type: '总决赛'},
+          { hole: '6号洞', num: 25, name: '陈安东', sex: 'M', type: '总决赛'},
+
+          { hole: '7号洞', num: 26, name: '黄浦生', sex: 'M', type: '总决赛'},
+          { hole: '7号洞', num: 27, name: '韩镇权', sex: 'M', type: '总决赛'},
+          { hole: '7号洞', num: 28, name: '佟林', sex: 'M', type: '总决赛'},
+          { hole: '7号洞', num: 29, name: '王勇', sex: 'M', type: '总决赛'},
+
+          { hole: '8号洞', num: 30, name: '吴恒锋', sex: 'M', type: '总决赛'},
+          { hole: '8号洞', num: 31, name: '石方勇', sex: 'M', type: '总决赛'},
+          { hole: '8号洞', num: 32, name: '曾远灵', sex: 'M', type: '总决赛'},
+          { hole: '8号洞', num: 33, name: '张以军', sex: 'M', type: '总决赛'},
+
+          { hole: '9号洞', num: 34, name: '白淙元', sex: 'M', type: '总决赛'},
+          { hole: '9号洞', num: 35, name: '崔立新', sex: 'M', type: '总决赛'},
+          { hole: '9号洞', num: 36, name: '龚水清', sex: 'M', type: '总决赛'},
+          { hole: '9号洞', num: 37, name: '阮旭升', sex: 'M', type: '总决赛'},
+
+          { hole: '10号洞', num: 38, name: '钟伟峰', sex: 'M', type: '总决赛'},
+          { hole: '10号洞', num: 39, name: '付东', sex: 'M', type: '总决赛'},
+          { hole: '10号洞', num: 40, name: '郑会平', sex: 'M', type: '总决赛'},
+          { hole: '10号洞', num: 41, name: '钱小乐', sex: 'M', type: '总决赛'},
+
+          { hole: '11号洞', num: 42, name: '庞进杰', sex: 'M', type: '总决赛'},
+          { hole: '11号洞', num: 43, name: '顾红健', sex: 'M', type: '总决赛'},
+          { hole: '11号洞', num: 44, name: '沈亚超', sex: 'M', type: '总决赛'},
+          { hole: '11号洞', num: 45, name: '宁富强', sex: 'M', type: '总决赛'},
+
+          { hole: '12号洞', num: 46, name: '张科', sex: 'M', type: '总决赛'},
+          { hole: '12号洞', num: 47, name: '秦巍华', sex: 'M', type: '总决赛'},
+          { hole: '12号洞', num: 48, name: '马明涛', sex: 'M', type: '总决赛'},
+          { hole: '12号洞', num: 49, name: '薛浩', sex: 'M', type: '总决赛'},
+
+          { hole: '13号洞', num: 50, name: '梁森祥', sex: 'M', type: '总决赛'},
+          { hole: '13号洞', num: 51, name: '何观桂', sex: 'M', type: '总决赛'},
+          { hole: '13号洞', num: 52, name: '董灿辉', sex: 'M', type: '总决赛'},
+          { hole: '13号洞', num: 53, name: '鲍建生', sex: 'M', type: '总决赛'},
+
+          { hole: '14号洞', num: 54, name: '杨松', sex: 'F', type: '总决赛'},
+          { hole: '14号洞', num: 55, name: '夏丹女', sex: 'F', type: '总决赛'},
+          { hole: '14号洞', num: 56, name: '赵琪', sex: 'F', type: '总决赛'},
+          { hole: '14号洞', num: 57, name: '何琼芬', sex: 'F', type: '总决赛'},
+
+          { hole: '15号洞', num: 58, name: '谢楚慧', sex: 'F', type: '总决赛'},
+          { hole: '15号洞', num: 59, name: '姜粉善', sex: 'F', type: '总决赛'},
+          { hole: '15号洞', num: 61, name: '刘卫兵', sex: 'F', type: '总决赛'},
+          
+          { hole: '16号洞', num: 62, name: '罗银好', sex: 'F', type: '总决赛'},
+          { hole: '16号洞', num: 63, name: '王雨鑫', sex: 'F', type: '总决赛'},
+          { hole: '16号洞', num: 64, name: '李燕玲', sex: 'F', type: '总决赛'},
+          { hole: '16号洞', num: 65, name: '周妮', sex: 'F', type: '总决赛'},
+
+          { hole: '17号洞', num: 66, name: '于倩', sex: 'F', type: '总决赛'},
+          { hole: '17号洞', num: 67, name: '张文', sex: 'F', type: '总决赛'},
+          { hole: '17号洞', num: 68, name: '戴娟', sex: 'F', type: '总决赛'},
+          { hole: '17号洞', num: 69, name: '杨小环', sex: 'F', type: '总决赛'},
+
+          { hole: '18号洞', num: 14, name: '张雪松', sex: 'M', type: '友谊赛'},
+          { hole: '18号洞', num: 15, name: '陆庆宜', sex: 'M', type: '友谊赛'},
+          { hole: '18号洞', num: 16, name: '董凤南', sex: 'M', type: '友谊赛'},
+          { hole: '18号洞', num: 17, name: '左琳', sex: 'M', type: '友谊赛'},
+          
+           {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}
           // {"hole":"1号洞-1","num":"1","jxs":"PCN","name_ch":"萧达","name_en":"David Xiao","sex":"男子","type":"友谊赛"},
           // {"hole":"1号洞-1","num":"2","jxs":"雄峰集团","name_ch":"徐志刚","name_en":"Tiger Xu","sex":"男子","type":"友谊赛"},
           // {"hole":"1号洞-1","num":"3","jxs":"TaylorMade","name_ch":"杨建德","name_en":"Ken Yeo","sex":"男子","type":"友谊赛"},
