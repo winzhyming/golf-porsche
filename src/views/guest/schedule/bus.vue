@@ -80,6 +80,29 @@
       </table>
 
       <p class="tips-bot" style="margin-top: 3.15vmin;">* 前往亚特兰蒂斯水世界游玩的客人，也可以继续去免税店购物，请注意亚特兰蒂斯水世界回程的2个不同上车地点及时间。</p>
+      
+      <table class="es-table" style="margin-top: 10vmin;">
+        <tr>
+          <th colspan="3">12 月 6 日 星期天</th>
+        </tr>
+        <tr>
+          <td>班车时间</td>
+          <td>上车地点</td>
+        </tr>
+        <tr>
+          <td>04:30<br>
+05:30<br>
+09:00<br>
+10:00<br>
+12:00<br>
+14:00<br>
+16:00<br>
+18:00<br>
+20:00</td>
+          <td>酒店大堂门口</td>
+        </tr>
+      </table>
+      <p class="tips-bot" style="margin-top: 3.15vmin;">* 从瑰丽酒店到三亚凤凰国际机场。</p>
       <!-- <section class="event-schedule">
         <h2 class="es-tit">12 月 5 日 星期六 </h2>
         <ul>
