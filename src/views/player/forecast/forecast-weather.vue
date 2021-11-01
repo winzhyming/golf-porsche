@@ -2,7 +2,7 @@
   <div class="ei-main">
     <div class="map-tep" style="margin-top: 17.1875vmin;">
       <div class="dimmer-top"></div>
-      <h1 class="mt-tit fen">陵水</h1>
+      <h1 class="mt-tit fen">万宁</h1>
       <div class="weather-box">
         <div id="tp-weather-widget">
         </div>
@@ -21,7 +21,7 @@
     mounted() {
       window.SeniverseWeatherWidget('show', {
         flavor: "slim",
-        location: "W7Q1PZC6KCFW",
+        location: "W7QDBNQVFQN8",
         geolocation: false,
         language: "zh-Hans",
         unit: "c",

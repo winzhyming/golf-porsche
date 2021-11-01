@@ -18,8 +18,11 @@ export default {
 
         for(var i = 0; i < numNodes; i++) {
           el = thumbElements[i];
-          // include only element nodes 
+          // include only element nodes
           if(el.nodeType !== 1) {
+            continue;
+          }
+          if(el.nodeName === 'H4') {
             continue;
           }
           childElements = el.children;
@@ -86,6 +89,9 @@ export default {
         for (var i = 0; i < numChildNodes; i++) {
           if(childNodes[i].nodeType !== 1) { 
             continue; 
+          }
+          if(childNodes[i].nodeName === 'H4') {
+            continue;
           }
 
           if(childNodes[i] === clickedListItem) {

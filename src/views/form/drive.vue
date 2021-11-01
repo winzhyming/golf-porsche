@@ -1,10 +1,10 @@
 <template>
   <div class="ei-main">
     <div class="ar-box">
-      <div class="ar-form">
+      <div class="ar-form" style="padding-bottom: 8vmin;">
         <div class="af-group">
-          <p style="font-size: 2.1875vmin;">* 11 月 30 日的试驾活动仅面向保时捷高尔夫活动的邀请嘉宾开放，
-请返回活动预约 – 嘉宾预约 – 分界洲岛试驾体验，进行预约。
+          <p style="font-size: 2.1875vmin;">* 12 月 3 和 4 日的试驾活动仅面对向保时捷高尔夫活动的邀请嘉宾开放。如有兴趣，请返回活动预约 - 嘉宾预约。
+<br>* 12 月 2 日 和 12 月 5 日试驾活动面向全体酒店住客。
 </p>
         </div>
         <div class="af-group">
@@ -24,17 +24,17 @@
         <div class="af-group clearfix">
           <div class="fl label-left">试驾车辆:</div>
           <div class="fr check-right">
-            <span class="check-span">
-              <input type="radio" name="car_type" value="1" v-model="form_data.car_type"/><label for="">&nbsp;718 Boxster</label>
+            <span class="check-span" style="width: 100%">
+              <input type="radio" name="car_type" value="1" v-model="form_data.car_type"/><label for="">&nbsp;718</label>
             </span>
-            <span class="check-span">
-              <input type="radio" name="car_type" value="2" v-model="form_data.car_type"/><label for="">&nbsp;718 Cayman</label>
+            <span class="check-span" style="width: 100%">
+              <input type="radio" name="car_type" value="2" v-model="form_data.car_type"/><label for="">&nbsp;911</label>
             </span>
-            <span class="check-span">
+            <span class="check-span" style="width: 100%">
               <input type="radio" name="car_type" value="3" v-model="form_data.car_type"/><label for="">&nbsp;Macan</label>
             </span>
-            <span class="check-span">
-              <input type="radio" name="car_type" value="4" v-model="form_data.car_type"/><label for="">&nbsp;Cayenne Coupé</label>
+            <span class="check-span" style="width: 100%">
+              <input type="radio" name="car_type" value="4" v-model="form_data.car_type"/><label for="">&nbsp;Taycan Turbo S</label>
             </span>
           </div>
         </div>
@@ -53,13 +53,10 @@
           <div class="fl label-left">试驾日期:</div>
           <div class="fr check-right">
             <span class="check-span">
-              <input type="radio" name="activity_date" value="1" v-model="form_data.activity_date"/><label for="">&nbsp;11 月 28 日</label>
+              <input type="radio" name="activity_date" value="1" v-model="form_data.activity_date"/><label for="">&nbsp;12 ⽉ 2 ⽇</label>
             </span>
             <span class="check-span">
-              <input type="radio"  name="activity_date" value="2" v-model="form_data.activity_date"/><label for="">&nbsp;11 月 29 日</label>
-            </span>
-            <span class="check-span">
-              <input type="radio"  name="activity_date" value="3" v-model="form_data.activity_date"/><label for="">&nbsp;12 月 01 日</label>
+              <input type="radio"  name="activity_date" value="2" v-model="form_data.activity_date"/><label for="">&nbsp;12 ⽉ 5 ⽇</label>
             </span>
           </div>
         </div>
@@ -87,8 +84,7 @@
           </div>
         </div>
         <div class="af-btns">
-          <p class="tips-bot fen" style="font-size: 2.1875vmin;">* 请现场携带驾驶证,并签署免责条款，参加试驾活动。</p>
-          <p class="tips-bot fen" style="font-size: 2.1875vmin; margin-top:0;">* 11 月 28、29 日及 12 月 1 日的试驾活动面向全体入住酒店的嘉宾。</p>
+          <p class="tips-bot fen" style="font-size: 2.1875vmin;">* 请现场携带驾驶证并签署免责条款，参加试乘试驾活动。</p>
           <div class="condition-check clearfix">
             <div class="label-left fl">
             	&nbsp;
@@ -147,8 +143,8 @@
         let _data = this.getFormData();
         $.ajax({
           type: "POST",
-          // url: "https://www.stxcve.cn/sk/myOrder.php",
-          url: "/sk/myOrder.php",
+          // url: "https://golf.devnow.cn/2020/data/myOrder.php",
+          url: "/2020/data/myOrder.php",
           data: _data,
           datatype: 'jsonp',
           jsonp: 'jsonp_callback',
@@ -187,8 +183,8 @@
         if(!this.checkPhone(this.form_data.mobile)) return;
         $.ajax({
           type: "POST",
-//        url: "https://www.stxcve.cn/sk/sendSms.php",
-          url: "/sk/sendSms.php",
+          // url: "https://golf.devnow.cn/2020/data/sendSms.php",
+          url: "/2020/data/sendSms.php",
           data:{ mobile: this.form_data.mobile},
           datatype: 'jsonp',
           jsonp: 'jsonp_callback',
@@ -221,7 +217,7 @@
         }, 1000);
       },
       checkPhone(_val) {
-        if(!(/^1[34578]\d{9}$/.test(_val))){ 
+        if(!(/^1[345789]\d{9}$/.test(_val))){ 
           this.$root.pop('手机号码有误，请重填');
           return false; 
         } else {
