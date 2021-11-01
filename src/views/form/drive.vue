@@ -3,9 +3,8 @@
     <div class="ar-box">
       <div class="ar-form" style="padding-bottom: 8vmin;">
         <div class="af-group">
-          <p style="font-size: 2.1875vmin;">* 12 ⽉ 5 ⽇的试驾活动仅⾯向保时捷⾼尔夫活动的邀请嘉宾开放。
-如有兴趣，请返回活动预约-嘉宾预约。
-<br>* 12 ⽉ 3、4 ⽇及 12 ⽉ 6 ⽇试驾活动⾯向全体酒店住客。
+          <p style="font-size: 2.1875vmin;">* 12 月 3 和 4 日的试驾活动仅面对向保时捷高尔夫活动的邀请嘉宾开放。如有兴趣，请返回活动预约 - 嘉宾预约。
+<br>* 12 月 2 日 和 12 月 5 日试驾活动面向全体酒店住客。
 </p>
         </div>
         <div class="af-group">
@@ -54,13 +53,10 @@
           <div class="fl label-left">试驾日期:</div>
           <div class="fr check-right">
             <span class="check-span">
-              <input type="radio" name="activity_date" value="1" v-model="form_data.activity_date"/><label for="">&nbsp;12 ⽉ 3 ⽇</label>
+              <input type="radio" name="activity_date" value="1" v-model="form_data.activity_date"/><label for="">&nbsp;12 ⽉ 2 ⽇</label>
             </span>
             <span class="check-span">
-              <input type="radio"  name="activity_date" value="2" v-model="form_data.activity_date"/><label for="">&nbsp;12 ⽉ 4 ⽇</label>
-            </span>
-            <span class="check-span">
-              <input type="radio"  name="activity_date" value="3" v-model="form_data.activity_date"/><label for="">&nbsp;12 ⽉ 6 ⽇</label>
+              <input type="radio"  name="activity_date" value="2" v-model="form_data.activity_date"/><label for="">&nbsp;12 ⽉ 5 ⽇</label>
             </span>
           </div>
         </div>

@@ -4,8 +4,8 @@ import SubMain from '@/views/guest/subscribe/index'
 import SubMenu from '@/views/guest/subscribe/sub-menu'
 import SubMenu2 from '@/views/guest/subscribe/sub-menu2'
 import SubPorsche from '@/views/guest/subscribe/sub-porsche'
-import SubMovie from '@/views/guest/subscribe/sub-movie'
-import SubVolcano from '@/views/guest/subscribe/sub-volcano'
+import SubChonglang from '@/views/guest/subscribe/sub-chonglang'
+import SubMianshui from '@/views/guest/subscribe/sub-mianshui'
 import SubForm from '@/views/guest/subscribe/sub-form'
 import SubResult from '@/views/guest/subscribe/sub-result'
 import ScheduleMain from '@/views/guest/schedule/index'
@@ -13,6 +13,7 @@ import ScheduleBus from '@/views/guest/schedule/bus'
 import ContactMain from '@/views/guest/contact/index'
 import ContactEmergency from '@/views/guest/contact/emergency'
 import SubHaian from '@/views/guest/subscribe/sub-haian'
+import SubHaian2 from '@/views/guest/subscribe/sub-haian2'
 import SubCoffee from '@/views/guest/subscribe/sub-coffee'
 import SubWater from '@/views/guest/subscribe/sub-water'
 import SubDate from '@/views/guest/subscribe/sub-date'
@@ -54,8 +55,8 @@ export default {
       component: SubMain,
       children: [
         {
-          path: 'date/two',
-          name: 'subscribe.menu',
+          path: 'date/three',
+          name: 'subscribe.three',
           component: SubMenu
         },
         {
@@ -89,14 +90,19 @@ export default {
           component: SubPorsche
         },
         {
-          path: 'sub/two/menu/movie',
-          name: 'subscribe.menu.movie',
-          component: SubMovie
+          path: 'date/three/haian2',
+          name: 'subscribe.haian2',
+          component: SubHaian2
         },
         {
-          path: 'sub/two/menu/volcanic',
-          name: 'subscribe.menu.volcano',
-          component: SubVolcano
+          path: 'sub/three/chonglang',
+          name: 'subscribe.chonglang',
+          component: SubChonglang
+        },
+        {
+          path: 'sub/three/mianshui',
+          name: 'subscribe.mianshui',
+          component: SubMianshui
         },
         {
           path: 'sub/all/act/form/submit',

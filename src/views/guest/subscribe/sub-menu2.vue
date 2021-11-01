@@ -13,19 +13,19 @@
           </router-link>
         </li>
         <li>
-          <router-link :to="{'name': 'subscribe.coffee'}" class="clearfix">
-            咖啡庄园体验<img src="https://d.devnow.cn/golf2019/images/ic-next-red.png" class="ic fr"/>
+          <router-link :to="{'name': 'subscribe.water'}" class="clearfix">
+            ⽔上桨板体验<img src="https://d.devnow.cn/golf2019/images/ic-next-red.png" class="ic fr"/>
           </router-link>
         </li>
         <li>
-          <router-link :to="{'name': 'subscribe.water'}" class="clearfix">
-            ⽔上桨板体验<img src="https://d.devnow.cn/golf2019/images/ic-next-red.png" class="ic fr"/>
+          <router-link :to="{'name': 'subscribe.coffee'}" class="clearfix">
+            咖啡庄园体验<img src="https://d.devnow.cn/golf2019/images/ic-next-red.png" class="ic fr"/>
           </router-link>
         </li>
       </ul>
       
       <div class="tips-bot">
-        * 请注意，由于时间安排，您只能在上⾯四个活动中选择⼀项参加。名额有限，先到先得。
+        * 请注意，由于时间安排，您只能在上面四个活动中选择一项参加，名额有限，先到先得。
       </div>
     </section>
   </div>
@@ -37,7 +37,7 @@
       return {}
     },
     mounted() {
-      this.$parent.img_path = 'https://d.devnow.cn/golf2020/images/top-banners/jbyy.jpg';
+      this.$parent.img_path = '/static/images/2020/top-banners/jbyy.jpg';
     }
   }
 </script>

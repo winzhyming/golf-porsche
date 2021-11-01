@@ -46,10 +46,10 @@
     },
     created() {
       for(let i = 1; i < 19; i++) {
-        this.imgs4.push('https://d.devnow.cn/golf2020/images/holes/4/' + i + '.jpg')
+        this.imgs4.push('/static/images/2020/holes/4/' + i + '.jpg')
       }
       for(let i = 1; i < 19; i++) {
-        this.imgs5.push('https://d.devnow.cn/golf2020/images/holes/5/' + i + '.jpg')
+        this.imgs5.push('/static/images/2020/holes/5/' + i + '.jpg')
       }
     }
   }

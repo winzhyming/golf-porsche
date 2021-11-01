@@ -5,54 +5,82 @@
         班车时刻 <img src="https://d.devnow.cn/golf2019/images/ic-next-red.png" class="ic"/>
       </h1>
       <section class="event-schedule">
-        <h2 class="es-tit">12 ⽉ 4 ⽇</h2>
-        <ul class="fen">
-          <li class="clearfix li-tit">
-            <span class="fl">⾼尔夫体验：神州半岛⾼尔夫球会</span>
-          </li>
-          <li class="clearfix">
-            <span class="fl">13:00 - 酒店 2 层⼤堂出发 <br>16:00 - 返程</span>
-          </li>
-          <li class="clearfix li-tit">
-            <span class="fl">⽔上活动体验：⽯梅湾威斯汀酒店</span>
-          </li>
-          <li class="clearfix">
-            <span class="fl">13:30 - 酒店 2 层⼤堂出发（步⾏前往）</span>
-          </li>
-        </ul>
-      </section>
-      <br>
-      <section class="event-schedule">
-        <h2 class="es-tit">12 ⽉ 5 ⽇</h2>
+        <h2 class="es-tit">2021 年 12 月 3 日 星期五</h2>
         <ul class="fen">
           <li class="clearfix li-tit">
             <span class="fl">保时捷友谊赛</span>
           </li>
           <li class="clearfix">
-            <span class="fl">07:30 - 09:30 酒店 2 层⼤堂 - 出发</span>
-            <span class="fl" style="display:block; padding-left: 19vmin;">(每 10 分钟⼀班 - 路程约 30 分钟)</span>
+            <span class="fl" style="width: 100%;">07:30 - 09:45 酒店 2 层大堂 - 出发</span>
+            <span class="fl" style="display:block; padding-left: 19vmin;">每 5 - 10 分钟一班</span>
           </li>
           <li class="clearfix">
-            <span class="fl">15:30 - 16:30 球会 - 返程</span>
-            <span class="fl" style="display:block; padding-left: 19vmin;">(每 10 分钟⼀班 - 路程约 30 分钟)</span>
+            <span class="fl" style="width: 100%;">15:30 - 17:00 球会 - 返程</span>
+            <span class="fl" style="display:block; padding-left: 19vmin;">每 5 - 10 分钟一班</span>
           </li>
           <li class="clearfix li-tit">
             <span class="fl">最美海岸试驾体验</span>
           </li>
           <li class="clearfix">
-            <span class="fl">13:30 - 酒店 2 层⼤堂 保时捷试乘试驾问询台</span>
+            <span class="fl" style="width: 100%;">11:30 - 酒店 2 层大堂 保时捷签到中心</span>
+          </li>
+          <li class="clearfix li-tit">
+            <span class="fl">水上浆板体验</span>
+          </li>
+          <li class="clearfix">
+            <span class="fl" style="width: 100%;">11:30 - 酒店 2 层大堂出发</span>
+          </li>
+          <li class="clearfix">
+            <span class="fl" style="width: 100%;">15:30 - 返程</span>
           </li>
           <li class="clearfix li-tit">
             <span class="fl">咖啡庄园体验</span>
           </li>
           <li class="clearfix">
-            <span class="fl">14:00 - 酒店 2 层⼤堂出发 <br>16:30 - 返程</span>
-          </li>
-          <li class="clearfix li-tit">
-            <span class="fl">⽔上桨板体验</span>
+            <span class="fl" style="width: 100%;">11:30 - 酒店 2 层大堂出发</span>
           </li>
           <li class="clearfix">
-            <span class="fl">12:55 - 酒店 2 层⼤堂出发 <br>16:30 - 返程</span>
+            <span class="fl" style="width: 100%;">15:30 - 返程</span>
+          </li>
+        </ul>
+      </section>
+      <section class="event-schedule">
+        <h2 class="es-tit">2021 年 12 月 4 日 星期六</h2>
+        <ul class="fen">
+          <li class="clearfix li-tit">
+            <span class="fl">保时捷友谊赛</span>
+          </li>
+          <li class="clearfix">
+            <span class="fl" style="width: 100%;">07:30 - 08:45 酒店 2 层大堂 - 出发</span>
+            <span class="fl" style="display:block; padding-left: 19vmin;">每 5 - 10 分钟一班</span>
+          </li>
+          <li class="clearfix">
+            <span class="fl" style="width: 100%;">15:30 - 17:00 球会 - 返程</span>
+            <span class="fl" style="display:block; padding-left: 19vmin;">每 5 - 10 分钟一班</span>
+          </li>
+          <li class="clearfix li-tit">
+            <span class="fl">最美海岸试驾体验</span>
+          </li>
+          <li class="clearfix">
+            <span class="fl">11:30 - 酒店 2 层大堂 保时捷签到中心</span>
+          </li>
+          <li class="clearfix li-tit">
+            <span class="fl">免税店购物</span>
+          </li>
+          <li class="clearfix">
+            <span class="fl">10:00 - 酒店 2 层大堂出发</span>
+          </li>
+          <li class="clearfix">
+            <span class="fl">16:00 - 返程</span>
+          </li>
+          <li class="clearfix li-tit">
+            <span class="fl">冲浪体验</span>
+          </li>
+          <li class="clearfix">
+            <span class="fl">11:30 - 酒店 2 层大堂出发</span>
+          </li>
+          <li class="clearfix">
+            <span class="fl">15:30 - 返程</span>
           </li>
           <!-- <li class="clearfix li-tit">
             <span class="fl lable-left ellipsis">酒店 – 分界洲岛</span>
@@ -85,7 +113,7 @@
       return {}
     },
     mounted() {
-      this.$parent.img_path = 'https://d.devnow.cn/golf2020/images/top-banners/tqyb.jpg';
+      this.$parent.img_path = '/static/images/2020/top-banners/tqyb.jpg';
     }
   }
 </script>

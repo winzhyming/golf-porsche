@@ -6,7 +6,7 @@
         <h2>&nbsp;</h2>
         <section class="clearfix">
           <span class="fl lable-left ellipsis">活动时间:</span>
-          <span class="fr text-right fen">12 月 5 日 10:30 - 16:00</span>
+          <span class="fr text-right fen">12 月 3 日 10:00 - 15:30<br>12 月 4 日 09:00 - 14:30</span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left ellipsis">集合地点:</span>
@@ -42,7 +42,7 @@ Stableford 计分规则<br>
             </span>
         </section>
         <div class="tips-bot fen">
-          * 请通过活动热线 1312 2577 911 预约报名，截止时间 12 ⽉ 3 日 17:00。如您已预约参赛，请于开赛前 10 分钟到达集合地点。
+          * 请通过活动热线 1304 1689 911 预约报名，截止时间 12 月 1 日 17: 00.如您已预约参赛，请于开赛前 10 分钟到达集合地点。
         </div>
       </article>
     </div>
@@ -55,7 +55,7 @@ Stableford 计分规则<br>
       return {}
     },
     mounted() {
-      this.$parent.img_path = 'https://d.devnow.cn/golf2020/images/top-banners/jbyy-golf.jpg';
+      this.$parent.img_path = '/static/images/2020/top-banners/jbyy-golf.jpg';
     }
   }
 </script>

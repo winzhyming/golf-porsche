@@ -1,7 +1,7 @@
 <template>
   <div id="map-index">
     <div class="top-ban pr">
-      <img src="https://d.devnow.cn/golf2020/images/top-banners/jddt.jpg" class="pa-img"/>
+      <img src="/static/images/2020/top-banners/jddt.jpg" class="pa-img"/>
       <div class="tbt-tit pa">
         <h1><img src="https://d.devnow.cn/golf2019/images/btn-finalist04.png" class="ic"/>酒店地图</h1>
       </div>

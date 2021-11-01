@@ -3,13 +3,13 @@
     <section class="ei-btns dates-btns" style="padding-bottom: 39vmin;">
       <ul>
         <li>
-          <router-link :to="{'name': 'subscribe.menu'}" class="clearfix f2020">
-            12 月 4 日
+          <router-link :to="{'name': 'subscribe.four'}" class="clearfix f2020">
+            12 月 3 日
           </router-link>
         </li>
         <li>
-          <router-link :to="{'name': 'subscribe.four'}" class="clearfix f2020">
-            12 月 5 日
+          <router-link :to="{'name': 'subscribe.three'}" class="clearfix f2020">
+            12 月 4 日
           </router-link>
         </li>
       </ul>
@@ -23,7 +23,7 @@
       return {}
     },
     mounted() {
-      this.$parent.img_path = 'https://d.devnow.cn/golf2020/images/top-banners/jbyy.jpg';
+      this.$parent.img_path = '/static/images/2020/top-banners/jbyy.jpg';
     }
   }
 </script>

@@ -10,7 +10,7 @@
     	<router-view></router-view>
     </div>
     
-    <img src="https://d.devnow.cn/golf2020/images/bottom2020.jpg" alt="" class="img-bot">
+    <img src="/static/images/2020/bottom2021.jpg" alt="" class="img-bot">
     
     <a @click="back" class="back-btn" v-bottom_back><img src="https://d.devnow.cn/golf2019/images/ic-back.jpg"/></a>
     <a @click="index" class="index-btn"><img src="https://d.devnow.cn/golf2019/images/ic-index.jpg"/></a>
