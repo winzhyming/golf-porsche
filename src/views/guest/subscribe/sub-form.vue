@@ -22,31 +22,28 @@
         </div> -->
         <div class="af-group clearfix">
           <div class="fl label-left">预约时间:</div>
-          <div class="fr check-right" v-if="activity_select.val === '6'">
-            <span class="check-span">12 月 4 日 11:30 - 15:30</span>
-          </div>
-          <div class="fr check-right" v-if="activity_select.val === '5'">
+          <div class="fr check-right" v-if="activity_select.val === '1'">
             <span class="check-span">12 月 3 日 11:30 - 15:30</span>
           </div>
-          <div class="fr check-right" v-if="activity_select.val === '4'">
+          <div class="fr check-right" v-if="activity_select.val === '2'">
             <span class="check-span">12 月 3 日 11:30 - 15:30</span>
           </div>
           <div class="fr check-right" v-if="activity_select.val === '3'">
-            <span class="check-span">12 月 5 日 13:30 - 16:30</span>
+            <span class="check-span">12 月 3 日 11:30 - 15:30</span>
           </div>
-          <div class="fr check-right" v-if="activity_select.val === '2'">
+          <div class="fr check-right" v-if="activity_select.val === '4'">
+            <span class="check-span">12 月 4 日 11:30 - 15:30</span>
+          </div>
+          <div class="fr check-right" v-if="activity_select.val === '5'">
+            <span class="check-span">12 月 4 日 10:00 - 16:00</span>
+          </div>
+          <div class="fr check-right" v-if="activity_select.val === '6'">
             <span class="check-span">12 月 4 日 11:30 - 15:30</span>
             <!-- <span class="check-span">
               <input type="radio" name="activity_time" value="1" v-model="form_data.activity_time"/><label for="">&nbsp;09:30</label>
             </span>
             <span class="check-span">
               <input type="radio" name="activity_time" value="2" v-model="form_data.activity_time"/><label for="">&nbsp;13:00</label>
-            </span> -->
-          </div>
-          <div class="fr check-right" v-if="activity_select.val === '1'">
-            <span class="check-span">12 月 4 日 10:00 - 16:00</span>
-            <!-- <span class="check-span">
-              <input type="radio" name="activity_time" value="1" v-model="form_data.activity_time"/><label for="">&nbsp;09:30</label>
             </span> -->
           </div>
         </div>
@@ -79,12 +76,12 @@
         },
         activity_select: {
           selections: [
-            {name: '免税店购物：三亚海棠湾免税购物中心', val: '1'},
-            {name: '冲浪体验: 神州半岛海滩', val: '2'},
-            {name: '最美海岸试驾体验', val: '3'},
-            {name: '咖啡庄园体验', val: '4'},
-            {name: '⽔上桨板体验', val: '5'},
-            {name: '最美海岸试驾体验', val: '6'}
+            {name: '最美海岸试驾体验', val: '1'},
+            {name: '⽔上桨板体验', val: '2'},
+            {name: '咖啡庄园体验', val: '3'},
+            {name: '最美海岸试驾体验', val: '4'},
+            {name: '免税店购物：三亚海棠湾免税购物中心', val: '5'},
+            {name: '冲浪体验: 神州半岛海滩', val: '6'},
           ],
           val: _params.activity || '',
           tips: '活动',
@@ -134,8 +131,8 @@
         
         $.ajax({
           type: "POST",
-          url: "/2020/data/myOrder2.php",
-          // url: "https://golf.devnow.cn/2020/data/myOrder2.php",
+          url: "/2021/data/myOrder2.php",
+          // url: "https://golf.devnow.cn/2021/data/myOrder2.php",
           data: _data,
           datatype: 'jsonp',
           jsonp: 'jsonp_callback',

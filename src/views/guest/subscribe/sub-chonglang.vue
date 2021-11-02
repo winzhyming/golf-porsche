@@ -36,7 +36,7 @@
     },
     methods: {
       subscribe() {
-        this.$router.push({'name': 'subscribe.form', 'params': {'activity': '2'}});
+        this.$router.push({'name': 'subscribe.form', 'params': {'activity': '6'}});
       }
     },
     mounted() {
