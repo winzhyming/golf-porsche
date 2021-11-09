@@ -21,7 +21,7 @@
           </li>
           <li>
             <a href="javascript:;">
-              <img src="/static/images/2020/logo-tag.png" style="width: 20vmin" />
+              <img src="https://d.devnow.cn/golf2021/logo-tag.png" style="width: 20vmin" />
               <p class="test">官⽅计时合作伙伴</p>
             </a>
           </li>

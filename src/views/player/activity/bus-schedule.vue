@@ -6,7 +6,7 @@
         <img src="https://d.devnow.cn/golf2019/images/ic-next-red.png" class="ic" />
       </h1>
       <section class="event-schedule fen">
-        <h2 class="es-tit">2021 年 12 ⽉ 3 ⽇ 星期五</h2>
+        <h2 class="es-tit">2021 年 12 月 3 日 星期五</h2>
         <ul>
           <li class="clearfix li-tit">
             <span class="fl lable-left ellipsis">酒店 - 球会</span>
@@ -27,7 +27,7 @@
         </ul>
       </section>
       <section class="event-schedule fen">
-        <h2 class="es-tit">2021 年 12 ⽉ 4 ⽇ 星期六</h2>
+        <h2 class="es-tit">2021 年 12 月 4 日 星期六</h2>
         <ul>
           <li class="clearfix li-tit">
             <span class="fl lable-left ellipsis">酒店 - 球会</span>
@@ -48,7 +48,7 @@
         </ul>
       </section>
       <section class="event-schedule fen">
-        <h2 class="es-tit">2021 年 12 ⽉ 5 ⽇ 星期日</h2>
+        <h2 class="es-tit">2021 年 12 月 5 日 星期日</h2>
         <ul>
           <li class="clearfix li-tit">
             <span class="fl lable-left ellipsis">酒店 - 机场</span>

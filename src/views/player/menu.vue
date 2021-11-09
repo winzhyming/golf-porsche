@@ -11,7 +11,7 @@
           <ul>
             <li>
               <router-link :to="{'name': 'event.menu'}" class="btn-a">
-                <img src="/static/images/2020/ics/ic56-030.png" alt="" />
+                <img src="https://d.devnow.cn/golf2021/ics/ic56-030.png" alt="" />
                 <h2>赛事信息</h2>
               </router-link>
             </li>

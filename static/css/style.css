@@ -1041,7 +1041,7 @@ select.form-control option {
 #player-menu {
   min-height: 100vh;
   /* background-image: url(../images/body-finalist_2018.jpg); */
-  background-image: url(/static/images/2020/bgs/VectorSmartObjectcopy13.jpg);
+  background-image: url(https://d.devnow.cn/golf2021/bgs/VectorSmartObjectcopy13.jpg);
 }
 
 #guest-index {

@@ -22,7 +22,7 @@
         </section>
         <div class="btn-form">
           <a @click="subscribe" class="btn-order ib">立即预约</a>
-          <p class="form-tips fen">* 报名截止时间 12 ⽉ 3 日 12:00。</p>
+          <p class="form-tips fen">* 报名截止时间 12 月 3 日 12:00。</p>
         </div>
       </article>
     </div>
@@ -40,7 +40,7 @@
       }
     },
     mounted() {
-      this.$parent.img_path = '/static/images/2020/top-banners/chonglang.jpg';
+      this.$parent.img_path = 'https://d.devnow.cn/golf2021/top-banners/chonglang.jpg';
     }
   }
 </script>

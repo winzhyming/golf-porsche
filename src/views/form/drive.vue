@@ -53,10 +53,10 @@
           <div class="fl label-left">试驾日期:</div>
           <div class="fr check-right">
             <span class="check-span">
-              <input type="radio" name="activity_date" value="1" v-model="form_data.activity_date"/><label for="">&nbsp;12 ⽉ 2 ⽇</label>
+              <input type="radio" name="activity_date" value="1" v-model="form_data.activity_date"/><label for="">&nbsp;12 月 2 日</label>
             </span>
             <span class="check-span">
-              <input type="radio"  name="activity_date" value="2" v-model="form_data.activity_date"/><label for="">&nbsp;12 ⽉ 5 ⽇</label>
+              <input type="radio"  name="activity_date" value="2" v-model="form_data.activity_date"/><label for="">&nbsp;12 月 5 日</label>
             </span>
           </div>
         </div>

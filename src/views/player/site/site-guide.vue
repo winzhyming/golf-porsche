@@ -18,11 +18,11 @@
       </section>
     </div>
     <div class="site-image">
-      <h2 style="font-size: 5vmin; color: #f00; text-align: left; font-weight: 600; margin-bottom: 3.125vmin;">12月4日</h2>
+      <h2 style="font-size: 5vmin; color: #f00; text-align: left; font-weight: 600; margin-bottom: 3.125vmin;">12月3日</h2>
       <img :src="img" v-for="(img, index) in imgs4" :key="index" alt="">
       <br>
       <br>
-      <h2 style="font-size: 5vmin; color: #f00; text-align: left; font-weight: 600; margin-bottom: 3.125vmin;">12月5日</h2>
+      <h2 style="font-size: 5vmin; color: #f00; text-align: left; font-weight: 600; margin-bottom: 3.125vmin;">12月4日</h2>
       <img :src="img" v-for="(img, index) in imgs5" :key="index" alt="">
       <br><br>
     </div>
@@ -46,10 +46,10 @@
     },
     created() {
       for(let i = 1; i < 19; i++) {
-        this.imgs4.push('/static/images/2020/holes/4/' + i + '.jpg')
+        this.imgs4.push('https://d.devnow.cn/golf2021/holes/4/' + i + '.jpg')
       }
       for(let i = 1; i < 19; i++) {
-        this.imgs5.push('/static/images/2020/holes/5/' + i + '.jpg')
+        this.imgs5.push('https://d.devnow.cn/golf2021/holes/5/' + i + '.jpg')
       }
     }
   }

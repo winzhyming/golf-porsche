@@ -113,7 +113,7 @@
       return {}
     },
     mounted() {
-      this.$parent.img_path = '/static/images/2020/top-banners/tqyb.jpg';
+      this.$parent.img_path = 'https://d.devnow.cn/golf2021/top-banners/tqyb.jpg';
     }
   }
 </script>

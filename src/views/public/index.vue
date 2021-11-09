@@ -4,7 +4,7 @@
     <div class="body-index pr">
       <section class="bi-tit fen-b">
         <img class="img-logo" src="https://d.devnow.cn/golf2019/images/logo.png" alt="Porsche">
-        <img class="img-word" src="/static/images/2020/landing-title.png" alt="2020 保时捷高尔夫巡回赛总决赛 Porsche Golf Cup China Final 2020">
+        <img class="img-word" src="https://d.devnow.cn/golf2021/landing-title.png" alt="2020 保时捷高尔夫巡回赛总决赛 Porsche Golf Cup China Final 2020">
       </section>
       <section class="bi-btns">
         <ul>
@@ -23,7 +23,7 @@
         </ul>
       </section>
     </div>
-    <img src="/static/images/2020/bottom2021.jpg" alt="" class="img-bot">
+    <img src="https://d.devnow.cn/golf2021/bottom2021.jpg" alt="" class="img-bot">
   </div>
 </template>
 

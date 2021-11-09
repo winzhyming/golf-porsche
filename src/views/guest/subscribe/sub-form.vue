@@ -77,7 +77,7 @@
         activity_select: {
           selections: [
             {name: '最美海岸试驾体验', val: '1'},
-            {name: '⽔上桨板体验', val: '2'},
+            {name: '水上桨板体验', val: '2'},
             {name: '咖啡庄园体验', val: '3'},
             {name: '最美海岸试驾体验', val: '4'},
             {name: '免税店购物：三亚海棠湾免税购物中心', val: '5'},
@@ -190,7 +190,7 @@
       }
     },
     mounted() {
-      this.$parent.img_path = '/static/images/2020/top-banners/jbyy2.jpg';
+      this.$parent.img_path = 'https://d.devnow.cn/golf2021/top-banners/jbyy2.jpg';
     },
     components: {
       select_comp

@@ -14,7 +14,7 @@
         </li>
         <li>
           <router-link :to="{'name': 'subscribe.water'}" class="clearfix">
-            ⽔上桨板体验<img src="https://d.devnow.cn/golf2019/images/ic-next-red.png" class="ic fr"/>
+            水上桨板体验<img src="https://d.devnow.cn/golf2019/images/ic-next-red.png" class="ic fr"/>
           </router-link>
         </li>
         <li>
@@ -37,7 +37,7 @@
       return {}
     },
     mounted() {
-      this.$parent.img_path = '/static/images/2020/top-banners/jbyy.jpg';
+      this.$parent.img_path = 'https://d.devnow.cn/golf2021/top-banners/jbyy.jpg';
     }
   }
 </script>

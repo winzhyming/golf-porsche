@@ -4,7 +4,7 @@
       <article class="ef-art pc-art mct-art">
         <div class="result-tips" style="margin: 10vmin 0;">
               恭喜您已完成
-              <strong v-if="type === '5'">⽔上桨板体验</strong>
+              <strong v-if="type === '5'">水上桨板体验</strong>
               <strong v-if="type === '4'">咖啡庄园体验</strong>
               <strong v-if="type === '3'">最美海岸试驾体验</strong>
               <strong v-if="type === '2'">水上活动体验：石梅湾威斯汀酒店</strong>

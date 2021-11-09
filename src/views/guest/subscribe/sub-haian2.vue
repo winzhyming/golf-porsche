@@ -18,7 +18,7 @@
         </section>
         <section class="clearfix">
           <span class="fl lable-left ellipsis">注意事项:</span>
-          <span class="fr text-right">请您随⾝携带驾照。<br>请勿穿着⾼跟鞋。</span>
+          <span class="fr text-right">请您随身携带驾照。<br>请勿穿着高跟鞋。</span>
         </section>
         <div class="btn-form">
           <a @click="subscribe" class="btn-order ib">立即预约</a>
@@ -40,7 +40,7 @@
       }
     },
     mounted() {
-      this.$parent.img_path = '/static/images/2020/top-banners/yysj.jpg';
+      this.$parent.img_path = 'https://d.devnow.cn/golf2021/top-banners/yysj.jpg';
       
       // this.$parent.img_path = 'https://d.devnow.cn/golf2019/images/bg-top11.jpg'
     }
