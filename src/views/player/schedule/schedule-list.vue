@@ -107,7 +107,7 @@
           <li class="clearfix">
             <span class="fl lable-left ellipsis">09:00 - 14:00</span>
             <span class="fr text-right">
-              班⻋送机 （每半⼩时⼀班）
+              班车送机 （每半小时一班）
               <br />有需要的嘉宾可享用午餐
             </span>
           </li>

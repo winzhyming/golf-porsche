@@ -16,15 +16,12 @@
           </li>
         </ul>
       </section>
-    </div>
-    <div class="site-image">
-      <h2 style="font-size: 5vmin; color: #f00; text-align: left; font-weight: 600; margin-bottom: 3.125vmin;">12月3日</h2>
-      <img :src="img" v-for="(img, index) in imgs4" :key="index" alt="">
-      <br>
-      <br>
-      <h2 style="font-size: 5vmin; color: #f00; text-align: left; font-weight: 600; margin-bottom: 3.125vmin;">12月4日</h2>
-      <img :src="img" v-for="(img, index) in imgs5" :key="index" alt="">
-      <br><br>
+      <section class="ei-btns" style="padding-top: 0;">
+        <ul>
+          <li><router-link :to="{ 'name': 'site.day1' }" style="text-align: center;">12 月 3 日</router-link></li>
+          <li><router-link :to="{ 'name': 'site.day2' }" style="text-align: center;">12 月 4 日</router-link></li>
+        </ul>
+      </section>
     </div>
   </div>
 </template>
@@ -40,17 +37,9 @@
   export default {
     data() {
       return {
-        imgs4: [],
-        imgs5: []
       }
     },
     created() {
-      for(let i = 1; i < 19; i++) {
-        this.imgs4.push('https://d.devnow.cn/golf2021/holes/4/' + i + '.jpg')
-      }
-      for(let i = 1; i < 19; i++) {
-        this.imgs5.push('https://d.devnow.cn/golf2021/holes/5/' + i + '.jpg')
-      }
     }
   }
 </script>

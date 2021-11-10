@@ -4,6 +4,7 @@ import SubMain from '@/views/guest/subscribe/index'
 import SubMenu from '@/views/guest/subscribe/sub-menu'
 import SubMenu2 from '@/views/guest/subscribe/sub-menu2'
 import SubPorsche from '@/views/guest/subscribe/sub-porsche'
+import SubPorsche2 from '@/views/guest/subscribe/sub-porsche2'
 import SubChonglang from '@/views/guest/subscribe/sub-chonglang'
 import SubMianshui from '@/views/guest/subscribe/sub-mianshui'
 import SubForm from '@/views/guest/subscribe/sub-form'
@@ -88,6 +89,11 @@ export default {
           path: 'date/four/porsche',
           name: 'subscribe.porsche',
           component: SubPorsche
+        },
+        {
+          path: 'date/three/porsche2',
+          name: 'subscribe.porsche2',
+          component: SubPorsche2
         },
         {
           path: 'date/three/haian2',

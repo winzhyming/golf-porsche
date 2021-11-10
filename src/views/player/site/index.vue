@@ -7,7 +7,9 @@
       </div>
     </div>
     <div class="pr">
-    	<router-view></router-view>
+    	<transition :name="'vux-pop-' + (direction === 'forward' ? 'in' : 'out')">
+        <router-view></router-view>
+      </transition>
     </div>
 
     <img src="https://d.devnow.cn/golf2021/bottom2021.jpg" alt="" class="img-bot">
@@ -18,6 +20,8 @@
 </template>
 
 <script>
+  import {mapState} from 'vuex'
+
   export default {
     data() {
       return {}
@@ -29,6 +33,11 @@
       back() {
         this.$router.go(-1);
       }
+    },
+    computed:{
+      ...mapState({
+        direction: state => state.mutations.direction,
+      })
     }
   }
 </script>

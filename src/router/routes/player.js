@@ -22,6 +22,8 @@ import EmergContact from '@/views/player/activity/emergency-contact'
 import ActivitySponsor from '@/views/player/activity/activity-sponsor'
 import SiteMain from '@/views/player/site/index'
 import SiteGuide from '@/views/player/site/site-guide'
+import SiteDay1 from '@/views/player/site/day1'
+import SiteDay2 from '@/views/player/site/day2'
 
 export default {
     path: '/player',
@@ -112,6 +114,14 @@ export default {
                 path: '/',
                 name: 'site.guide',
                 component: SiteGuide
+            }, {
+                path: 'day1',
+                name: 'site.day1',
+                component: SiteDay1
+            }, {
+                path: 'day2',
+                name: 'site.day2',
+                component: SiteDay1
             }]
         },
         {

@@ -6,7 +6,7 @@
         <h2>&nbsp;</h2>
         <section class="clearfix">
           <span class="fl lable-left ellipsis">活动时间:</span>
-          <span class="fr text-right fen">12 月 3 日 10:00 - 15:30</span>
+          <span class="fr text-right fen">12 月 4 日 09:00 - 14:30</span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left ellipsis">集合地点:</span>
@@ -28,21 +28,8 @@ Stableford 计分规则<br>
 新新贝利亚差点计算<br>
           </span>
         </section>
-        <section class="clearfix">
-          <span class="fl lable-left">奖项设置:</span>
-          <span class="fr text-right">
-            净杆冠军 *<br>
-净杆亚军 *<br>
-净杆季军 *<br>
-总杆冠军 *<br>
-距洞最近奖 *<br>
-男子最远距离奖<br>
-女子最远距离奖<br>
-* 男女混评
-            </span>
-        </section>
         <div class="tips-bot fen">
-          * 请通过活动热线 1304 1689 911 预约报名，截止时间 12 月 1 日 17: 00。如您已预约参赛，请于开赛前 10 分钟到达集合地点。
+          * 请通过活动热线 1304 1689 911 预约报名，截止时间 12 月 2 日 17: 00。如您已预约参赛，请于开赛前 10 分钟到达集合地点。
         </div>
       </article>
     </div>
