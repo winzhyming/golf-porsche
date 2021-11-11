@@ -23,7 +23,3 @@
     }
   }
 </script>
-
-
-// WEBPACK FOOTER //
-// src/views/index.vue

@@ -43,7 +43,7 @@
             <span class="fr text-right">{{ query_result.return_date }}</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis" style="text-align: left;">12 月 5 日活动</span>
+            <span class="fl lable-left ellipsis" style="text-align: left;">12 月 6 日活动</span>
             <span class="fr text-right">{{ query_result.activity_name }}</span>
           </li>
         </ul>

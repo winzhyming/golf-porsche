@@ -91,15 +91,32 @@ body {
 
 .body-index .bi-btns .btn-index {
   margin: 0 auto;
-  width: 38.75vmin;
-  height: 10.625vmin;
+  width: 42.75vmin;
+  /* height: 10.625vmin; */
   border: 0.625vmin solid #080b1a;
   border-radius: 0.9375vmin;
   text-align: center;
   font-size: 4.375vmin;
   color: #000;
-  line-height: 10.625vmin;
+  padding: 1.45vmin 0;
+  /* line-height: 10.625vmin; */
   display: block;
+}
+.body-index .bi-btns .u2021 li{
+  margin-top: 9.75vmin;
+}
+.body-index .bi-btns .u2021 .btn-index{
+  padding: 2.125vmin 0;
+  background-color: #ed1e26;
+  color: #fff;
+  border-color: #ed1e26;
+}
+.body-index .bi-btns .btn-index p:nth-child(1){
+  font-size: 4.375vmin;
+}
+.body-index .bi-btns .btn-index p:nth-child(2){
+  margin-top: 1.75vmin;
+  font-size: 3.125vmin;
 }
 
 .body-index .bi-btns ul li {
@@ -641,6 +658,16 @@ h1.git-tit img.ic {
 
 .ei-main .ei-btns.gais-btns ul li {
   padding: 5.9375vmin 1.25vmin 5vmin 2.1875vmin;
+}
+.ei-main .ei-btns.gais-btns ul li.title {
+  margin-top: 2vmin;
+  padding: 5.9375vmin 1.25vmin 0;
+  border-bottom: none;
+}
+.ei-main .ei-btns.gais-btns ul li.title p{
+  font-weight: 600;
+  text-align: center;
+  font-size: 5vmin;
 }
 
 .tips-bot {
