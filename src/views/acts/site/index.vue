@@ -10,9 +10,6 @@
     	<router-view></router-view>
     </div>
     
-    <!-- <div class="ei-bot" v-bottom_img>
-      <img src="https://d.devnow.cn/travelclub2019/images/bot-img.png"/>
-    </div> -->
 
     <img src="https://d.devnow.cn/travelclub2019/images/bg-bottom.jpg" alt="" class="img-bot">
     
@@ -28,7 +25,7 @@
     },
     methods: {
       index() {
-        this.$router.push({'name': 'dashboard'});
+        this.$router.push({'name': 'index'});
       },
       back() {
         this.$router.go(-1);

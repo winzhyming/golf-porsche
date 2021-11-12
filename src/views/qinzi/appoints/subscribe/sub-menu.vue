@@ -12,17 +12,7 @@
           </a>
           <p v-if="link.type == 'title'">{{ link.name }}</p>
         </li>
-        <!-- <li>
-          <router-link :to="{'name': 'subscribe.tebie'}" class="clearfix">
-            特别预约活动<img src="/static/images/2020/ic-next-darkblue.png" class="ic fr"/>
-          </router-link>
-        </li> -->
       </ul>
-      
-      <!-- <div class="tips-bot" style="text-align: justify;">
-        <p>1. 如以上四项活动您都不想选择，保时捷中国车主俱乐部也可为您安排高尔夫活动，请于 11 月 30 日 18:00 前告知会务组（需自备球包）</p>
-        <p>2. 保时捷中国车主俱乐部还在 12 月 5 日当天安排了瑜伽活动，地点位于酒店一楼的泳池边。时间段：07:00 - 08:00/10:00 - 11:00/16:00 - 17:00，每个时间段至多容纳 6 位客人同时进行瑜伽，如有需求请尽快告知会务组预约，先到先得。（需自备瑜伽服）</p>
-      </div> -->
     </section>
   </div>
 </template>
@@ -33,11 +23,11 @@
       return {
         links: [
           { type: 'title', name: '12 月 8 日 少年英雄组'},
-          { type: '1', name: '上午 儿童高尔夫训练课程', router: 'huwai.appoints.subs.act1', num: 0, status: '0' },
-          { type: '2', name: '下午 儿童游乐体验项目', router: 'huwai.appoints.subs.act2', num: 0, status: '0' },
+          { type: '4', name: '上午 儿童高尔夫训练课程', router: 'huwai.appoints.subs.act1', num: 0, status: '0' },
+          { type: '5', name: '下午 儿童游乐体验项目', router: 'huwai.appoints.subs.act2', num: 0, status: '0' },
           { type: 'title', name: '12 月 8 日 少年竞速组'},
-          { type: '3', name: '上午 儿童游乐体验项目', router: 'huwai.appoints.subs.act3', num: 0, status: '0' },
-          { type: '3', name: '下午 儿童高尔夫训练课程', router: 'huwai.appoints.subs.act4', num: 0, status: '0' },
+          { type: '6', name: '上午 儿童游乐体验项目', router: 'huwai.appoints.subs.act3', num: 0, status: '0' },
+          { type: '7', name: '下午 儿童高尔夫训练课程', router: 'huwai.appoints.subs.act4', num: 0, status: '0' },
           // { type: '4', name: '亚特兰蒂斯水世界', router: 'subscribe.yoga', num: 0, status: '0' }
         ]
       }
@@ -51,18 +41,17 @@
       checkStatus: function() {
         $.ajax({
           type: "GET",
-          // url: "http://travelclub.devnow.cn/2020/data/checkStatus.php",
-          url: "/2020/data/checkStatus.php",
+          // url: "http://travelclub.devnow.cn/2021/data/checkStatus.php",
+          url: "/2021/data/checkStatus.php",
           datatype: 'jsonp',
           jsonp: 'jsonp_callback',
           success: (data) => {
             console.log(JSON.parse(data))
             let datas = JSON.parse(data || '[]'), index = 0
-            datas.length && datas.forEach((cou) => {
-              this.links[index].num = cou.num
-              this.links[index].status = cou.status
-              index++
-            })
+            if (datas.length) for(var i = 3; i < 7; i++) {
+              this.links[index - 3].num = cou.num
+              this.links[index - 3].status = cou.status
+            }
           },
           error: (_error) => {
             this.$root.pop(_error);

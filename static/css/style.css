@@ -106,16 +106,18 @@ body {
   margin-top: 9.75vmin;
 }
 .body-index .bi-btns .u2021 .btn-index{
+  width: 50vmin;
   padding: 2.125vmin 0;
   background-color: #ed1e26;
   color: #fff;
   border-color: #ed1e26;
+  border-radius: 2.1875vmin;
 }
 .body-index .bi-btns .btn-index p:nth-child(1){
-  font-size: 4.375vmin;
+  font-size: 5.375vmin;
 }
 .body-index .bi-btns .btn-index p:nth-child(2){
-  margin-top: 1.75vmin;
+  margin-top: 1.25vmin;
   font-size: 3.125vmin;
 }
 

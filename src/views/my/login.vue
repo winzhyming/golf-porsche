@@ -88,8 +88,8 @@ export default {
 
       $.ajax({
         type: "POST",
-        // url: "http://travelclub.devnow.cn/2020/data/myTravel.php",
-        url: "/2020/data/myTravel.php",
+        // url: "http://travelclub.devnow.cn/2021/data/myTravel.php",
+        url: "/2021/data/myTravel.php",
         data: {
           mobile:  this.form_data.mobile,
           check_code: this.form_data.vcode
@@ -131,8 +131,8 @@ export default {
       if(!this.checkPhone(this.form_data.mobile)) return;
       $.ajax({
         type: "POST",
-        url: "/2020/data/sendSms.php",
-        // url: "http://travelclub.devnow.cn/2020/data/sendSms.php",
+        url: "/2021/data/sendSms.php",
+        // url: "http://travelclub.devnow.cn/2021/data/sendSms.php",
         data:{ mobile: this.form_data.mobile},
         datatype: 'jsonp',
         jsonp: 'jsonp_callback',

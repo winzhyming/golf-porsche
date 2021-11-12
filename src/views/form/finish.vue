@@ -42,7 +42,6 @@
   export default {
     data() {
       var query = this.$route.query || {}
-      console.log(query)
       return {
         car_type: query.car_type,
         activity_time: query.activity_time
@@ -50,7 +49,7 @@
     },
     methods: {
       index() {
-        this.$router.push({'name': 'dashboard'});
+        this.$router.push({'name': 'index'});
       }
     }
   }

@@ -12,10 +12,6 @@
       </transition>
     </div>
     
-    <!-- <img src="https://d.devnow.cn/travelclub2019/images/2019/bot.png" alt="" class="img-bot"> -->
-    <!-- <div class="ei-bot" v-bottom_img>
-      <img src="https://d.devnow.cn/travelclub2019/images/bot-img.png"/>
-    </div> -->
     
     <a @click="back" class="back-btn"  v-bottom_back><img src="https://d.devnow.cn/travelclub2019/images/ic-back.jpg"/></a>
     <a @click="index" class="index-btn"><img src="/static/images/2020/ic-index.png"/></a>
@@ -32,11 +28,9 @@
         title: '活动预约',
       }
     },
-    mounted() {
-    },
     methods: {
       index() {
-        this.$router.push({'name': 'dashboard'});
+        this.$router.push({'name': 'index'});
       },
       back() {
         this.$router.go(-1);
@@ -57,6 +51,3 @@
   }
 </script>
 
-
-// WEBPACK FOOTER //
-// src/views/guest/subscribe/index.vue

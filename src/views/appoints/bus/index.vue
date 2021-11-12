@@ -22,7 +22,7 @@
     },
     methods: {
       index() {
-        this.$router.push({'name': 'dashboard'});
+        this.$router.push({'name': 'index'});
       },
       back() {
         this.$router.go(-1);

@@ -47,18 +47,17 @@
       checkStatus: function() {
         $.ajax({
           type: "GET",
-          // url: "http://travelclub.devnow.cn/2020/data/checkStatus.php",
-          url: "/2020/data/checkStatus.php",
+          // url: "http://travelclub.devnow.cn/2021/data/checkStatus.php",
+          url: "/2021/data/checkStatus.php",
           datatype: 'jsonp',
           jsonp: 'jsonp_callback',
           success: (data) => {
             console.log(JSON.parse(data))
-            let datas = JSON.parse(data || '[]'), index = 0
-            datas.length && datas.forEach((cou) => {
-              this.links[index].num = cou.num
-              this.links[index].status = cou.status
-              index++
-            })
+            let datas = JSON.parse(data || '[]')
+            if (datas.length) for(let i = 0; i < 3; i++) {
+              this.links[i].num = cou.num
+              this.links[i].status = cou.status
+            }
           },
           error: (_error) => {
             this.$root.pop(_error);

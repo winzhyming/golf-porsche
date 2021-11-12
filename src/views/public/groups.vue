@@ -25,7 +25,7 @@
         </ul>
       </section>
     </div>
-    <img src="/static/images/2021/bot2021.jpg" class="img-bot" style="width: 100%;">
+    <img src="/static/images/2021/bot02.jpg" class="img-bot" style="width: 62%; left: 50%; bottom: 1%; transform: translateX(-50%);" >
 
     <!-- 协议弹框 -->
     <div class="xieyi-dimmer" v-if="!isAgree">
