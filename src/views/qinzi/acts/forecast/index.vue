@@ -1,7 +1,7 @@
 <template>
   <div id="forecast-index">
     <div class="top-ban pr">
-      <img src="https://d.devnow.cn/travelclub2019/images/2019/top-tianqiyubao.jpg" class="pa-img"/>
+      <img src="/static/images/2021/bg-hw-tqyb.jpg" class="pa-img"/>
       <div class="tbt-tit pa">
         <h1>天气预报</h1>
       </div>
@@ -10,11 +10,6 @@
     	<router-view></router-view>
     </div>
     
-    <!-- <img src="https://d.devnow.cn/travelclub2019/images/2019/bot.png" alt="" class="img-bot"> -->
-    <!-- <div class="ei-bot" v-bottom_img>
-      <img src="https://d.devnow.cn/travelclub2019/images/bot-img.png"/>
-    </div> -->
-    
     <a @click="back" class="back-btn" v-bottom_back><img src="https://d.devnow.cn/travelclub2019/images/ic-back.jpg"/></a>
     <a @click="index" class="index-btn"><img src="/static/images/2020/ic-index.png"/></a>
   </div>
@@ -22,9 +17,6 @@
 
 <script>
   export default {
-    data() {
-      return {}
-    },
     methods: {
       index() {
         this.$router.push({'name': 'dashboard'});
@@ -35,7 +27,3 @@
     }
   }
 </script>
-
-
-// WEBPACK FOOTER //
-// src/views/player/forecast/index.vue

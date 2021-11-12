@@ -8,10 +8,6 @@
     </div>
     <router-view></router-view>
     
-    <!-- <img src="https://d.devnow.cn/travelclub2019/images/2019/bot.png" alt="" class="img-bot"> -->
-    <!-- <div class="ei-bot" v-bottom_img>
-      <img src="https://d.devnow.cn/travelclub2019/images/bot-img.png"/>
-    </div> -->
     
     <a @click="back" class="back-btn" v-bottom_back><img src="https://d.devnow.cn/travelclub2019/images/ic-back.jpg"/></a>
     <a @click="index" class="index-btn"><img src="/static/images/2020/ic-index.png"/></a>
@@ -35,7 +31,3 @@
     }
   }
 </script>
-
-
-// WEBPACK FOOTER //
-// src/views/guest/schedule/index.vue

@@ -19,7 +19,7 @@
 <script>
   export default {
     mounted() {
-      this.$parent.img_path = '/static/images/2020/top-banners/jiudian.jpg';
+      this.$parent.img_path = '/static/images/2021/bg-hw-jjll.jpg';
     }
   }
 </script>

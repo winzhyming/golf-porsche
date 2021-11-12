@@ -117,7 +117,7 @@
       return {}
     },
     mounted() {
-      this.$parent.img_path = 'https://d.devnow.cn/travelclub2019/images/2019/top-banchexinxi.jpg';
+      this.$parent.img_path = '/static/images/2021/bg-hw-bcsk.jpg';
     }
   }
 </script>

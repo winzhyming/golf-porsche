@@ -1065,13 +1065,12 @@ select.form-control option {
 
 #player-menu {
   min-height: 100vh;
-  /* background-image: url(https://d.devnow.cn/travelclub2019/images/2019/body-finalist_2019.jpg); */
-  background-image: url(/static/images/2020/body-finalist_20200.jpg);
+  background-image: url(/static/images/2021/bg-huwai-acts.jpg);
 }
 
 #guest-index {
   min-height: 100vh;
-  background-image: url(https://d.devnow.cn/travelclub2019/images/2019/body-finalist_2019.jpg)
+  background-image: url(/static/images/2021/bg-hdyy.jpg)
 }
 
 #index-view {
@@ -1091,8 +1090,7 @@ select.form-control option {
   /* padding-bottom: 40vmin; */
 }
 
-#schedule-index,
-#player-parent {
+#schedule-index{
   padding-bottom: 16vmin;
 }
 

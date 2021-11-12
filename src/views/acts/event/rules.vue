@@ -308,5 +308,15 @@
         </section>
       </article>
     </div>
+    <img src="/static/images/2021/bot2021.jpg" style="width: 100%;">
   </div>
 </template>
+
+
+<script>
+  export default {
+    mounted() {
+      $('.img-bot').hide()
+    }
+  }
+</script>

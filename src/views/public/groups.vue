@@ -25,7 +25,7 @@
         </ul>
       </section>
     </div>
-    <!-- <img src="https://d.devnow.cn/travelclub2019/images/2019/bot.png" alt="" class="img-bot"> -->
+    <img src="/static/images/2021/bot2021.jpg" class="img-bot" style="width: 100%;">
 
     <!-- 协议弹框 -->
     <div class="xieyi-dimmer" v-if="!isAgree">
@@ -33,7 +33,7 @@
         <div class="content">
           <h5>保时捷中国隐私政策</h5>
           <h5>肖像使用同意函</h5>
-          <pre>            
+          <pre>
 本人特此授权保时捷（中国）汽车销售有限公司及其关联公司（以下统称“保时捷”）将本人参与保时捷相关活动时的影音资料用于推广或其它任何目的，且本授权不受任何期间、地域或内容的限制。
 
 本人了解该等同意将适用于静态影像以及视频（包括音频），并同意保时捷根据需要以现有的或将来出现的任何媒介形式将本人的影音资料用于市场营销资料、印刷广告、媒体资料、商业广告、推广视屏、电视节目、网络传播（包括现场直播），以及其他任何推广或信息材料中。本人同意由本人提供给保时捷的本人的名字及其他信息可以和本人的影音资料一同显示。
@@ -48,15 +48,15 @@
 
 本同意函适用中华人民共和国法律。
 
-本隐私政策（以下称“隐私政策”）介绍了保时捷（中国）汽车销售有限公司及其授权经销商（合称“保时捷”）如何收集有关您的信息、如何使用和分享您的信息以及您的选择。 
+本隐私政策（以下称“隐私政策”）介绍了保时捷（中国）汽车销售有限公司及其授权经销商（合称“保时捷”）如何收集有关您的信息、如何使用和分享您的信息以及您的选择。
 
-1. 范围 
+1. 范围
 1.1 本隐私政策适用于保时捷或代表保时捷通过发布了本隐私政策或其链接或以其他方式将本隐私政策呈现给您的保时捷实体店铺、车展、网站、在线服务或程序、移动应用程序 和社交媒体平台（包括但不限于我们的微信公众号 (WeChat) 及微信小程序或其他衍生或附属程序（应用））以及其他保时捷在线或线下产品、服务和活动（我们的“服务”）等收集 和处理的有关您的信息（参见以下“我们收集的信息”一节）。除非另有说明，本隐私政策所提及的“保时捷”，“我们”或“我们的”指保时捷（中国）汽车销售有限公司及其授权经销商。
 
-2. 链接、第三方网站和社交媒体平台 
+2. 链接、第三方网站和社交媒体平台
 2.1 我们的服务可能会包含第三方网站的链接以及微博或微信等社交媒体平台（以下统称“链接网站”）的链接。保时捷对链接网站的隐私政策或做法不承担任何责任。我们建议您仔细阅读您访问的每一个链接网站的隐私政策。
 
-3. 服务的地域范围 
+3. 服务的地域范围
 3.1 我们的服务仅向中国大陆地区的用户提供。如果您位于中国大陆地区以外，请回到 www.porsche.com，并使用下拉框找到您所在地区的用户网站。
 
 4. 我们收集的信息
@@ -68,7 +68,7 @@
 (d) 您与我们联系或沟通时和/或您要求我们提供信息时（例如通过网页、应用、邮件、短信、信件、当面沟通等）；
 (e) 您访问或使用第三方社交媒体平台上与保时捷相关的网页或账户时（“社交媒体平台”）；
 (f) 您访问或使用第三方垂直网站上与保时捷相关的网页或账户时（“垂直网站”）
-(g) 您向我们提供或提交意见、建议、体验或其它内容时；和/或 
+(g) 您向我们提供或提交意见、建议、体验或其它内容时；和/或
 (h) 以其它方式与我们和我们的服务进行互动时。
 此外，若您已购买保时捷车辆 ，我们还将根据可适用的法律和监管要求和/或保时捷的技术要求，在您持有和使用保时捷车辆时收集相关的车辆信息。详见法定信息一节。
 4.3 在您提交代表您同意我们收集和处理个人信息的授权声明后，我们将收集有关本隐私政策所述目的之各类个人信息，包括但不限于:
@@ -172,19 +172,19 @@
           <h5>Consent to Use Likeness</h5>
           <pre>
 
-I hereby authorize Porsche (China) Motors Limited, and its affiliated companies (collectively, “Porsche”) to use my image which depicts me participating in Porsche-related activities for any purpose whatsoever, whether promotional or otherwise, without limitation regarding duration, territory or content. 
+I hereby authorize Porsche (China) Motors Limited, and its affiliated companies (collectively, “Porsche”) to use my image which depicts me participating in Porsche-related activities for any purpose whatsoever, whether promotional or otherwise, without limitation regarding duration, territory or content.
 
 I understand that this agreement applies to static photography and video (including audio). I understand these images may be used for marketing materials, print ads, press materials, commercials, promotional videos, TV shows, internet content (including live streams), or any other promotional or informational materials, in any medium now existing or hereafter developed, as Porsche desires.  I consent to my name and any other information provided by me to Porsche being displayed in connection with the appearance of my Image.
 
 Porsche may crop, alter or modify images of me and combine such images with other images, text, audio recordings and graphics. I consent to any of my personal Information provided by me to Porsche, including images of me, being stored, used or processed by Porsche.
 
-I understand that I will receive no compensation, whether monetary or non-monetary, for the use of my image, unless previously contracted for with Porsche. I understand all images of me captured by Porsche‘s representatives are the sole property of Porsche, and I have no legal right to them. 
+I understand that I will receive no compensation, whether monetary or non-monetary, for the use of my image, unless previously contracted for with Porsche. I understand all images of me captured by Porsche‘s representatives are the sole property of Porsche, and I have no legal right to them.
 
-By signing this Consent form I grant to Porsche a full and complete release of all claims, now and hereafter, with respect to the use of my image. My consent to the foregoing is given voluntarily and without any threats or promises of any kind. 
+By signing this Consent form I grant to Porsche a full and complete release of all claims, now and hereafter, with respect to the use of my image. My consent to the foregoing is given voluntarily and without any threats or promises of any kind.
 
 I hereby affirm and attest that I am at least 18 years of age and I am competent to sign this consent in my own name, and that I intend and agree to be bound by this Consent form.
 
-PRC law shall apply to this Consent form.  
+PRC law shall apply to this Consent form.
 This privacy policy (“Privacy Policy”) describes the information that Porsche (China) Motors Ltd. and authorized Porsche dealers (collectively, "Porsche") collects about you, how we use and share your information, and your choices.
 
 <h6><strong>Scope</strong></h6>

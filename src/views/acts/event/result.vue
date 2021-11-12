@@ -35,6 +35,9 @@
 
 <script>
   export default {
+    mounted() {
+      $('.img-bot').hide()
+    },
     data() {
       return {
         list: [
@@ -140,7 +143,3 @@
     }
   }
 </script>
-
-
-// WEBPACK FOOTER //
-// src/views/player/event/event-result.vue

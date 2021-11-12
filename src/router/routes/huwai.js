@@ -80,7 +80,7 @@ export default {
     { path: 'appoints/contact', component: AppointsContact, children: [     // 户外组 - 活动预约 - 紧急联络
       { path: '/', name: 'huwai.appoints.contact', component: AppointsContactEmergency }
     ] },
-    { path: 'mine', component: AppointsContact, children: [     // 户外组 - 我的行程
+    { path: 'mine', component: Mine, children: [     // 户外组 - 我的行程
       { path: '/', name: 'huwai.mine', component: MineLogin }
     ] },
 

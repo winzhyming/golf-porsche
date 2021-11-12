@@ -62,7 +62,7 @@ export default {
     { path: 'appoints/contact', component: AppointsContact, children: [     // 亲子组 - 活动预约 - 紧急联络
       { path: '/', name: 'qinzi.appoints.contact', component: AppointsContactEmergency }
     ] },
-    { path: 'mine', component: AppointsContact, children: [     // 亲子组 - 我的行程
+    { path: 'mine', component: Mine, children: [     // 亲子组 - 我的行程
       { path: '/', name: 'qinzi.mine', component: MineLogin }
     ] },
   ]

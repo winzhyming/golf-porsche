@@ -1,9 +1,9 @@
 <template>
   <div id="schedule-index">
     <div class="top-ban pr">
-      <img src="https://d.devnow.cn/travelclub2019/images/bg-top15.jpg" class="pa-img"/>
+      <img src="/static/images/2021/bg-hw-qczn.jpg" class="pa-img"/>
       <div class="tbt-tit pa">
-        <h1><img src="https://d.devnow.cn/travelclub2019/images/btn-finalist07.png" class="ic"/>球场指南</h1>
+        <h1>球场指南</h1>
       </div>
     </div>
     <div class="pr">
@@ -36,8 +36,3 @@
     }
   }
 </script>
-
-
-
-// WEBPACK FOOTER //
-// src/views/player/site/index.vue

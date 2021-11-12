@@ -1,7 +1,7 @@
 <template>
   <div id="schedule-index">
     <div class="top-ban pr">
-      <img src="/static/images/2020/top-banners/haidiao.jpg" class="pa-img"/>
+      <img src="/static/images/2021/top-hw-rcap.jpg" class="pa-img"/>
       <div class="tbt-tit pa">
         <h1>日程安排</h1>
       </div>
@@ -9,9 +9,9 @@
     <div class="pr">
     	<router-view></router-view>
     </div>
-    
 
-    
+
+
     <a @click="back" class="back-btn" v-bottom_back><img src="https://d.devnow.cn/travelclub2019/images/ic-back.jpg"/></a>
     <a @click="index" class="index-btn"><img src="/static/images/2020/ic-index.png"/></a>
   </div>
@@ -19,9 +19,6 @@
 
 <script>
   export default {
-    data() {
-      return {}
-    },
     methods: {
       index() {
         this.$router.push({'name': 'dashboard'});
@@ -32,8 +29,3 @@
     }
   }
 </script>
-
-
-
-// WEBPACK FOOTER //
-// src/views/player/schedule/index.vue
