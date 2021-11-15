@@ -35,7 +35,7 @@
     mounted() {
       this.$parent.img_path = 'https://d.devnow.cn/travelclub2019/images/2019/top-jiabinyuyue.jpg';
       this.$parent.title = '活动预约'
-      this.checkStatus()
+      // this.checkStatus()
     },
     methods: {
       checkStatus: function() {

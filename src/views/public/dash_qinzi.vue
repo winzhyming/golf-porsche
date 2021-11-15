@@ -3,7 +3,7 @@
     <div class="body-index pr" style="padding-bottom: 39vmin;">
       <section class="bi-tit fen-b">
         <img class="img-logo" src="/static/images/2019/logo.png" alt="Porsche">
-        <img class="img-word" src="/static/images/2019/landing-title.png" alt="2021 保时捷中国车主俱乐部年度晚宴 Porsche Club China Annual Gala 2021">
+        <img class="img-word" src="/static/images/2021/landing-title.png" alt="2021 保时捷中国车主俱乐部年度晚宴 Porsche Club China Annual Gala 2021">
       </section>
       <section class="bi-btns">
         <ul>

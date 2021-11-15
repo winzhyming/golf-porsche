@@ -6,19 +6,19 @@
       <img src="/static/images/dots.jpg" alt="" style="position: absolute; top: 4vmin; left: 0; width: 100%; height: 15.625vmin; z-index: -1;">
       <section class="bi-tit fen-b">
         <img class="img-logo" src="/static/images/2019/logo.png" style="width: 50vmin;" alt="Porsche">
-        <img class="img-word" src="/static/images/2019/landing-title.png" alt="2021 保时捷中国车主俱乐部年度晚宴 Porsche Club China Annual Gala 2021">
+        <img class="img-word" src="/static/images/2021/landing-title.png" alt="2021 保时捷中国车主俱乐部年度晚宴 Porsche Club China Annual Gala 2021">
       </section>
       <section class="bi-btns">
         <ul class="u2021">
           <li>
             <router-link :to="{'name': 'huwai'}" class="btn-index b2021">
-              <p>户外运动组</p>
+              <p>户外运动专场</p>
               <p>2021 年 12月 5 日 - 7 日</p>
             </router-link>
           </li>
           <li>
             <router-link :to="{'name': 'qinzi'}" class="btn-index b2021">
-              <p>亲自组</p>
+              <p>亲子专场</p>
               <p>2021 年 12月 7 日 - 9 日</p>
             </router-link>
           </li>

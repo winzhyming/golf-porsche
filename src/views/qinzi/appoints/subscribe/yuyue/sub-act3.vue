@@ -15,7 +15,7 @@
         <p style="padding-left: 17.25vmin; text-indent: 0;">请勿穿着高跟鞋。</p>
         <p style="padding-left: 17.25vmin; text-indent: 0;">参与人数有限，先到先得。报名截止时间 12 月 5 日 12:00。</p>
       </div>
-      <div class="ar-box" style="margin-top: 3.125vmin;">
+      <!-- <div class="ar-box" style="margin-top: 3.125vmin;">
         <div class="ar-form">
           <div class="af-group">
             <input type="text" class="form-control" placeholder="电话" v-model="form_data.mobile"/>
@@ -35,7 +35,7 @@
       <div class="yuyue-btns">
         <a @click="confirm" href="javascript:;">确认预约</a>
         <a @click="back" href="javascript:;">返回上一页</a>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
