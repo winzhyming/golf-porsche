@@ -6,7 +6,7 @@
   component: Index,
   
   children: [
-    { path: '/', name: 'index', component: Groups }
+    { path: '/dashboard', name: 'dashboard', component: Groups }
 
 
   ]

@@ -36,10 +36,10 @@ import MineLogin from '@/views/my/login'
 
 
 export default {
-  path: '/huwai',
+  path: '/',
   component: Index,
   children: [
-    { path: '/', name: 'huwai', component: HuWai },             // 户外组
+    { path: '/', name: 'index', component: HuWai },             // 户外组
     { path: 'acts', name: 'huwai.acts', component: Menu },      // 户外组 - 活动详情
     { path: 'acts/schedule', component: Schedule, children: [   // 户外组 - 活动详情 - 日程安排
       { path: '/', name: 'huwai.acts.schedule', component: ScheduleList } 
