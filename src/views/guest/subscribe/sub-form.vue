@@ -26,19 +26,19 @@
             <span class="check-span">12 月 3 日 11:30 - 15:30</span>
           </div>
           <div class="fr check-right" v-if="activity_select.val === '2'">
-            <span class="check-span">12 月 3 日 11:30 - 15:30</span>
+            <span class="check-span">12 月 3 日 13:00 - 15:30</span>
           </div>
           <div class="fr check-right" v-if="activity_select.val === '3'">
-            <span class="check-span">12 月 3 日 11:30 - 15:30</span>
+            <span class="check-span">12 月 3 日 14:00 - 16:00</span>
           </div>
           <div class="fr check-right" v-if="activity_select.val === '4'">
             <span class="check-span">12 月 4 日 11:30 - 15:30</span>
           </div>
           <div class="fr check-right" v-if="activity_select.val === '5'">
-            <span class="check-span">12 月 4 日 10:00 - 16:00</span>
+            <span class="check-span">12 月 4 日 11:00 - 16:00</span>
           </div>
           <div class="fr check-right" v-if="activity_select.val === '6'">
-            <span class="check-span">12 月 4 日 11:30 - 15:30</span>
+            <span class="check-span">12 月 4 日 13:30 - 15:30</span>
             <!-- <span class="check-span">
               <input type="radio" name="activity_time" value="1" v-model="form_data.activity_time"/><label for="">&nbsp;09:30</label>
             </span>

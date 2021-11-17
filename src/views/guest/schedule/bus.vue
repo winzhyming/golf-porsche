@@ -11,12 +11,12 @@
             <span class="fl">保时捷友谊赛</span>
           </li>
           <li class="clearfix">
-            <span class="fl" style="width: 100%;">07:30 - 09:45 酒店 2 层大堂 - 出发</span>
-            <span class="fl" style="display:block; padding-left: 19vmin;">每 5 - 10 分钟一班</span>
+            <span class="fl" style="width: 100%;">07:30 - 10:00 酒店 2 层大堂 - 出发</span>
+            <span class="fl" style="display:block; padding-left: 19vmin;">每 10 分钟一班</span>
           </li>
           <li class="clearfix">
             <span class="fl" style="width: 100%;">15:30 - 17:00 球会 - 返程</span>
-            <span class="fl" style="display:block; padding-left: 19vmin;">每 5 - 10 分钟一班</span>
+            <span class="fl" style="display:block; padding-left: 19vmin;">每 10 分钟一班</span>
           </li>
           <li class="clearfix li-tit">
             <span class="fl">最美海岸试驾体验</span>
@@ -28,7 +28,7 @@
             <span class="fl">水上浆板体验</span>
           </li>
           <li class="clearfix">
-            <span class="fl" style="width: 100%;">11:30 - 酒店 2 层大堂出发</span>
+            <span class="fl" style="width: 100%;">13:00 - 酒店 2 层大堂出发</span>
           </li>
           <li class="clearfix">
             <span class="fl" style="width: 100%;">15:30 - 返程</span>
@@ -37,10 +37,10 @@
             <span class="fl">咖啡庄园体验</span>
           </li>
           <li class="clearfix">
-            <span class="fl" style="width: 100%;">11:30 - 酒店 2 层大堂出发</span>
+            <span class="fl" style="width: 100%;">14:00 - 酒店 2 层大堂出发</span>
           </li>
           <li class="clearfix">
-            <span class="fl" style="width: 100%;">15:30 - 返程</span>
+            <span class="fl" style="width: 100%;">16:00 - 返程</span>
           </li>
         </ul>
       </section>
@@ -51,12 +51,12 @@
             <span class="fl">保时捷友谊赛</span>
           </li>
           <li class="clearfix">
-            <span class="fl" style="width: 100%;">07:30 - 08:45 酒店 2 层大堂 - 出发</span>
-            <span class="fl" style="display:block; padding-left: 19vmin;">每 5 - 10 分钟一班</span>
+            <span class="fl" style="width: 100%;">07:30 - 09:30 酒店 2 层大堂 - 出发</span>
+            <span class="fl" style="display:block; padding-left: 19vmin;">每 10 分钟一班</span>
           </li>
           <li class="clearfix">
             <span class="fl" style="width: 100%;">15:30 - 17:00 球会 - 返程</span>
-            <span class="fl" style="display:block; padding-left: 19vmin;">每 5 - 10 分钟一班</span>
+            <span class="fl" style="display:block; padding-left: 19vmin;">每 10 分钟一班</span>
           </li>
           <li class="clearfix li-tit">
             <span class="fl">最美海岸试驾体验</span>
@@ -68,7 +68,7 @@
             <span class="fl">免税店购物</span>
           </li>
           <li class="clearfix">
-            <span class="fl">10:00 - 酒店 2 层大堂出发</span>
+            <span class="fl">11:00 - 酒店 2 层大堂出发</span>
           </li>
           <li class="clearfix">
             <span class="fl">16:00 - 返程</span>
@@ -77,7 +77,7 @@
             <span class="fl">冲浪体验</span>
           </li>
           <li class="clearfix">
-            <span class="fl">11:30 - 酒店 2 层大堂出发</span>
+            <span class="fl">13:30 - 酒店 2 层大堂出发</span>
           </li>
           <li class="clearfix">
             <span class="fl">15:30 - 返程</span>

@@ -6,7 +6,7 @@
         <h2>&nbsp;</h2>
         <section class="clearfix">
           <span class="fl lable-left ellipsis">活动时间:</span>
-          <span class="fr text-right fen">2021 年 12 月 3 日 11:30 - 15:30</span>
+          <span class="fr text-right fen">2021 年 12 月 3 日 13:00 - 15:30</span>
         </section>
         <section class="clearfix">
           <span class="fl lable-left ellipsis">集合地点:</span>
