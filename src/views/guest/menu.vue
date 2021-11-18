@@ -1,8 +1,7 @@
 <template>
   <div id="guest-index" class="bg-attach-ment">
     <section class="bf-tit fen-b">
-      <h1 class="chi">2021 保时捷高尔夫巡回赛中国总决赛</h1>
-      <h1 class="en">Porsche Golf Cup China Final 2021</h1>
+      <img src="https://d.devnow.cn/golf2021/white-title.png" style="width: 76vmin;">
     </section>
     <div class="bf-main old pr">
       <!-- <img src="https://d.devnow.cn/golf2019/images/bg-finalist-main.png" class="pa-bg"/> -->
