@@ -23,7 +23,7 @@
         </ul>
       </section>
       <section class="event-schedule">
-        <h2>2020 年 12 月 6 日 星期一</h2>
+        <h2>2021 年 12 月 6 日 星期一</h2>
         <ul>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">06:30 - 11:00</span>
@@ -64,7 +64,7 @@
         </ul>
       </section>
       <section class="event-schedule">
-        <h2>2020 年 12 月 7 日 星期二</h2>
+        <h2>2021 年 12 月 7 日 星期二</h2>
         <ul>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">06:30 - 11:00</span>

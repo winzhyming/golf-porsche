@@ -5,7 +5,7 @@
     <div class="body-index pr" style="padding-bottom: 39vmin;">
       <section class="bi-tit fen-b">
         <img class="img-logo" src="/static/images/2020/logo_white.png" alt="Porsche">
-        <img class="img-word" src="/static/images/2020/loading-title-white.png" alt="2020 保时捷中国车主俱乐部年度晚宴 Porsche Club China Annual Gala 2020">
+        <img class="img-word" src="/static/images/2020/loading-title-white.png" alt="2021 保时捷中国车主俱乐部年度晚宴 Porsche Club China Annual Gala 2021">
       </section>
       <section class="bi-btns">
         <ul>

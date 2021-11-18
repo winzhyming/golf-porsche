@@ -13,7 +13,7 @@
           </p>
           <p class="table">
             <span class="table-cell" style="width: 5.2em; vertical-align: top;">活动日期：</span>
-            <span class="table-cell">2020 年 12 月 6 日</span>
+            <span class="table-cell">2021 年 12 月 6 日</span>
           </p>
           <p class="table" v-if="type === '1'">
             <span class="table-cell" style="width: 5.2em; vertical-align: top;">活动时间：</span>
