@@ -31,8 +31,8 @@
     data() {
       return {
         links: [
-          { type: '1', name: '近海冲浪 + 豪华游艇', router: 'huwai.appoints.subs.act1', num: 0, status: '0' },
-          { type: '2', name: '豪华游艇 + 水上摩托艇', router: 'huwai.appoints.subs.act2', num: 0, status: '0' },
+          // { type: '1', name: '近海冲浪 + 豪华游艇', router: 'huwai.appoints.subs.act1', num: 0, status: '0' },
+          { type: '2', name: '水上运动', router: 'huwai.appoints.subs.act2', num: 0, status: '0' },
           { type: '3', name: '最美海岸试驾体验', router: 'huwai.appoints.subs.act3', num: 0, status: '0' },
           // { type: '4', name: '亚特兰蒂斯水世界', router: 'subscribe.yoga', num: 0, status: '0' }
         ]

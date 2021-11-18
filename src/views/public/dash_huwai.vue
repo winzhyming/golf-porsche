@@ -13,10 +13,7 @@
             <router-link :to="{'name': 'huwai.acts'}" class="btn-index">活动详情</router-link>
           </li>
           <li>
-            <router-link :to="{'name': 'huwai.appoints'}" class="btn-index">活动预约</router-link>
-          </li>
-          <li>
-            <router-link :to="{'name': 'huwai.mine'}" class="btn-index">我的行程</router-link>
+            <router-link :to="{'name': 'huwai.appoints'}" class="btn-index">活动简介</router-link>
           </li>
           <li><a href="javascript:;" @click="goOtherMini()" class="btn-index">影像集锦</a></li>
         </ul>
@@ -237,7 +234,7 @@ You may voluntarily provide any of the above information. In many cases, if you 
     </div>
 
     <!-- 合算检测弹框 -->
-    <div class="xieyi-dimmer" v-if="!hsAgree && isAgree">
+    <!-- <div class="xieyi-dimmer" v-if="!hsAgree && isAgree">
       <div class="xd-box">
         <div class="content">
           <pre>
@@ -250,7 +247,7 @@ You may voluntarily provide any of the above information. In many cases, if you 
         </div>
         <a @click="setHsAgree" href="javascript:;" class="btn-gree">我同意</a>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -279,3 +276,8 @@ You may voluntarily provide any of the above information. In many cases, if you 
     },
   }
 </script>
+
+<style scoped>
+.body-index .bi-btns ul li{ margin-top: 7.03125vmin; }
+.body-index .bi-btns .btn-index{ padding: 0; line-height: 9.0625vmin; width: 47.5vmin; border-radius: 2.1875vmin;  border-color: #e21932; }
+</style>

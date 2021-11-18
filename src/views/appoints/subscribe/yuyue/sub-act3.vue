@@ -7,13 +7,13 @@
         <p style="text-indent: 0;">远离城市的喧嚣，享受着碧波蔚蓝的热带美景，尽情驰骋，潇洒随性。 </p>
         <br>
         <br>
-        <p style="text-indent: 0;">活动时间：2021 年 12 月 6 日 11:30  -15:30</p>
+        <p style="text-indent: 0;">活动时间：2021 年 12 月 6 日 10:00 - 15:00</p>
         <p style="text-indent: 0;">集合地点：酒店二层大堂，保时捷签到中心</p>
         <p style="text-indent: 0;">活动内容：教练带您试驾多款保时捷车型，尊享极致试驾体验。</p>
         <br>
         <p style="text-indent: 0;">*温馨提示：请您随身携带驾照。</p>
         <p style="padding-left: 17.25vmin; text-indent: 0;">请勿穿着高跟鞋。</p>
-        <p style="padding-left: 17.25vmin; text-indent: 0;">参与人数有限，先到先得。报名截止时间 12 月 5 日 12:00。</p>
+        <p style="padding-left: 17.25vmin; text-indent: 0;">参与人数有限，先到先得。</p>
       </div>
       <!-- <div class="ar-box" style="margin-top: 3.125vmin;">
         <div class="ar-form">
@@ -66,7 +66,7 @@
       }
     },
     mounted() {
-      this.$parent.img_path = '/static/images/2020/top-banners/yulin.jpg';
+      this.$parent.img_path = '/static/images/2021/bg-hw-zmsj.jpg';
       this.$parent.title = '最美海岸试驾体验'
     },
     methods: {

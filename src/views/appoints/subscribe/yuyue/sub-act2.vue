@@ -3,18 +3,19 @@
   <div class="ei-main">
     <div class="yuyue2019" style="padding-bottom: 20vmin;">
       <div class="desc">
-        <p style="text-indent: 0;">乘坐万宁最豪华的游艇，纵览美丽的石梅湾；在专业人士的指导下，您可选择参与垂钓或浮潜，并享用美酒美食。 </p>
-        <p style="text-indent: 0;">体验了“静观”石梅湾后，我们为您准备了充满刺激与挑战的“动览”项目-水上摩托艇驾驶项目。开足马力，澎湃热情迸发；前途无量，浩瀚海洋激荡。如此难得一见的人生考验，期待你的征服！</p>
+        <p style="text-indent: 0;">相信我们的客人都从海滨沙滩领略过了石梅湾的秀美风光，何不换个角度来体验呢？我们为您准备了充满刺激与挑战的“动览”项目-水上摩托艇驾驶项目。开足马力，澎湃热情迸发；前途无量，浩瀚海洋激荡。如此难得一见的人生考验，期待你的征服！</p>
         <br>
         <br>
         <p style="text-indent: 0;">出发集合地点：酒店大堂</p>
-        <p style="text-indent: 0;">出发时间：09:00 集合班车发车前往冲浪俱乐部</p>
+        <p style="text-indent: 0;">出发时间：09:00 10:00 12:00 13:00 14:00</p>
+        <p style="padding-left: 15.5vmin; text-indent: 0;">集合班车发车前往冲浪俱乐部</p>
         <p style="text-indent: 0;">返回集合地点：游艇会码头</p>
-        <p style="text-indent: 0;">返回时间：15:00 集合班车发车返回酒店</p>
+        <p style="text-indent: 0;">返回时间：11:15 12:15 14:15 15:15 16:15</p>
+        <p style="padding-left: 15.5vmin; text-indent: 0;">集合班车发车返回酒店</p>
         <br>
-        <p style="text-indent: 0;">*温馨提示：参与报名者驾龄需超过5年。</p>
-        <p style="padding-left: 17.25vmin; text-indent: 0;">患有心脏病、高血压的人士请勿报名。</p>
-        <p style="padding-left: 17.25vmin; text-indent: 0;">参与人数有限，先到先得。报名截止时间 12 月 5 日 12:00。</p>
+        <p style="text-indent: 0;">*温馨提示：参与报名者驾龄需超过 3 年。</p>
+        <p style="padding-left: 17vmin; text-indent: 0;">请携带身份证件和驾照原件前往。</p>
+        <p style="padding-left: 17vmin; text-indent: 0;">患有心脏病、高血压的人士请勿报名。</p>
       </div>
       <!-- <div class="ar-box" style="margin-top: 3.125vmin;">
         <div class="ar-form">
@@ -55,8 +56,8 @@
         activity_select: {
           disabled: true,
           selections: [
-            {name: '近海冲浪 + 豪华游艇', val: '1'},
-            {name: '豪华游艇 + 水上摩托艇', val: '2'},
+            // {name: '近海冲浪 + 豪华游艇', val: '1'},
+            {name: '水上运动', val: '2'},
             {name: '最美海岸试驾体验', val: '3'}
           ],
           val: '2',
@@ -67,8 +68,8 @@
       }
     },
     mounted() {
-      this.$parent.img_path = '/static/images/2020/top-banners/yulin.jpg';
-      this.$parent.title = '豪华游艇 + 水上摩托艇'
+      this.$parent.img_path = '/static/images/2021/bg-hw-ssyd.jpg';
+      this.$parent.title = '水上运动'
     },
     methods: {
       getVcode() {
