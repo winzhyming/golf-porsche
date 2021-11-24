@@ -98,13 +98,13 @@ section {
 }
 
 @font-face {
-    font-family: pn-bold;
+    font-family: 'pn-bold';
     src: url('https://d.devnow.cn/golf2019/fonts/PorscheNextTT-Bold.ttf');
     url: ('https://d.devnow.cn/golf2019/fonts/PorscheNextTT-Bold.ttf');
 }
 
 @font-face {
-    font-family: pn-bold-italic;
+    font-family: 'pn-bold-italic';
     src: url('https://d.devnow.cn/golf2019/fonts/PorscheNextTT-BoldItalic.ttf') format('truetype');
 }
 

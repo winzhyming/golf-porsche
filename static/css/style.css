@@ -312,6 +312,7 @@ body {
   border-bottom: 1px solid #252525;
   font-size: 3.75vmin;
   color: #252525;
+  /* font-family: "pn-bold"; */
   line-height: 3.75vmin;
 }
 
@@ -326,7 +327,7 @@ body {
   font-size: 3.125vmin;
   color: #000;
   font-weight: 600;
-  font-family: pn-regular;
+  font-family: "pn-bold";
 }
 
 .ef-main .ef-art section {
@@ -1036,6 +1037,7 @@ select.form-control option {
   left: 0;
   width: 100%;
   z-index: 0;
+  transition: all .4s;
 }
 
 #player-menu {

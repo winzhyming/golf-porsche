@@ -4,11 +4,12 @@
       <article class="ef-art pc-art mct-art">
         <div class="result-tips" style="margin: 10vmin 0;">
               恭喜您已完成
-              <strong v-if="type === '5'">水上桨板体验</strong>
-              <strong v-if="type === '4'">咖啡庄园体验</strong>
-              <strong v-if="type === '3'">最美海岸试驾体验</strong>
-              <strong v-if="type === '2'">水上活动体验：石梅湾威斯汀酒店</strong>
-              <strong v-if="type === '1'">高尔夫体验：神州半岛高尔夫球会</strong>
+              <strong v-if="type === '6'">水上冲浪体验: 神州半岛海滩</strong>
+              <strong v-if="type === '5'">三亚免税店：三亚海棠湾免税购物中心</strong>
+              <strong v-if="type === '4'">最美海岸试驾体验</strong>
+              <strong v-if="type === '3'">咖啡庄园体验</strong>
+              <strong v-if="type === '2'">水上桨板体验</strong>
+              <strong v-if="type === '1'">最美海岸试驾体验</strong>
               的预约，稍后会有工作人员与您核对相关信息，并确认是否预约成功。
         </div>
         <div class="btn-form">

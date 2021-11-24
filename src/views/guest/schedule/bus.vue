@@ -5,18 +5,22 @@
         班车时刻 <img src="https://d.devnow.cn/golf2019/images/ic-next-red.png" class="ic"/>
       </h1>
       <section class="event-schedule">
-        <h2 class="es-tit">2021 年 12 月 3 日 星期五</h2>
+        <h2 class="es-tit">2021 年 12 月 3 日 周五</h2>
         <ul class="fen">
           <li class="clearfix li-tit">
             <span class="fl">保时捷友谊赛</span>
           </li>
           <li class="clearfix">
-            <span class="fl" style="width: 100%;">07:30 - 10:00 酒店 2 层大堂 - 出发</span>
-            <span class="fl" style="display:block; padding-left: 19vmin;">每 10 分钟一班</span>
+            <span class="fl lable-left ellipsis">07:30 - 09:30</span>
+            <span class="fr text-right">酒店 2 层大堂 - 出发<br>每 5 -10 分钟一班</span>
+            <!-- <span class="fl" style="width: 100%;">07:30 - 10:00 酒店 2 层大堂 - 出发</span>
+            <span class="fl" style="display:block; padding-left: 19vmin;">每 10 分钟一班</span> -->
           </li>
           <li class="clearfix">
-            <span class="fl" style="width: 100%;">15:30 - 17:00 球会 - 返程</span>
-            <span class="fl" style="display:block; padding-left: 19vmin;">每 10 分钟一班</span>
+            <span class="fl lable-left ellipsis">15:30 - 17:00</span>
+            <span class="fr text-right">球会 - 返程<br>每 5 -10 分钟一班</span>
+            <!-- <span class="fl" style="width: 100%;">15:30 - 17:00 球会 - 返程</span>
+            <span class="fl" style="display:block; padding-left: 19vmin;">每 10 分钟一班</span> -->
           </li>
           <li class="clearfix li-tit">
             <span class="fl">最美海岸试驾体验</span>
@@ -45,18 +49,22 @@
         </ul>
       </section>
       <section class="event-schedule">
-        <h2 class="es-tit">2021 年 12 月 4 日 星期六</h2>
+        <h2 class="es-tit">2021 年 12 月 4 日 周六</h2>
         <ul class="fen">
           <li class="clearfix li-tit">
             <span class="fl">保时捷友谊赛</span>
           </li>
           <li class="clearfix">
-            <span class="fl" style="width: 100%;">07:30 - 09:30 酒店 2 层大堂 - 出发</span>
-            <span class="fl" style="display:block; padding-left: 19vmin;">每 10 分钟一班</span>
+            <span class="fl lable-left ellipsis">07:30 - 09:00</span>
+            <span class="fr text-right">酒店 2 层大堂 - 出发<br>每 5 -10 分钟一班</span>
+            <!-- <span class="fl" style="width: 100%;">07:30 - 09:30 酒店 2 层大堂 - 出发</span>
+            <span class="fl" style="display:block; padding-left: 19vmin;">每 10 分钟一班</span> -->
           </li>
           <li class="clearfix">
-            <span class="fl" style="width: 100%;">15:30 - 17:00 球会 - 返程</span>
-            <span class="fl" style="display:block; padding-left: 19vmin;">每 10 分钟一班</span>
+            <span class="fl lable-left ellipsis">15:30 - 17:00</span>
+            <span class="fr text-right">球会 - 返程<br>每 5 -10 分钟一班</span>
+            <!-- <span class="fl" style="width: 100%;">15:30 - 17:00 球会 - 返程</span>
+            <span class="fl" style="display:block; padding-left: 19vmin;">每 10 分钟一班</span> -->
           </li>
           <li class="clearfix li-tit">
             <span class="fl">最美海岸试驾体验</span>
@@ -65,7 +73,7 @@
             <span class="fl">11:30 - 酒店 2 层大堂 保时捷签到中心</span>
           </li>
           <li class="clearfix li-tit">
-            <span class="fl">免税店购物</span>
+            <span class="fl">三亚免税店</span>
           </li>
           <li class="clearfix">
             <span class="fl">11:00 - 酒店 2 层大堂出发</span>
@@ -74,7 +82,7 @@
             <span class="fl">16:00 - 返程</span>
           </li>
           <li class="clearfix li-tit">
-            <span class="fl">冲浪体验</span>
+            <span class="fl">水上冲浪体验</span>
           </li>
           <li class="clearfix">
             <span class="fl">13:30 - 酒店 2 层大堂出发</span>
@@ -118,6 +126,12 @@
   }
 </script>
 
-
-// WEBPACK FOOTER //
-// src/views/guest/schedule/bus.vue
+<style scoped>
+.event-schedule ul li .lable-left{
+  text-indent: 0;
+  width: 18.4375vmin;
+}
+.event-schedule ul li .text-right{
+  width: 61.625vmin;
+}
+</style>

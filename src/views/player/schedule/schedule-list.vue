@@ -22,10 +22,10 @@
         <ul>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">06:30 - 10:30</span>
-            <span class="fr text-right">酒店早餐（2层 - 品味餐厅）</span>
+            <span class="fr text-right">酒店早餐（2层，品味餐厅）</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis">07:30 - 10:00</span>
+            <span class="fl lable-left ellipsis">07:30 - 09:30</span>
             <span class="fr text-right">搭乘班车前往球场<br>（每 5 - 10 分钟一班）</span>
           </li>
           <li class="clearfix">
@@ -34,7 +34,7 @@
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">10:00 - 10:30</span>
-            <span class="fr text-right">练习场开球仪式 & 合影留念</span>
+            <span class="fr text-right">开球仪式 & 合影留念</span>
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">10:30 - 15:30</span>
@@ -44,7 +44,7 @@
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">15:30 - 16:00</span>
-            <span class="fr text-right">保时捷友谊赛颁奖仪式<br>（球会二楼）</span>
+            <span class="fr text-right">保时捷友谊赛颁奖仪式<br>（球会会所2层）</span>
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">15:30 - 17:00</span>
@@ -61,19 +61,19 @@
         <ul>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">06:30 - 10:30</span>
-            <span class="fr text-right">酒店早餐（2层 - 品味餐厅）</span>
+            <span class="fr text-right">酒店早餐（2层，品味餐厅）</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis">07:30 - 09:30</span>
+            <span class="fl lable-left ellipsis">07:30 - 09:00</span>
             <span class="fr text-right">搭乘班车前往球场<br>（每 5 - 10 分钟一班）</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis">08:05 - 09:00</span>
+            <span class="fl lable-left ellipsis">08:00 - 09:00</span>
             <span class="fr text-right">练习场热身</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis">09:00 - 09:20</span>
-            <span class="fr text-right">开球讲解</span>
+            <span class="fl lable-left ellipsis">09:00 - 09:30</span>
+            <span class="fr text-right">高球技巧讲解</span>
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">09:30 - 14:30</span>
@@ -81,7 +81,7 @@
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">15:30 - 17:00</span>
-            <span class="fr text-right">泰格豪雅挑战赛</span>
+            <span class="fr text-right">泰格豪雅极速挑战赛</span>
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">15:30 - 17:00</span>
@@ -93,7 +93,7 @@
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">21:30 起</span>
-            <span class="fr text-right">庆祝派对</span>
+            <span class="fr text-right">庆祝派对（1 层，海岸线餐厅）</span>
           </li>
         </ul>
       </section>
@@ -102,7 +102,7 @@
         <ul>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">06:30 - 11:00</span>
-            <span class="fr text-right">酒店早餐</span>
+            <span class="fr text-right">酒店早餐（2层，品味餐厅）</span>
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">09:00 - 14:00</span>

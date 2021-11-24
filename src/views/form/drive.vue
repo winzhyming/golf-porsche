@@ -31,10 +31,10 @@
               <input type="radio" name="car_type" value="2" v-model="form_data.car_type"/><label for="">&nbsp;911</label>
             </span>
             <span class="check-span" style="width: 100%">
-              <input type="radio" name="car_type" value="3" v-model="form_data.car_type"/><label for="">&nbsp;Macan</label>
+              <input type="radio" name="car_type" value="3" v-model="form_data.car_type"/><label for="">&nbsp;Taycan</label>
             </span>
             <span class="check-span" style="width: 100%">
-              <input type="radio" name="car_type" value="4" v-model="form_data.car_type"/><label for="">&nbsp;Taycan Turbo S</label>
+              <input type="radio" name="car_type" value="4" v-model="form_data.car_type"/><label for="">&nbsp;Cayenne</label>
             </span>
           </div>
         </div>

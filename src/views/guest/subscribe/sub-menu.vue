@@ -16,13 +16,13 @@
 
         <li>
           <router-link :to="{'name': 'subscribe.mianshui'}" class="clearfix">
-            免税店购物<img src="https://d.devnow.cn/golf2019/images/ic-next-red.png" class="ic fr"/>
+            三亚免税店<img src="https://d.devnow.cn/golf2019/images/ic-next-red.png" class="ic fr"/>
           </router-link>
         </li>
 
         <li>
           <router-link :to="{'name': 'subscribe.chonglang'}" class="clearfix">
-            冲浪体验<img src="https://d.devnow.cn/golf2019/images/ic-next-red.png" class="ic fr"/>
+            水上冲浪体验<img src="https://d.devnow.cn/golf2019/images/ic-next-red.png" class="ic fr"/>
           </router-link>
         </li>
         
