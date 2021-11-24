@@ -1,8 +1,7 @@
 <template>
   <div id="player-menu" class="bg-attach-ment">
     <section class="bf-tit fen-b">
-      <h1 class="chi">2021 保时捷中国车主俱乐部年度晚宴</h1>
-      <h1 class="en">2021 Porsche Club China Annual Gala</h1>
+      <img src="/static/images/2021/landing-title2.png" style="width: 70.46875vmin;">
     </section>
     <div class="bf-main pr">
       <!-- <img src="https://d.devnow.cn/travelclub2019/images/bg-finalist-main.png" class="pa-bg"/> -->
@@ -16,12 +15,12 @@
                 <h2>日程安排</h2>
               </router-link>
             </li>
-            <!-- <li>
+            <li>
               <router-link :to="{'name': 'huwai.acts.event'}" class="btn-a">
                 <img src="https://d.devnow.cn/golf2021/ics/ic56-030.png" alt="" />
                 <h2>赛事信息</h2>
               </router-link>
-            </li> -->
+            </li>
             <li>
               <router-link :to="{'name': 'huwai.acts.site'}" class="btn-a">
                 <img src="https://d.devnow.cn/travelclub2019/images/btn-finalist07.png" alt="" />

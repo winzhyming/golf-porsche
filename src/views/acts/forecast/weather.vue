@@ -2,10 +2,10 @@
   <div class="ei-main">
     <div class="map-tep" style="margin-top: 17.1875vmin;">
       <div class="dimmer-top"></div>
-      <h1 class="mt-tit fen">万宁</h1>
+      <h1 class="mt-tit fen" style="font-weight: 600;">海南万宁</h1>
       <div class="weather-box">
-        <div id="tp-weather-widget" style="text-align: center;">
-        </div>
+        <!-- <div id="tp-weather-widget" style="text-align: center;"></div> -->
+        <img src="https://d.devnow.cn/wanyan2021/weather.png" style="max-width: 80%;">
       </div>
     </div>
   </div>
@@ -19,17 +19,17 @@
       return {}
     },
     mounted() {
-      window.SeniverseWeatherWidget('show', {
-        flavor: "slim",
-        location: "W7QDBNQVFQN8",
-        geolocation: false,
-        language: "zh-Hans",
-        unit: "c",
-        theme: "auto",
-        token: "173c79cc-a51c-4062-ad31-fd0be12e4ed9",
-        hover: "enabled",
-        container: "tp-weather-widget"
-      })
+      // window.SeniverseWeatherWidget('show', {
+      //   flavor: "slim",
+      //   location: "W7QDBNQVFQN8",
+      //   geolocation: false,
+      //   language: "zh-Hans",
+      //   unit: "c",
+      //   theme: "auto",
+      //   token: "173c79cc-a51c-4062-ad31-fd0be12e4ed9",
+      //   hover: "enabled",
+      //   container: "tp-weather-widget"
+      // })
     }
   }
 </script>

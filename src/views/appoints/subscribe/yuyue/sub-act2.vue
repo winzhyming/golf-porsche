@@ -57,7 +57,7 @@
           disabled: true,
           selections: [
             // {name: '近海冲浪 + 豪华游艇', val: '1'},
-            {name: '水上运动', val: '2'},
+            {name: '玩水踏浪', val: '2'},
             {name: '最美海岸试驾体验', val: '3'}
           ],
           val: '2',
@@ -69,7 +69,7 @@
     },
     mounted() {
       this.$parent.img_path = '/static/images/2021/bg-hw-ssyd.jpg';
-      this.$parent.title = '水上运动'
+      this.$parent.title = '玩水踏浪'
     },
     methods: {
       getVcode() {

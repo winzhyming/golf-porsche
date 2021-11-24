@@ -9,74 +9,111 @@
           <th colspan="3">2021 年 12 月 6 日 星期一</th>
         </tr>
         <tr>
-          <td>活动名称</td>
+          <td style="width: 46%;">活动名称</td>
           <td style="width:24%;">发车时间</td>
           <td>上车地点</td>
         </tr>
+
         <tr>
-          <td rowspan="4">专业组正式赛<br>业余组友谊赛</td>
+          <td rowspan="4">2021 保时捷中国车主俱乐部高尔夫友谊赛</td>
           <td colspan="2">酒店 - 球会</td>
         </tr>
         <tr>
-          <td>07:30 - 09:45<br>每 10 分钟一班</td>
+          <td>09:30</td>
           <td>酒店正门口</td>
         </tr>
         <tr>
           <td colspan="2">球会 - 酒店</td>
         </tr>
         <tr>
-          <td>15:30 - 16:30<br>每 10 分钟一班</td>
+          <td>15:30</td>
           <td>球会会所正门口</td>
         </tr>
+
         <tr>
-          <td rowspan="4">冲浪体验</td>
-          <td colspan="2">酒店 - 冲浪俱乐部</td>
-        </tr>
-        <tr>
-          <td>10:30</td>
-          <td>酒店二层大堂</td>
-        </tr>
-        <tr>
-          <td colspan="2">冲浪俱乐部 - 酒店</td>
-        </tr>
-        <tr>
-          <td>15:30</td>
-          <td>俱乐部门口</td>
-        </tr>
-        <tr>
-          <td rowspan="4">水上摩托艇<br>豪华游艇出海体验</td>
+          <td rowspan="4">2021 保时捷中国车主俱乐部<br>玩水踏浪日（第一组）</td>
           <td colspan="2">酒店 - 石梅湾游艇会</td>
         </tr>
         <tr>
-          <td>12:45</td>
+          <td>09:00</td>
           <td>酒店二层大堂</td>
         </tr>
         <tr>
           <td colspan="2">石梅湾游艇会 - 酒店</td>
         </tr>
         <tr>
-          <td>16:00</td>
+          <td>11:15</td>
           <td>游艇会门口</td>
         </tr>
+
         <tr>
-          <td rowspan="4">咖啡庄园参观</td>
-          <td colspan="2">酒店 - 兴隆咖啡庄园</td>
+          <td rowspan="4">2021 保时捷中国车主俱乐部<br>玩水踏浪日（第二组）</td>
+          <td colspan="2">酒店 - 石梅湾游艇会</td>
         </tr>
         <tr>
-          <td>11:30</td>
+          <td>10:00</td>
           <td>酒店二层大堂</td>
         </tr>
         <tr>
-          <td colspan="2">兴隆咖啡庄园 - 酒店</td>
+          <td colspan="2">石梅湾游艇会 - 酒店</td>
         </tr>
         <tr>
-          <td>15:00</td>
-          <td>咖啡庄园正门口</td>
+          <td>12:15</td>
+          <td>游艇会门口</td>
+        </tr>
+
+        <tr>
+          <td rowspan="4">2021 保时捷中国车主俱乐部<br>玩水踏浪日（第三组）</td>
+          <td colspan="2">酒店 - 石梅湾游艇会</td>
         </tr>
         <tr>
-          <td rowspan="2">最美海岸线试驾</td>
-          <td>11:00 - 15:00</td>
+          <td>12:00</td>
           <td>酒店二层大堂</td>
+        </tr>
+        <tr>
+          <td colspan="2">石梅湾游艇会 - 酒店</td>
+        </tr>
+        <tr>
+          <td>14:15</td>
+          <td>游艇会门口</td>
+        </tr>
+
+        <tr>
+          <td rowspan="4">2021 保时捷中国车主俱乐部<br>玩水踏浪日（第四组）</td>
+          <td colspan="2">酒店 - 石梅湾游艇会</td>
+        </tr>
+        <tr>
+          <td>13:00</td>
+          <td>酒店二层大堂</td>
+        </tr>
+        <tr>
+          <td colspan="2">石梅湾游艇会 - 酒店</td>
+        </tr>
+        <tr>
+          <td>15:15</td>
+          <td>游艇会门口</td>
+        </tr>
+
+        <tr>
+          <td rowspan="4">2021 保时捷中国车主俱乐部<br>玩水踏浪日（第五组）</td>
+          <td colspan="2">酒店 - 石梅湾游艇会</td>
+        </tr>
+        <tr>
+          <td>14:00</td>
+          <td>酒店二层大堂</td>
+        </tr>
+        <tr>
+          <td colspan="2">石梅湾游艇会 - 酒店</td>
+        </tr>
+        <tr>
+          <td>16:15</td>
+          <td>游艇会门口</td>
+        </tr>
+
+        <tr>
+          <td rowspan="2">最美海岸试驾体验</td>
+          <td>10:00 - 15:00</td>
+          <td>酒店二层大堂<br>保时捷体验中心柜台</td>
         </tr>
         <tr>
           <td colspan="2">试驾体验时间：45分钟</td>

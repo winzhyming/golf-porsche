@@ -7,6 +7,7 @@
       <section class="ds-list">
         <ul>
           <li>
+            <img src="https://d.devnow.cn/wanyan2021/hole-top.jpg" style="width: 100%;"><br><br>
             <p>
               神州半岛高尔夫球场是一个由东、西场以及锦标级场地三部分组成的 36 洞球场，另设有五个练习球洞。 <br><br>
 该球场由国际著名的高尔夫球大师汤姆韦斯科夫精心设计，将神州半岛从起伏的海岸沙丘到嶙峋的山间巨石独特地理环境及迷人景致出神入化般融入设计中。<br><br>

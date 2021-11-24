@@ -7,7 +7,6 @@
       <table class="gi-table grade">
         <thead>
           <th>奖项</th>
-          <th>组别</th>
           <th>姓名</th>
           <th>码数/分数</th>
         </thead>
@@ -42,92 +41,37 @@
       return {
         list: [
           {
-            cate: '男子距线最近奖',
-            group: '男子组',
+            cate: '总杆冠军',
+            name: '',
+            score: ''
+          },
+          {
+            cate: '净杆冠军',
+            name: '',
+            score: ''
+          },
+          {
+            cate: '男子最远距离奖',
             name: '',
             score: ''
           },
           {
             cate: '女子最远距离奖',
-            group: '女子组',
             name: '',
             score: ''
           },
           {
             cate: '男子距线最近奖',
-            group: '男子组',
             name: '',
             score: ''
           },
           {
             cate: '女子距线最近奖',
-            group: '女子组',
             name: '',
             score: ''
           },
           {
-            cate: '距洞最近奖',
-            group: '',
-            name: '',
-            score: ''
-          },
-          {
-            cate: '两杆最近洞奖',
-            group: '',
-            name: '',
-            score: ''
-          },
-          {
-            cate: '一杆进洞',
-            group: '',
-            name: '',
-            score: ''
-          },
-          {
-            cate: '最佳团队',
-            group: '',
-            name: '',
-            score: ''
-          },
-          {
-            cate: '保时捷俱乐部最佳表现奖',
-            group: '',
-            name: '',
-            score: ''
-          },
-          {
-            cate: '净杆 <span class="fen">C</span> 组冠军',
-            group: '',
-            name: '',
-            score: ''
-          },
-          {
-            cate: '净杆 <span class="fen">B</span> 组冠军',
-            group: '',
-            name: '',
-            score: ''
-          },
-          {
-            cate: '净杆 <span class="fen">A</span> 组冠军',
-            group: '',
-            name: '',
-            score: ''
-          },
-          {
-            cate: '总杆季军',
-            group: '',
-            name: '',
-            score: ''
-          },
-          {
-            cate: '总杆亚军',
-            group: '',
-            name: '',
-            score: ''
-          },
-          {
-            cate: '总杆冠军',
-            group: '',
+            cate: '一杆进洞奖',
             name: '',
             score: ''
           }

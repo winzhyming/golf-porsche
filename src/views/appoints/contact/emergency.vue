@@ -9,6 +9,8 @@
           <li>
             <p>紧急联络</p>
             <p class="fen"><a href="tel:13167219112">131-6721-9112</a></p>
+            <p class="fen">周一至周日 09:00 - 18:00</p>
+            <p class="fen">活动日期间 09:00 - 22:00</p>
           </li>
         </ul>
       </section>
