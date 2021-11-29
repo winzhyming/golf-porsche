@@ -4,7 +4,7 @@
       <h1 class="git-tit">
         比赛结果信息 <img src="https://d.devnow.cn/golf2019/images/ic-next-red.png" class="ic"/>
       </h1>
-      <table class="gi-table grade">
+      <table class="gi-table grade" v-if="list.length">
         <thead>
           <th>奖项</th>
           <th>获奖人</th>
@@ -16,6 +16,7 @@
           </tr>
         </tbody>
       </table>
+      <p v-else style="margin-top: 10vmin; font-size: 3.75vmin; text-align: center;">奖项将于 12 月 4 日颁奖晚宴公布。</p>
     </div>
   </div>
 </template>

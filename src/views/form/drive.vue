@@ -3,7 +3,7 @@
     <div class="ar-box">
       <div class="ar-form" style="padding-bottom: 8vmin;">
         <div class="af-group">
-          <p style="font-size: 2.1875vmin;">* 12 月 3 和 4 日的试驾活动仅面对向保时捷高尔夫活动的邀请嘉宾开放。如有兴趣，请返回活动预约 - 嘉宾预约。
+          <p style="font-size: 2.1875vmin;">* 12 月 3 和 4 日的试驾活动仅面向保时捷高尔夫活动的邀请嘉宾开放。如有兴趣，请返回总决赛嘉宾专用入口 - 嘉宾预约
 <br>* 12 月 2 日 和 12 月 5 日试驾活动面向全体酒店住客。
 </p>
         </div>
