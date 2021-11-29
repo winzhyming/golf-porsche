@@ -3,7 +3,7 @@
     <div class="body-index pr" style="padding-bottom: 39vmin;">
       <section class="bi-tit fen-b">
         <img class="img-logo" src="/static/images/2019/logo.png" alt="Porsche">
-        <img class="img-word" src="/static/images/2021/landing-title.png" alt="2021 保时捷中国车主俱乐部年度晚宴 2021 Porsche Club China Annual Gala">
+        <img class="img-word" src="https://d.devnow.cn/pcc/2021/landing-title.png" alt="2021 保时捷中国车主俱乐部年度晚宴 2021 Porsche Club China Annual Gala">
       </section>
       <section class="bi-btns">
         <ul>
@@ -20,7 +20,7 @@
         </ul>
       </section>
     </div>
-    <img src="/static/images/2021/bot25.png" class="img-bot" style="left: 50%; transform: translateX(-50%); bottom: 1; width: 58%;">
+    <img src="https://d.devnow.cn/pcc/2021/bot25.png" class="img-bot" style="left: 50%; transform: translateX(-50%); bottom: 1; width: 58%;">
   </div>
 </template>
 

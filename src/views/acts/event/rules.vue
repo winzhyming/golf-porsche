@@ -169,7 +169,7 @@
         </section>
       </article>
     </div>
-    <img src="/static/images/2021/bot2021.jpg" style="width: 100%;">
+    <img src="https://d.devnow.cn/pcc/2021/bot2021.jpg" style="width: 100%;">
   </div>
 </template>
 

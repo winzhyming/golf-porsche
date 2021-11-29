@@ -1,7 +1,7 @@
 <template>
   <div id="schedule-index">
     <div class="top-ban pr">
-      <img src="/static/images/2021/bg-hw-qczn.jpg" class="pa-img"/>
+      <img src="https://d.devnow.cn/pcc/2021/bg-hw-qczn.jpg" class="pa-img"/>
       <div class="tbt-tit pa">
         <h1>球场指南</h1>
       </div>

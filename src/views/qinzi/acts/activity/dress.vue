@@ -12,7 +12,7 @@
             <p><span>欢迎晚宴主题：绮梦花园</span></p>
             <p><span>着装要求：时尚休闲 - 斑斓印花，动物条纹 </span></p>
             <div class="imgs">
-              <img src="/static/images/2021/dress01.png" alt="">
+              <img src="https://d.devnow.cn/pcc/2021/dress01.png" alt="">
             </div>
           </li>
           <li>
@@ -20,7 +20,7 @@
             <p class="flex"><span>年度晚宴主题：星空下的宇宙湾</span></p>
             <p class="flex"><span>着装要求：晚礼服 - 时尚亮片，闪耀金属</span></p>
             <div class="imgs">
-              <img src="/static/images/2021/dress02.png" alt="">
+              <img src="https://d.devnow.cn/pcc/2021/dress02.png" alt="">
             </div>
           </li>
         </ul>

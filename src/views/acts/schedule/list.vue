@@ -39,7 +39,7 @@
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">10:30 - 16:30</span>
-            <span class="fr text-right">2021 保时捷中国车主俱乐部高尔夫<br>友谊赛<br>2021 保时捷中国车主俱乐部玩水<br>踏浪日</span>
+            <span class="fr text-right">2021 保时捷中国车主俱乐部高尔夫<br>友谊赛<br>2021 保时捷中国车主俱乐部玩水<br>踏浪日<br>保时捷试驾体验</span>
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">16:30 - 18:00</span>
@@ -55,7 +55,8 @@
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">22:00 至深夜</span>
-            <span class="fr text-right">余兴小酌（海岸线餐厅，1楼）</span>
+            <!-- <span class="fr text-right">余兴派对-雪茄私享品鉴<br>（海岸线餐厅，1楼）</span> -->
+            <span class="fr text-right">余兴小酌<br>（海岸线餐厅，1楼）</span>
           </li>
         </ul>
       </section>

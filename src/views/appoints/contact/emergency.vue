@@ -8,7 +8,7 @@
         <ul>
           <li>
             <p>紧急联络</p>
-            <p class="fen"><a href="tel:13167219112">131-6721-9112</a></p>
+            <p class="fen"><a href="tel:18521013809">185-2101-3809</a></p>
             <p class="fen">周一至周日 09:00 - 18:00</p>
             <p class="fen">活动日期间 09:00 - 22:00</p>
           </li>
@@ -21,7 +21,7 @@
 <script>
   export default {
     mounted() {
-      this.$parent.img_path = '/static/images/2021/bg-hw-jjll.jpg';
+      this.$parent.img_path = 'https://d.devnow.cn/pcc/2021/bg-hw-jjll.jpg';
     }
   }
 </script>

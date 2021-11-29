@@ -1,7 +1,7 @@
 <template>
   <div id="forecast-index">
     <div class="top-ban pr">
-      <img src="/static/images/2021/bg-hw-tqyb.jpg" class="pa-img"/>
+      <img src="https://d.devnow.cn/pcc/2021/bg-hw-tqyb.jpg" class="pa-img"/>
       <div class="tbt-tit pa">
         <h1>天气预报</h1>
       </div>

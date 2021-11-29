@@ -64,7 +64,7 @@
       return {}
     },
     mounted() {
-      this.$parent.img_path = '/static/images/2021/bg-hw-bcsk.jpg';
+      this.$parent.img_path = 'https://d.devnow.cn/pcc/2021/bg-hw-bcsk.jpg';
     }
   }
 </script>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="ei-main">
+    <div class="ei-main" style="padding-bottom: 59.0625vmin;">
       <section class="ei-btns">
         <ul>
           <li>

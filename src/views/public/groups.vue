@@ -5,7 +5,7 @@
     <div class="body-index pr" style="padding-bottom: 39vmin;">
       <section class="bi-tit fen-b">
         <img class="img-logo" src="/static/images/2019/logo.png" style="width: 50vmin;" alt="Porsche">
-        <img class="img-word" src="/static/images/2021/landing-title.png" alt="2021 保时捷中国车主俱乐部年度晚宴 2021 Porsche Club China Annual Gala">
+        <img class="img-word" src="https://d.devnow.cn/pcc/2021/landing-title.png" alt="2021 保时捷中国车主俱乐部年度晚宴 2021 Porsche Club China Annual Gala">
       </section>
       <section class="bi-btns">
         <ul class="u2021">
@@ -24,7 +24,7 @@
         </ul>
       </section>
     </div>
-    <!-- <img src="/static/images/2021/bot02.jpg" class="img-bot" style="width: 62%; left: 50%; bottom: 1%; transform: translateX(-50%);" > -->
+    <!-- <img src="https://d.devnow.cn/pcc/2021/bot02.jpg" class="img-bot" style="width: 62%; left: 50%; bottom: 1%; transform: translateX(-50%);" > -->
 
     <!-- 协议弹框 -->
     <div class="xieyi-dimmer" v-if="!isAgree">

@@ -1,7 +1,7 @@
 <template>
   <div id="player-parent">
     <div class="top-ban pr">
-      <img src="/static/images/2021/bg-hw-ssxx.jpg" class="pa-img"/>
+      <img src="https://d.devnow.cn/pcc/2021/bg-hw-ssxx.jpg" class="pa-img"/>
       <div class="tbt-tit pa">
         <h1>赛事信息</h1>
       </div>
@@ -11,7 +11,7 @@
         <router-view></router-view>
       </transition>
     </div>
-    <img src="/static/images/2021/bot2021.jpg" alt="" class="img-bot">
+    <img src="https://d.devnow.cn/pcc/2021/bot2021.jpg" alt="" class="img-bot" style="bottom: 0;">
     <a @click="back" class="back-btn" v-bottom_back><img src="https://d.devnow.cn/travelclub2019/images/ic-back.jpg"/></a>
     <a @click="index" class="index-btn"><img src="/static/images/2020/ic-index.png"/></a>
   </div>

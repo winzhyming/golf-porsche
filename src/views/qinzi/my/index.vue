@@ -1,7 +1,7 @@
 <template>
   <div id="form-index">
     <div class="top-ban pr" style="min-height: 38.75vmin;">
-      <img src="/static/images/2021/bg-hw-wdxc.jpg" class="pa-img"/>
+      <img src="https://d.devnow.cn/pcc/2021/bg-hw-wdxc.jpg" class="pa-img"/>
       <div class="tbt-tit pa">
         <h1>我的行程</h1>
       </div>

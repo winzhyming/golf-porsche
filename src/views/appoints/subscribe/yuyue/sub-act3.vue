@@ -1,15 +1,15 @@
 <template>
   <!-- 最美海岸试驾体验 -->
   <div class="ei-main">
-    <div class="yuyue2019" style="padding-bottom: 20vmin;">
+    <div class="yuyue2019">
       <div class="desc">
-        <p style="text-indent: 0;">欢迎参与保时捷专属试驾活动， 感受最纯粹的驾驶乐趣。 </p>
-        <p style="text-indent: 0;">远离城市的喧嚣，享受着碧波蔚蓝的热带美景，尽情驰骋，潇洒随性。 </p>
+        <p style="text-indent: 0;">欢迎参与保时捷专属试驾活动， 感受最纯粹的驾驶乐趣。</p>
+        <p style="text-indent: 0;">远离城市的喧嚣，享受着碧波蔚蓝的热带美景，尽情驰骋，潇洒随性。  </p>
         <br>
         <br>
         <p style="text-indent: 0;">活动时间：2021 年 12 月 6 日 10:00 - 15:00</p>
-        <p style="text-indent: 0;">集合地点：酒店二层大堂，保时捷签到中心</p>
-        <p style="text-indent: 0;">活动内容：教练带您试驾多款保时捷车型，尊享极致试驾体验。</p>
+        <p style="text-indent: 0;">集合地点：酒店二层大堂，保时捷体验中心柜台</p>
+        <p style="text-indent: 0; display: flex">活动内容：<span style="flex: 1;">教练带您试驾多款保时捷车型，包括718、911和Taycan，尊享极致试驾体验。</span></p>
         <br>
         <p style="text-indent: 0;">*温馨提示：请您随身携带驾照。</p>
         <p style="padding-left: 17.25vmin; text-indent: 0;">请勿穿着高跟鞋。</p>
@@ -66,8 +66,8 @@
       }
     },
     mounted() {
-      this.$parent.img_path = '/static/images/2021/bg-hw-zmsj.jpg';
-      this.$parent.title = '最美海岸试驾体验'
+      this.$parent.img_path = 'https://d.devnow.cn/pcc/2021/bg-hw-zmsj.jpg';
+      this.$parent.title = '保时捷试驾体验'
     },
     methods: {
       getVcode() {

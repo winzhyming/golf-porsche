@@ -18,3 +18,11 @@
     </section>
   </div>
 </template>
+
+<script>
+export default {
+  mounted () {
+    this.$parent.title="活动信息"
+  }
+}
+</script>

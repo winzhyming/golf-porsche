@@ -1,7 +1,7 @@
 <template>
   <div id="player-menu" class="bg-attach-ment">
     <section class="bf-tit fen-b">
-      <img src="/static/images/2021/landing-title2.png" style="width: 70.46875vmin;">
+      <img src="https://d.devnow.cn/pcc/2021/landing-title2.png" style="width: 70.46875vmin;">
     </section>
     <div class="bf-main pr">
       <!-- <img src="https://d.devnow.cn/travelclub2019/images/bg-finalist-main.png" class="pa-bg"/> -->

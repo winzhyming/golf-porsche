@@ -1,11 +1,11 @@
 <template>
-  <div id="index-view" style="height: 100vh;">
+  <div id="index-view" style="min-height: 100vh;">
   <!-- <div id="index-view" class="bg-attach-ment" style="background: url(/static/images/2020/dt2020.png) bottom center no-repeat; background-size: 100% auto; background-color: #070304;"> -->
   <!-- <div id="index-view" style="background: url(/static/images/2020/dt2020.png) bottom center norepeat;"> -->
-    <div class="body-index pr" style="padding-bottom: 39vmin;">
+    <div class="body-index pr" style="padding-bottom: 59.0625vmin;">
       <section class="bi-tit fen-b">
         <img class="img-logo" src="/static/images/2019/logo.png" alt="Porsche">
-        <img class="img-word" src="/static/images/2021/landing-title.png" alt="2021 保时捷中国车主俱乐部年度晚宴 2021 Porsche Club China Annual Gala">
+        <img class="img-word" src="https://d.devnow.cn/pcc/2021/landing-title.png" alt="2021 保时捷中国车主俱乐部年度晚宴 2021 Porsche Club China Annual Gala">
       </section>
       <section class="bi-btns">
         <ul>
@@ -13,13 +13,16 @@
             <router-link :to="{'name': 'huwai.acts'}" class="btn-index">活动详情</router-link>
           </li>
           <li>
-            <router-link :to="{'name': 'huwai.appoints'}" class="btn-index">活动简介</router-link>
+            <router-link :to="{'name': 'huwai.appoints'}" class="btn-index">户外运动</router-link>
+          </li>
+          <li>
+            <router-link :to="{'name': 'huwai.mine'}" class="btn-index">我的行程</router-link>
           </li>
           <li><a href="javascript:;" @click="goOtherMini()" class="btn-index">影像集锦</a></li>
         </ul>
       </section>
     </div>
-    <img src="/static/images/2021/bot2021.jpg" alt="" class="img-bot" style="bottom: 0%;">
+    <img src="https://d.devnow.cn/pcc/2021/bot2021.jpg" alt="" class="img-bot" style="bottom: 0%;">
 
     <!-- 协议弹框 -->
     <div class="xieyi-dimmer" v-if="!isAgree">
@@ -89,5 +92,5 @@
 
 <style scoped>
 .body-index .bi-btns ul li{ margin-top: 7.03125vmin; }
-.body-index .bi-btns .btn-index{ padding: 0; line-height: 9.0625vmin; width: 47.5vmin; border-radius: 2.1875vmin;  border-color: #e21932; }
+.body-index .bi-btns .btn-index{ padding: 0; line-height: 9.0625vmin; width: 47.5vmin; border-radius: 2.1875vmin;  border-color: #dc3140; }
 </style>

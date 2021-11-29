@@ -1067,12 +1067,12 @@ select.form-control option {
 
 #player-menu {
   min-height: 100vh;
-  background-image: url(/static/images/2021/bg-huwai-acts.jpg);
+  background-image: url(https://d.devnow.cn/pcc/2021/bg-huwai-acts.jpg);
 }
 
 #guest-index {
   min-height: 100vh;
-  background-image: url(/static/images/2021/bg-hdyy.jpg)
+  background-image: url(https://d.devnow.cn/pcc/2021/bg-hdyy.jpg)
 }
 
 #index-view {
@@ -1098,7 +1098,7 @@ select.form-control option {
 
 #collection-index,
 #form-index {
-  padding-bottom: 5vmin
+  /* padding-bottom: 5vmin */
 }
 
 .event-schedule{

@@ -19,7 +19,7 @@
 <script>
   export default {
     mounted() {
-      this.$parent.img_path = '/static/images/2021/bg-hw-jjll.jpg';
+      this.$parent.img_path = 'https://d.devnow.cn/pcc/2021/bg-hw-jjll.jpg';
     }
   }
 </script>

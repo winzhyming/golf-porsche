@@ -6,6 +6,17 @@
           比赛形式
           <img src="/static/images/2020/ic-next-darkblue.png" class="ic" />
         </h1>
+        <br>
+        <p class="p">2021 保时捷中国车主俱乐部高尔夫友谊赛于 2021 年 12 月 6 日在海南万宁神州半岛高尔夫球会举行。</p>
+        <br>
+        <p class="p">我们邀请保时捷中国车主俱乐部的会员们来到温暖如夏的海南万宁，在一望无垠的草地上尽情挥杆，体验高尔夫运动带来的高雅与畅爽。</p>
+        <br>
+        <p class="p flex"><span class="time">08:00 - 09:55</span> <span class="flex1">练习场热身</span></p>
+        <p class="p flex"><span class="time">10:00 - 10:25</span> <span class="flex1">练习场开球仪式 & 合影留念</span></p>
+        <p class="p flex"><span class="time">10:30 - 16:30</span> <span class="flex1">2021 保时捷中国车主俱乐部高尔夫<br>友谊赛</span></p>
+        <br>
+        <p class="p">* 温馨提示：推荐穿着高尔夫专业服装参与，上半身为有领 Polo 衫，男士下半身为长裤，女士可穿着高腰半身裙。</p>
+        <br>
         <h2>1. 比赛形式</h2>
         <section class="clearfix">
           <span class="fl lable-left">1.1</span>
@@ -104,7 +115,7 @@
       </article>
     </div>
     
-    <img src="/static/images/2021/bot2021.jpg" style="width: 100%;">
+    <img src="https://d.devnow.cn/pcc/2021/bot2021.jpg" style="width: 100%;">
   </div>
 </template>
 
@@ -115,3 +126,13 @@
     }
   }
 </script>
+
+<style scoped>
+.p{ 
+  font-family: "pn-regular";
+  font-size: 3.125vmin;
+  line-height: 4.6875vmin;
+}
+.flex{ display: flex;}
+.flex .flex1{ flex: 1; margin-left: 4vmin; }
+</style>

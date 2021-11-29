@@ -9,47 +9,42 @@
           <div class="af-group">
             <input type="text" class="form-control" placeholder="电话" v-model="form_data.mobile"/>
           </div>
-          <div class="af-group code-group">
+          <p style="text-align: center; margin-bottom: 2.1875vmin;">
+            <a href="javascript:;" class="btn-get-code" v-if="countSecond" style="font-size: 3.125vmin;">{{ countSecond }}s后重发</a>
+            <a href="javascript:;" class="btn-get-code" v-else @click="getVcode" style="font-size: 3.125vmin;">获取验证码</a>
+          </p>
+          <div class="af-group">
             <input type="text" class="form-control" placeholder="验证码" v-model="form_data.vcode"/>
-            <a href="javascript:;" class="btn-get-code" v-if="countSecond">{{ countSecond }}s后重发</a>
-            <a href="javascript:;" class="btn-get-code" v-else @click="getVcode">获取验证码</a>
           </div>
         </div>
       </div>
       <div class="event-schedule" v-else>
-        <ul>
-          <li class="clearfix">
-            <span class="fl lable-left ellipsis" style="text-align: left;">姓</span>
-            <span class="fr text-right">{{ query_result.last_name }}</span>
-          </li>
-          <li class="clearfix">
-            <span class="fl lable-left ellipsis" style="text-align: left;">名</span>
-            <span class="fr text-right">{{ query_result.first_name }}</span>
-          </li>
-          <li class="clearfix">
-            <span class="fl lable-left ellipsis" style="text-align: left;">性别</span>
-            <span class="fr text-right">{{ query_result.gender }}</span>
-          </li>
-          <li class="clearfix">
-            <span class="fl lable-left ellipsis" style="text-align: left;">手机号</span>
-            <span class="fr text-right">{{ query_result.mobile }}</span>
-          </li>
-          <li class="clearfix">
-            <span class="fl lable-left ellipsis" style="text-align: left;">到达日期</span>
-            <span class="fr text-right">{{ query_result.arrival_date }}</span>
-          </li>
-          <li class="clearfix">
-            <span class="fl lable-left ellipsis" style="text-align: left;">返程日期</span>
-            <span class="fr text-right">{{ query_result.return_date }}</span>
-          </li>
-          <li class="clearfix">
-            <span class="fl lable-left ellipsis" style="text-align: left;">12 月 6 日活动</span>
-            <span class="fr text-right">{{ query_result.activity_name }}</span>
-          </li>
-        </ul>
+        <h3 style="text-align: center;">您已预约 12 月 6 日 以下活动</h3>
+        <table style="width: 100%; line-height: 4.375vmin; font-size: 3.125vmin; margin-top: 5vmin;">
+          <tr>
+            <td style="width: 40%;">姓名</td>
+            <td>{{ query_result.last_name + query_result.first_name }}</td>
+          </tr>
+          <tr>
+            <td>手机号</td>
+            <td>{{ query_result.mobile }}</td>
+          </tr>
+          <tr>
+            <td>预约活动</td>
+            <td>{{ query_result.activity_name }}</td>
+          </tr>
+          <tr>
+            <td>活动日期</td>
+            <td>{{ query_result.arrival_date }}</td>
+          </tr>
+          <tr>
+            <td>出发地点</td>
+            <td>{{ query_result.origin }}</td>
+          </tr>
+        </table>
       </div>
       <div class="yuyue-btns"  v-if="!is_show_result">
-        <a @click="confirm" href="javascript:;">查询</a>
+        <a @click="confirm" href="javascript:;" style="padding: 0; border: 0;"><img src="https://d.devnow.cn/pcc/2021/check_route.png" style="width: 30.3125vmin"></a>
       </div>
     </div>
   </div>
@@ -70,6 +65,7 @@ export default {
         arrival_date: '',
         first_name: '',
         gender: '',
+        origin: '',
         last_name: '',
         mobile: '',
         return_date: ''
@@ -107,6 +103,7 @@ export default {
             this.query_result.first_name = data.first_name
             this.query_result.gender = data.gender
             this.query_result.mobile = data.mobile
+            this.query_result.origin = data.origin
             this.query_result.return_date = data.return_date
             this.query_result.activity_name = data.activity_name
             this.is_show_result = true
@@ -177,3 +174,10 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+table tr td{padding: 0 10px;}
+table tr td:first-child{
+  text-align: right;
+}
+</style>

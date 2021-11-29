@@ -1,5 +1,5 @@
 <template>
-  <div id="sub-index">
+  <div id="sub-index" style="padding-bottom: 59.0625vmin; box-sizing: border-box;">
     <div class="top-ban pr">
       <img :src="img_path" class="pa-img"/>
       <div class="tbt-tit pa">
@@ -12,6 +12,8 @@
       </transition>
     </div>
     
+    <img src="https://d.devnow.cn/pcc/2021/bot2021.jpg" class="img-bot" style="bottom: 0%;">
+
     
     <a @click="back" class="back-btn"  v-bottom_back><img src="https://d.devnow.cn/travelclub2019/images/ic-back.jpg"/></a>
     <a @click="index" class="index-btn"><img src="/static/images/2020/ic-index.png"/></a>

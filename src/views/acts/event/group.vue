@@ -16,6 +16,7 @@
           </tr>
         </tbody>
       </table>
+      <p style="text-align: center; font-size: 3.125vmin; margin-top: 3.125vmin;">分组信息将于 12 月 5 日公布</p>
     </div>
   </div>
 </template>

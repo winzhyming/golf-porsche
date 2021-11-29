@@ -1,7 +1,7 @@
 <template>
   <!-- 豪华游艇 + 水上摩托艇 -->
   <div class="ei-main">
-    <div class="yuyue2019" style="padding-bottom: 20vmin;">
+    <div class="yuyue2019">
       <div class="desc">
         <p style="text-indent: 0;">相信我们的客人都从海滨沙滩领略过了石梅湾的秀美风光，何不换个角度来体验呢？我们为您准备了充满刺激与挑战的“动览”项目-水上摩托艇驾驶项目。开足马力，澎湃热情迸发；前途无量，浩瀚海洋激荡。如此难得一见的人生考验，期待你的征服！</p>
         <br>
@@ -14,7 +14,8 @@
         <p style="padding-left: 15.5vmin; text-indent: 0;">集合班车发车返回酒店</p>
         <br>
         <p style="text-indent: 0;">*温馨提示：参与报名者驾龄需超过 3 年。</p>
-        <p style="padding-left: 17vmin; text-indent: 0;">请携带身份证件和驾照原件前往。</p>
+        <p style="padding-left: 17vmin; text-indent: 0;">请穿着速干类服装。</p>
+        <p style="padding-left: 17vmin; text-indent: 0;">请随身携带身份证件和驾照原件前往。</p>
         <p style="padding-left: 17vmin; text-indent: 0;">患有心脏病、高血压的人士请勿报名。</p>
       </div>
       <!-- <div class="ar-box" style="margin-top: 3.125vmin;">
@@ -68,7 +69,7 @@
       }
     },
     mounted() {
-      this.$parent.img_path = '/static/images/2021/bg-hw-ssyd.jpg';
+      this.$parent.img_path = 'https://d.devnow.cn/pcc/2021/bg-hw-ssyd.jpg';
       this.$parent.title = '玩水踏浪'
     },
     methods: {
