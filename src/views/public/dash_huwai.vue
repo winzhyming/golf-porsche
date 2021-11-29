@@ -92,5 +92,5 @@
 
 <style scoped>
 .body-index .bi-btns ul li{ margin-top: 7.03125vmin; }
-.body-index .bi-btns .btn-index{ padding: 0; line-height: 9.0625vmin; width: 47.5vmin; border-radius: 2.1875vmin;  border-color: #dc3140; }
+.body-index .bi-btns .btn-index{ padding: 0; line-height: 9.0625vmin; width: 47.5vmin; border-radius: 2.1875vmin;  border-color: #1769ac; }
 </style>

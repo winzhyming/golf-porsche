@@ -31,15 +31,15 @@
           </tr>
           <tr>
             <td>预约活动</td>
-            <td>{{ query_result.activity_name }}</td>
+            <td v-html="query_result.activity_name"></td>
           </tr>
           <tr>
-            <td>活动日期</td>
-            <td>{{ query_result.arrival_date }}</td>
+            <td>活动时间</td>
+            <td v-html="query_result.arrival_date"></td>
           </tr>
           <tr>
             <td>出发地点</td>
-            <td>{{ query_result.origin }}</td>
+            <td v-html="query_result.origin"></td>
           </tr>
         </table>
       </div>
@@ -176,7 +176,7 @@ export default {
 </script>
 
 <style scoped>
-table tr td{padding: 0 10px;}
+table tr td{padding: 0 10px; vertical-align: top;}
 table tr td:first-child{
   text-align: right;
 }
