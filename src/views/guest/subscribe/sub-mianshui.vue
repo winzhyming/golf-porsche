@@ -14,7 +14,7 @@
         </section>
         <section class="clearfix">
           <span class="fl lable-left ellipsis">活动内容:</span>
-          <span class="fr text-right">班车接送，前往三亚海棠湾免税 购物中心，包含酒店自助午餐。</span>
+          <span class="fr text-right">班车接送，前往三亚海棠湾免税 购物中心，包含自助午餐。</span>
         </section>
         <div class="btn-form">
           <a @click="subscribe" class="btn-order ib">立即预约</a>
