@@ -15,7 +15,7 @@
                 <h2>日程安排</h2>
               </router-link>
             </li>
-            <li>
+            <!-- <li>
               <router-link :to="{'name': 'huwai.acts.event'}" class="btn-a">
                 <img src="https://d.devnow.cn/golf2021/ics/ic56-030.png" alt="" />
                 <h2>赛事信息</h2>
@@ -26,7 +26,7 @@
                 <img src="https://d.devnow.cn/travelclub2019/images/btn-finalist07.png" alt="" />
                 <h2>球场指南</h2>
               </router-link>
-            </li>
+            </li> -->
             <li>
               <router-link :to="{'name': 'huwai.acts.act'}" class="btn-a">
                 <img src="https://d.devnow.cn/travelclub2019/images/btn-finalist01.png" alt="" />

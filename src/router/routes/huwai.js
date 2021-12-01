@@ -33,6 +33,15 @@ import AppointsContactEmergency from '@/views/appoints/contact/emergency'
 import Mine from '@/views/my/index'
 import MineLogin from '@/views/my/login'
 
+import Event2 from '@/views/appoints/subscribe/event/index'
+import EventMenu2 from '@/views/appoints/subscribe/event/menu'
+import EventForm2 from '@/views/appoints/subscribe/event/form'
+import EventRules2 from '@/views/appoints/subscribe/event/rules'
+import EventGroup2 from '@/views/appoints/subscribe/event/group'
+import EventResult2 from '@/views/appoints/subscribe/event/result'
+import Site2 from '@/views/appoints/subscribe/site/index'
+import SiteGuide2 from '@/views/appoints/subscribe/site/guide'
+
 
 
 export default {
@@ -72,7 +81,16 @@ export default {
       { path: 'act2', name: 'huwai.appoints.subs.act2', component: AppointsSubscribeAct2 },   // 户外组 -  活动预约 - 活动预约 - 豪华游艇 + 水上摩托艇'
       { path: 'act3', name: 'huwai.appoints.subs.act3', component: AppointsSubscribeAct3 },   // 户外组 -  活动预约 - 活动预约 - 最美海岸试驾体验
       { path: 'res', name: 'huwai.appoints.subs.res', component: AppointsSubscribeRes },      // 户外组 -  活动预约 - 活动预约 - 预约结果
-      
+    ] },
+    { path: 'appoints/subs/events', component: Event2, children: [        // 户外组 - 活动详情 - 赛事信息
+      { path: '/', name: 'huwai.appoints.subs.event', component: EventMenu2 },
+      { path: 'form', name: 'huwai.appoints.subs.event.form', component: EventForm2 },        // 户外组 - 活动详情 - 赛事信息 - 比赛形式
+      { path: 'rules', name: 'huwai.appoints.subs.event.rules', component: EventRules2 },     // 户外组 - 活动详情 - 赛事信息 - 比赛规则
+      { path: 'group', name: 'huwai.appoints.subs.event.group', component: EventGroup2 },     // 户外组 - 活动详情 - 赛事信息 - 分组信息
+      { path: 'result', name: 'huwai.appoints.subs.event.result', component: EventResult2 },  // 户外组 - 活动详情 - 赛事信息 - 比赛结果
+    ] },
+    { path: 'appoints/subs/site', component: Site2, children: [           // 户外组 - 活动详情 - 球场指南
+      { path: '/', name: 'huwai.appoints.subs.site', component: SiteGuide2 }
     ] },
     { path: 'appoints/bus', component: AppointsBus, children: [     // 户外组 - 活动预约 - 班车信息
       { path: '/', name: 'huwai.appoints.bus', component: AppointsBusShedule }
