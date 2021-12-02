@@ -20,7 +20,6 @@
     </div>
     <div class="site-image">
       <img :src="img" v-for="(img, index) in imgs" :key="index" alt="">
-      <br><br>
     </div>
   </div>
 </template>
@@ -44,11 +43,10 @@
         if(i < 10) i = '0' + i
         this.imgs.push('https://d.devnow.cn/travelclub2019/images/guide/site' + i + '.jpg')
       }
+    },
+    mounted () {
+      this.$parent.img_path = 'https://d.devnow.cn/pcc/2021/bg-hw-qczn.jpg'
+      this.$parent.title = '球场指南'
     }
   }
 </script>
-
-
-
-// WEBPACK FOOTER //
-// src/views/player/site/site-guide.vue

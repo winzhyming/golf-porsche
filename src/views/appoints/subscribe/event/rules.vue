@@ -1,6 +1,6 @@
 <template>
   <div class="ei-main">
-    <div class="ef-main">
+    <div class="ef-main" style="padding-top: 0;">
       <article class="ef-art fen">
         <h1>
           赛事规则

@@ -2,6 +2,78 @@
   <div class="ei-main em2018_bot">
     <div class="es-data" style="padding-bottom: 20vmin;">
       <h1 class="git-tit no-bb">
+        高尔夫友谊赛 <img src="/static/images/2020/ic-next-darkblue.png" class="ic"/>
+      </h1>
+      <table class="es-table">
+        <tr>
+          <th colspan="3">2021 年 12 月 6 日 星期一</th>
+        </tr>
+        <tr>
+          <td style="width: 46%;">活动名称</td>
+          <td style="width:24%;">发车时间</td>
+          <td>上车地点</td>
+        </tr>
+        <tr>
+          <td rowspan="16">高尔夫友谊赛</td>
+          <td colspan="2">酒店 - 球会</td>
+        </tr>
+        <tr>
+          <td>7:30</td>
+          <td>酒店二层大堂</td>
+        </tr>
+        <tr>
+          <td colspan="2">酒店 - 球会</td>
+        </tr>
+        <tr>
+          <td>8:00</td>
+          <td>酒店二层大堂</td>
+        </tr>
+        <tr>
+          <td colspan="2">酒店 - 球会</td>
+        </tr>
+        <tr>
+          <td>8:30</td>
+          <td>酒店二层大堂</td>
+        </tr>
+        <tr>
+          <td colspan="2">酒店 - 球会</td>
+        </tr>
+        <tr>
+          <td>9:00</td>
+          <td>酒店二层大堂</td>
+        </tr>
+        <tr>
+          <td colspan="2">球会 - 酒店</td>
+        </tr>
+        <tr>
+          <td>14:30</td>
+          <td>酒店二层大堂</td>
+        </tr>
+        <tr>
+          <td colspan="2">球会 - 酒店</td>
+        </tr>
+        <tr>
+          <td>15:00</td>
+          <td>酒店二层大堂</td>
+        </tr>
+        <tr>
+          <td colspan="2">球会 - 酒店</td>
+        </tr>
+        <tr>
+          <td>15:30</td>
+          <td>酒店二层大堂</td>
+        </tr>
+        <tr>
+          <td colspan="2">球会 - 酒店</td>
+        </tr>
+        <tr>
+          <td>16:00</td>
+          <td>酒店二层大堂</td>
+        </tr>
+      </table>
+      <br><br>
+
+      <h1 class="git-tit no-bb">
         水上摩托时刻表 <img src="/static/images/2020/ic-next-darkblue.png" class="ic"/>
       </h1>
       <table class="es-table">
@@ -219,6 +291,6 @@
   }
   .es-table tr th{
     color: #fff;
-    background-color: #403f45;
+    background-color: #1361a0;
   }
 </style>

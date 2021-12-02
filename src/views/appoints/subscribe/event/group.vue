@@ -1,6 +1,6 @@
 <template>
   <div class="ei-main">
-    <div class="group-info-table">
+    <div class="group-info-table" style="padding-top: 0;">
       <h1 class="git-tit">
         分组信息 <img src="/static/images/2020/ic-next-darkblue.png" class="ic"/>
       </h1>

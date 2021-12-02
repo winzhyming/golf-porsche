@@ -1,6 +1,5 @@
 <template>
   <div class="ei-main">
-    <!-- <p class="title" style="position: absolute; top: -3.75vmin; left: 3.75vmin; font-size: 3.75vmin; color: #000;">预约活动</p> -->
     <section class="ei-btns gais-btns">
       <ul>
         <li v-for="(link, index) in links" :key="index">
@@ -31,8 +30,7 @@
     data() {
       return {
         links: [
-          { name: '赛事信息', router: 'huwai.appoints.subs.event', num: 0, status: '0' },
-          { name: '球场指南', router: 'huwai.appoints.subs.site', num: 0, status: '0' },
+          { name: '2021 保时捷中国车主俱乐部高尔夫友谊赛', router: 'huwai.appoints.subs.porsche', num: 0, status: '0' },
           // { type: '1', name: '近海冲浪 + 豪华游艇', router: 'huwai.appoints.subs.act1', num: 0, status: '0' },
           { type: '2', name: '2021 保时捷中国车主俱乐部玩水踏浪日', router: 'huwai.appoints.subs.act2', num: 0, status: '0' },
           { type: '3', name: '保时捷试驾体验', router: 'huwai.appoints.subs.act3', num: 0, status: '0' },
@@ -73,5 +71,5 @@
 
 
 <style scoped>
-.ei-main .ei-btns.gais-btns { width: 74.9375vmin; }
+.ei-main .ei-btns.gais-btns { width: 77.9375vmin; }
 </style>

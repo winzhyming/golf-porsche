@@ -1,6 +1,6 @@
 <template>
   <div class="ei-main">
-    <div class="group-info-table">
+    <div class="group-info-table" style="padding-top: 0;">
       <h1 class="git-tit">
         比赛结果信息 <img src="/static/images/2020/ic-next-darkblue.png" class="ic"/>
       </h1>
@@ -29,7 +29,7 @@
 </template>
 
 <style scoped>
-  .gi-table.grade tr td{font-size: 1.875vmin; font-family: simHei;}
+  .gi-table.grade tr td{font-size: 2.875vmin; font-family: simHei;}
 </style>
 
 <script>

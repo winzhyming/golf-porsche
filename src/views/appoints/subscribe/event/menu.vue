@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="ei-main" style="padding-bottom: 59.0625vmin;">
+    <div class="ei-main">
       <section class="ei-btns">
         <ul>
           <li>
@@ -35,6 +35,8 @@
 export default {
   mounted() {
     $('.img-bot').show()
+    this.$parent.img_path = 'https://d.devnow.cn/pcc/2021/bg-hw-ssxx.jpg'
+    this.$parent.title = '赛事信息'
   }
 }
 </script>

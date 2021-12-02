@@ -26,6 +26,7 @@ import AppointsSubscribeAct1 from '@/views/appoints/subscribe/yuyue/sub-act1'
 import AppointsSubscribeAct2 from '@/views/appoints/subscribe/yuyue/sub-act2'
 import AppointsSubscribeAct3 from '@/views/appoints/subscribe/yuyue/sub-act3'
 import AppointsSubscribeRes from '@/views/appoints/subscribe/sub-result'
+import AppointsSubsPorsche from '@/views/appoints/subscribe/sub-porsche'
 import AppointsBus from '@/views/appoints/bus/index'
 import AppointsBusShedule from '@/views/appoints/bus/schedule'
 import AppointsContact from '@/views/appoints/contact/index'
@@ -76,22 +77,29 @@ export default {
     ] },
     { path: 'appoints', name: 'huwai.appoints', component: AppointsMenu },  // 户外组 -  活动预约
     { path: 'appoints/subs', component: AppointsSubscribe, children: [
-      { path: '/', name: 'huwai.appoints.subs', component: AppointsSubscribeMenu },           // 户外组 -  活动预约 - 活动预约
-      { path: 'act1', name: 'huwai.appoints.subs.act1', component: AppointsSubscribeAct1 },   // 户外组 -  活动预约 - 活动预约 - 近海冲浪 + 豪华游艇
-      { path: 'act2', name: 'huwai.appoints.subs.act2', component: AppointsSubscribeAct2 },   // 户外组 -  活动预约 - 活动预约 - 豪华游艇 + 水上摩托艇'
-      { path: 'act3', name: 'huwai.appoints.subs.act3', component: AppointsSubscribeAct3 },   // 户外组 -  活动预约 - 活动预约 - 最美海岸试驾体验
-      { path: 'res', name: 'huwai.appoints.subs.res', component: AppointsSubscribeRes },      // 户外组 -  活动预约 - 活动预约 - 预约结果
+      { path: '/', name: 'huwai.appoints.subs', component: AppointsSubscribeMenu },           // 户外组 - 活动预约 - 活动预约
+      { path: 'act1', name: 'huwai.appoints.subs.act1', component: AppointsSubscribeAct1 },   // 户外组 - 活动预约 - 活动预约 - 近海冲浪 + 豪华游艇
+      { path: 'act2', name: 'huwai.appoints.subs.act2', component: AppointsSubscribeAct2 },   // 户外组 - 活动预约 - 活动预约 - 豪华游艇 + 水上摩托艇'
+      { path: 'act3', name: 'huwai.appoints.subs.act3', component: AppointsSubscribeAct3 },   // 户外组 - 活动预约 - 活动预约 - 最美海岸试驾体验
+      { path: 'res', name: 'huwai.appoints.subs.res', component: AppointsSubscribeRes },      // 户外组 - 活动预约 - 活动预约 - 预约结果
+      { path: 'porsche', name: 'huwai.appoints.subs.porsche', component: AppointsSubsPorsche},// 户外组 - 预约活动 - 活动预约 - 保时捷友谊赛
+      { path: 'porsche/site', name: 'huwai.appoints.subs.site',  component: SiteGuide2 },     // 户外组 - 预约活动 - 活动预约 - 保时捷友谊赛 - 球场指南
+      { path: 'porsche/events', name: 'huwai.appoints.subs.event', component: EventMenu2 },   // 户外组 - 预约活动 - 活动预约 - 保时捷友谊赛 - 赛事信息
+      { path: 'porsche/events/form', name: 'huwai.appoints.subs.event.form', component: EventForm2 },        // 户外组 - 预约活动 - 活动预约 - 保时捷友谊赛 - 赛事信息 - 比赛形式
+      { path: 'porsche/events/rules', name: 'huwai.appoints.subs.event.rules', component: EventRules2 },     // 户外组 - 预约活动 - 活动预约 - 保时捷友谊赛 - 赛事信息 - 比赛规则
+      { path: 'porsche/events/group', name: 'huwai.appoints.subs.event.group', component: EventGroup2 },     // 户外组 - 预约活动 - 活动预约 - 保时捷友谊赛 - 赛事信息 - 分组信息
+      { path: 'porsche/events/result', name: 'huwai.appoints.subs.event.result', component: EventResult2 },  // 户外组 - 预约活动 - 活动预约 - 保时捷友谊赛 - 赛事信息 - 比赛结果
     ] },
-    { path: 'appoints/subs/events', component: Event2, children: [        // 户外组 - 活动详情 - 赛事信息
-      { path: '/', name: 'huwai.appoints.subs.event', component: EventMenu2 },
-      { path: 'form', name: 'huwai.appoints.subs.event.form', component: EventForm2 },        // 户外组 - 活动详情 - 赛事信息 - 比赛形式
-      { path: 'rules', name: 'huwai.appoints.subs.event.rules', component: EventRules2 },     // 户外组 - 活动详情 - 赛事信息 - 比赛规则
-      { path: 'group', name: 'huwai.appoints.subs.event.group', component: EventGroup2 },     // 户外组 - 活动详情 - 赛事信息 - 分组信息
-      { path: 'result', name: 'huwai.appoints.subs.event.result', component: EventResult2 },  // 户外组 - 活动详情 - 赛事信息 - 比赛结果
-    ] },
-    { path: 'appoints/subs/site', component: Site2, children: [           // 户外组 - 活动详情 - 球场指南
-      { path: '/', name: 'huwai.appoints.subs.site', component: SiteGuide2 }
-    ] },
+    // { path: 'appoints/subs/events', component: Event2, children: [        // 户外组 - 活动详情 - 赛事信息
+    //   // { path: '/', name: 'huwai.appoints.subs.event', component: EventMenu2 },
+    //   { path: 'form', name: 'huwai.appoints.subs.event.form', component: EventForm2 },        // 户外组 - 活动详情 - 赛事信息 - 比赛形式
+    //   { path: 'rules', name: 'huwai.appoints.subs.event.rules', component: EventRules2 },     // 户外组 - 活动详情 - 赛事信息 - 比赛规则
+    //   { path: 'group', name: 'huwai.appoints.subs.event.group', component: EventGroup2 },     // 户外组 - 活动详情 - 赛事信息 - 分组信息
+    //   { path: 'result', name: 'huwai.appoints.subs.event.result', component: EventResult2 },  // 户外组 - 活动详情 - 赛事信息 - 比赛结果
+    // ] },
+    // { path: 'appoints/subs/site', component: Site2, children: [           // 户外组 - 活动详情 - 球场指南
+    //   { path: '/', name: 'huwai.appoints.subs.site', component: SiteGuide2 }
+    // ] },
     { path: 'appoints/bus', component: AppointsBus, children: [     // 户外组 - 活动预约 - 班车信息
       { path: '/', name: 'huwai.appoints.bus', component: AppointsBusShedule }
     ] },
