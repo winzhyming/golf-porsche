@@ -8,10 +8,10 @@
         <br>
         <p style="text-indent: 0;">出发集合地点：酒店二层大堂</p>
         <p style="text-indent: 0;">出发时间：09:00 10:00 12:00 13:00 14:00</p>
-        <p style="padding-left: 15.5vmin; text-indent: 0;">集合班车发车前往冲浪俱乐部</p>
+        <!-- <p style="padding-left: 15.5vmin; text-indent: 0;">集合班车发车前往冲浪俱乐部</p> -->
         <p style="text-indent: 0;">返回集合地点：游艇会门口</p>
         <p style="text-indent: 0;">返回时间：11:15 12:15 14:15 15:15 16:15</p>
-        <p style="padding-left: 15.5vmin; text-indent: 0;">集合班车发车返回酒店</p>
+        <!-- <p style="padding-left: 15.5vmin; text-indent: 0;">集合班车发车返回酒店</p> -->
         <br>
         <p style="text-indent: 0;">*温馨提示：参与报名者驾龄需超过 3 年。</p>
         <p style="padding-left: 17vmin; text-indent: 0;">请穿着速干类服装。</p>
