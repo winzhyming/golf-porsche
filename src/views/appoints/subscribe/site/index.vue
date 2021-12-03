@@ -3,7 +3,7 @@
     <div class="top-ban pr">
       <img src="https://d.devnow.cn/pcc/2021/bg-hw-qczn.jpg" class="pa-img"/>
       <div class="tbt-tit pa">
-        <h1>球场指南</h1>
+        <h1>球会指南</h1>
       </div>
     </div>
     <div class="pr">

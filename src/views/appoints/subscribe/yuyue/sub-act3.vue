@@ -8,7 +8,7 @@
         <br>
         <br>
         <p style="text-indent: 0;">活动时间：2021 年 12 月 6 日 10:00 - 15:00</p>
-        <p style="text-indent: 0;">集合地点：酒店二层大堂，保时捷体验中心柜台</p>
+        <p style="text-indent: 0; display: flex;">集合地点：<span style="flex: 1;">酒店二层大堂<br>保时捷体验柜台</span></p>
         <p style="text-indent: 0; display: flex">活动内容：<span style="flex: 1;">教练带您试驾多款保时捷车型，包括718、911和Taycan，尊享极致试驾体验。</span></p>
         <br>
         <p style="text-indent: 0;">*温馨提示：请您随身携带驾照。</p>

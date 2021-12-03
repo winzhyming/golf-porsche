@@ -9,7 +9,7 @@
         </li>
         <li>
           <router-link :to="{ name: 'huwai.appoints.subs.site' }"  class="clearfix">
-            球场指南<img src="/static/images/2020/ic-next-darkblue.png" class="ic fr"/>
+            球会指南<img src="/static/images/2020/ic-next-darkblue.png" class="ic fr"/>
           </router-link>
         </li>
       </ul>
@@ -25,7 +25,7 @@
     },
     mounted() {
       this.$parent.img_path = 'https://d.devnow.cn/pcc/2021/bg-hw-ssxx.jpg';
-      this.$parent.title = '保时捷友谊赛'
+      this.$parent.title = '高尔夫友谊赛'
     }
   }
 </script>

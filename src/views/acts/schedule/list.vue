@@ -31,14 +31,14 @@
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">08:00 - 09:55</span>
-            <span class="fr text-right">练习场热身</span>
+            <span class="fr text-right">高尔夫友谊赛练习场热身</span>
           </li>
           <li class="clearfix">
             <span class="fl lable-left ellipsis">10:00 - 10:25</span>
-            <span class="fr text-right">练习场开球仪式 & 合影留念</span>
+            <span class="fr text-right">高尔夫友谊赛开球仪式 & 合影留念</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis">10:30 - 16:30</span>
+            <span class="fl lable-left ellipsis">10:30 - 16:00</span>
             <span class="fr text-right">2021 保时捷中国车主俱乐部高尔夫友谊赛<br>或<br>2021 保时捷中国车主俱乐部玩水踏浪日<br>保时捷试驾体验</span>
           </li>
           <li class="clearfix">
@@ -54,7 +54,7 @@
             <span class="fr text-right">年度晚宴（宴会厅，1 楼）</span>
           </li>
           <li class="clearfix">
-            <span class="fl lable-left ellipsis">22:00 至深夜</span>
+            <span class="fl lable-left ellipsis">22:00 起</span>
             <!-- <span class="fr text-right">余兴派对-雪茄私享品鉴<br>（海岸线餐厅，1楼）</span> -->
             <span class="fr text-right">余兴派对 & 雪茄私享品鉴<br>（海岸线餐厅，1楼）</span>
           </li>

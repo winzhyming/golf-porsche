@@ -74,7 +74,7 @@
       <br><br>
 
       <h1 class="git-tit no-bb">
-        水上摩托时刻表 <img src="/static/images/2020/ic-next-darkblue.png" class="ic"/>
+        玩水踏浪日 <img src="/static/images/2020/ic-next-darkblue.png" class="ic"/>
       </h1>
       <table class="es-table">
         <tr>
@@ -170,7 +170,7 @@
       <br>
       <br>
       <h1 class="git-tit no-bb">
-        保时捷试驾体验时刻表 <img src="/static/images/2020/ic-next-darkblue.png" class="ic"/>
+        保时捷试驾体验 <img src="/static/images/2020/ic-next-darkblue.png" class="ic"/>
       </h1>
       <table class="es-table">
         <tr>
@@ -178,87 +178,86 @@
         </tr>
         <tr>
           <td style="width: 46%;">活动名称</td>
-          <td colspan="2" style="width: 54%;">运营时间</td>
+          <td colspan="2" style="width: 54%;">运营时间与地点</td>
         </tr>
-
         <tr>
-          <td rowspan="4">保时捷试驾体验（第一组）</td>
-          <td>出发时间</td>
-          <td>返回时间</td>
+          <td rowspan="4">保时捷试驾体验<br>第一组</td>
+          <td colspan="2">酒店 - 试驾点</td>
         </tr>
         <tr>
           <td>10:00</td>
+          <td>保时捷体验柜台</td>
+        </tr>
+        <tr>
+          <td colspan="2">试驾点 - 酒店</td>
+        </tr>
+        <tr>
           <td>11:00</td>
-        </tr>
-        <tr>
-          <td colspan="2">报名地点：酒店二层保时捷试驾专柜</td>
-        </tr>
-        <tr>
-          <td colspan="2">报名限额：每组最多 6 人</td>
+          <td>酒店二层大堂</td>
         </tr>
 
         <tr>
-          <td rowspan="4">保时捷试驾体验（第二组）</td>
-          <td>出发时间</td>
-          <td>返回时间</td>
+          <td rowspan="4">保时捷试驾体验<br>第二组</td>
+          <td colspan="2">酒店 - 试驾点</td>
         </tr>
         <tr>
           <td>11:00</td>
+          <td>保时捷体验柜台</td>
+        </tr>
+        <tr>
+          <td colspan="2">试驾点 - 酒店</td>
+        </tr>
+        <tr>
           <td>12:00</td>
-        </tr>
-        <tr>
-          <td colspan="2">报名地点：酒店二层保时捷试驾专柜</td>
-        </tr>
-        <tr>
-          <td colspan="2">报名限额：每组最多 6 人</td>
+          <td>酒店二层大堂</td>
         </tr>
 
         <tr>
-          <td rowspan="4">保时捷试驾体验（第三组）</td>
-          <td>出发时间</td>
-          <td>返回时间</td>
+          <td rowspan="4">保时捷试驾体验<br>第三组</td>
+          <td colspan="2">酒店 - 试驾点</td>
         </tr>
         <tr>
           <td>13:00</td>
-          <td>14:00</td>
+          <td>保时捷体验柜台</td>
         </tr>
         <tr>
-          <td colspan="2">报名地点：酒店二层保时捷试驾专柜</td>
-        </tr>
-        <tr>
-          <td colspan="2">报名限额：每组最多 6 人</td>
-        </tr>
-
-        <tr>
-          <td rowspan="4">保时捷试驾体验（第四组）</td>
-          <td>出发时间</td>
-          <td>返回时间</td>
+          <td colspan="2">试驾点 - 酒店</td>
         </tr>
         <tr>
           <td>14:00</td>
-          <td>15:00</td>
-        </tr>
-        <tr>
-          <td colspan="2">报名地点：酒店二层保时捷试驾专柜</td>
-        </tr>
-        <tr>
-          <td colspan="2">报名限额：每组最多 6 人</td>
+          <td>酒店二层大堂</td>
         </tr>
 
         <tr>
-          <td rowspan="4">保时捷试驾体验（第五组）</td>
-          <td>出发时间</td>
-          <td>返回时间</td>
+          <td rowspan="4">保时捷试驾体验<br>第四组</td>
+          <td colspan="2">酒店 - 试驾点</td>
+        </tr>
+        <tr>
+          <td>14:00</td>
+          <td>保时捷体验柜台</td>
+        </tr>
+        <tr>
+          <td colspan="2">试驾点 - 酒店</td>
         </tr>
         <tr>
           <td>15:00</td>
+          <td>酒店二层大堂</td>
+        </tr>
+
+        <tr>
+          <td rowspan="4">保时捷试驾体验<br>第五组</td>
+          <td colspan="2">酒店 - 试驾点</td>
+        </tr>
+        <tr>
+          <td>15:00</td>
+          <td>保时捷体验柜台</td>
+        </tr>
+        <tr>
+          <td colspan="2">试驾点 - 酒店</td>
+        </tr>
+        <tr>
           <td>16:00</td>
-        </tr>
-        <tr>
-          <td colspan="2">报名地点：酒店二层保时捷试驾专柜</td>
-        </tr>
-        <tr>
-          <td colspan="2">报名限额：每组最多 6 人</td>
+          <td>酒店二层大堂</td>
         </tr>
 
       </table>

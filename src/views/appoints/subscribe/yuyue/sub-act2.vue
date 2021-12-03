@@ -6,10 +6,10 @@
         <p style="text-indent: 0;">相信我们的客人都从海滨沙滩领略过了石梅湾的秀美风光，何不换个角度来体验呢？我们为您准备了充满刺激与挑战的“动览”项目-水上摩托艇驾驶项目。开足马力，澎湃热情迸发；前途无量，浩瀚海洋激荡。如此难得一见的人生考验，期待你的征服！</p>
         <br>
         <br>
-        <p style="text-indent: 0;">出发集合地点：酒店大堂</p>
+        <p style="text-indent: 0;">出发集合地点：酒店二层大堂</p>
         <p style="text-indent: 0;">出发时间：09:00 10:00 12:00 13:00 14:00</p>
         <p style="padding-left: 15.5vmin; text-indent: 0;">集合班车发车前往冲浪俱乐部</p>
-        <p style="text-indent: 0;">返回集合地点：游艇会码头</p>
+        <p style="text-indent: 0;">返回集合地点：游艇会门口</p>
         <p style="text-indent: 0;">返回时间：11:15 12:15 14:15 15:15 16:15</p>
         <p style="padding-left: 15.5vmin; text-indent: 0;">集合班车发车返回酒店</p>
         <br>
